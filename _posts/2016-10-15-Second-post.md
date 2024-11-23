@@ -4,6 +4,7 @@ title:  Mi vida como analista de SOC
 date:   2024-11-21
 categories: blog
 layout: post
+image: assets/img/jimy.jpeg
 ---
 
 
