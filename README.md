@@ -46,7 +46,7 @@ There are four different categories of pages for this template:
 * Main page `index.md` in the root.
 * Item pages `_items` folder.
 * Blog posts `_posts` folder.
-* Dropdown pages `_CTFs` folder.
+* CTFs pages `_CTFs` folder.
 
 ### Dropdown
 The dropdown menus are generated based on the [front matter](https://jekyllrb.com/docs/front-matter/) data in the files. Use the `dropdown` attribute to chose where the page will be placed. The items with the highest `priority` will be placed first.
