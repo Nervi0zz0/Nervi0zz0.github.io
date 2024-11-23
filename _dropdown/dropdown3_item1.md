@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Pickle Rick | TryHackMe Walkthrough |
 description: Rick needs your help. Can you help him turn back from pickle form?
+dropdown: dropdown3
 ---
 
 # Pickle Rick | TryHackMe Walkthrough
