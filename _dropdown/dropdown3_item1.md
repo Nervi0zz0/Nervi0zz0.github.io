@@ -12,91 +12,120 @@ dropdown: dropdown3
 
 ## 📜 **Resumen**  
 
-En este reto de TryHackMe, tu misión es ayudar a Rick a revertir su transformación en pepinillo. ¿Lograrás encontrar todos los **ingredientes secretos** y salvar el día? Si aún no conoces el desafío, [haz clic aquí](https://tryhackme.com/room/picklerick) para comenzar.  
+Bienvenidos al caos más delirante del hacking virtual. Tu misión: ayudar a Rick, quien ha vuelto a convertirse en un pepinillo porque, según él, "¡es ciencia, Morty!" Pero ahora no recuerda cómo volver a ser humano. Tienes que infiltrarte en un servidor, encontrar **tres ingredientes secretos** y devolverlo a su forma humana antes de que decida bañarse en vinagre para siempre.  
+
+Si aún no conoces el desafío, [haz clic aquí](https://tryhackme.com/room/picklerick) para comenzar.  
 
 ---
 
-## 🛠️ **Pasos**  
+## 🛠️ **Pasos**
 
 ### **Paso 1: Enumeración**  
-Comenzamos con un escaneo de puertos usando **nmap** para identificar los servicios abiertos.  
+Como cualquier hacker sensato, empezamos con **nmap** porque no hay mejor manera de revelar los secretos de un servidor que decirle educadamente: "Muéstrame tus puertos abiertos".  
 
-```bash
-nmap -sV 10.10.53.48
-Resultado:
+| **Comando** | **Resultado** |
+|-------------|---------------|
+| `nmap -sV 10.10.53.48` | **Puertos abiertos:**<br>22/tcp - SSH<br>80/tcp - HTTP |
+| **Tiempo de escaneo:** | 1.74 segundos . |
+| **MAC Address:** | 02:57:FE:1E:66:A9 . |
 
-arduino
-Copiar código
-PORT   STATE SERVICE
-22/tcp open  ssh
-80/tcp open  http
-Encontramos los puertos 22 (SSH) y 80 (HTTP). Continuamos con el puerto HTTP para investigar.
-Paso 2: Inspección del Código Fuente
-Al acceder al sitio web en 10.10.53.48:80, Rick nos deja un mensaje solicitando ayuda. Inspeccionamos el código fuente de la página y encontramos el siguiente dato:
+Parece que tenemos un servidor web corriendo en el puerto 80. Vamos a ver qué esconde.
 
-html
-Copiar código
-<!-- Username: R1ckRul3s -->
-Ahora tenemos el nombre de usuario, pero necesitamos la contraseña.
+---
 
-Paso 3: Exploración con Nikto
-Usamos Nikto para buscar vulnerabilidades o archivos sensibles en el servidor web.
+### **Paso 2: Inspección del Código Fuente**  
+Accedemos al sitio web `http://10.10.53.48` y encontramos un mensaje desgarrador de Rick:  
 
-bash
-Copiar código
-nikto -host 10.10.53.48
-Resultado:
+> "¡Morty! Ayúdame... me convertí en un pepinillo otra vez y no sé qué hacer. Necesito que encuentres los ingredientes para mi poción... pero olvidé mi contraseña. ¡Ayúdame, Morty!"
 
-bash
-Copiar código
-+ /login.php: Admin login page/section found.
-Identificamos una página de inicio de sesión en /login.php.
+Con lágrimas en los ojos, inspeccionamos el código fuente porque Rick dejó un comentario con la misma sutileza que un tanque en un campo de flores:  
 
-Paso 4: Encontrando la Contraseña
-Exploramos el archivo robots.txt del servidor para encontrar posibles pistas.
+| **Código fuente encontrado:** |
+|-------------------------------|
+| `<!-- Username: R1ckRul3s -->` |
 
-bash
-Copiar código
-curl http://10.10.53.48/robots.txt
-Resultado:
+Así que ahora tenemos el nombre de usuario: `R1ckRul3s`. ¿Qué sigue? La contraseña.
 
-Copiar código
-Wubbalubbadubdub
-Con esta contraseña y el nombre de usuario R1ckRul3s, accedemos al panel de administración en /login.php.
+---
 
-Paso 5: Recolectando Ingredientes
-🥒 Ingrediente 1
-Dentro del panel de administración, encontramos el archivo Sup3rS3cretPickl3Ingred.txt, que contiene:
+### **Paso 3: Exploración con Nikto**  
+Decidimos lanzar **Nikto** contra el servidor web porque, si alguien usa Apache/2.4.18, claramente no es amigo de la seguridad.
 
-Copiar código
-mr. meeseek hair
-🥒 Ingrediente 2
-Seguimos las pistas del archivo clue.txt, que nos indica explorar el sistema de archivos. En la carpeta /home/rick/, hallamos el archivo second_ingredient.txt:
+| **Comando** | **Resultado** |
+|-------------|---------------|
+| `nikto -host 10.10.53.48` | **Puntos interesantes:**<br>- `/login.php`: Página de inicio de sesión.<br>- `robots.txt`: Archivo sospechoso sin restricciones visibles.<br>- Leaks en ETags (clásico Apache). |
 
-Copiar código
-1 jerry tear
-🥒 Ingrediente 3
-Finalmente, navegamos al directorio /root/ y encontramos el archivo 3rd.txt:
+Hemos encontrado `/login.php` y `robots.txt`. Vamos a inspeccionar primero el archivo `robots.txt`.
 
-Copiar código
-fleeb juice
-🏁 Conclusión
-¡Misión cumplida! Has encontrado los tres ingredientes secretos, ayudando a Rick a revertir su transformación en pepinillo. 🎉
+---
 
-Ingredientes encontrados:
-mr. meeseek hair
-1 jerry tear
-fleeb juice
-Rick ahora es humano nuevamente. ¡Nos vemos en el próximo desafío! 🚀
+### **Paso 4: Inspección de robots.txt**  
+Los robots son geniales... pero no en archivos `.txt`. Accedemos a `http://10.10.53.48/robots.txt` y encontramos:
 
-Detalles Adicionales
-🔍 Enumeración con Nmap
-El escaneo inicial reveló los puertos abiertos (22 y 80), guiándonos al análisis del servidor web.
+| **Contenido del archivo:** |
+|----------------------------|
+| `Wubbalubbadubdub` |
 
-🌐 Exploración del Sitio Web
-Inspeccionamos el código fuente y usamos herramientas como Nikto para descubrir rutas clave como /login.php y el archivo robots.txt.
+Por supuesto, Rick pensó que "Wubbalubbadubdub" era una contraseña perfecta. Con esto y el usuario `R1ckRul3s`, vamos a intentar acceder al panel de administración en `/login.php`.
 
-🧑‍💻 Recolección de Ingredientes
-Gracias a la exploración del sistema de archivos, encontramos los ingredientes secretos en ubicaciones clave del servidor.
+---
 
-¡Gracias por leer! 😊
+### **Paso 5: Acceso al Panel de Administración**  
+Ingresamos las credenciales:
+
+| **Usuario**    | **Contraseña**        |
+|----------------|-----------------------|
+| `R1ckRul3s`   | `Wubbalubbadubdub`    |
+
+¡Éxito! Nos encontramos con un panel de comandos que nos permite ejecutar órdenes en el servidor. Ahora comienza la verdadera diversión.
+
+---
+
+### **Paso 6: Recolección de Ingredientes**  
+
+#### 🥒 **Ingrediente 1: mr. meeseek hair**  
+Usamos `ls` en el panel de comandos y encontramos el archivo **Sup3rS3cretPickl3Ingred.txt**. Para leer su contenido:
+
+| **Comando** | **Resultado** |
+|-------------|---------------|
+| `cat Sup3rS3cretPickl3Ingred.txt` | `mr. meeseek hair` |
+
+Primer ingrediente en la bolsa. Vamos por más.
+
+---
+
+#### 🥒 **Ingrediente 2: 1 jerry tear**  
+Encontramos una pista en el archivo **clue.txt**, que nos dice que exploremos el sistema de archivos. Miramos dentro del directorio de Rick:
+
+| **Comando** | **Resultado** |
+|-------------|---------------|
+| `ls -a /home/rick` | `second_ingredient.txt` |
+| `cat /home/rick/second_ingredient.txt` | `1 jerry tear` |
+
+Segundo ingrediente encontrado. Rick seguramente derramó esa lágrima al pensar en su yerno. 😏
+
+---
+
+#### 🥒 **Ingrediente 3: fleeb juice**  
+Finalmente, exploramos el directorio raíz `/root` y encontramos el archivo **3rd.txt**.  
+
+| **Comando** | **Resultado** |
+|-------------|---------------|
+| `cat /root/3rd.txt` | `fleeb juice` |
+
+Con los tres ingredientes en la mano, la poción de Rick está lista.
+
+---
+
+## 🏁 **Conclusión**  
+¡Misión cumplida! Has encontrado los tres ingredientes secretos y ayudado a Rick a revertir su transformación. A continuación, el resumen de los ingredientes recolectados:
+
+| **Ingrediente**     | **Ubicación**       |
+|---------------------|---------------------|
+| `mr. meeseek hair`  | `/var/www/html`     |
+| `1 jerry tear`      | `/home/rick`        |
+| `fleeb juice`       | `/root`             |
+
+Rick está de vuelta a su forma humana (por ahora). ¿Qué aprendimos hoy? Que la seguridad es tan importante como no beber fleeb juice directamente de la botella. 🚀  
+
+¡Gracias por leer y nos vemos en el próximo caos! 😈
