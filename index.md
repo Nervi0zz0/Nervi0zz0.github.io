@@ -48,3 +48,5 @@ Porque, cuando la vida te da limones… bueno, a veces te los lanza tan fuerte q
 
 ¿Quieres saber más? Pues... lo siento, no es Tinder.  
 Pero si decides quedarte, ¡te invito a unirte al lado azul de la fuerza! 😎
+
+![Soy el que no lleva gorro... Obvio.](assets/img/txema.jpg)
