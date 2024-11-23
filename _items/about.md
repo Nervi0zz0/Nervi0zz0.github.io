@@ -3,7 +3,7 @@ layout: page
 title: Curriculum Vitae
 description: Resumen profesional de Miguel Alameda, Analista de Ciberseguridad especializado en SOC y Blue Team.
 ---
-(![CV](../assets/img/cv.webp))
+![CV](../assets/img/cv.webp)
 
 # **Miguel Alameda**  
 **Analista de Ciberseguridad | SOC | Blue Team**  
@@ -11,7 +11,7 @@ description: Resumen profesional de Miguel Alameda, Analista de Ciberseguridad e
 
 ---
 
-## **Certificaciones Clave**
+## **Certificaciones **
 
 | **Certificación**                                          | **Entidad**          | **Año** |
 |-----------------------------------------------------------|----------------------|---------|
@@ -42,6 +42,7 @@ description: Resumen profesional de Miguel Alameda, Analista de Ciberseguridad e
 | Identificación, bloqueo y reporte de IOCs maliciosos         | **Microsoft Defender**, políticas de bloqueos automáticos |
 | Elaboración de informes sobre incidentes de seguridad       | Informes de incidentes, reportes semanales de actividad  |
 | Colaboración en el seguimiento y cierre de incidentes       | **JIRA**, escalamiento de incidentes                     |
+| Análisis de correos de phishing               | **Cabeceras de correo**, análisis de archivos adjuntos en **sandbox** |
 
 
 ---
