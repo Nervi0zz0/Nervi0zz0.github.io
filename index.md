@@ -5,6 +5,11 @@ description: El blog que nadie pidió, pero todos necesitan (o no).
 ---
 
 👾 **Hola**, soy Miguel, pero puedes llamarme Nervi0zz0, que suena mucho más épico.  
+
+Y sí, no soy el del gorrito... Es obvio.
+
+![Soy el que no lleva gorro... Obvio.](assets/img/txema.jpg)
+
 Me especializo en:
 
 - Detectar amenazas mientras finjo que entiendo todos los logs (spoiler: no siempre los entiendo).  
@@ -40,15 +45,11 @@ Buena pregunta. A lo mejor porque tengo una pierna jodida y ahora me sobra el ti
 Porque, cuando la vida te da limones… bueno, a veces te los lanza tan fuerte que terminas en el sofá buscando maneras creativas de no volverte loco. Esto es una de esas maneras.
 
 
-![Soy el que no lleva gorro... Obvio.](assets/img/1FA.gif)
 ---
 
 ### Disfruta de tu estancia, comparte si te hace gracia, y si no… al menos perdiste unos minutos de tu vida leyendo esto.
 
 ---
-Y sí, no soy el del gorrito... Es obvio.
-
-![Soy el que no lleva gorro... Obvio.](assets/img/txema.jpg)
 
 ¿Quieres saber más? Pues... lo siento, no es Tinder.  
 Pero si decides quedarte, ¡te invito a unirte al lado azul de la fuerza! 😎
