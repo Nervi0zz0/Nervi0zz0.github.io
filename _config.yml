@@ -19,15 +19,14 @@ avatar_description: "My name is Nervi0zz0 and I'm a HACKER."
 highlighter_theme: monokai  # Theme of the syntax_highlighter [base16 |
                             # colorful | github | gruvbox | molokai |
                             # monokai | pastie | thankful_eyes | tulip ]
-toolbar_priority:        # Orden de los elementos en la barra de herramientas
-  - BlueTeamLabs
+toolbar_priority:        # Order of the items in the toolbar (except for blog and home)
+  - dropdown2
   - About
-  - LetsDefend
-
+  - dropdown1
 
 # Collections
 collections:
-  CTFs:
+  TryHackMe:
     output: true
   items:
     output: true
