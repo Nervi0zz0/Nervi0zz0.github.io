@@ -4,7 +4,7 @@ title: Diario de un Cojo
 description: El blog que nadie pidió, pero todos necesitan (o no).
 ---
 
-👾 **Hola**, soy Miguel, pero puedes llamarme Nervi0z, que suena mucho más épico.  
+👾 **Hola**, soy Miguel, pero puedes llamarme Nervi0zz0, que suena mucho más épico.  
 Me especializo en:
 
 - Detectar amenazas mientras finjo que entiendo todos los logs (spoiler: no siempre los entiendo).  
