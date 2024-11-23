@@ -52,7 +52,7 @@ Pero, claro, en lugar de culpar a la persona, terminas preguntándote:
 - **¿Debería haberles enviado los correos en papel?**  
 - **¿Quizá disfrazados de algo que realmente los haga prestar atención?**
 
-![Deadpool frustrado](assets/img/deadpool-frustrado.png)
+<video controls src="VidnozImageToVideo.mp4" title="![Deadpool frustrado](assets/img/deadpool-frustrado.png)"></video>
 
 ---
 
