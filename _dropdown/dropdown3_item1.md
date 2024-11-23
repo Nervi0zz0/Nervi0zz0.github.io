@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pickle Rick | TryHackMe Walkthrough | by Juan (Gh0$ttt) | System Weakness
+title: Pickle Rick | TryHackMe Walkthrough |
 description: Rick needs your help. Can you help him turn back from pickle form?
 ---
 
