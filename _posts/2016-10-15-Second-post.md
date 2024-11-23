@@ -78,3 +78,6 @@ Eres simplemente el tipo que, en medio del apocalipsis digital, trata de evitar 
 Y aunque todos los días te preguntas si todo esto vale la pena, si de verdad naciste para vigilar logs como un jodido búho frente a un monitor, sabes que al menos tienes esta ventaja: 
 
 Siempre tendrás una buena historia que contar… o al menos, una excusa para reunirte con tus compañeros analistas a echarte unas risas por el Teams como si te pagaran por ello.
+
+
+![Mi Imagen](/assets/img/naT.gif)
