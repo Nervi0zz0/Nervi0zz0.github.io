@@ -5,7 +5,7 @@ description: Rick needs your help. Can you help him turn back from pickle form?
 ---
 
 # Pickle Rick | TryHackMe Walkthrough
-
+![THM](../assets/img/rick.png)
 ## Resumen
 
 Aquí estamos con el reto **Pickle Rick** de TryHackMe. Si no sabes de qué hablo, haz clic [aquí](https://tryhackme.com/room/picklerick) para empezar el reto. Spoiler: Ayudarás a Rick a dejar de ser un pepinillo, pero ¿podrás encontrar todos los ingredientes secretos a tiempo? No me sorprendería si no.
