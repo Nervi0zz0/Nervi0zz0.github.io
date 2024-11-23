@@ -52,8 +52,8 @@ Pero, claro, en lugar de culpar a la persona, terminas preguntándote:
 - **¿Debería haberles enviado los correos en papel?**  
 - **¿Quizá disfrazados de algo que realmente los haga prestar atención?**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L1480g91Yok" frameborder="0" allowfullscreen></iframe>
 
+![Mi Imagen](/assets/img/deadpool.jpeg)
 ---
 
 ## **Dos años después: reflexiones**
