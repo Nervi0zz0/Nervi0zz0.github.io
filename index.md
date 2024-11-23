@@ -46,8 +46,10 @@ Porque, cuando la vida te da limones… bueno, a veces te los lanza tan fuerte q
 ### Disfruta de tu estancia, comparte si te hace gracia, y si no… al menos perdiste unos minutos de tu vida leyendo esto.
 
 ---
+Y sí, no soy el del gorrito... Es obvio.
+
+![Soy el que no lleva gorro... Obvio.](assets/img/txema.jpg)
 
 ¿Quieres saber más? Pues... lo siento, no es Tinder.  
 Pero si decides quedarte, ¡te invito a unirte al lado azul de la fuerza! 😎
 
-![Soy el que no lleva gorro... Obvio.](assets/img/txema.jpg)
