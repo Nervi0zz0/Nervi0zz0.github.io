@@ -46,7 +46,7 @@ There are four different categories of pages for this template:
 * Main page `index.md` in the root.
 * Item pages `_items` folder.
 * Blog posts `_posts` folder.
-* Dropdown pages `_dropdown` folder.
+* Dropdown pages `_CTFs` folder.
 
 ### Dropdown
 The dropdown menus are generated based on the [front matter](https://jekyllrb.com/docs/front-matter/) data in the files. Use the `dropdown` attribute to chose where the page will be placed. The items with the highest `priority` will be placed first.
@@ -95,14 +95,13 @@ avatar_description: "My name is Popotato and I'm a HACKER."
 highlighter_theme: monokai  # Theme of the syntax_highlighter [base16 |
                             # colorful | github | gruvbox | molokai |
                             # monokai | pastie | thankful_eyes | tulip ]
-toolbar_priority:        # Order of the items in the toolbar (except for blog and home)
-  - dropdown2
+toolbar_priority:        # Orden de los elementos en la barra de herramientas
+  - BlueTeamLabs
   - About
-  - dropdown1
+  - LetsDefend
 
-# Collections
 collections:
-  dropdown:
+  CTFs:                   # Cambiado de "dropdown" a "CTFs"
     output: true
   items:
     output: true
