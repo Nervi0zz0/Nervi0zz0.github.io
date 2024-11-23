@@ -2,7 +2,7 @@
 layout: page
 title: item3
 description: Test page
-dropdown: dropdown1
+dropdown: LetsDefends
 priority: 3
 ---
 # Lorem ipsum
