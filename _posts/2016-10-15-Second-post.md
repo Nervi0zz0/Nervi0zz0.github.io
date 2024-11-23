@@ -1,25 +1,23 @@
 ---
 layout: post
-title:  Mi vida como analista de SOC
-date:   2024-11-21
+title: Mi vida como analista de SOC
+date: 2024-11-21
 categories: blog
-layout: post
-
 ---
 
-
-
-# Mi día a día como analista en un SOC: sobreviviendo entre alertas, caos y usuarios que piensan que un 'clic' no hace daño 
+# Mi día a día como analista en un SOC: sobreviviendo entre alertas, caos y usuarios que piensan que un 'clic' no hace daño
 
 La ciberseguridad no es solo un trabajo; **es un estilo de vida**. Y si estás leyendo esto, ya sabes que ser analista de ciberseguridad es como ser ese hombre que se sienta al final de la barra de un bar mugroso, con la mirada perdida, un cigarro en la mano y un vaso de whisky barato que te hace cuestionar tus decisiones de vida. Solo que, en lugar de humo de tabaco y caras olvidadas, estamos rodeados de bytes, alertas y logs que se apilan como botellas vacías en una noche de resaca.
 
+![Un analista cualquiera](image.png)
 
-![Un analista cualquiera](image-2.png)
 ---
 
 ## **Un inicio lleno de dudas**
 
-Mi historia comenzó como la de cualquier otro “héroe” en este mundo: sin saber ni qué significaban *threat intelligence*, *SIEM* o *firewall*. No era más que un "chaval" con una afición por la informática y una cuenta en los chats de Terra. Después de unos años probando suerte como "el tipo que arregla tu PC cuando se cuelga" y ejerciendo de friki en las cenas familiares, decidí embarcarme en la gloriosa y extremadamente glamorosa carrera de la ciberseguridad. Claro, porque, ¿quién no querría vivir el sueño americano... pero en modo pesadilla?
+Mi historia comenzó como la de cualquier otro “héroe” en este mundo: sin saber ni qué significaban *threat intelligence*, *SIEM* o *firewall*. No era más que un "chaval" con una afición por la informática y una cuenta en los chats de Terra. Después de unos años probando suerte como "el tipo que arregla tu PC cuando se cuelga" y ejerciendo de friki en las cenas familiares, decidí embarcarme en la gloriosa y extremadamente glamorosa carrera de la ciberseguridad. 
+
+Claro, porque, ¿quién no querría vivir el sueño americano... pero en modo pesadilla?
 
 ---
 
@@ -33,7 +31,7 @@ En ese momento, te das cuenta de que tu vida no será nada como los anuncios de 
 
 ## **Los primeros días: caos y preguntas sin respuesta**
 
-Al principio, todo es confusión. 
+Al principio, todo es confusión: 
 
 - **¿Qué demonios es un *false positive* y por qué aparece en mi pantalla 300 veces al día?**  
 - **¿Por qué alguien de la empresa está intentando conectarse desde Rusia a las 3 de la mañana?**  
@@ -49,14 +47,12 @@ Y como si todo eso no fuera suficiente, están **los usuarios**. Ah, los usuario
 
 Esos seres humanos adorables pero completamente ajenos a lo que hacen. Esa gente que, después de recibir 10 correos explicando que **NO DEBEN HACER CLIC EN LOS ENLACES** (sí, en mayúsculas, porque ya hemos probado todas las combinaciones posibles), aún logran hacer clic en el enlace incorrecto y comprometer la seguridad de la empresa. 
 
-Pero, claro, en lugar de culpar a la persona, terminas preguntándote: 
+Pero, claro, en lugar de culpar a la persona, terminas preguntándote:  
 
-> **¿Debería haberles enviado los correos en papel?**  
-> **¿Quizá disfrazados de algo que realmente los haga prestar atención?**
+- **¿Debería haberles enviado los correos en papel?**  
+- **¿Quizá disfrazados de algo que realmente los haga prestar atención?**
 
-¡Oye, siempre está la opción de dar una clase de seguridad en PowerPoint disfrazado de Deadpool y liarte a...!
-
-(assets/img/deadpool.png)
+![Deadpool frustrado](assets/img/deadpool-frustrado.png)
 
 ---
 
@@ -81,4 +77,3 @@ Eres simplemente el tipo que, en medio del apocalipsis digital, trata de evitar 
 Y aunque todos los días te preguntas si todo esto vale la pena, si de verdad naciste para vigilar logs como un búho enojado frente a un monitor, sabes que al menos tienes una ventaja: 
 
 Siempre tendrás una buena historia que contar… o al menos, una excusa para reunirte con tus compañeros analistas a echarte unas risas por el Teams como si te pagaran por ello.
-
