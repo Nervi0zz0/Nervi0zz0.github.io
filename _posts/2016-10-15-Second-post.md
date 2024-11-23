@@ -13,7 +13,7 @@ image: assets/img/jimy.jpeg
 
 La ciberseguridad no es solo un trabajo; **es un estilo de vida**. Y si estás leyendo esto, ya sabes que ser analista de ciberseguridad es como ser ese hombre que se sienta al final de la barra de un bar mugroso, con la mirada perdida, un cigarro en la mano y un vaso de whisky barato que te hace cuestionar tus decisiones de vida. Solo que, en lugar de humo de tabaco y caras olvidadas, estamos rodeados de bytes, alertas y logs que se apilan como botellas vacías en una noche de resaca.
 
-![Podría ser yo mismo, pero está generado con IA](assets/img/icons/Designer.jpeg)
+(assets/img/icons/Designer.jpeg)
 
 ---
 
@@ -56,7 +56,7 @@ Pero, claro, en lugar de culpar a la persona, terminas preguntándote:
 
 ¡Oye, siempre está la opción de dar una clase de seguridad en PowerPoint disfrazado de Deadpool y liarte a...!
 
-![Deadpool explicando al usuario que no debe hacer clic](assets/img/deadpool.png)
+(assets/img/deadpool.png)
 
 ---
 
