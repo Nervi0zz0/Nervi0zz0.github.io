@@ -1,7 +1,7 @@
 ---
 layout: page
-title: dropdown1 item1
+title: BlueTeamsLabs1
 description: Test page
-dropdown: dropdown1
+dropdown: BlueTeamsLabs
 priority: 1
 ---
