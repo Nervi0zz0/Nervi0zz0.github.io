@@ -26,7 +26,7 @@ toolbar_priority:        # Order of the items in the toolbar (except for blog an
 
 # Collections
 collections:
-  TryHackMe:
+  dropdown:
     output: true
   items:
     output: true
