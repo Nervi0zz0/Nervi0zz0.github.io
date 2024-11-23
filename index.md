@@ -40,6 +40,7 @@ Buena pregunta. A lo mejor porque tengo una pierna jodida y ahora me sobra el ti
 Porque, cuando la vida te da limones… bueno, a veces te los lanza tan fuerte que terminas en el sofá buscando maneras creativas de no volverte loco. Esto es una de esas maneras.
 
 
+![Soy el que no lleva gorro... Obvio.](assets/img/1FA.gif)
 ---
 
 ### Disfruta de tu estancia, comparte si te hace gracia, y si no… al menos perdiste unos minutos de tu vida leyendo esto.
