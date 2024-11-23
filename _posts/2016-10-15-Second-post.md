@@ -9,7 +9,7 @@ categories: blog
 
 La ciberseguridad no es solo un trabajo; **es un estilo de vida**. Y si estás leyendo esto, ya sabes que ser analista de ciberseguridad es como ser ese hombre que se sienta al final de la barra de un bar mugroso, con la mirada perdida, un cigarro en la mano y un vaso de whisky barato que te hace cuestionar tus decisiones de vida. Solo que, en lugar de humo de tabaco y caras olvidadas, estamos rodeados de bytes, alertas y logs que se apilan como botellas vacías en una noche de resaca.
 
-![Un sanalista cualquiera](assets/img/image.png)
+![Un analista cualquiera](assets/img/image.png)
 
 ---
 
@@ -52,7 +52,7 @@ Pero, claro, en lugar de culpar a la persona, terminas preguntándote:
 - **¿Debería haberles enviado los correos en papel?**  
 - **¿Quizá disfrazados de algo que realmente los haga prestar atención?**
 
-<video controls src="VidnozImageToVideo.mp4" title= Deadpool></video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L1480g91Yok" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -74,6 +74,6 @@ Al final, en este mundo de ciberseguridad, descubres una verdad profunda:
 
 Eres simplemente el tipo que, en medio del apocalipsis digital, trata de evitar que alguien nombre su contraseña "123456". 
 
-Y aunque todos los días te preguntas si todo esto vale la pena, si de verdad naciste para vigilar logs como un búho enojado frente a un monitor, sabes que al menos tienes una ventaja: 
+Y aunque todos los días te preguntas si todo esto vale la pena, si de verdad naciste para vigilar logs como un jodido búho frente a un monitor, sabes que al menos tienes esta ventaja: 
 
 Siempre tendrás una buena historia que contar… o al menos, una excusa para reunirte con tus compañeros analistas a echarte unas risas por el Teams como si te pagaran por ello.
