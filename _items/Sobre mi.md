@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mis perfiles en ciberseguridad
+title: Mira lo paquete que soy
 description: Un vistazo rápido a mis progresos (y fallos) en el mundo de la ciberseguridad.
 ---
 
