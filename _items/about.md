@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum Vitae
+title: Mi CV
 description: Resumen profesional de Miguel Alameda, Analista de Ciberseguridad especializado en SOC y Blue Team.
 ---
 ![CV](../assets/img/CV.jpg)
