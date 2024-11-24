@@ -16,7 +16,7 @@ Y sí, no soy el del gorrito... **Es obvio.**
 
 Soy esa persona que vive rodeada de alertas y logs en un **CSOC** (Centro de Operaciones de Seguridad). Básicamente, paso mi tiempo:  
 - Detectando amenazas mientras finjo entender todos los logs (spoiler: no siempre los entiendo).  
-- Charlando con usuarios que no tienen ni idea de lo que les estoy diciendo. *"¿Qué es un phishing?"* Y cuando finalmente entienden, me salen con: *"Ah, sí, fui yo..."*.  
+- Pelear con los usuarios, que el 99% de las veces ni saben que hacen, y cuando finalmente saben algo, responden con un: *"He sido yo"*.  
 - Decidiendo si esta alerta es **TP** (True Positive) o **FP** (False Positive), mientras sobrevivo a base de macarrones recalentados, café frío y un toque de caos. 🔥  
 
 Cuando no estoy haciendo esto, me divierto resolviendo **CTFs** (desafíos de hacking ético) como si no hubiera mañana, explorando plataformas como **TryHackMe**, **LetsDefend** y **Blue Team Labs**.  
