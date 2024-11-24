@@ -118,4 +118,4 @@ Finalmente, navegamos al directorio `/root`, donde encontramos el último archiv
 
 Rick ha vuelto a su forma humana, al menos por ahora. Este reto nos recuerda lo importante que es la **seguridad en servidores** y por qué no debes dejar contraseñas en archivos visibles. ¡Gracias por seguir este walkthrough y hasta el próximo desafío! 🚀
 
-![Pickle Rick](/assets/img/WG8Q.gif
+![Pickle Rick](/assets/img/WG8Q.gif)
