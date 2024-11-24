@@ -18,7 +18,7 @@ Si aún no conoces el desafío, [haz clic aquí](https://tryhackme.com/room/pick
 
 ---
 
-![Pickle Rick](assets/img/fxmn.gif)
+![Pickle Rick](/assets/img/fxmn.gif)
 
 ## 🛠️ **Pasos para resolver el reto**
 
