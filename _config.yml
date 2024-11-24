@@ -14,7 +14,7 @@ theme_switch: on         # Show color switch (on | off)
 # Extra settings
 blog: on                 # Show blog tag and post list (on | off)
 avatar: on               # Show avatar (on | off)
-recent_posts: 4          # Number of recent posts to display
+recent_posts: 2          # Number of recent posts to display
 avatar_image: "assets/img/jimy.jpeg"
 avatar_description: "My name is Nervi0zz0 and I'm a HACKER."
 highlighter_theme: monokai  # Theme of the syntax_highlighter [base16 |
