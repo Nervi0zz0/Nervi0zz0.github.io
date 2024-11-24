@@ -4,37 +4,22 @@ title: Diario de un Cojo
 description: El blog que nadie pidió, pero todos necesitan (o no).
 ---
 
-👾 **Hola**, soy Miguel, pero puedes llamarme Nervi0zz0, que suena mucho más épico.  
+# 👾 **Hola, soy Miguel** (alias **Nervi0zz0**) que suena más épico.
 
-Y sí, no soy el del gorrito... Es obvio.
+Y sí, no soy el del gorrito... **Es obvio.**
 
 ![Soy el que no lleva gorro... Obvio.](assets/img/txema.jpg)
 
-Me especializo en:
-
-- Detectar amenazas mientras finjo que entiendo todos los logs (spoiler: no siempre los entiendo).  
-- Hablar con usuarios que, la mayoría de las veces, no tienen ni idea de lo que digo. Y cuando finalmente entienden algo, responden con un: *“He sido yo”*.  
-- Pasar mi día decidiendo si esta alerta es **TP** o **FP**, mientras me alimento de macarrones del día anterior, café frío y un poco de caos. 🔥  
-
-Trabajo en un **CSOC**, lo que básicamente significa que vivo rodeado de alertas y logs, y mi vida está en manos de cómo interpreto esas señales de humo digitales.
-
-Cuando me aburro, me encontrarás resolviendo **CTFs** como si no hubiera un mañana. O explorando plataformas como **TryHackMe**, **LetsDefend** y **Blue Team Labs**.
-
 ---
 
-# Bienvenidos a este rincón del Internet que llamaré **"Mi Blog"**
+## **¿Quién soy?**
 
-¿Esperabas algo inspirador o motivador? **Pues siento decepcionarte.**  
-Este es el lugar donde tiro mis pensamientos semi-filosóficos, hablo de mi trabajo (porque alguien tiene que hacerlo), y te doy algunas rutas de estudio para que parezcas productivo sin realmente hacerlo. Ah, y también soltaré alguna que otra noticia irrelevante sobre mí que probablemente no necesites saber.
+Soy esa persona que vive rodeada de alertas y logs en un **CSOC** (Centro de Operaciones de Seguridad). Básicamente, paso mi tiempo:  
+- Detectando amenazas mientras finjo entender todos los logs (spoiler: no siempre los entiendo).  
+- Charlando con usuarios que no tienen ni idea de lo que les estoy diciendo. *"¿Qué es un phishing?"* Y cuando finalmente entienden, me salen con: *"Ah, sí, fui yo..."*.  
+- Decidiendo si esta alerta es **TP** (True Positive) o **FP** (False Positive), mientras sobrevivo a base de macarrones recalentados, café frío y un toque de caos. 🔥  
 
----
-
-## ¿Qué puedes esperar aquí?
-
-- **Artículos Reflexivos:** Esenciales para soltar todo lo que se me pase por la cabeza sin filtro.  
-- **Rutas de Estudio:** Mapas para aprender algo nuevo, porque si no haces nada, al menos que parezca que estás intentando.  
-- **Noticias Sobre Mí:** Porque a veces es necesario hablar de uno mismo, aunque no te interese.  
-- **Lo que surja:** Porque este es mi blog, no tu enciclopedia personal. 🎉
+Cuando no estoy haciendo esto, me divierto resolviendo **CTFs** (desafíos de hacking ético) como si no hubiera mañana, explorando plataformas como **TryHackMe**, **LetsDefend** y **Blue Team Labs**.  
 
 ---
 
@@ -44,15 +29,26 @@ Buena pregunta. A lo mejor porque tengo una pierna jodida y ahora me sobra el ti
 
 Porque, cuando la vida te da limones… bueno, a veces te los lanza tan fuerte que terminas en el sofá buscando maneras creativas de no volverte loco. Esto es una de esas maneras.
 
+Bienvenidos a **Diario de un Cojo**
 
 ---
 
-### Disfruta de tu estancia, comparte si te hace gracia, y si no… al menos perdiste unos minutos de tu vida leyendo esto.
+## **¿Qué encontrarás aquí?**
+
+**¿Esperabas algo inspirador o motivador?** Pues siento decepcionarte.  
+Este es un rincón donde comparto:  
+- Darte la turra con mis pensamientos.  
+- Lo que hago en mi trabajo (porque alguien tiene que contarlo).  
+- Compartir rutas de estudio que te harán parecer productivo, aunque no lo seas.  
+- Alguna que otra noticia irrelevante sobre mí que no pediste saber, pero igual te la cuento.  
 
 ---
 
-¿Quieres saber más? Pues... lo siento, no es Tinder.  
-Pero si decides quedarte, ¡te invito a unirte al lado azul de la fuerza! 😎
+## **Cierre con Estilo**  
 
+Disfruta tu estancia, y si no… al menos ya perdí más tiempo escribiendo esto que tú leyéndolo.  
+
+Ah, y por si te preguntas más sobre mí, **esto NO es Tinder**.  
+Pero si decides quedarte, **bienvenido**. 😎  
 
 ![corazones](assets/img/14Vb.gif)
