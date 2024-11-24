@@ -19,7 +19,7 @@ categories: blog
 
 **Traducción:** "Este tío dejó de llevar cafés y ahora juega a luchar contra los malos en un SOC". No es del todo mentira.  
 
-![Juan Miguel, en la sede de la Fundación GoodJob](assets/img/58.webp)
+![Juan Miguel, en la sede de la Fundación GoodJob](/assets/img/58.webp)
 
 ---
 
