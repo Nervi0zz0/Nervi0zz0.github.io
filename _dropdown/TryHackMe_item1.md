@@ -29,7 +29,7 @@ Lo primero que hacemos es escanear el objetivo para detectar puertos abiertos y 
 |---------------------|-------------------------------------|
 | `nmap -sV 10.10.XX.XX` | Open Ports:<br>- 22/tcp (SSH)<br>- 80/tcp (HTTP) |
 | **Scan Time**       | 1.32 seconds                      |
-| **MAC Address**     | 08:XX:FE:XX:XX:XX                 |
+| **MAC Address**     | 08:XX:TY:XX:XX:XX                 |
 
 El servidor tiene un puerto HTTP abierto en el 80. Vamos a investigarlo.
 
