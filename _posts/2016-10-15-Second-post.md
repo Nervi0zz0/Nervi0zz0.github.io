@@ -4,13 +4,12 @@ title: Mi vida como analista de SOC
 date: 2024-11-21
 categories: blog
 ---
+![Mi Imagen](/assets/img/Designer.jpeg)
 
 # Mi día a día como analista en un SOC: sobreviviendo entre alertas, caos y usuarios que piensan que un 'clic' no hace daño
 
 La ciberseguridad no es solo un trabajo; **es un estilo de vida**. Y si estás leyendo esto, ya sabes que ser analista de ciberseguridad es como ser ese hombre que se sienta al final de la barra de un bar mugroso, con la mirada perdida, un cigarro en la mano y un vaso de whisky barato que te hace cuestionar tus decisiones de vida. Solo que, en lugar de humo de tabaco y caras olvidadas, estamos rodeados de bytes, alertas y logs que se apilan como botellas vacías en una noche de resaca.
 
-
-![Mi Imagen](/assets/img/Designer.jpeg)
 
 ---
 
