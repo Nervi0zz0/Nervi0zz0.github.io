@@ -6,6 +6,7 @@ dropdown: BlueTeamsLabs
 priority: 1
 ---
 
+![bt](../assets/img/bluet.jpg)
 
 ## **Blue Team Labs Online** 🖥️
 
@@ -46,5 +47,7 @@ En mi perfil de **Blue Team Labs Online**, me encuentro inmerso en un mundo de l
 
 
 Si quieres ver cómo estoy lidiando con todo este caos, échale un vistazo a mi perfil. 
+
+![DeepBlue](/assets/img/Deep-blue/miperfilbtl.png)
 
 ---
