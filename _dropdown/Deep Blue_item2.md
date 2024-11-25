@@ -11,7 +11,6 @@ En este laboratorio gratuito de [Blue Team Labs Online](https://blueteamlabs.onl
 
 ---
 
-```plaintext
 # Escenario
 Un sistema Windows fue comprometido mediante RDP expuesto a internet. Posteriormente, el atacante desplegó Meterpreter para realizar actividades maliciosas. Los archivos `Security.evtx` y `System.evtx` se proporcionan para análisis forense.
 
@@ -27,12 +26,17 @@ Ejecutamos DeepBlueCLI sobre el archivo `Security.evtx`.
 Comando:
 .\DeepBlue.ps1 C:\Users\BTLOTest\Desktop\Investigation\Security.evtx
 
+![DB1](../assets/img/Deep-blue/deepblue-1.png)
+
 Resultado:
 Mike Smith ejecutó `GoogleUpdate.exe`, un archivo sospechoso vinculado al inicio del ataque.
 Respuesta: Mike Smith
 
 # Paso 2: Evidencia de actividad de Meterpreter
 Analizamos el archivo `Security.evtx` para identificar eventos relacionados con Meterpreter.
+
+![DP2](../assets/img/Deep-blue/deepblue-2.png)
+
 Resultado:
 La actividad maliciosa ocurrió a las 10:48:14. El uso de pipes en comandos, una técnica común de Meterpreter, permitió la escalación de privilegios.
 Respuesta: 10:48:14
@@ -42,24 +46,35 @@ Utilizamos DeepBlueCLI para analizar `System.evtx` y detectar servicios sospecho
 Comando:
 .\DeepBlue.ps1 C:\Users\BTLOTest\Desktop\Investigation\System.evtx
 
+![DB3](../assets/img/Deep-blue/deepblue-3.png)
+
 Resultado:
 El servicio `rztbzn` fue creado como parte de la persistencia del atacante.
 Respuesta: rztbzn
 
 # Paso 4: Ejecutable malicioso descargado
 Revisamos eventos de creación de procesos (ID 4688) en el rango de tiempo identificado.
+
+![DB4](../assets/img/Deep-blue/deepblue-4.png)
+
 Resultado:
 El archivo `serviceupdate.exe`, descargado en la carpeta Descargas, fue ejecutado antes de la conexión de Meterpreter.
 Respuesta: serviceupdate.exe
 
 # Paso 5: Cuenta creada para persistencia
 Buscamos comandos relacionados con la creación de cuentas en `Security.evtx`.
+
+![DB5](../assets/img/Deep-blue/deepblue-5.png)
+
 Resultado:
 La cuenta `ServiceAct` fue creada mediante el comando `net user ServiceAct /add`.
 Respuesta: net user ServiceAct /add
 
 # Paso 6: Grupos donde se añadió la cuenta
 Identificamos los grupos a los que fue añadida la cuenta `ServiceAct`.
+
+![DB6](../assets/img/Deep-blue/deepblue-6.png)
+
 Resultado:
 La cuenta fue añadida a los grupos `Administrators` y `Remote Desktop Users`.
 Respuesta: Administrators, Remote Desktop Users
