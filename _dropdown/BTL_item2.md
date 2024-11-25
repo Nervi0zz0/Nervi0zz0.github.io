@@ -3,6 +3,7 @@ layout: page
 title: 🛡️ Deep Blue | Walkthrough
 description: Análisis técnico del laboratorio Deep Blue de Blue Team Labs Online usando DeepBlueCLI.
 dropdown: BlueTeamsLabs
+priority: 3
 ---
 
 ![DeepBlue](/assets/img/Deep-blue/image.jpg)
