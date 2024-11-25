@@ -10,7 +10,7 @@ priority: 2
 
 ![bt](/assets/img/cheatbtl.jpg)
 
-Este CheatSheet recopila los comandos más útiles para las herramientas que se utilizan en el examen Blue Team Level 1 (BTL-1). Asegúrate de estar familiarizado con ellos antes del examen.
+Este CheatSheet recopila los comandos más útiles para las herramientas que se utilizan en el examen Blue Team Level 1 (BTL-1). 
 
 ---
 
