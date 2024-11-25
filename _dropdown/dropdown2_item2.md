@@ -1,8 +1,22 @@
 ---
 layout: page
-title: item2
-description: Test page
+title: TryHackMe | ¿Que es?
+description: El lugar donde la ciberseguridad te pone en tu sitio
 dropdown: TryHackMe
+priority: 1
 ---
-# Lorem ipsum
-But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+
+# TryHackMe: El lugar donde la ciberseguridad te pone en tu sitio
+
+¿Siempre quisiste hackear, pero no sabías por dónde empezar? TryHackMe es como un parque temático para novatos, donde puedes aprender de tus fracasos (y de mis epic fails) mientras te enfrentas a retos que suenan geniales en una charla, pero en realidad, son una auténtica tortura.
+
+Lo mejor: ¡tienes recursos gratuitos! Porque, seamos honestos, ¿quién necesita gastar dinero mientras te frustras aprendiendo algo nuevo? Aunque, si tienes ganas de realmente sumergirte, la suscripción mensual vale totalmente la pena. Hay rutas de estudio súper bien estructuradas, ideales para empezar y avanzar a tu propio ritmo, sin sentirte perdido.
+
+Echa un vistazo a mi perfil para ver cómo no hackear.  
+[Perfil de nervi en TryHackMe](https://tryhackme.com/r/p/nervi)
+
+![Tu imagen de insignia](https://tryhackme-badges.s3.amazonaws.com/nervi.png)
+
+### Probando mis habilidades (y mis límites). Algunos logros, muchos fallos. Así es como aprendo.
+
+![perfil](/assets/img/perfilTHM.jpg)

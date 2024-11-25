@@ -3,6 +3,7 @@ layout: page
 title: 🥒 Pickle Rick | Walkthrough
 description: Rick necesita tu ayuda. ¿Puedes encontrar los ingredientes secretos para ayudarlo a dejar de ser un pepinillo?
 dropdown: TryHackMe
+priority: 2
 ---
 
 # 🧪 Pickle Rick | TryHackMe Walkthrough  
