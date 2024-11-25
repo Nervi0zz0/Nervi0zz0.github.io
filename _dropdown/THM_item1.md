@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 🕶️ TryHackMe: El lugar donde la ciberseguridad te pone en tu sitio
+title: 🕶️ TryHackMe, El lugar donde la ciberseguridad te pone en tu sitio
 description: una plataforma para aprender ciberseguridad a tu ritmo 
 dropdown: TryHackMe
 priority: 1
