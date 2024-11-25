@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 🛡️ Deep Blue | Blue Team Labs Walkthrough
+title: 🛡️ Deep Blue | Walkthrough
 description: Análisis técnico del laboratorio Deep Blue de Blue Team Labs Online usando DeepBlueCLI.
 dropdown: BlueTeamsLabs
 ---
 
-# 🛡️ Deep Blue | Blue Team Labs Walkthrough  
+![DeepBlue](/assets/img/Deep-blue/image.jpg)
 
 En este laboratorio gratuito de [Blue Team Labs Online](https://blueteamlabs.online/home/investigation/deep-blue-a4c18ce507), se realiza un análisis detallado de logs EVTX (`Security.evtx` y `System.evtx`) para investigar un compromiso del sistema mediante un ataque RDP y la ejecución de Meterpreter. Se utiliza **DeepBlueCLI**, un módulo de PowerShell que facilita la identificación de eventos sospechosos y permite una respuesta más rápida.
 
