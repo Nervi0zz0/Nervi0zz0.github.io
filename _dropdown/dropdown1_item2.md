@@ -3,7 +3,6 @@ layout: page
 title: 🛡️ Deep Blue | Blue Team Labs Walkthrough |
 description: Análisis técnico de actividad maliciosa en logs de Windows usando DeepBlueCLI.
 dropdown: LetsDefends
-priority: 3
 ---
 
 
