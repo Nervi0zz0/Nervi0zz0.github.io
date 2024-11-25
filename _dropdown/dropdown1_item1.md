@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 🖥️ LetsDefend, una plataforma muy completa
+title: 🛡️ LetsDefend, una plataforma muy completa
 description: 
 dropdown: LetsDefend
 priority: 1

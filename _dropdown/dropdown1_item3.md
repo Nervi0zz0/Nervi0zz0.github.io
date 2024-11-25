@@ -1,6 +1,6 @@
 ---
 layout: page
-title: item3
+title: item3: 
 description: Test page
 dropdown: LetsDefend
 priority: 3
