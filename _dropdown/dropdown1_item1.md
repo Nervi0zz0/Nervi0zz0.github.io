@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 🖥️ La Plataforma para Aspirantes y Profesionales Blue/Purple Team
-description: Exploramos LetsDefend, una plataforma muy completa
+title: 🖥️ LetsDefend, una plataforma muy completa
+description: 
 dropdown: LetsDefend
 priority: 1
 ---
