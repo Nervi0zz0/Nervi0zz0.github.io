@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 🖥️ LetsDefend: La Plataforma para Aspirantes y Profesionales Blue/Purple Team
-description: Exploramos LetsDefend, una plataforma con rutas de estudio, desafíos prácticos y recursos tanto gratuitos como premium, diseñada para quienes buscan fortalecer sus habilidades en ciberseguridad.
+title: 🖥️ La Plataforma para Aspirantes y Profesionales Blue/Purple Team
+description: Exploramos LetsDefend, una plataforma muy completa
 dropdown: LetsDefend
 priority: 1
 ---
