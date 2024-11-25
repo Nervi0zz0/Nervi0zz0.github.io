@@ -6,12 +6,12 @@ description: El blog que nadie pidió, pero todos necesitan (o no).
 
 # 👾 Hola, soy Miguel (alias Nervi0zz0), que suena más épico
 
-
-![Soy el que no lleva gorro... Obvio.](/assets/img/1656626158416.jpg)
-
 ---
 
 ## ¿Quién soy?
+
+
+![Soy el que no lleva gorro... Obvio.](/assets/img/1656626158416.jpg)
 
 Soy esa persona que vive rodeada de alertas y logs en un CSOC (Centro de Operaciones de Seguridad). Básicamente, paso mi tiempo:  
 - Detectando amenazas mientras finjo entender todos los logs (spoiler: no siempre los entiendo).  
@@ -43,11 +43,11 @@ Este es un rincón donde comparto:
 
 ---
 
-## Cierre con estilo
 
 Disfruta tu estancia, y si no… al menos ya perdí más tiempo escribiendo esto que tú leyéndolo.  
 
-Ah, y por si te preguntas más sobre mí, esto NO es Tinder.  
+Ah, y por si te preguntas más sobre mí, esto no es Tinder ni Grindr. Aquí no se discrimina a nadie.  
+
 Pero si decides quedarte, bienvenido. 😎  
 
 ![corazones](assets/img/14Vb.gif)
