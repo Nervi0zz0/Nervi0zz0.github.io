@@ -92,3 +92,6 @@ Estos hallazgos confirman un ataque exitoso mediante RDP seguido de actividades 
 
 # Herramienta clave:
 DeepBlueCLI acelera la revisión de eventos críticos en logs EVTX, optimizando la respuesta a incidentes.
+
+![DB6](../assets/img/Deep-blue/1tvm.gif)
+
