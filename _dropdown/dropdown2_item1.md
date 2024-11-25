@@ -5,7 +5,8 @@ description: Consejos y recursos
 dropdown: BlueTeamsLabs
 priority: 1
 ---
-# Guía para preparar el Examen BTL-1
+
+![btl1](../assets/img/btl1.png)
 > **Resumen**  
 > Este artículo combina consejos y recursos clave para prepararte para la certificación BTL-1, desde la inteligencia de amenazas hasta el análisis forense y la gestión de incidentes.
 
