@@ -10,8 +10,6 @@ priority: 2
 
 ![bt](/assets/img/cheatbtl.jpg)
 
-
-
 Este CheatSheet recopila los comandos más útiles para las herramientas que se pueden utilizar en el examen Blue Team Level 1 (BTL-1). 
 
 ---
@@ -152,5 +150,3 @@ Este CheatSheet recopila los comandos más útiles para las herramientas que se 
 | `Get-WinEvent -LogName Security` | Muestra los logs de seguridad de Windows. |
 | `Get-WinEvent -LogName Security | Where-Object {$_.Message -like "*failed*"}` | Filtra los logs de seguridad para eventos que contengan "failed". |
 | `Get-WinEvent -LogName Application | Where-Object {$_.LevelDisplayName -eq "Error"}` | Filtra los eventos de la aplicación que tienen el nivel "Error". |
-
-
