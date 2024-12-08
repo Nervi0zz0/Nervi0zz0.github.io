@@ -2,7 +2,7 @@
 layout: page
 title: 🛡️ Guía de Monitoreo de Eventos en Windows con SIEM
 description: Consejos y recursos
-dropdown: Notas Secretas del SOC
+dropdown: Notas de un Cojo
 priority: 4
 ---
 # 🛡️ Guía Completa de Monitoreo de Eventos en Windows con SIEM:  Casos de Uso Esenciales
