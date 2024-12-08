@@ -5,19 +5,32 @@ description: Consejos y recursos
 dropdown: Notas Secretas del SOC
 priority: 4
 ---
-# Guía de Monitoreo de Eventos en Windows con SIEM
+# 🛡️ Guía Completa de Monitoreo de Eventos en Windows con SIEM:  Casos de Uso Esenciales
 
-El monitoreo de eventos en un entorno Windows es crucial para la detección de actividades sospechosas y amenazas de seguridad. Un SIEM (Security Information and Event Management) permite correlacionar eventos en tiempo real, facilitando la detección de anomalías y ataques. Esta guía está dirigida a analistas de seguridad y proporciona una visión detallada de los principales eventos de Windows que deben ser monitoreados para asegurar la infraestructura.
+El monitoreo de eventos en entornos Windows es fundamental para identificar amenazas de seguridad y actividades sospechosas. En un escenario de detección y respuesta, contar con un SIEM (Security Information and Event Management) optimizado para eventos de Windows puede ser la diferencia entre detectar una amenaza a tiempo o sufrir una brecha de seguridad.
 
-## Introducción: ¿Qué es un SIEM y por qué es crucial en entornos Windows?
+Esta guía está dirigida a analistas de seguridad y detalla los eventos más importantes en Windows que deben ser monitoreados para proteger tu infraestructura.
 
-El SIEM es una herramienta clave en la seguridad de la información que permite a los analistas gestionar y correlacionar eventos provenientes de distintas fuentes. En entornos Windows, los eventos de seguridad registrados en los logs del sistema son esenciales para identificar actividades inusuales o maliciosas. Los SIEM recogen y analizan estos eventos, facilitando la detección y respuesta ante posibles incidentes.
+## ⚙️ Introducción: ¿Qué es un SIEM y por qué es crucial en entornos Windows?
 
-A continuación, se presentan 105 casos de uso clasificados por categorías, junto con los códigos de eventos correspondientes que deben ser supervisados en un entorno Windows.
+Un SIEM permite recolectar y correlacionar eventos de múltiples fuentes, generando alertas basadas en patrones predefinidos. En Windows, el sistema operativo registra eventos de seguridad que proporcionan información sobre los sucesos más críticos, como inicios de sesión, cambios en la configuración, acceso a archivos, etc.
 
-## 1. **Monitoreo de Inicio de Sesión y Autenticación**
+Los códigos de eventos en Windows son identificadores únicos que el sistema genera cuando ocurre un suceso, como un intento de inicio de sesión o un cambio en la política de grupo. Estos eventos se registran en los "Event Logs" de Windows, y herramientas como los SIEM los interpretan para generar alertas y permitir la investigación de incidentes.
 
-El monitoreo de intentos de autenticación es fundamental para detectar accesos no autorizados, ataques de fuerza bruta o comportamientos sospechosos en cuentas privilegiadas.
+### 💾 ¿De dónde salen los códigos de eventos en Windows?
+
+- **Event Viewer**: Windows almacena los eventos en los "Event Logs", que se pueden visualizar en el Visor de Eventos (Event Viewer). Cada evento tiene un código único que describe lo sucedido.
+- **Security Log**: Es uno de los registros más importantes, donde se encuentran eventos relacionados con la seguridad, autenticación, accesos, y más.
+- **Application & System Logs**: Aquí se encuentran eventos de aplicaciones, servicios, o problemas generales del sistema.
+- **Custom Logs**: También se pueden habilitar logs personalizados para un monitoreo más avanzado.
+
+Ahora que conoces el origen de estos eventos, veamos algunos de los casos de uso esenciales para un entorno Windows.
+
+---
+
+## 👤 1. Monitoreo de Inicio de Sesión y Autenticación
+
+Es fundamental monitorear los intentos de autenticación para detectar accesos no autorizados, ataques de fuerza bruta o comportamientos anómalos. Los eventos de inicio de sesión y autenticación están entre los más cruciales, ya que suelen ser el primer indicio de un ataque o compromiso.
 
 | Caso de Uso                                             | Códigos de Evento                    |
 |---------------------------------------------------------|--------------------------------------|
@@ -31,13 +44,15 @@ El monitoreo de intentos de autenticación es fundamental para detectar accesos 
 | Acceso no autorizado a credenciales                     | 4771, 4776                           |
 | Enumeración excesiva de cuentas                         | 4625, 4776                           |
 
-### Consejos Prácticos:
-- **Correlación de eventos**: Para detectar intentos de fuerza bruta o accesos no autorizados, es útil correlacionar eventos de inicio de sesión fallidos (4625) con bloqueos de cuenta (4740).
-- **Horarios fuera de lo común**: El evento 4624 puede configurarse para disparar alertas cuando los inicios de sesión ocurren fuera del horario laboral establecido.
+### 📌 Consejos Prácticos:
+- **Correlación de eventos**: Correlaciona eventos de inicio de sesión fallidos (4625) con bloqueos de cuenta (4740) para detectar posibles ataques de fuerza bruta.
+- **Alertas fuera de horario**: Configura alertas cuando los inicios de sesión exitosos (4624) ocurran fuera de horas laborales.
 
-## 2. **Monitoreo de Cambios en la Configuración de Usuarios y Grupos**
+---
 
-Es importante monitorear cualquier modificación en la configuración de cuentas y grupos de seguridad, ya que un atacante podría intentar agregar usuarios a grupos privilegiados.
+## 👥 2. Monitoreo de Cambios en Usuarios y Grupos
+
+Los cambios en las cuentas de usuario o los grupos de seguridad son eventos críticos, ya que un atacante podría intentar obtener acceso elevado modificando grupos o usuarios.
 
 | Caso de Uso                                             | Códigos de Evento                    |
 |---------------------------------------------------------|--------------------------------------|
@@ -46,13 +61,15 @@ Es importante monitorear cualquier modificación en la configuración de cuentas
 | Cambios en la clave de cifrado de BitLocker             | 5379                                 |
 | Cambios no autorizados de GPO                           | 5136                                 |
 
-### Consejos Prácticos:
-- **Vigilancia de cuentas privilegiadas**: Es esencial monitorear los eventos relacionados con la modificación de grupos de seguridad privilegiados (4727, 4731).
-- **Cambios en BitLocker**: Cualquier modificación en las claves de cifrado de BitLocker debe ser revisada para evitar el acceso no autorizado a volúmenes protegidos.
+### 📌 Consejos Prácticos:
+- **Monitoreo de cuentas privilegiadas**: Es crucial revisar eventos de modificaciones en grupos de seguridad privilegiados (4727).
+- **BitLocker**: Cualquier cambio en las claves de cifrado debe ser investigado para evitar compromisos en el cifrado de discos.
 
-## 3. **Monitoreo de Acceso a Archivos y Carpetas**
+---
 
-Controlar el acceso a archivos y carpetas sensibles permite identificar posibles intentos de exfiltración de datos o acceso no autorizado.
+## 🗂️ 3. Monitoreo de Acceso a Archivos y Carpetas
+
+Controlar el acceso a archivos sensibles es esencial para prevenir fugas de datos o accesos no autorizados.
 
 | Caso de Uso                                             | Códigos de Evento                    |
 |---------------------------------------------------------|--------------------------------------|
@@ -60,12 +77,14 @@ Controlar el acceso a archivos y carpetas sensibles permite identificar posibles
 | Acceso no autorizado a archivos compartidos             | 5145                                 |
 | Intento de acceder a archivos confidenciales            | 4663                                 |
 
-### Consejos Prácticos:
-- **Alertas en datos sensibles**: Configura alertas para archivos o carpetas que contienen datos críticos. Esto te ayudará a detectar posibles fugas de información o accesos no autorizados.
+### 📌 Consejos Prácticos:
+- **Sensibilidad del acceso**: Configura alertas cuando se acceda a archivos que contienen información crítica o confidencial.
 
-## 4. **Supervisión de Servicios y Tareas Programadas**
+---
 
-La manipulación de servicios o tareas programadas puede ser un indicativo de actividad maliciosa, como la persistencia de malware.
+## 🔧 4. Supervisión de Servicios y Tareas Programadas
+
+Los atacantes frecuentemente modifican servicios o tareas programadas para mantener su persistencia en los sistemas.
 
 | Caso de Uso                                             | Códigos de Evento                    |
 |---------------------------------------------------------|--------------------------------------|
@@ -75,12 +94,14 @@ La manipulación de servicios o tareas programadas puede ser un indicativo de ac
 | Intentos fallidos de iniciar un servicio                | 7041                                 |
 | Instalación del controlador                             | 7045                                 |
 
-### Consejos Prácticos:
-- **Control de tareas programadas**: Las tareas programadas pueden ser abusadas para ejecutar malware de manera persistente. El monitoreo de los eventos 4698 y 4699 ayuda a identificar modificaciones no autorizadas.
+### 📌 Consejos Prácticos:
+- **Persistencia de malware**: Monitorea los eventos de tareas programadas para detectar posibles abusos de malware.
 
-## 5. **Supervisión de Cambios en la Configuración del Sistema**
+---
 
-Detectar cambios en la configuración del sistema es crucial para asegurar que no se estén implementando configuraciones maliciosas o no autorizadas.
+## 🔄 5. Supervisión de Cambios en la Configuración del Sistema
+
+Cualquier modificación en la configuración del sistema, ya sea en la red o el firewall, puede comprometer la seguridad del entorno.
 
 | Caso de Uso                                             | Códigos de Evento                    |
 |---------------------------------------------------------|--------------------------------------|
@@ -88,12 +109,14 @@ Detectar cambios en la configuración del sistema es crucial para asegurar que n
 | Cambios en el Firewall de Windows                       | 4946, 4947, 4950, 4951               |
 | Cambios en el registro                                  | 4657, 4660                           |
 
-### Consejos Prácticos:
-- **Cambios en el firewall**: Un cambio no autorizado en la configuración del firewall podría permitir tráfico malicioso. Los eventos 4946 y 4951 deben ser revisados regularmente.
+### 📌 Consejos Prácticos:
+- **Cambios en el firewall**: Asegúrate de monitorear los cambios en el firewall para evitar que se abra tráfico malicioso.
 
-## 6. **Detección de Actividad de Scripts y Procesos Sospechosos**
+---
 
-Los atacantes a menudo utilizan scripts para ejecutar comandos maliciosos. Es esencial monitorear eventos que indiquen la creación o ejecución de procesos sospechosos.
+## 🛠️ 6. Detección de Actividad de Scripts y Procesos Sospechosos
+
+Monitorear la ejecución de scripts y procesos ayuda a detectar intentos de ejecución maliciosa o automatización de ataques.
 
 | Caso de Uso                                             | Códigos de Evento                    |
 |---------------------------------------------------------|--------------------------------------|
@@ -101,10 +124,12 @@ Los atacantes a menudo utilizan scripts para ejecutar comandos maliciosos. Es es
 | Actividad sospechosa de PowerShell                      | 4104 (registros de PowerShell)       |
 | Inyección de proceso inusual                            | 4688 (con EDR o Sysmon)              |
 
-### Consejos Prácticos:
-- **PowerShell bajo control**: Dado que PowerShell es una herramienta legítima frecuentemente utilizada por atacantes, es fundamental monitorear la actividad del evento 4104, que registra la ejecución de scripts.
+### 📌 Consejos Prácticos:
+- **PowerShell**: La ejecución de scripts a través de PowerShell (evento 4104) debe ser vigilada estrechamente, ya que es una herramienta comúnmente usada por atacantes.
 
-## 7. **Supervisión de Movimientos Laterales y Persistencia**
+---
+
+## 🖧 7. Supervisión de Movimientos Laterales y Persistencia
 
 El monitoreo de eventos relacionados con la autenticación y acceso a recursos puede detectar movimientos laterales dentro de la red, una técnica utilizada por atacantes para expandir su control.
 
@@ -114,10 +139,12 @@ El monitoreo de eventos relacionados con la autenticación y acceso a recursos p
 | Uso de credenciales robadas                             | 4768, 4770                           |
 | Supervisión de la cuenta de servicio                    | 4624, 4672                           |
 
-### Consejos Prácticos:
+### 📌 Consejos Prácticos:
 - **Acceso inusual entre máquinas**: El evento 4648 puede correlacionarse con accesos inusuales entre equipos para identificar intentos de movimiento lateral.
 
-## 8. **Monitoreo de Actividad del Sistema y Eventos Críticos**
+---
+
+## 🔍 8. Monitoreo de Actividad del Sistema y Eventos Críticos
 
 Algunos eventos críticos, como la modificación o eliminación de registros, reinicios inesperados o la instalación de software, deben ser supervisados activamente para asegurar la integridad del sistema.
 
@@ -127,7 +154,11 @@ Algunos eventos críticos, como la modificación o eliminación de registros, re
 | Borrado del registro de eventos                         | 1102                                 |
 | Instalación y eliminación de aplicaciones               | 11707, 1033, 1034                    |
 
-### Consejos Prácticos:
+### 📌 Consejos Prácticos:
 - **Borrado de registros**: La eliminación de registros (evento 1102) es un claro indicio de actividad maliciosa, ya que los atacantes suelen hacerlo para ocultar su presencia en el sistema.
+
+---
+
+
 
 
