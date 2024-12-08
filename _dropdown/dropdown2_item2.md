@@ -1,4 +1,11 @@
-# Cheatsheet de Filtros en Wireshark 🔍
+---
+layout: page
+title: 🛡️ Filtros en Wireshark
+description: Consejos y recursos
+dropdown: Notas Secretas del SOC
+priority: 4
+---
+# Filtros en Wireshark 🔍
 
 Wireshark es una herramienta de análisis de red poderosa y versátil. Aquí te dejamos algunos de los filtros más utilizados para ayudarte a navegar en el tráfico de red y a identificar patrones relevantes de manera eficiente.
 
