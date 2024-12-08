@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 🛡️ Cheatsheet de Splunk 
+title: 🛡️ Splunk 
 description: Consejos y recursos
 dropdown: Notas de un Cojo
 priority: 4
