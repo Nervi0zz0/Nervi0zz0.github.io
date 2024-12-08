@@ -1,3 +1,10 @@
+---
+layout: page
+title: 🛡️ Detección de Phishing
+description: Consejos y recursos
+dropdown: Notas Secretas del SOC
+priority: 4
+---
 # 🛡️ **Guía Técnica para el Análisis Forense de Cabeceras de Correo: Detección de Phishing 
 
 ## **Introducción**
