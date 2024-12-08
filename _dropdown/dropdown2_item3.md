@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Splunk - Monitoreo y Análisis de Datos
+title: 🛡️ Splunk - Monitoreo y Análisis de Datos
 description: Consejos y recursos
 dropdown: Notas de un Cojo
 priority: 4
