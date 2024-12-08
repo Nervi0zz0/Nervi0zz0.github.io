@@ -1,3 +1,11 @@
+---
+layout: page
+title: 🛡️ Vectores de Ataque
+description: Vectores de Ataque
+dropdown: Notas de un Cojo
+priority: 4
+---
+
 # Vectores de Ataque: 
 
 En la actualidad, los ciberataques representan una de las mayores amenazas para las organizaciones de todos los tamaños y sectores. Los atacantes emplean diversos vectores de ataque para comprometer sistemas, robar datos, extorsionar a sus víctimas o interrumpir servicios. Es fundamental que los profesionales de ciberseguridad comprendan estos vectores y las técnicas asociadas para identificar, mitigar y defenderse de ellos de manera efectiva.
