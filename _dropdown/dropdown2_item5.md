@@ -2,7 +2,7 @@
 layout: page
 title: 🛡️ Microsoft Sentinel
 description: Consejos y recursos
-dropdown: Notas Secretas del SOC
+dropdown: Notas de un Cojo
 priority: 4
 ---
 # 🔍 Cheatsheet de Seguridad SIEM con KQL en Microsoft Sentinel 🔐
