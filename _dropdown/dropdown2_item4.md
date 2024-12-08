@@ -142,9 +142,9 @@ Si tienes dudas sobre la legitimidad de un dominio de envío, puedes realizar un
 
 ---
 
-## **Paso 6: Técnicas Avanzadas de Detección**
+## **Paso 6: Observa**
 
-Además de los métodos básicos descritos anteriormente, los analistas de SOC de **nivel 1** pueden aplicar algunas técnicas adicionales para mejorar su capacidad de detectar correos de phishing y suplantación de identidad:
+
 
 1. **Revisar la Autenticidad de los Certificados SSL/TLS**: Si el correo incluye enlaces que conducen a sitios web, asegúrate de que esos sitios utilizan **certificados SSL/TLS** válidos (el icono de candado junto a la URL).
 2. **Análisis de Comportamiento de Usuario**: Los correos de phishing a menudo intentan inducir a los usuarios a realizar acciones rápidas y sin pensarlo, como compartir contraseñas. Mantén siempre los **procedimientos de verificación** establecidos.
