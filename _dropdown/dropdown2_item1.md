@@ -10,6 +10,8 @@ priority: 4
 
 El monitoreo de eventos en entornos Windows es fundamental para identificar amenazas de seguridad, detectar actividades sospechosas y prevenir brechas de seguridad. Windows registra una amplia gama de eventos que proporcionan información crítica sobre el estado de los sistemas y las acciones de los usuarios, permitiendo a los analistas de seguridad detectar problemas potenciales a tiempo.
 
+
+
 Esta guía está dirigida a analistas de seguridad y proporciona una descripción detallada de los eventos más importantes en Windows que deben ser monitoreados, junto con casos de uso y explicaciones sobre su relevancia para la seguridad.
 
 ## Introducción: ¿Por qué es crucial el monitoreo de eventos en Windows?
@@ -97,27 +99,10 @@ Los eventos de gestión de cuentas, como la eliminación de cuentas o la adició
 
 ### Importancia del Monitoreo de Gestión de Cuentas
 
-La gestión de cuentas de usuario es un área crítica en la seguridad de un sistema Windows. Los atacantes pueden eliminar o modificar cuentas de usuario para desactivar la vigilancia, crear nuevas cuentas con privilegios elevados o agregar usuarios a grupos privilegiados. Detectar estos eventos a tiempo es esencial para evitar que los atacantes mantengan el acceso a la infraestructura de TI.
+La gestión de cuentas de usuario es un área crítica en la seguridad de un sistema. Los atacantes pueden intentar crear, modificar o eliminar cuentas para garantizar el acceso persistente o aumentar sus privilegios. Monitorear estos eventos ayuda a identificar intentos de abuso de cuentas o accesos no autorizados.
 
----
+--- 
 
-## 4. Monitoreo de Acceso a Archivos y Recursos
+## Conclusión
 
-El acceso no autorizado a archivos o recursos críticos es una de las principales señales de que un atacante ha penetrado en el sistema. Los eventos que registran la creación, modificación o eliminación de archivos deben ser monitoreados cuidadosamente.
-
-### Eventos Clave:
-- **4656**: Un intento de acceso a un objeto se ha realizado
-- **4663**: Acceso a un objeto ha sido realizado
-- **4670**: Permisos de un objeto han sido modificados
-
-### Tabla de Casos de Uso:
-
-| Caso de Uso                                             | Códigos de Evento                    | Descripción                                                                                                                                               | Relevancia para la Seguridad                                                                                  |
-|---------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Intento de acceso a un objeto                           | 4656                                 | Registra cuando un proceso intenta acceder a un objeto del sistema, como un archivo o directorio.                                                           | Los atacantes a menudo intentan acceder a archivos críticos para extraer información confidencial.            |
-| Acceso a un objeto                                       | 4663                                 | Registra el acceso real a un archivo u objeto, proporcionando detalles sobre qué proceso realizó el acceso.                                                | Los accesos a archivos críticos son una indicación de que los atacantes podrían estar intentando robar o modificar datos. |
-| Modificación de permisos de un objeto                   | 4670                                 | Registra cuando se modifican los permisos de un archivo o recurso.                                                                                         | Los cambios en permisos de archivos son una señal de que un atacante podría estar escalando privilegios o manipulando accesos. |
-
----
-
-
+Monitorear los eventos en Windows es crucial para mantener la seguridad de un sistema. La implementación de un SIEM (Security Information and Event Management) permite a los equipos de seguridad correlacionar eventos de distintos orígenes y detectar patrones que pueden ser indicativos de una intrusión o ataque. Al comprender los eventos más relevantes y sus implicaciones, los analistas de seguridad pueden identificar incidentes de seguridad antes de que se conviertan en brechas
