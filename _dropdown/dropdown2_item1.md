@@ -103,6 +103,4 @@ La gestión de cuentas de usuario es un área crítica en la seguridad de un sis
 
 --- 
 
-## Conclusión
 
-Monitorear los eventos en Windows es crucial para mantener la seguridad de un sistema. La implementación de un SIEM (Security Information and Event Management) permite a los equipos de seguridad correlacionar eventos de distintos orígenes y detectar patrones que pueden ser indicativos de una intrusión o ataque. Al comprender los eventos más relevantes y sus implicaciones, los analistas de seguridad pueden identificar incidentes de seguridad antes de que se conviertan en brechas
