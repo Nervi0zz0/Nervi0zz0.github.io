@@ -31,3 +31,11 @@ collections:
     output: true
   items:
     output: true
+
+   dropdown1:  # Plataformas de estudio, ordenadas alfabéticamente
+    - BlueTeamsLabs
+    - LetsDefend
+    - TryHackMe
+  dropdown2:  # Notas Secretas del SOC
+    - Notas Secretas del SOC
+  
