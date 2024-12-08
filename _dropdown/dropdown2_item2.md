@@ -82,9 +82,6 @@ Wireshark es una herramienta de análisis de red poderosa y versátil. Aquí te 
   
 ---
 
-## 📚 Conclusión
-
-Wireshark es una herramienta esencial para analizar redes y detectar posibles amenazas o problemas. Estos filtros te permiten enfocar tu análisis en lo más relevante, ayudándote a detectar rápidamente patrones de tráfico maliciosos o problemas en tu infraestructura. Aprovecha los filtros y las herramientas avanzadas de Wireshark para realizar análisis más precisos y eficientes.
 
 > **Recuerda**: Cuanto más específicos sean tus filtros, más rápido y eficiente será tu análisis.
 
