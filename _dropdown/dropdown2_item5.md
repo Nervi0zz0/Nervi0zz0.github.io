@@ -1,3 +1,12 @@
+---
+layout: page
+title: 🛡️ Microsoft Sentinel
+description: Consejos y recursos
+dropdown: Notas Secretas del SOC
+priority: 4
+---
+
+
 # 🔍 **Guía en Microsoft Sentinel** 🔐
 
 ## **Introducción**
