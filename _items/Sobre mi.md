@@ -90,6 +90,8 @@ description: Recopilación de herramientas y plataformas útiles para Blue Team.
 | [KAPE](https://kroll.com/en/services/forensic-analysis)  | Herramienta de adquisición rápida y análisis de artefactos forenses. |
 | [FTK Imager](https://accessdata.com/product-download)  | Herramienta para crear imágenes forenses sin alterar el sistema. |
 | [Magnet AXIOM](https://www.magnetforensics.com/product/magnet-axiom) | Solución para adquisición y análisis forense en múltiples plataformas. |
+| [Autopsy](https://www.sleuthkit.org/autopsy/)           | Plataforma forense digital para la adquisición e investigación de discos duros y dispositivos. |
+| [Volatility](https://www.volatilityfoundation.org)    | Herramienta de análisis forense de memoria que permite la extracción de artefactos de la memoria volátil de una máquina, como procesos en ejecución, conexiones de red y contraseñas almacenadas. Soporta múltiples sistemas operativos y formatos de volcado de memoria. |
 
 ### 📜 Gestión de Logs y SIEM
 #### **Análisis y Monitoreo Centralizado**
@@ -111,5 +113,8 @@ Aquí algunas plataformas recomendadas para seguir perfeccionando tus habilidade
 - [Blue Team Labs Online](https://www.btl.io): Entrenamiento para escenarios reales de Blue Team.
 
 ---
+
+
+
 
 
