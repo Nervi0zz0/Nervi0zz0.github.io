@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 🛡️ Guía de Monitoreo de Eventos en Windows con SIEM
+title: 🛡️ Eventos en Windows 
 description: Consejos y recursos
 dropdown: Notas de un Cojo
 priority: 4
 ---
-# 🛡️ Guía Completa de Monitoreo de Eventos en Windows con SIEM:  Casos de Uso Esenciales
+# 🛡️ Guía  de Monitoreo de Eventos en Windows con SIEM:  Casos de Uso Esenciales
 
 El monitoreo de eventos en entornos Windows es fundamental para identificar amenazas de seguridad y actividades sospechosas. En un escenario de detección y respuesta, contar con un SIEM (Security Information and Event Management) optimizado para eventos de Windows puede ser la diferencia entre detectar una amenaza a tiempo o sufrir una brecha de seguridad.
 
