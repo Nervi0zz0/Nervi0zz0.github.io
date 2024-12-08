@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 🛡️ Cheatsheet de Splunk 🔍
+title: 🛡️ Cheatsheet de Splunk 
 description: Consejos y recursos
 dropdown: Notas Secretas del SOC
 priority: 4
@@ -95,11 +95,7 @@ Estos comandos permiten realizar cálculos y agregaciones sobre grandes volúmen
 
 ---
 
-## 📚 Conclusión
 
-Splunk es una herramienta robusta que permite realizar búsquedas avanzadas, análisis de datos en tiempo real y auditorías de seguridad de manera eficiente. Los comandos presentados en este cheatsheet son fundamentales para maximizar tu uso de la plataforma y obtener el mayor valor de tus datos.
-
-> **Recuerda**: La combinación de filtros básicos y avanzados te permitirá obtener un análisis profundo y detallado de tus datos, mientras que las visualizaciones gráficas te ayudarán a identificar rápidamente patrones y anomalías.
 
 ---
 
