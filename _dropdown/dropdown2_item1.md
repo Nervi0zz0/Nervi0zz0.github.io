@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Eventos en Windows
+title: 🛡️ Eventos en Windows
 description: Consejos y recursos
 dropdown: Notas de un Cojo
 priority: 4
