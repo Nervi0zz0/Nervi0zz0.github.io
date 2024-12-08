@@ -1,4 +1,8 @@
-# Cheatsheet de Splunk 🔍
+layout: page
+title: 🛡️ Filtros en Wireshark
+description: Consejos y recursos
+dropdown: Notas Secretas del SOC
+priority: 4# Cheatsheet de Splunk 🔍
 
 Splunk es una plataforma de análisis de datos que ayuda a monitorizar, buscar y analizar grandes volúmenes de datos de manera rápida. A continuación te presentamos algunos de los comandos y filtros más utilizados para maximizar tu uso de Splunk de manera eficiente.
 
