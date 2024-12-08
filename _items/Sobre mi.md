@@ -4,143 +4,113 @@ title: Mis Links
 description: Recopilación de herramientas y plataformas útiles para Blue Team.
 ---
 
-# Herramientas Imprescindibles para Blue Team
+# 📘 BLUETEAM
+## Apuntes de Ciberseguridad (Blueteam)
 
-## Análisis de URLs y Archivos Sospechosos
+### 🚨 Análisis de Amenazas
+#### **Análisis de Archivos, URLs e Indicadores de Compromiso (IoCs)**
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [VirusTotal](https://www.virustotal.com)       | Analiza archivos, URLs y direcciones IP utilizando múltiples motores antivirus. |
+| [Hybrid Analysis](https://www.hybrid-analysis.com)   | Plataforma avanzada para identificar comportamientos sospechosos en archivos y URLs. |
+| [ANY.RUN](https://any.run)              | Sandbox interactivo en tiempo real para observar el comportamiento de archivos y URLs. |
+| [MalwareBazaar](https://malwarebazaar.org)        | Intercambio de muestras de malware y análisis. |
 
-| Herramienta               | Descripción                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| [VirusTotal](https://www.virustotal.com/)       | Analiza URLs, archivos y direcciones IP con múltiples motores antivirus.   |
-| [Any.Run](https://any.run/)                   | Sandbox interactivo para observar comportamiento de archivos y URLs.       |
-| [Hybrid Analysis](https://www.hybrid-analysis.com/) | Plataforma avanzada para identificar comportamientos sospechosos.          |
-| [URLScan.io](https://urlscan.io/)             | Examina la actividad de URLs sospechosas y genera reportes visuales.       |
-| [MXToolbox](https://mxtoolbox.com/)           | Analiza configuraciones DNS, correos electrónicos y reputación de servidores. |
-| [ThreatCrowd](https://www.threatcrowd.org/)   | Descubre relaciones entre dominios, direcciones IP y hashes de archivos.    |
+#### **Reputación e Inteligencia de Amenazas**
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [Cisco Talos Intelligence](https://www.talosintelligence.com) | Base de datos y análisis exhaustivo sobre amenazas globales. |
+| [ThreatCrowd](https://www.threatcrowd.org)           | Descubre relaciones entre dominios, direcciones IP y hashes de archivos. |
+| [AbuseIPDB](https://www.abuseipdb.com)              | Base de datos colaborativa para reportar y consultar direcciones IP maliciosas. |
+| [AlienVault OTX](https://otx.alienvault.com)         | Plataforma abierta para compartir y consultar indicadores de compromiso. |
+| [URLScan.io](https://urlscan.io)                    | Escanea la actividad de URLs sospechosas y genera reportes visuales detallados. |
 
----
+### 🦠 Análisis de Malware
+#### **Análisis Dinámico (Sandboxes)**
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [Cuckoo Sandbox](https://cuckoosandbox.org)   | Sandbox de código abierto para ejecutar y analizar archivos sospechosos. |
+| [ANY.RUN](https://any.run)              | Sandbox interactivo para análisis dinámico en tiempo real. |
+| [Hybrid Analysis](https://www.hybrid-analysis.com) | Sandbox avanzado para análisis dinámico. |
+| [Joe Sandbox](https://www.joesecurity.org)      | Plataforma avanzada para análisis automatizados y detallados de muestras de malware. |
 
-## Gestión y Análisis de Logs
+#### **Análisis Estático de Malware**
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [Ghidra](https://ghidra-sre.org)        | Herramienta de ingeniería inversa de la NSA para desensamblar y analizar binarios. |
+| [IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware/) | Versión gratuita del desensamblador IDA Pro. |
+| [Radare2](https://rada.re/n/)           | Framework para análisis de binarios y desensamblado con soporte multi-arquitectura. |
+| [Hopper Disassembler](https://www.hopperapp.com) | Desensamblador y depurador multiplataforma. |
 
-| Herramienta              | Descripción                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| [Splunk](https://www.splunk.com/)             | Plataforma líder para análisis y correlación de eventos en tiempo real.   |
-| [Elastic Stack (ELK)](https://www.elastic.co/elastic-stack/) | Suite de herramientas para análisis de logs.                                 |
-| [Graylog](https://www.graylog.org/)           | Herramienta eficiente para la búsqueda y análisis de logs.                  |
-| [Fluentd](https://www.fluentd.org/)           | Colector de logs que se integra con múltiples plataformas.                  |
-| [LogRhythm](https://logrhythm.com/)           | SIEM avanzado con capacidades de análisis de logs e inteligencia de amenazas. |
-| [Sentry](https://sentry.io/)                 | Monitoreo de errores en aplicaciones y sistemas.                            |
+#### **Herramientas de Análisis de Binarios**
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [PEStudio](https://www.winitor.com)     | Permite analizar ejecutables de Windows sin ejecutarlos. |
+| [Die (Detect It Easy)](https://github.com/hyperiongray/detect-it-easy)  | Herramienta para detectar empaquetadores y cifrados en ejecutables. |
+| [Exeinfo PE](https://www.exetools.com)   | Identifica empaquetadores y firmas de compilación en archivos ejecutables. |
 
----
+#### **Identificación de Empaquetadores y Cifrados**
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [UPX](https://upx.github.io)              | Herramienta para comprimir y descomprimir ejecutables, frecuentemente usada para ocultar malware. |
+| [Packer Identifier (PID)](https://github.com/ChrisLong/pe-packer-id) | Utilidad para identificar empaquetadores en archivos ejecutables. |
 
-## Análisis de Malware y Forense Digital
+#### **Análisis de Scripts y Archivos Ofimáticos**
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [Oletools](https://github.com/decalage2/oletools) | Herramientas para analizar archivos OLE (Word, Excel, etc.) y detectar macros maliciosas. |
+| [Exodus](https://github.com/techtroll/Exodus) | Especializada en identificar vulnerabilidades en aplicaciones. |
+| [ViperMonkey](https://github.com/decalage2/ViperMonkey) | Emulador de macros VBA maliciosas en archivos de Office. |
 
-### Análisis Dinámico
+### 🔐 Análisis de Phishing
+#### **Análisis de URLs y Correos Electrónicos**
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [PhishTank](https://www.phishtank.com)        | Base de datos comunitaria para verificar URLs sospechosas de phishing. |
+| [URLScan.io](https://urlscan.io)              | Escanea URLs y proporciona reportes detallados. |
+| [MXToolbox](https://mxtoolbox.com)            | Analiza configuraciones DNS y registros SPF/DKIM/DMARC para detectar phishing. |
+| [CheckPhish](https://www.checkphish.ai)       | Plataforma IA para detectar URLs de phishing. |
 
-| Herramienta              | Descripción                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| [Cuckoo Sandbox](https://cuckoosandbox.org/)   | Análisis dinámico de malware en un entorno controlado.                     |
-| [REMnux](https://remnux.org/)                 | Distribución Linux especializada en análisis forense y malware.            |
-| [Volatility](https://www.volatilityfoundation.org/) | Framework para análisis de memoria en entornos vivos.                       |
-| [Autopsy](https://www.sleuthkit.org/autopsy/)  | Herramienta para análisis forense de discos duros y medios de almacenamiento. |
-| [PEStudio](https://www.winitor.com/)          | Análisis estático de archivos binarios Windows.                            |
-| [Ghidra](https://ghidra-sre.org/)             | Framework de ingeniería inversa de la NSA para analizar binarios.          |
+#### **Detección en Tiempo Real**
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [ZeroFox Phishing Detection](https://www.zerofox.com) | Detecta ataques de phishing en tiempo real. |
+| [IRONSCALES](https://www.ironscales.com)         | Solución automatizada para la detección de phishing en redes corporativas. |
 
----
+### 🛡️ Análisis y Defensa contra Ransomware
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [ID Ransomware](https://www.id-ransomware.malwarehunterteam.com)   | Identifica muestras de ransomware a partir de archivos o extensiones. |
+| [Cobalt Strike](https://www.cobaltstrike.com)      | Herramienta avanzada para simular ataques de ransomware. |
+| [NoMoreRansom](https://www.nomoreransom.org)       | Iniciativa contra el ransomware con herramientas de descifrado. |
 
-## Monitoreo de Redes y Detección de Amenazas
+### 💻 Forense Digital
+#### **Herramientas de Adquisición y Análisis**
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [KAPE](https://kroll.com/en/services/forensic-analysis)  | Herramienta de adquisición rápida y análisis de artefactos forenses. |
+| [FTK Imager](https://accessdata.com/product-download)  | Herramienta para crear imágenes forenses sin alterar el sistema. |
+| [Magnet AXIOM](https://www.magnetforensics.com/product/magnet-axiom) | Solución para adquisición y análisis forense en múltiples plataformas. |
 
-| Herramienta              | Descripción                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| [Wireshark](https://www.wireshark.org/)        | Captura y análisis de tráfico de red.                                       |
-| [Zeek (Bro)](https://zeek.org/)                | Análisis de tráfico con visibilidad profunda.                              |
-| [Suricata](https://suricata.io/)              | IDS/IPS avanzado con inspección profunda de paquetes.                      |
-| [Snort](https://www.snort.org/)               | Sistema IDS/IPS con reglas personalizables en tiempo real.                 |
-| [Tshark](https://www.wireshark.org/docs/man-pages/tshark.html) | Versión de línea de comandos de Wireshark para automatización.              |
-| [Nmap](https://nmap.org/)                     | Escáner de red para descubrir hosts activos y vulnerabilidades.             |
-
----
-
-## Frameworks Estratégicos y de Inteligencia de Amenazas
-
-| Herramienta              | Descripción                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| [MITRE ATT&CK](https://attack.mitre.org/)      | Base de conocimiento sobre tácticas y técnicas de atacantes.               |
-| [TheHive](https://thehive-project.org/)        | Plataforma para gestión colaborativa de incidentes de seguridad.          |
-| [MISP](https://www.misp-project.org/)          | Plataforma de intercambio de inteligencia de amenazas cibernéticas.       |
-| [AlienVault OTX](https://otx.alienvault.com/)  | Comunidad abierta para compartir indicadores de compromiso.               |
-| [Cortex](https://www.thehive-project.org/projects/cortex/about/) | Herramienta para enriquecer indicadores de amenazas.                       |
-
----
-
-## Análisis de Seguridad Web
-
-| Herramienta                | Descripción                                                                 |
-|----------------------------|-----------------------------------------------------------------------------|
-| [Security Headers](https://securityheaders.com/) | Evalúa la configuración de cabeceras de seguridad HTTP.                    |
-| [Qualys SSL Labs](https://www.ssllabs.com/ssltest/) | Prueba la configuración de SSL/TLS en servidores web.                      |
-| [Burp Suite](https://portswigger.net/burp)    | Herramienta avanzada para pruebas de seguridad en aplicaciones web.       |
-| [OWASP ZAP](https://owasp.org/www-project-zap/) | Alternativa gratuita para detectar vulnerabilidades en aplicaciones web.   |
-| [Nikto](https://cirt.net/Nikto2)               | Escáner de servidores web para detectar configuraciones inseguras.         |
-
----
-
-## Simuladores y Formación Práctica
-
-| Herramienta                 | Descripción                                                                 |
-|-----------------------------|-----------------------------------------------------------------------------|
-| [RangeForce](https://www.rangeforce.com/)      | Plataforma de simulaciones interactivas para habilidades defensivas.       |
-| [LetsDefend](https://app.letsdefend.io/)       | Entrenamiento práctico con incidentes reales para analistas Blue Team.    |
-| [TryHackMe](https://tryhackme.com/)           | Escenarios interactivos para aprender desde lo básico hasta lo avanzado.   |
-| [Blue Team Labs](https://blueteamlabs.online/) | Ejercicios específicos para analistas de ciberseguridad defensiva.         |
-| [CyberDefenders](https://cyberdefenders.org/) | Retos prácticos enfocados en análisis forense y defensa.                   |
-
----
-
-## Otras Herramientas Útiles
-
-| Herramienta               | Descripción                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| [CyberChef](https://gchq.github.io/CyberChef/) | Herramienta para cifrado, decodificación y análisis de datos.               |
-| [Shodan](https://www.shodan.io/)             | Motor de búsqueda de dispositivos conectados y vulnerabilidades.            |
-| [PhishTank](https://www.phishtank.com/)      | Base de datos para verificar sitios sospechosos de phishing.                |
-| [DNSDumpster](https://dnsdumpster.com/)      | Herramienta para mapear configuraciones DNS y dominios relacionados.        |
-| [Censys](https://censys.io/)                 | Plataforma avanzada para descubrimiento de activos y evaluación de riesgos. |
-| [Have I Been Pwned](https://haveibeenpwned.com/) | Verifica si cuentas o dominios han sido comprometidos en brechas de datos. |
+### 📜 Gestión de Logs y SIEM
+#### **Análisis y Monitoreo Centralizado**
+| Herramienta      | Descripción |
+|------------------|-------------|
+| [Splunk](https://www.splunk.com)        | Plataforma de análisis de datos para monitoreo y análisis de logs en tiempo real. |
+| [Elastic Stack (ELK)](https://www.elastic.co/elk-stack)   | Herramientas para análisis de logs mediante Elasticsearch, Logstash y Kibana. |
+| [Graylog](https://www.graylog.org)        | Herramienta de gestión centralizada de logs, open source. |
+| [LogRhythm](https://www.logrhythm.com)     | Solución SIEM para detección de amenazas y respuesta a incidentes. |
 
 ---
 
-
-
-### Análisis de Amenazas
-
-#### Análisis de Archivos, URLs e Indicadores de Compromiso (IoCs)
-
-| Herramienta               | Descripción                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| [VirusTotal](https://www.virustotal.com)       | (Ya mencionado) Escanea archivos, URLs y direcciones IP.                   |
-| [Hybrid Analysis](https://www.hybrid-analysis.com) | Plataforma avanzada para identificar comportamientos sospechosos.          |
-| [ANY.RUN](https://any.run)                    | Sandbox interactivo en tiempo real.                                         |
-| [MalwareBazaar](https://bazaar.abuse.ch)      | Intercambio de muestras de malware y análisis.                             |
-
-#### Reputación e Inteligencia de Amenazas
-
-| Herramienta               | Descripción                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| [Cisco Talos Intelligence](https://www.talosintelligence.com) | Base de datos sobre amenazas globales.                                      |
-| [ThreatCrowd](https://www.threatcrowd.org)     | Descubre relaciones entre dominios, IPs y hashes.                           |
-| [AbuseIPDB](https://www.abuseipdb.com)         | Base de datos colaborativa de IPs maliciosas.                               |
-| [AlienVault OTX](https://otx.alienvault.com)   | Compartir y consultar indicadores de compromiso.                            |
-
-### Análisis de Malware
-
-#### Análisis Dinámico
-
-| Herramienta               | Descripción                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| [Cuckoo Sandbox](https://cuckoo.sh)          | Sandbox de código abierto para ejecutar y analizar malware.                 |
-| [Hybrid Analysis](https://www.hybrid-analysis.com) | Plataforma para análisis dinámico.                                           |
-| [Joe Sandbox](https://www.joesandbox.com)    | Plataforma avanzada para análisis automático de muestras de malware.        |
+### 📚 Plataformas de Estudio
+Aquí algunas plataformas recomendadas para seguir perfeccionando tus habilidades de Blue Team:
+- [TryHackMe](https://www.tryhackme.com): Laboratorios prácticos y desafíos de ciberseguridad.
+- [Hack The Box](https://www.hackthebox.eu): Desafíos interactivos y pruebas de penetración.
+- [RangeForce](https://www.rangeforce.com): Simuladores de detección y respuesta a amenazas.
+- [LetsDefend](https://www.letsdefend.io): Plataforma de simulación para analistas de Blue Team.
+- [Blue Team Labs Online](https://www.btl.io): Entrenamiento para escenarios reales de Blue Team.
 
 ---
 
-Este es un esquema detallado y organizado de herramientas clave para el análisis y defensa de Blue Team. Cada sección está diseñada para facilitar el acceso rápido y la comprensión técnica. Si necesitas más ajustes o herramientas adicionales, no dudes en pedírmelo.
+
