@@ -1,92 +1,107 @@
+---
 layout: page
-title: 🛡️ Filtros en Wireshark
+title: 🛡️ Cheatsheet de Splunk 🔍
 description: Consejos y recursos
 dropdown: Notas Secretas del SOC
-priority: 4# Cheatsheet de Splunk 🔍
+priority: 4
+---
 
-Splunk es una plataforma de análisis de datos que ayuda a monitorizar, buscar y analizar grandes volúmenes de datos de manera rápida. A continuación te presentamos algunos de los comandos y filtros más utilizados para maximizar tu uso de Splunk de manera eficiente.
+# Cheatsheet de Splunk 🔍
+
+Splunk es una poderosa herramienta de análisis y visualización de datos que permite realizar búsquedas, monitorización y análisis en tiempo real de grandes volúmenes de datos. A continuación, te presentamos los comandos más utilizados en Splunk, organizados de manera eficiente y con descripciones para facilitar su comprensión.
 
 ---
 
 ## 🔑 Comandos Básicos
 
-| **Comando**                  | **Descripción**                                                                                       |
-|------------------------------|-------------------------------------------------------------------------------------------------------|
-| `index="main"`               | Filtra por un índice específico (en este caso, "main").                                                |
-| `source="logfile.log"`        | Filtra por la fuente de los datos (en este caso, un archivo de log específico).                       |
-| `sourcetype="json"`           | Filtra por el tipo de fuente (en este caso, "json").                                                  |
-| `host="server1"`              | Filtra por el host (en este caso, "server1").                                                         |
-| `*error*`                     | Busca eventos que contengan la palabra "error".                                                       |
-| `status=200`                  | Filtra eventos donde el campo "status" sea igual a 200 (por ejemplo, respuestas HTTP OK).            |
-| `| stats count`               | Realiza una agregación de contadores, mostrando el número de eventos que coinciden con el filtro.     |
+Estos comandos son ideales para empezar a buscar y filtrar datos dentro de Splunk.
 
-> **Consejo**: Usa estos filtros básicos para empezar a buscar datos específicos dentro de tus registros y eventos.
+| **Comando**                      | **Descripción**                                                                                         |
+|-----------------------------------|---------------------------------------------------------------------------------------------------------|
+| `index="main"`                   | Filtra los eventos que pertenecen al índice llamado "main". Ideal para empezar a trabajar con datos de un índice específico.       |
+| `source="logfile.log"`            | Filtra los eventos que provienen de una fuente específica, en este caso, un archivo de log.                            |
+| `sourcetype="json"`               | Filtra eventos basados en un tipo de fuente determinado (en este caso, los eventos con sourcetype "json").                         |
+| `host="server1"`                  | Filtra eventos por el nombre del host. Utilizado para analizar registros específicos de una máquina o servidor.                 |
+| `*error*`                         | Realiza una búsqueda de eventos que contengan la palabra "error", útil para identificar fallos en los sistemas.                   |
+| `status=200`                      | Filtra los eventos donde el campo "status" tenga el valor 200, lo que generalmente indica una respuesta exitosa en HTTP.        |
+| `| stats count`                   | Realiza una agregación básica para contar la cantidad de eventos dentro del conjunto de datos filtrados.     |
+
+> **Consejo**: Utiliza estos comandos básicos para realizar búsquedas simples y empezar a filtrar eventos de manera eficaz.
 
 ---
 
 ## ⚙️ Comandos de Búsqueda Avanzada
 
-| **Comando**                           | **Descripción**                                                                                   |
-|---------------------------------------|---------------------------------------------------------------------------------------------------|
-| `index="main" sourcetype="json" | stats count by status`   | Filtra eventos de un índice y sourcetype específico, y realiza una agregación de cuenta por el campo "status".   |
-| `index="main" error | top 10 source`   | Encuentra los 10 principales orígenes de eventos con la palabra "error".                            |
-| `index="security" | timechart span=1h count` | Realiza un gráfico de línea mostrando el conteo de eventos por hora.                               |
-| `index="logs" | stats avg(bytes) by host` | Calcula el promedio de bytes por cada host dentro del índice "logs".                               |
-| `index="main" | dedup source`         | Elimina los registros duplicados por el campo "source".                                            |
-| `index="web" | eval response_time = end_time - start_time | stats avg(response_time)` | Calcula el tiempo de respuesta promedio entre los eventos "start_time" y "end_time". |
+Estos comandos permiten realizar búsquedas más complejas y análisis detallados sobre los datos de Splunk.
 
-> **Consejo**: Los comandos de búsqueda avanzada son ideales para analizar patrones en los datos y generar visualizaciones como gráficos y tablas.
+| **Comando**                            | **Descripción**                                                                                                    |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| `index="main" sourcetype="json" | stats count by status`     | Filtra eventos por el índice "main" y el sourcetype "json", luego realiza un conteo de eventos agrupados por el campo "status". |
+| `index="main" error | top 10 source`     | Filtra eventos que contienen la palabra "error" y muestra las 10 principales fuentes de esos eventos.                     |
+| `index="security" | timechart span=1h count` | Genera una gráfica que muestra la cantidad de eventos por hora, útil para analizar eventos en función del tiempo.           |
+| `index="logs" | stats avg(bytes) by host`  | Calcula el promedio de "bytes" por cada host, ideal para analizar el volumen de datos por servidor o máquina.            |
+| `index="main" | dedup source`            | Elimina los registros duplicados basados en el campo "source", útil para limpiar datos repetidos en grandes volúmenes.    |
+| `index="web" | eval response_time = end_time - start_time | stats avg(response_time)` | Calcula el tiempo de respuesta promedio entre los campos "start_time" y "end_time". Ideal para analizar tiempos de latencia. |
+
+> **Consejo**: Utiliza las búsquedas avanzadas para identificar patrones más complejos en los datos, realizar análisis estadísticos y generar informes detallados.
 
 ---
 
 ## 🛡️ Comandos de Seguridad
 
-| **Comando**                           | **Descripción**                                                                                   |
-|---------------------------------------|---------------------------------------------------------------------------------------------------|
-| `index="security" sourcetype="syslog" | stats count by host`   | Filtra los eventos del índice "security" y realiza un conteo por host.                           |
-| `index="firewall" | stats values(ip) by action` | Muestra las direcciones IP asociadas con cada acción del firewall (permitir/denegar).               |
-| `index="security" | search "failed login" | stats count by user` | Muestra el número de intentos fallidos de inicio de sesión por usuario.                           |
-| `index="security" | search "brute force" | stats count`   | Busca eventos que contengan "brute force" (fuerza bruta) y cuenta cuántos se han registrado.     |
-| `index="firewall" | search "blocked" | stats count by ip` | Filtra eventos de firewall que indican conexiones bloqueadas y muestra el conteo por IP.          |
+Son comandos esenciales para realizar auditorías de seguridad y detectar posibles actividades maliciosas dentro de la infraestructura.
 
-> **Consejo**: Los comandos de seguridad son perfectos para realizar auditorías de eventos y detectar patrones relacionados con intentos de intrusión o actividades maliciosas.
+| **Comando**                            | **Descripción**                                                                                                  |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| `index="security" sourcetype="syslog" | stats count by host`    | Filtra los eventos de tipo "syslog" en el índice "security" y muestra un conteo de eventos agrupados por host.        |
+| `index="firewall" | stats values(ip) by action` | Muestra las direcciones IP asociadas con cada acción del firewall (permitir o bloquear), útil para detectar intentos sospechosos. |
+| `index="security" | search "failed login" | stats count by user`  | Filtra los eventos que contienen "failed login" (intentos fallidos de inicio de sesión) y agrupa el conteo por usuario. |
+| `index="security" | search "brute force" | stats count`         | Busca eventos que contengan la palabra "brute force" para identificar posibles intentos de ataque por fuerza bruta. |
+| `index="firewall" | search "blocked" | stats count by ip`    | Filtra eventos del firewall que indican tráfico bloqueado y cuenta la cantidad de intentos por cada IP.                 |
+
+> **Consejo**: Los comandos de seguridad son imprescindibles para auditar el tráfico de red y los intentos de acceso no autorizado, ayudando a detectar y prevenir intrusiones.
 
 ---
 
 ## 🕒 Comandos de Tiempo y Ordenación
 
-| **Comando**                           | **Descripción**                                                                                   |
-|---------------------------------------|---------------------------------------------------------------------------------------------------|
-| `index="main" | earliest=-24h@h latest=now` | Filtra eventos ocurridos en las últimas 24 horas.                                                 |
-| `index="main" | earliest="2024-12-01T00:00:00" latest="2024-12-05T23:59:59"` | Filtra eventos dentro de un rango de fechas específico. |
-| `index="main" | sort - _time`           | Ordena los eventos por el campo `_time` en orden descendente (últimos eventos primero).           |
-| `index="main" | sort + bytes`          | Ordena los eventos por el campo "bytes" en orden ascendente.                                      |
-| `index="main" | head 10`               | Muestra los primeros 10 eventos después de aplicar el filtro.                                      |
+La manipulación de los datos según el tiempo es crucial para el análisis de eventos y la identificación de tendencias.
 
-> **Consejo**: Los filtros de tiempo son cruciales para realizar análisis de eventos dentro de rangos de tiempo específicos o para buscar eventos recientes.
+| **Comando**                            | **Descripción**                                                                                                   |
+|----------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| `index="main" | earliest=-24h@h latest=now` | Filtra los eventos ocurridos en las últimas 24 horas, facilitando el análisis de los registros más recientes.         |
+| `index="main" | earliest="2024-12-01T00:00:00" latest="2024-12-05T23:59:59"` | Filtra eventos dentro de un rango de fechas específico, ideal para auditorías de periodos determinados. |
+| `index="main" | sort - _time`             | Ordena los eventos por el campo "_time" en orden descendente, mostrando primero los eventos más recientes.           |
+| `index="main" | sort + bytes`            | Ordena los eventos por el campo "bytes" en orden ascendente, útil para identificar picos de tráfico o anomalías.     |
+| `index="main" | head 10`                 | Muestra los primeros 10 eventos de la búsqueda actual, ideal para obtener un resumen rápido de los eventos más relevantes. |
+
+> **Consejo**: Los filtros de tiempo y ordenación son esenciales para realizar análisis en ventanas temporales específicas o para explorar eventos recientes en tiempo real.
 
 ---
 
 ## 🧰 Comandos de Agregación y Análisis
 
-| **Comando**                           | **Descripción**                                                                                   |
-|---------------------------------------|---------------------------------------------------------------------------------------------------|
-| `index="web" | stats sum(bytes) by host` | Muestra la suma de bytes enviados o recibidos por cada host en el índice "web".                   |
-| `index="web" | timechart span=1h avg(bytes)` | Muestra un gráfico de línea con el promedio de bytes por hora.                                    |
-| `index="security" | top 10 src_ip`       | Muestra las 10 direcciones IP de origen más frecuentes en el índice "security".                    |
-| `index="main" | stats count by status, host` | Realiza un conteo de eventos por el campo "status" y agrupa por "host".                           |
-| `index="main" | chart count over _time by status` | Muestra un gráfico con el conteo de eventos agrupados por el campo "status" en el tiempo.         |
+Estos comandos permiten realizar cálculos y agregaciones sobre grandes volúmenes de datos, proporcionándote análisis más detallados y agregados.
 
-> **Consejo**: Estos comandos de agregación te permiten realizar un análisis más profundo, como contar eventos o calcular promedios y sumas. Utiliza gráficos y tablas para visualizar tendencias y patrones.
+| **Comando**                            | **Descripción**                                                                                                   |
+|----------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| `index="web" | stats sum(bytes) by host`    | Suma los valores del campo "bytes" por cada host, útil para ver cuántos datos han sido procesados por cada servidor.  |
+| `index="web" | timechart span=1h avg(bytes)` | Muestra un gráfico de línea con el promedio de bytes procesados cada hora, ideal para ver tendencias de tráfico.        |
+| `index="security" | top 10 src_ip`         | Muestra las 10 direcciones IP de origen más frecuentes, útil para identificar posibles puntos de origen de ataques.   |
+| `index="main" | stats count by status, host` | Realiza un conteo de eventos por "status" y los agrupa por "host", ideal para análisis de errores o éxito por servidor. |
+| `index="main" | chart count over _time by status` | Genera un gráfico de barras que muestra la cantidad de eventos agrupados por el campo "status" a lo largo del tiempo. |
+
+> **Consejo**: Utiliza los comandos de agregación para analizar grandes volúmenes de datos de forma resumida, y crear gráficos para una mejor visualización de tendencias.
 
 ---
 
 ## 📚 Conclusión
 
-Splunk es una plataforma poderosa para el análisis de datos, y con estos comandos y filtros puedes aprovechar al máximo su potencial. Estos filtros te permitirán analizar patrones, detectar problemas y realizar auditorías de seguridad de manera efectiva.
+Splunk es una herramienta robusta que permite realizar búsquedas avanzadas, análisis de datos en tiempo real y auditorías de seguridad de manera eficiente. Los comandos presentados en este cheatsheet son fundamentales para maximizar tu uso de la plataforma y obtener el mayor valor de tus datos.
 
-> **Recuerda**: Combina diferentes comandos y filtros para realizar análisis más complejos y obtener información detallada sobre tu infraestructura.
+> **Recuerda**: La combinación de filtros básicos y avanzados te permitirá obtener un análisis profundo y detallado de tus datos, mientras que las visualizaciones gráficas te ayudarán a identificar rápidamente patrones y anomalías.
 
 ---
 
-¡A disfrutar del análisis de datos con Splunk! 🚀
+
+
