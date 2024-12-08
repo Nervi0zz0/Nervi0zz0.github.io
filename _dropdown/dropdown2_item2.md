@@ -2,7 +2,7 @@
 layout: page
 title: 🛡️ Filtros en Wireshark
 description: Consejos y recursos
-dropdown: Notas Secretas del SOC
+dropdown: Notas de un Cojo
 priority: 4
 ---
 # Filtros en Wireshark 🔍
