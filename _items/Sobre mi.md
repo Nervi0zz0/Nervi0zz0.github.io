@@ -5,7 +5,6 @@ description: Recopilación de herramientas y plataformas útiles para Blue Team.
 ---
 
 # 📘 BLUETEAM
-## Apuntes de Ciberseguridad (Blueteam)
 
 ### 🚨 Análisis de Amenazas
 #### **Análisis de Archivos, URLs e Indicadores de Compromiso (IoCs)**
