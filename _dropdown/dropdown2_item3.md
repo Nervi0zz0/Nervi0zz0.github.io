@@ -2,7 +2,7 @@
 layout: page
 title: 🛡️ Cheatsheet de Splunk 
 description: Consejos y recursos
-dropdown: Notas Secretas del SOC
+dropdown:Notas de un Cojo
 priority: 4
 ---
 
