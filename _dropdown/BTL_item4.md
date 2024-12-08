@@ -3,7 +3,7 @@ layout: page
 title: 🛡️ ¿Qué es Blue Team Labs y Security Blue Team eLearning?
 description: Una introducción a las plataformas Blue Team Labs y Security Blue Team eLearning, con un enfoque en el aprendizaje práctico y la capacitación para equipos azules.
 dropdown: BlueTeamsLabs
-priority: 1
+priority: 4
 ---
 
 ## **Blue Team Labs Online** 🖥️
