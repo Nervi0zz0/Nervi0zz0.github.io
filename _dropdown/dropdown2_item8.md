@@ -10,7 +10,7 @@ priority: 4
 
 En este artículo se cubren los **9 principales métodos de solicitud HTTP** utilizados en las aplicaciones web. Cada método tiene un propósito específico dentro de la comunicación entre cliente y servidor. Esta guía te ayudará a comprender el uso correcto de cada método y cuándo aplicarlos.
 
-![HTTP](/assets/images/http.gif)
+![ImagendeBytebyteGo](/assets/img/http.gif)
 
 ## 1. GET
 
