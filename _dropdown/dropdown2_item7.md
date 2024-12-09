@@ -6,7 +6,7 @@ dropdown: Notas de un Cojo
 priority: 4
 ---
 
-# Vectores de Ataque Cibernético
+# Vectores de Ataque 
 
 Los **vectores de ataque cibernético** son los caminos o métodos utilizados por los atacantes para acceder a las redes, sistemas o datos de una organización. A continuación, se describen los principales vectores de ataque, sus objetivos y las técnicas de identificación más utilizadas.
 
