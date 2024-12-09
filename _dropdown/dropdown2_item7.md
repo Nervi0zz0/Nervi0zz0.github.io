@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 🛡️ Vectores de Ataque Cibernético
+title: 🛡️ Vectores de Ataque 
 description: Una guía sobre los principales vectores de ataque en ciberseguridad, su objetivo y cómo identificarlos.
 dropdown: Notas de un Cojo
 priority: 4
@@ -10,7 +10,7 @@ priority: 4
 
 Los **vectores de ataque cibernético** son los caminos o métodos utilizados por los atacantes para acceder a las redes, sistemas o datos de una organización. A continuación, se describen los principales vectores de ataque, sus objetivos y las técnicas de identificación más utilizadas.
 
-![Vectores de Ataque Cibernético](/assets/images/vectores_de_ataque.png)
+![Vectores de Ataque ](/assets/img/vectores.jpg)
 
 ## 1. Malware
 
