@@ -1,106 +1,153 @@
 ---
 layout: page
-title: 🛡️ Eventos en Windows
-description: Consejos y recursos
+title: 🛡️ Monitoreo de Eventos en Windows
+description: Identificación de amenazas y detección de actividades sospechosas.
 dropdown: Notas de un Cojo
 priority: 4
 ---
 
-# Guía de Monitoreo de Eventos en Windows: Casos de Uso Esenciales
+# 🛡️ **Guía Completa de Monitoreo de Eventos en Windows**
 
-El monitoreo de eventos en entornos Windows es fundamental para identificar amenazas de seguridad, detectar actividades sospechosas y prevenir brechas de seguridad. Windows registra una amplia gama de eventos que proporcionan información crítica sobre el estado de los sistemas y las acciones de los usuarios, permitiendo a los analistas de seguridad detectar problemas potenciales a tiempo.
+El monitoreo de eventos en **Windows** es una de las prácticas esenciales en la administración de sistemas y la ciberseguridad. Los registros de eventos proporcionan información detallada sobre acciones en el sistema que, si se analizan correctamente, permiten detectar y mitigar amenazas en tiempo real.
 
-
-
-Esta guía está dirigida a analistas de seguridad y proporciona una descripción detallada de los eventos más importantes en Windows que deben ser monitoreados, junto con casos de uso y explicaciones sobre su relevancia para la seguridad.
-
-## Introducción: ¿Por qué es crucial el monitoreo de eventos en Windows?
-
-Windows registra una variedad de eventos que son fundamentales para la detección de intrusiones y el monitoreo de la seguridad. Estos eventos están almacenados en los registros del sistema, que contienen información detallada sobre sucesos relacionados con la autenticación, cambios en la configuración, acceso a archivos, y más. Al monitorear estos eventos, los administradores pueden identificar comportamientos anómalos que podrían indicar un ataque o un compromiso en el sistema.
-
-### ¿De dónde provienen los códigos de eventos en Windows?
-
-Los eventos generados por Windows provienen de diversos registros:
-
-- **Visor de eventos (Event Viewer)**: Herramienta principal para visualizar los eventos del sistema.
-- **Registro de seguridad (Security Log)**: Contiene eventos relacionados con la seguridad, como inicios de sesión, cambios de contraseñas, acceso no autorizado y más.
-- **Registros de aplicaciones y sistema**: Registran eventos generados por aplicaciones o servicios del sistema.
-- **Registros personalizados**: Permiten la creación de registros específicos para monitorear aplicaciones o eventos particulares.
+Esta guía está diseñada para analistas de seguridad y administradores de sistemas que buscan comprender los eventos clave de Windows, su relevancia en la seguridad, y cómo utilizarlos en la práctica.
 
 ---
 
-## 1. Monitoreo de Inicio de Sesión y Autenticación
+## 📝 **Introducción**
 
-El monitoreo de intentos de autenticación es fundamental para detectar accesos no autorizados, ataques de fuerza bruta, o comportamientos anómalos. Estos eventos son clave para identificar el acceso no autorizado o el compromiso de cuentas.
+### ¿Por qué es importante el monitoreo de eventos?
 
-### Eventos Clave:
-- **4624**: Inicio de sesión exitoso
-- **4625**: Intento de inicio de sesión fallido
-- **4740**: Bloqueo de cuenta
-- **4768/4770**: Uso de credenciales robadas (Kerberos)
+El sistema operativo Windows genera eventos constantemente que abarcan actividades de autenticación, cambios en la configuración del sistema, movimientos de archivos y más. **Analizar estos eventos ayuda a:**
+- Identificar intentos de acceso no autorizado.
+- Detectar actividades sospechosas o maliciosas.
+- Mantener registros de auditoría para investigaciones posteriores a un incidente.
+- Garantizar el cumplimiento normativo en materia de seguridad (GDPR, ISO 27001, etc.).
 
-### Tabla de Casos de Uso:
+### ¿Dónde se almacenan los eventos?
 
-| Caso de Uso                                             | Códigos de Evento                    | Descripción                                                                                                                                               | Relevancia para la Seguridad                                                                                  |
-|---------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Intentos de inicio de sesión fallidos                   | 4625                                 | Registra intentos de inicio de sesión que no fueron exitosos, incluyendo ataques de fuerza bruta.                                                         | Indica intentos de acceso no autorizado que podrían estar relacionados con un ataque de contraseña.           |
-| Bloqueos de cuenta                                      | 4740                                 | Registra cuando una cuenta es bloqueada después de múltiples intentos fallidos.                                                                            | Ayuda a identificar intentos de acceso repetidos que podrían estar relacionados con ataques de fuerza bruta.  |
-| Inicio de sesión exitoso fuera del horario comercial    | 4624                                 | Indica un inicio de sesión exitoso fuera de los horarios habituales de trabajo.                                                                            | Puede señalar un acceso no autorizado o actividad sospechosa fuera de los horarios normales.                  |
-| Creación de nuevos usuarios                             | 4720                                 | Este evento se genera cuando se crea un nuevo usuario en el sistema.                                                                                       | Un nuevo usuario podría ser creado por un atacante para obtener acceso persistente al sistema.                 |
-| Uso de cuenta privilegiada                              | 4672                                 | Indica el uso de cuentas con privilegios elevados, como administradores.                                                                                  | El acceso de cuentas privilegiadas es crítico, ya que los atacantes suelen buscar escalada de privilegios.    |
-| Cambios de contraseña                                   | 4723 (intento), 4724 (éxito)         | Registra cuando un intento de cambio de contraseña es realizado o cuando un cambio es exitoso.                                                             | El cambio de contraseña podría ser un intento de un atacante de tomar control de una cuenta comprometida.     |
-| Uso de credenciales robadas (Kerberos)                  | 4768, 4770                           | Los eventos indican el uso de credenciales robadas para autenticarse mediante el protocolo Kerberos.                                                       | Los atacantes pueden usar credenciales robadas para obtener acceso a recursos sin ser detectados.             |
-| Acceso no autorizado a credenciales                     | 4771, 4776                           | Indica intentos de acceder o utilizar credenciales de manera no autorizada.                                                                               | Este tipo de acceso puede ser indicativo de un intento de uso indebido de credenciales o explotación de vulnerabilidades. |
-| Enumeración excesiva de cuentas                         | 4625, 4776                           | Eventos relacionados con intentos masivos de acceso a cuentas, indicando posibles intentos de enumeración.                                                  | Los atacantes intentan encontrar cuentas válidas para luego atacarlas con contraseñas débiles o robadas.       |
+- **Visor de eventos (Event Viewer):** Herramienta principal para revisar eventos en Windows.
+- **Registros predefinidos:**
+  - **Aplicación**: Eventos generados por aplicaciones instaladas.
+  - **Seguridad**: Eventos relacionados con la autenticación y la gestión de recursos.
+  - **Sistema**: Eventos registrados por el sistema operativo.
+- **Registros personalizados:** Configuraciones adicionales para supervisar eventos específicos.
 
 ---
 
-## 2. Monitoreo de Cambios en la Configuración del Sistema
+## 🔍 **Eventos Clave para Monitorear en Windows**
 
-Los cambios no autorizados en la configuración del sistema o en las políticas de seguridad pueden comprometer la integridad de un entorno Windows. Monitorear estos eventos permite detectar configuraciones erróneas o maliciosas.
+### 1️⃣ **Inicio de Sesión y Autenticación**
 
-### Eventos Clave:
-- **4732**: Un grupo de seguridad ha sido modificado
-- **4719**: Cambio en la política de auditoría
-- **4739**: Cambio en la política de seguridad local
-- **4688**: Creación de un nuevo proceso
+El acceso al sistema es uno de los puntos más críticos a monitorear. Eventos relacionados con la autenticación ayudan a identificar ataques de fuerza bruta, acceso no autorizado o el compromiso de credenciales.
 
-### Tabla de Casos de Uso:
+#### **Eventos Importantes:**
+- **4624:** Inicio de sesión exitoso.
+- **4625:** Intento de inicio de sesión fallido.
+- **4740:** Bloqueo de cuenta.
+- **4768/4770:** Actividades relacionadas con credenciales Kerberos.
 
-| Caso de Uso                                             | Códigos de Evento                    | Descripción                                                                                                                                               | Relevancia para la Seguridad                                                                                  |
-|---------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Modificación en grupos de seguridad                     | 4732                                 | Se genera cuando se modifica un grupo de seguridad, como la adición o eliminación de usuarios de grupos privilegiados.                                    | Modificar grupos de seguridad puede ser un indicio de un atacante intentando escalar privilegios o ampliar su acceso. |
-| Cambio en la política de auditoría                       | 4719                                 | Se genera cuando hay un cambio en las configuraciones de auditoría de seguridad.                                                                          | Los atacantes pueden cambiar las políticas de auditoría para desactivar la recopilación de logs de eventos críticos. |
-| Modificación en las políticas de seguridad              | 4739                                 | Registra cambios en las políticas de seguridad del sistema.                                                                                             | Alterar las políticas de seguridad puede permitir que los atacantes eludan la detección o la protección del sistema. |
-| Creación de un nuevo proceso                            | 4688                                 | Registra la creación de un nuevo proceso dentro del sistema.                                                                                             | La creación de procesos inesperados o desconocidos es un indicativo de que un atacante podría haber comprometido el sistema. |
+#### **Ejemplo Práctico:**
+Detectar intentos masivos de inicio de sesión fallido (ataques de fuerza bruta):
+1. Revisa el evento **4625**.
+2. Busca patrones como múltiples intentos fallidos desde una misma IP.
+3. Correlaciona con eventos de bloqueo de cuentas (**4740**) para identificar posibles cuentas comprometidas.
 
 ---
 
-## 3. Monitoreo de Gestión de Cuentas
+### 2️⃣ **Cambios en la Configuración del Sistema**
 
-Los eventos de gestión de cuentas, como la eliminación de cuentas o la adición de usuarios a grupos privilegiados, son cruciales para detectar actividades maliciosas. Estos eventos pueden indicar que un atacante está intentando crear o modificar cuentas para mantener el acceso o escalar privilegios.
+Los atacantes suelen modificar configuraciones críticas para eludir controles de seguridad o establecer persistencia. Monitorear estos eventos es crucial para detectar configuraciones sospechosas.
 
-### Eventos Clave:
-- **4726**: Eliminación de un usuario
-- **4728**: Un usuario ha sido agregado a un grupo
-- **4729**: Un usuario ha sido removido de un grupo
-- **4738**: Cambio de nombre de un usuario
-- **4741**: Creación de un nuevo grupo de seguridad
+#### **Eventos Importantes:**
+- **4719:** Cambio en las políticas de auditoría.
+- **4739:** Modificaciones en las políticas de seguridad local.
+- **4688:** Creación de procesos.
+- **4670:** Cambios en permisos de archivos o directorios.
 
-### Tabla de Casos de Uso:
+#### **Caso de Uso Clave:**
+Si detectas un evento **4719**, revisa si las políticas de auditoría han sido debilitadas, como la desactivación del monitoreo de inicios de sesión o cambios en privilegios de usuarios.
 
-| Caso de Uso                                             | Códigos de Evento                    | Descripción                                                                                                                                               | Relevancia para la Seguridad                                                                                  |
-|---------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Eliminación de usuarios                                 | 4726                                 | Este evento se genera cuando un usuario es eliminado del sistema.                                                                                        | La eliminación de cuentas es una táctica comúnmente utilizada por los atacantes para cubrir su rastro o impedir la detección. |
-| Adición de un usuario a un grupo de seguridad           | 4728                                 | Registra cuando un usuario es agregado a un grupo de seguridad, lo cual podría concederle permisos elevados.                                               | La adición de un usuario a un grupo privilegiado podría ser un intento de escalada de privilegios.             |
-| Remoción de un usuario de un grupo de seguridad         | 4729                                 | Se genera cuando un usuario es removido de un grupo de seguridad.                                                                                        | Los atacantes pueden intentar remover cuentas o modificar su pertenencia a grupos para obtener acceso a otros recursos. |
-| Cambio de nombre de usuario                              | 4738                                 | Registra cuando se cambia el nombre de un usuario.                                                                                                        | Cambiar el nombre de un usuario puede ser un intento de ocultar actividades o manipular registros de auditoría.  |
-| Creación de un nuevo grupo de seguridad                 | 4741                                 | Indica que un nuevo grupo de seguridad ha sido creado en el sistema.                                                                                      | La creación de nuevos grupos puede ser un indicio de un atacante buscando organizar privilegios o estructurar su acceso. |
+---
 
-### Importancia del Monitoreo de Gestión de Cuentas
+### 3️⃣ **Gestión de Cuentas de Usuario**
 
-La gestión de cuentas de usuario es un área crítica en la seguridad de un sistema. Los atacantes pueden intentar crear, modificar o eliminar cuentas para garantizar el acceso persistente o aumentar sus privilegios. Monitorear estos eventos ayuda a identificar intentos de abuso de cuentas o accesos no autorizados.
+Los eventos relacionados con la creación, modificación o eliminación de cuentas pueden ser indicativos de actividad maliciosa, como la creación de cuentas backdoor.
 
---- 
+#### **Eventos Importantes:**
+- **4720:** Creación de una nueva cuenta de usuario.
+- **4726:** Eliminación de una cuenta.
+- **4728:** Adición de un usuario a un grupo de seguridad.
+- **4738:** Modificación de una cuenta.
 
+#### **Ejemplo Práctico:**
+Si detectas la creación de una cuenta nueva (**4720**) y la adición inmediata de esta cuenta a un grupo privilegiado (**4728**), esto podría indicar un intento de escalada de privilegios.
 
+---
+
+### 4️⃣ **Actividad en Procesos y Aplicaciones**
+
+Los atacantes pueden ejecutar scripts o aplicaciones maliciosas para comprometer el sistema. El monitoreo de la creación de procesos y eventos relacionados ayuda a detectar actividades sospechosas.
+
+#### **Eventos Importantes:**
+- **4688:** Creación de un nuevo proceso.
+- **7045:** Instalación de un nuevo servicio.
+- **4697:** Adición de un servicio al sistema.
+
+#### **Caso de Uso Clave:**
+Un evento **4688** que muestra la ejecución de un proceso inusual (como `powershell.exe` ejecutando scripts sospechosos) puede ser un indicador de un ataque basado en scripts.
+
+---
+
+## ⚙️ **Herramientas para el Monitoreo y Análisis de Eventos**
+
+| **Herramienta**           | **Descripción**                                                                                     | **Enlace**                                   |
+|---------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------|
+| **Event Viewer**           | Herramienta nativa de Windows para visualizar registros de eventos.                              | Integrado en Windows                        |
+| **Sysmon**                 | Genera eventos detallados de procesos, redes y archivos.                                         | [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) |
+| **Splunk**                 | Plataforma para analizar y correlacionar registros de eventos.                                   | [Splunk](https://www.splunk.com/)           |
+| **Graylog**                | Solución de gestión de logs centralizada y open-source.                                          | [Graylog](https://www.graylog.org/)         |
+| **Wazuh**                  | Herramienta de seguridad integral que incluye análisis de eventos de Windows.                    | [Wazuh](https://wazuh.com/)                 |
+
+---
+
+## 📊 **Escenarios de Detección: Casos de Uso Detallados**
+
+| **Escenario**                                    | **Evento Clave**                  | **Acción Recomendada**                                                                                   |
+|--------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------------------------------|
+| Intentos de fuerza bruta detectados              | 4625                              | Revisar IP de origen; bloquear la IP y analizar intentos fallidos relacionados.                        |
+| Creación de cuentas sospechosas                  | 4720                              | Identificar quién creó la cuenta; validar si la acción fue legítima.                                   |
+| Ejecución de procesos no autorizados             | 4688                              | Correlacionar con hashes de malware conocidos usando **VirusTotal** o sistemas de detección de amenazas. |
+| Modificaciones en políticas de auditoría         | 4719                              | Restaurar configuraciones previas y revisar cuentas que realizaron el cambio.                         |
+| Instalación de servicios sospechosos             | 7045                              | Validar el servicio; detenerlo inmediatamente si no es legítimo.                                       |
+
+---
+
+## 🔒 **Buenas Prácticas de Monitoreo**
+
+1. **Establece alertas automatizadas:**
+   Usa herramientas como **Wazuh** o **SIEM** para generar alertas en tiempo real ante eventos críticos.
+   
+2. **Revisa eventos correlacionados:**
+   Analiza conjuntos de eventos relacionados para detectar patrones complejos.
+
+3. **Mantén los registros centralizados:**
+   Utiliza soluciones como **Graylog** o **ELK** para consolidar y analizar registros desde múltiples sistemas.
+
+4. **Configura políticas de retención adecuadas:**
+   Guarda los registros durante el tiempo necesario para auditorías o investigaciones posteriores.
+
+5. **Automatiza respuestas:**
+   Integra scripts o sistemas SOAR para mitigar amenazas automáticamente tras ciertos eventos.
+
+---
+
+## 📂 **Recursos Adicionales**
+
+- [Sysmon Configuration Guide](https://github.com/SwiftOnSecurity/sysmon-config): Plantilla optimizada para configuraciones de Sysmon.
+- [Microsoft Event IDs Reference](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4672): Documentación oficial de eventos clave.
+- [Wazuh SIEM Tutorial](https://documentation.wazuh.com/current/): Guía para implementar Wazuh en tu infraestructura.
+
+---
+
+¡Esta guía te ayudará a estar mejor preparado para identificar y responder a amenazas en entornos Windows! 🚀
