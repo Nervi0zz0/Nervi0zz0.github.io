@@ -85,9 +85,9 @@ Para facilitar el análisis, aquí tienes una lista de herramientas útiles. Est
 | **ThePhish**              | Herramienta open-source para automatizar el análisis de correos phishing.                       |
 | **Mimecast Email Security** | Utiliza inteligencia artificial para filtrar correos maliciosos y proteger contra amenazas sofisticadas. |
 
-![Imagen de Herramientas de Análisis](https://YOUR_IMAGE_LINK_HERE)
+![Imagen de Herramientas de Análisis](/assets/img/phis.jpeg)
 
-> **Descarga la imagen**: [Herramientas de Análisis](https://YOUR_IMAGE_LINK_HERE)
+> **Descarga la imagen**: [Herramientas de Análisis](/assets/img/phis.jpeg)
 
 ---
 
