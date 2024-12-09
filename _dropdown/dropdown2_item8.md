@@ -3,7 +3,7 @@ layout: page
 title: Métodos de Solicitud HTTP - Explicación Completa
 description: Una guía sobre los principales métodos de solicitud HTTP, su propósito y cuándo utilizarlos.
 dropdown: Notas de un Cojo
-priority: 5
+priority: 4
 ---
 
 # Métodos de Solicitud HTTP
