@@ -14,7 +14,7 @@ permalink: /
 ## ¿Quién soy?  
 {: .fs-6 .fw-300 }
 
-![Soy el que no lleva gorro... Obvio.](/assets/img/1656626158416.jpg){: .rounded .shadow-lg .mt-4 .mb-6 .d-block .mx-auto }
+![Soy el que no lleva gorro... Obvio.](/assets/images/txemita.jpg){: .rounded .shadow-lg .mt-4 .mb-6 .d-block .mx-auto }
 
 Soy esa persona que vive rodeada de alertas y logs en un **CSOC** (Centro de Operaciones de Seguridad).  
 Básicamente, paso mi tiempo en actividades como:  
