@@ -5,7 +5,7 @@ nav_order: 3
 
 # 🛡️ **Plataformas de Formación en Ciberseguridad: Mejora tus Habilidades**
 
-La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los que se conforman solo con leer documentos o guías interminables. Me gusta **toquetear**, experimentar y poner en práctica todo lo que aprendo. Es por eso que estas plataformas se han convertido en mis aliadas favoritas. Ofrecen un enfoque interactivo que te permite aprender a defender sistemas como si estuvieras en un escenario real, pero sin riesgo de comprometer nada… o casi nada. 😅
+La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los que se conforman solo con leer documentos o guías interminables. Me gusta experimentar, tocar y poner en práctica todo lo que aprendo. Es por eso que estas plataformas se han convertido en mis aliadas favoritas. Ofrecen un enfoque interactivo que te permite aprender a defender sistemas como si estuvieras en un escenario real, pero sin riesgo de comprometer nada… o casi nada. 😅
 
 ---
 
