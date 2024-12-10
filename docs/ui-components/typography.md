@@ -1,6 +1,6 @@
 ---
 title: Typography
-parent: UI Components
+parent: BlueTeamsLabs
 nav_order: 1
 ---
 
