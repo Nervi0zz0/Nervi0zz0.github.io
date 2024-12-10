@@ -5,15 +5,8 @@ nav_order: 1
 description: "El blog que nadie pidió, pero todos necesitan (o no)."
 permalink: /
 ---
----
-title: ¿Quién soy?
-layout: home
-nav_order: 1
-description: "El blog que nadie pidió, pero todos necesitan (o no)."
-permalink: /
----
 
-# 👾 Hola, soy Miguel aka Nervi0zz0, que suena más épico
+# 👾 Hola, soy Miguel, aka Nervi0zz0, que suena más épico
 {: .fs-8 .fw-bold .text-center }
 
 ---
@@ -31,12 +24,9 @@ Básicamente, paso mi tiempo en actividades como:
 - **⚖️ Evaluar alertas (TP o FP)**, sobreviviendo con macarrones recalentados, café frío y un toque de caos.  
 
 En mi tiempo libre, me divierto resolviendo **CTFs** (desafíos de hacking ético) y explorando plataformas como:  
-[**TryHackMe**](https://tryhackme.com), [**LetsDefend**](https://letsdefend.io) y [**Blue Team Labs**](https://blueteamlabs.online).  
-
-<div class="btn-container text-center mt-4">
-  <a href="https://tryhackme.com" class="btn btn-primary mr-2">Explorar TryHackMe</a>
-  <a href="https://letsdefend.io" class="btn btn-secondary">Explorar LetsDefend</a>
-</div>
+- [**TryHackMe**](https://tryhackme.com)  
+- [**LetsDefend**](https://letsdefend.io)  
+- [**Blue Team Labs**](https://blueteamlabs.online)  
 
 ---
 
@@ -48,7 +38,7 @@ Sí, ser un cojo tiene sus ventajas: de repente pasas de correr a reflexionar so
 
 Cuando la vida te lanza limones… bueno, a veces te golpea tan fuerte que terminas haciendo cosas como esta.  
 
-**Bienvenidos a mi espacio: *Diario de un Cojo*.**  
+### **Bienvenidos a mi espacio: *Diario de un Cojo*.**  
 {: .fs-7 .fw-bold .text-center .my-4 }
 
 ---
@@ -66,11 +56,6 @@ Este es un rincón donde comparto:
 - 📚 **Rutas de estudio** para que al menos parezcas productivo, incluso si no lo eres.  
 - 🤷 **Noticias irrelevantes** sobre mí que probablemente no necesitas saber.  
 
-<div class="btn-container text-center mt-4">
-  <a href="#quién-soy" class="btn btn-info mr-2">Más sobre mí</a>
-  <a href="#qué-encontrarás-aquí" class="btn btn-warning">Saltar a contenido</a>
-</div>
-
 ---
 
 ## Disfruta tu estancia  
@@ -82,10 +67,6 @@ Por si te preguntas más sobre mí:
 esto no es Tinder ni Grindr, pero aquí no se discrimina a nadie.  
 
 Si decides quedarte, **¡bienvenido!** 😎  
-
-<div class="btn-container text-center mt-4">
-  <a href="#inicio" class="btn btn-success">Volver al inicio</a>
-</div>
 
 ---
 
