@@ -2,98 +2,69 @@
 title: Home
 layout: home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "El blog que nadie pidió, pero todos necesitan (o no)."
 permalink: /
 ---
 
-# Focus on writing good documentation
-{: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
-{: .fs-6 .fw-300 }
-
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
+# 👾 Hola, soy Miguel (alias Nervi0zz0), que suena más épico
 
 ---
 
-{: .warning }
-> This website documents the features of the current `main` branch of the Just the Docs theme. See [the CHANGELOG]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
+## ¿Quién soy?  
+{: .fs-6 .fw-300 }
 
-Just the Docs is a theme for generating static websites with [Jekyll]. You can write source files for your web pages using [Markdown], the [Liquid] templating language, and HTML.[^1] Jekyll builds your site by converting all files that have [front matter] to HTML. Your [Jekyll configuration] file determines which theme to use, and sets general parameters for your site, such as the URL of its home page.
+![Soy el que no lleva gorro... Obvio.](/assets/img/1656626158416.jpg){: .rounded .shadow .mt-4 .mb-6 }
 
-Jekyll builds this Just the Docs theme docs website using the theme itself. These web pages show how your web pages will look *by default* when you use this theme. But you can easily *[customize]* the theme to make them look completely different!
+Soy esa persona que vive rodeada de alertas y logs en un CSOC (Centro de Operaciones de Seguridad). Básicamente, paso mi tiempo:  
+- **Detectando amenazas** mientras finjo entender todos los logs (spoiler: no siempre los entiendo).  
+- **Peleando con usuarios**, que el 99% de las veces no saben qué hacen, y cuando finalmente saben algo, responden con un: *"He sido yo"*.  
+- **Decidiendo si una alerta es TP (True Positive) o FP (False Positive)**, mientras sobrevivo a base de macarrones recalentados, café frío y un toque de caos. 🔥  
 
-Browse the docs to learn more about how to use this theme.
+Cuando no estoy en eso, me divierto resolviendo CTFs (desafíos de hacking ético) como si no hubiera mañana, explorando plataformas como **TryHackMe, LetsDefend y Blue Team Labs**.  
 
-## Getting started
+---
 
-The [Just the Docs Template] provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click "[use the template]"!
+## ¿Por qué estoy haciendo esto?  
+{: .fs-6 .fw-300 }
 
-{: .note }
-To use the theme, you do ***not*** need to clone or fork the [Just the Docs repo]! You should do that only if you intend to browse the theme docs locally, contribute to the development of the theme, or develop a new theme based on Just the Docs.
+Buena pregunta. Quizá porque tengo una pierna jodida y ahora me sobra el tiempo. Ya sabes, ser un cojo tiene sus ventajas:  
+de repente pasas de correr por la vida a tener todo el tiempo del mundo para reflexionar sobre el sentido de la existencia.  
 
-You can easily set the site created by the template to be published on [GitHub Pages] – the [template README] file explains how to do that, along with other details.
+**O para hacer cosas como esta**, que es básicamente lo mismo.  
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^2] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Cuando la vida te da limones… bueno, a veces te los lanza tan fuerte que terminas en el sofá buscando maneras creativas de no volverte loco.  
+Esto es una de esas maneras.  
 
-More specifically, the created site:
+### Bienvenidos a *Diario de un Cojo*.  
+{: .fs-7 .fw-700 .text-center}
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+---
 
-Other than that, you're free to customize sites that you create with the template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## ¿Qué encontrarás aquí?  
+{: .fs-6 .fw-300 }
 
-{: .note }
-See the theme [README][Just the Docs README] for how to use the theme as a gem without creating a new site.
+¿Esperabas algo inspirador o motivador?  
+Pues siento decepcionarte.  
 
-## About the project
+Este es un rincón donde comparto:  
+- 🧠 Mis pensamientos, aunque nadie los haya pedido.  
+- 💻 Lo que hago en mi trabajo (porque alguien tiene que contarlo).  
+- 📚 Rutas de estudio que te harán parecer productivo, aunque no lo seas.  
+- 🤷 Noticias irrelevantes sobre mí que no pediste saber, pero igual te las cuento.  
 
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](https://patrickmarsceill.com).
+---
 
-### License
+## Disfruta tu estancia  
+{: .fs-6 .fw-300 }
 
-Just the Docs is distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt).
+Y si no… al menos ya perdí más tiempo escribiendo esto que tú leyéndolo.  
 
-### Contributing
+Ah, y por si te preguntas más sobre mí:  
+esto no es Tinder ni Grindr. Aquí no se discrimina a nadie.  
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/just-the-docs/just-the-docs#contributing).
+Pero si decides quedarte, **bienvenido**. 😎  
 
-#### Thank you to the contributors of Just the Docs!
+---
 
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"></a>
-  </li>
-{% endfor %}
-</ul>
-
-### Code of Conduct
-
-Just the Docs is committed to fostering a welcoming community.
-
-[View our Code of Conduct](https://github.com/just-the-docs/just-the-docs/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository.
-
-----
-
-[^1]: The [source file for this page] uses all three markup languages.
-
-[^2]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Markdown]: https://daringfireball.net/projects/markdown/
-[Liquid]: https://github.com/Shopify/liquid/wiki
-[Front matter]: https://jekyllrb.com/docs/front-matter/
-[Jekyll configuration]: https://jekyllrb.com/docs/configuration/
-[source file for this page]: https://github.com/just-the-docs/just-the-docs/blob/main/index.md
-[Just the Docs Template]: https://just-the-docs.github.io/just-the-docs-template/
-[Just the Docs]: https://just-the-docs.com
-[Just the Docs repo]: https://github.com/just-the-docs/just-the-docs
-[Just the Docs README]: https://github.com/just-the-docs/just-the-docs/blob/main/README.md
-[GitHub Pages]: https://pages.github.com/
-[Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[customize]: {% link docs/customization.md %}
-[use the template]: https://github.com/just-the-docs/just-the-docs-template/generate
+![corazones](assets/img/14Vb.gif){: .d-block .mx-auto .mt-6 .rounded }
