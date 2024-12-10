@@ -1,113 +1,58 @@
 ---
-title: Typography
-parent: BlueTeamsLabs
+title: BlueTeamsLabs
+parent: Herramientas de Formación
 nav_order: 1
 ---
 
-# Typography
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
+# 🛡️ **¿Qué es Blue Team Labs y Security Blue Team eLearning?**
 
 ---
 
-## Font stack
+## **Blue Team Labs Online** 🖥️
 
-By default, Just the Docs uses a native system font stack for sans-serif fonts:
+[**Blue Team Labs Online**](https://blueteamlabs.online/) es una plataforma interactiva que te permite enfrentarte a desafíos de ciberseguridad en tiempo real, desarrollando habilidades prácticas para la detección y respuesta a incidentes.  
 
-```scss
-system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Segoe UI Emoji"
-```
+### **Características principales**  
+🔹 **Análisis de Logs**: Identifica patrones sospechosos y correlaciona eventos para detectar posibles incidentes de seguridad.  
+🔹 **Análisis de Phishing**: Detecta intentos de fraude cibernético mediante correos electrónicos maliciosos y engaños digitales.  
+🔹 **Forense Digital**: Realiza investigaciones en discos duros y memoria RAM para encontrar evidencia oculta.  
+🔹 **Gestión de SIEM**: Aprende a administrar sistemas de gestión de eventos y alertas de seguridad.  
+🔹 **Respuesta a Incidentes**: Participa en simulacros prácticos para mejorar tu reacción ante ciberataques.  
 
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-{: .fs-5 .ls-10 .code-example }
+Cada desafío representa una oportunidad para afianzar tus habilidades y obtener certificados que validan tu experiencia como profesional de ciberseguridad.  
 
-For monospace type, like code snippets or the `<pre>` element, Just the Docs uses a native system font stack for monospace fonts:
-
-```scss
-"SFMono-Regular", Menlo, Consolas, Monospace
-```
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-{: .fs-5 .ls-10 .text-mono .code-example }
+![bt](../assets/img/bluet.jpg)
 
 ---
 
-## Responsive type scale
+## **Security Blue Team eLearning** 🎓
 
-Just the Docs uses a responsive type scale that shifts depending on the viewport size.
+[**Security Blue Team eLearning**](https://elearning.securityblue.team/home) ofrece un enfoque estructurado para el aprendizaje de habilidades defensivas en ciberseguridad, ideal para quienes buscan una formación exhaustiva y certificaciones reconocidas.  
 
-| Selector              | Small screen size `font-size`    | Large screen size `font-size` |
-|:----------------------|:---------------------------------|:------------------------------|
-| `h1`, `.text-alpha`   | 32px                             | 36px                          |
-| `h2`, `.text-beta`    | 18px                             | 24px                          |
-| `h3`, `.text-gamma`   | 16px                             | 18px                          |
-| `h4`, `.text-delta`   | 14px                             | 16px                          |
-| `h5`, `.text-epsilon` | 16px                             | 18px                          |
-| `h6`, `.text-zeta`    | 18px                             | 24px                          |
-| `body`                | 14px                             | 16px                          |
+### **Lo que encontrarás**  
+✅ **Cursos de Certificación**: Materiales diseñados para preparar exámenes como el BTL-1, con ejercicios prácticos que aseguran tu éxito.  
+✅ **Entrenamiento en Respuesta a Incidentes**: Escenarios reales para practicar la gestión de crisis.  
+✅ **Análisis Forense**: Aprende a reconstruir incidentes investigando datos digitales.  
+✅ **Gestión de SIEM**: Adquiere experiencia práctica en la administración de grandes volúmenes de datos y alertas de seguridad.  
+✅ **Threat Hunting**: Desarrolla técnicas avanzadas para identificar amenazas ocultas y prevenir incidentes.  
 
----
-
-## Headings
-
-Headings are rendered like this:
-
-<div class="code-example">
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-</div>
-```markdown
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-```
+![Deee](/assets/img/miperfilbtl.png)
 
 ---
 
-## Body text
+## **Mi Perfil en Blue Team Labs**  
 
-Default body text is rendered like this:
+### 🔗 [Ver mi perfil en Blue Team Labs Online](https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f)
 
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</div>
-```markdown
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-```
+En mi perfil de **Blue Team Labs Online**, enfrento desafíos que ponen a prueba mi capacidad analítica y mis habilidades técnicas. Aunque algunos retos son complejos, cada solución refuerza mi confianza y mi conocimiento en ciberseguridad.  
+
+![Deee](/assets/img/miperfilbtl.png)
 
 ---
 
-## Inline elements
+Explora estas plataformas y potencia tus habilidades en ciberseguridad mientras disfrutas de un enfoque práctico y motivador.  
 
-<div class="code-example" markdown="1">
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+--- 
 
-[Link to another page]({{site.baseurl}}/).
-</div>
-```markdown
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Espero que este formato optimizado sea más atractivo y profesional. Si necesitas algún ajuste adicional, ¡solo dímelo! 😊
 
-[Link to another page]({{site.baseurl}}/).
-```
-
----
-
-## Typographic Utilities
-
-There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization.
-
-[View typography utilities]({% link docs/utilities/typography.md %}){: .btn .btn-outline }

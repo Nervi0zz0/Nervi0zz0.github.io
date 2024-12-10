@@ -1,5 +1,5 @@
 ---
-title: BlueTeamsLabs
+title: Herramientas de Formación
 nav_order: 3
 ---
 
