@@ -3,57 +3,60 @@ title: Herramientas de Formación
 nav_order: 3
 ---
 
-# 🛡️ **¿Qué es Blue Team Labs y Security Blue Team eLearning?**
+
+# 🛡️ **Plataformas de Formación en Ciberseguridad: Mejora tus Habilidades**
 
 ---
 
-## **Blue Team Labs Online** 🖥️
+## **1. Let'sDefend** 🖥️
 
-[**Blue Team Labs Online**](https://blueteamlabs.online/) es una plataforma interactiva que te permite enfrentarte a desafíos de ciberseguridad en tiempo real, desarrollando habilidades prácticas para la detección y respuesta a incidentes.
+[**Let'sDefend**](https://letsdefend.io/) es una plataforma excelente para aquellos que buscan practicar y mejorar sus habilidades en ciberseguridad de una manera interactiva. En lugar de leer interminables documentos sobre seguridad, puedes enfrentarte a simulaciones prácticas que te permitirán aplicar tus conocimientos en escenarios del mundo real.
 
-### **Características principales**
+### **Lo Mejor de Let'sDefend**
+- 🔐 **Simulaciones Realistas**: Desarrolla tus habilidades de defensa cibernética enfrentándote a situaciones que realmente podrías encontrar en el trabajo.
+- 💻 **Desafíos del Mundo Real**: Aprende a gestionar incidentes de seguridad como lo harías en un entorno profesional, con simulaciones que cubren diversas áreas de la ciberseguridad.
+- 🎓 **Certificación**: Al completar los módulos, obtienes una certificación que valida tu experiencia y conocimientos en ciberseguridad.
 
-🔹 **Análisis de Logs**: Identifica patrones sospechosos y correlaciona eventos para detectar posibles incidentes de seguridad.  
-🔹 **Análisis de Phishing**: Detecta intentos de fraude cibernético mediante correos electrónicos maliciosos y engaños digitales.  
-🔹 **Forense Digital**: Realiza investigaciones en discos duros y memoria RAM para encontrar evidencia oculta.  
-🔹 **Gestión de SIEM**: Aprende a administrar sistemas de gestión de eventos y alertas de seguridad.  
-🔹 **Respuesta a Incidentes**: Participa en simulacros prácticos para mejorar tu reacción ante ciberataques.
+[**Explorar Let'sDefend**](https://letsdefend.io/) {: .btn .btn-purple}
 
-Cada desafío representa una oportunidad para afianzar tus habilidades y obtener **certificados** que validan tu experiencia como profesional de ciberseguridad.
-
-![bt](../assets/img/bluet.jpg)
+![Let'sDefend](../assets/img/letsdefend.png)
 
 ---
 
-## **Security Blue Team eLearning** 🎓
+## **2. Blue Team Labs Online** 🛡️
 
-[**Security Blue Team eLearning**](https://elearning.securityblue.team/home) ofrece un enfoque estructurado para el aprendizaje de habilidades defensivas en ciberseguridad, ideal para quienes buscan una formación exhaustiva y certificaciones reconocidas.
+[**Blue Team Labs Online**](https://blueteamlabs.online/) ofrece un enfoque práctico y desafiante para mejorar tus habilidades en ciberseguridad. A través de una serie de ejercicios y escenarios, puedes aprender a defender sistemas y redes de manera efectiva, aplicando lo aprendido en situaciones que simulan incidentes reales.
 
-### **Lo que encontrarás**
+### **Lo Mejor de Blue Team Labs**
+- 🔍 **Desafíos Forenses**: Pon a prueba tus habilidades para realizar investigaciones digitales y aprender a encontrar pruebas en situaciones complejas.
+- ⚡ **Escenarios de Respuesta a Incidentes**: Participa en simulacros diseñados para ayudarte a mejorar tu capacidad para gestionar y responder a incidentes de ciberseguridad.
+- 🏆 **Certificación**: Obtén una certificación que valida tus conocimientos y habilidades en la protección de sistemas y redes.
 
-✅ **Cursos de Certificación**: Materiales diseñados para preparar exámenes como el **BTL-1**, con ejercicios prácticos que aseguran tu éxito.  
-✅ **Entrenamiento en Respuesta a Incidentes**: Escenarios reales para practicar la gestión de crisis.  
-✅ **Análisis Forense**: Aprende a reconstruir incidentes investigando datos digitales.  
-✅ **Gestión de SIEM**: Adquiere experiencia práctica en la administración de grandes volúmenes de datos y alertas de seguridad.  
-✅ **Threat Hunting**: Desarrolla técnicas avanzadas para identificar amenazas ocultas y prevenir incidentes.
+[**Explorar Blue Team Labs Online**](https://blueteamlabs.online/) {: .btn .btn-blue}
 
-![Deee](/assets/img/miperfilbtl.png)
-
----
-
-## **Mi Perfil en Blue Team Labs**  
-
-🔗 [**Ver mi perfil en Blue Team Labs Online**](https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f)
-
-En mi perfil de **Blue Team Labs Online**, enfrento desafíos que ponen a prueba mi capacidad analítica y mis habilidades técnicas. Aunque algunos retos son complejos, cada solución refuerza mi confianza y mi conocimiento en ciberseguridad.
-
-![Deee](/assets/img/miperfilbtl.png)
+![BlueTeamLabs](../assets/img/bluet.jpg)
 
 ---
 
-## **Explora las plataformas y potencia tus habilidades en ciberseguridad**
+## **3. TryHackMe** 👾
 
-Disfruta de un enfoque práctico y motivador mientras sigues desarrollando tus competencias para proteger el mundo digital.
+[**TryHackMe**](https://tryhackme.com/) es una plataforma interactiva que te ofrece una experiencia de aprendizaje práctica y divertida en el campo de la ciberseguridad. Desde iniciarte en el mundo del hacking ético hasta adentrarte en técnicas avanzadas, TryHackMe ofrece una variedad de laboratorios que te ayudarán a desarrollar habilidades cruciales.
+
+### **Lo Mejor de TryHackMe**
+- 💻 **Labs Interactivos**: Trabaja en entornos virtuales diseñados para simular ataques reales y aprende cómo defenderte de ellos.
+- 🔓 **Ciberseguridad desde lo Básico hasta lo Avanzado**: Empieza desde los fundamentos y avanza hacia técnicas más complejas, con una curva de aprendizaje gradual.
+- 🏅 **Badges y Certificados**: Completa los laboratorios y consigue badges para mostrar tus logros en ciberseguridad. 
+
+[**Explorar TryHackMe**](https://tryhackme.com/) {: .btn .btn-green}
+
+![TryHackMe](../assets/img/tryhackme.jpg)
 
 ---
 
+## **En Resumen: Mejora tus Habilidades en Ciberseguridad**
+
+Ya sea que elijas **Let'sDefend**, **Blue Team Labs Online** o **TryHackMe**, todas estas plataformas ofrecen una excelente oportunidad para mejorar tus habilidades en ciberseguridad. Cada una tiene su propio enfoque único, lo que te permitirá practicar y aprender en escenarios que simulan incidentes reales, brindándote la experiencia práctica que necesitas.
+
+Si estás buscando obtener una certificación, desarrollar tus habilidades en un entorno seguro o simplemente mejorar tus capacidades de respuesta ante incidentes, estas plataformas son un excelente punto de partida. ¡Explora y sigue aprendiendo para proteger mejor los sistemas y redes en el mundo digital!
+
+---
