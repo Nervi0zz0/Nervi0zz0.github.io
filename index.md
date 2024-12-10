@@ -1,5 +1,5 @@
 ---
-title: Home
+title: ¿Quién soy?
 layout: home
 nav_order: 1
 description: "El blog que nadie pidió, pero todos necesitan (o no)."

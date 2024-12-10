@@ -1,6 +1,6 @@
 ---
-title: Blue Team Labs
-parent: Herramientas de Formación
+title: BTL
+parent: Plataformas de Formación
 nav_order: 1
 ---
 

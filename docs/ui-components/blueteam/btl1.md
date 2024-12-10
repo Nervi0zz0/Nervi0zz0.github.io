@@ -1,5 +1,5 @@
 ---
-title: Guía para Preparar el Examen BTL-1
+title: Examen BTL-1
 parent: Blue Team Labs
 nav_order: 1
 ---
