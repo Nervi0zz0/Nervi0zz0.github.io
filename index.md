@@ -72,4 +72,4 @@ Si decides quedarte, **¡bienvenido!** 😎
 
 ---
 
-![corazones](assets/img/14Vb.gif){: .d-block .mx-auto .mt-6 .rounded-lg }
+![corazones](/assets/images/gif/14Vb.gif){: .d-block .mx-auto .mt-6 .rounded-lg }
