@@ -1,6 +1,6 @@
 ---
 title: Examen BTL-1
-parent: Blue Team Labs
+parent: BTL
 nav_order: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: BTL
-parent: Plataformas de Formación
+parent: Porque defender también es arte
 nav_order: 1
 ---
 
