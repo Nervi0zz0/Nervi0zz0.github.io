@@ -1,8 +1,6 @@
----
-title: CMi CV
+title: Mi CV
 nav_order: 2
 ---
-
 
 ![CV](/assets/img/CV.jpg)
 
@@ -13,7 +11,7 @@ nav_order: 2
 ---
 
 ## **Perfil Profesional**  
-Analista de Ciberseguridad con experiencia especializada en la detección de amenazas y la respuesta estratégica en entornos SOC. Hábil en la correlación de eventos, análisis de patrones sospechosos y gestión de herramientas avanzadas de seguridad para proteger activos críticos empresariales.  
+Analista de Ciberseguridad con experiencia especializada en detección y análisis en entornos SOC. Experto en la correlación de eventos, análisis de patrones sospechosos y uso avanzado de herramientas de seguridad. Mi enfoque está orientado a la protección proactiva de los activos empresariales y la mejora continua de los procesos de detección y respuesta.  
 
 ---
 
@@ -41,11 +39,11 @@ Analista de Ciberseguridad con experiencia especializada en la detección de ame
 *Dic. 2022 – Presente | Madrid, España*  
 
 #### Logros y responsabilidades clave:  
-- **Supervisión de eventos de seguridad:** Monitorización proactiva de eventos y detección de patrones sospechosos mediante **Microsoft Sentinel** y **Google SOAR**.  
-- **Correlación avanzada:** Identificación de amenazas mediante análisis detallado de logs y uso de reglas personalizadas en plataformas SIEM.  
-- **Gestión de IOCs:** Evaluación e identificación de indicadores de compromiso, contribuyendo a políticas de mitigación efectivas.  
-- **Colaboración estratégica:** Interacción constante con equipos multidisciplinarios para la mejora continua de procesos de detección.  
-- **Documentación de hallazgos:** Creación de informes detallados y métricas clave sobre eventos críticos y actividades SOC.  
+- **Supervisión y análisis de seguridad:** Monitorización y análisis de eventos mediante **Microsoft Sentinel** y **Google SOAR** para la detección temprana de amenazas.  
+- **Correlación de eventos:** Creación y optimización de reglas personalizadas en SIEM para identificar patrones sospechosos.  
+- **Gestión de IOCs:** Investigación, clasificación y mitigación de indicadores de compromiso críticos para la protección empresarial.  
+- **Colaboración estratégica:** Trabajo conjunto con equipos multidisciplinarios para el fortalecimiento de la postura de seguridad.  
+- **Documentación y reporting:** Redacción de informes detallados sobre eventos críticos y recomendaciones de mejora.  
 
 ---
 
@@ -53,29 +51,35 @@ Analista de Ciberseguridad con experiencia especializada en la detección de ame
 
 | **Curso**                                                | **Institución**                           | **Año** |
 |----------------------------------------------------------|-------------------------------------------|---------|
-| **Experto en Ciberseguridad (300 horas)**                | Fundación GoodJob / Román Ramírez         | 2022    |
+| **Experto en Ciberseguridad (300 horas)**                | Fundación GoodJob / Román Ramírez (Fundador de RootedCON) | 2022    |
 | **Big Data y Análisis de Datos**                         | Inserta Empleo / Fundación ONCE           | 2022    |  
 
 ---
 
 ## **Habilidades Técnicas**  
 
-- **SIEM y SOAR:** Experiencia en plataformas como **Microsoft Sentinel**, **Google SOAR** y otras herramientas avanzadas.  
-- **Análisis de Logs:** Detección de anomalías mediante correlación y filtrado de eventos.  
-- **Gestión de IOCs:** Identificación y clasificación de amenazas para mejorar la seguridad organizacional.   
-- **Colaboración Operativa:** Conexión eficiente con equipos de TI y ciberseguridad.  
-- **Análisis de Phishing:** Investigación de campañas de phishing para prevenir incidentes.  
+- **SIEM y SOAR:** Uso avanzado de plataformas como **Microsoft Sentinel**, **Google SOAR** y otras herramientas líderes en el sector.  
+- **Análisis de Logs:** Identificación de anomalías y correlación de eventos para la detección de amenazas.  
+- **Gestión de IOCs:** Manejo de indicadores de compromiso y desarrollo de estrategias de mitigación.   
+- **Seguridad en la nube:** Conocimientos sólidos en servicios Azure y fundamentos de protección cloud.  
+- **Colaboración y comunicación:** Interacción efectiva con equipos de TI y ciberseguridad para optimizar procesos.  
+- **Investigación de phishing:** Análisis de correos y campañas para prevenir ataques dirigidos.  
 
 ---
 
 ## **Idiomas**  
 
 - **Español:** Nativo.  
-- **Inglés:** Nivel Intermedio (B2).  
+- **Inglés:** Nivel Intermedio .  
 
 ---
 
-## **Distinciones**  
-- Reconocido por la detección temprana de amenazas críticas en tiempo real. - Participación activa en simulaciones de ataque/defensa (CTFs), fortaleciendo capacidades técnicas y estratégicas.  
+## **Distinciones y Reconocimientos**  
+
+
+- Participación activa en simulaciones de ataque/defensa (CTFs), fortaleciendo habilidades técnicas y estratégicas en entornos competitivos.  
+- Formación impartida por **Román Ramírez**, una figura clave en el sector de la ciberseguridad y fundador de la conferencia **RootedCON**.  
 
 ---
+
+
