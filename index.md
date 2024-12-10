@@ -6,15 +6,17 @@ description: "El blog que nadie pidió, pero todos necesitan (o no)."
 permalink: /
 ---
 
-# 👾 Hola, soy Miguel, aka Nervi0zz0, que suena más épico
+# 👾 Hola, soy Miguel, aka Nervi0zz0, que suena más épico  
 {: .fs-8 .fw-bold .text-center }
 
 ---
 
-## ¿Quién soy?  
-{: .fs-6 .fw-300 }
+## **¿Quién soy?**  
+{: .fs-6 .fw-bold .text-center }
 
-![Soy el que no lleva gorro... Obvio.](/assets/images/txemita.jpg){: .rounded .shadow-lg .mt-4 .mb-6 .d-block .mx-auto }
+![Soy el que no lleva gorro... Obvio.](/assets/images/txemita.jpg){: .rounded .shadow-lg .mt-4 .mb-2 .d-block .mx-auto }
+
+<span class="fs-5 fw-300 text-center d-block">Soy el que no lleva gorro... Obvio.</span>  
 
 Soy esa persona que vive rodeada de alertas y logs en un **CSOC** (Centro de Operaciones de Seguridad).  
 Básicamente, paso mi tiempo en actividades como:  
