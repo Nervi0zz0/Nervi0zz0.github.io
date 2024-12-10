@@ -5,39 +5,51 @@ nav_order: 1
 description: "El blog que nadie pidió, pero todos necesitan (o no)."
 permalink: /
 ---
+---
+title: ¿Quién soy?
+layout: home
+nav_order: 1
+description: "El blog que nadie pidió, pero todos necesitan (o no)."
+permalink: /
+---
 
-
-# 👾 Hola, soy Miguel (alias Nervi0zz0), que suena más épico
+# 👾 Hola, soy Miguel aka Nervi0zz0, que suena más épico
+{: .fs-8 .fw-bold .text-center }
 
 ---
 
 ## ¿Quién soy?  
 {: .fs-6 .fw-300 }
 
-![Soy el que no lleva gorro... Obvio.](/assets/img/1656626158416.jpg){: .rounded .shadow .mt-4 .mb-6 }
+![Soy el que no lleva gorro... Obvio.](/assets/img/1656626158416.jpg){: .rounded .shadow-lg .mt-4 .mb-6 .d-block .mx-auto }
 
-Soy esa persona que vive rodeada de alertas y logs en un CSOC (Centro de Operaciones de Seguridad). Básicamente, paso mi tiempo:  
-- **Detectando amenazas** mientras finjo entender todos los logs (spoiler: no siempre los entiendo).  
-- **Peleando con usuarios**, que el 99% de las veces no saben qué hacen, y cuando finalmente saben algo, responden con un: *"He sido yo"*.  
-- **Decidiendo si una alerta es TP (True Positive) o FP (False Positive)**, mientras sobrevivo a base de macarrones recalentados, café frío y un toque de caos. 🔥  
+Soy esa persona que vive rodeada de alertas y logs en un **CSOC** (Centro de Operaciones de Seguridad).  
+Básicamente, paso mi tiempo en actividades como:  
 
-Cuando no estoy en eso, me divierto resolviendo CTFs (desafíos de hacking ético) como si no hubiera mañana, explorando plataformas como **TryHackMe, LetsDefend y Blue Team Labs**.  
+- **🔍 Detectar amenazas** mientras intento entender los logs (spoiler: no siempre lo logro).  
+- **🙄 Peleas amistosas con usuarios**, quienes frecuentemente no saben qué hacen. Cuando lo saben, su respuesta suele ser: *"He sido yo"*.  
+- **⚖️ Evaluar alertas (TP o FP)**, sobreviviendo con macarrones recalentados, café frío y un toque de caos.  
+
+En mi tiempo libre, me divierto resolviendo **CTFs** (desafíos de hacking ético) y explorando plataformas como:  
+[**TryHackMe**](https://tryhackme.com), [**LetsDefend**](https://letsdefend.io) y [**Blue Team Labs**](https://blueteamlabs.online).  
+
+<div class="btn-container text-center mt-4">
+  <a href="https://tryhackme.com" class="btn btn-primary mr-2">Explorar TryHackMe</a>
+  <a href="https://letsdefend.io" class="btn btn-secondary">Explorar LetsDefend</a>
+</div>
 
 ---
 
 ## ¿Por qué estoy haciendo esto?  
 {: .fs-6 .fw-300 }
 
-Buena pregunta. Quizá porque tengo una pierna jodida y ahora me sobra el tiempo. Ya sabes, ser un cojo tiene sus ventajas:  
-de repente pasas de correr por la vida a tener todo el tiempo del mundo para reflexionar sobre el sentido de la existencia.  
+Buena pregunta. Quizá porque ahora tengo **tiempo de sobra** debido a una lesión en la pierna.  
+Sí, ser un cojo tiene sus ventajas: de repente pasas de correr a reflexionar sobre el sentido de la existencia.  
 
-**O para hacer cosas como esta**, que es básicamente lo mismo.  
+Cuando la vida te lanza limones… bueno, a veces te golpea tan fuerte que terminas haciendo cosas como esta.  
 
-Cuando la vida te da limones… bueno, a veces te los lanza tan fuerte que terminas en el sofá buscando maneras creativas de no volverte loco.  
-Esto es una de esas maneras.  
-
-### Bienvenidos a *Diario de un Cojo*.  
-{: .fs-7 .fw-700 .text-center}
+**Bienvenidos a mi espacio: *Diario de un Cojo*.**  
+{: .fs-7 .fw-bold .text-center .my-4 }
 
 ---
 
@@ -45,26 +57,36 @@ Esto es una de esas maneras.
 {: .fs-6 .fw-300 }
 
 ¿Esperabas algo inspirador o motivador?  
-Pues siento decepcionarte.  
+Bueno… siento decepcionarte. 😅  
 
 Este es un rincón donde comparto:  
-- 🧠 Mis pensamientos, aunque nadie los haya pedido.  
-- 💻 Lo que hago en mi trabajo (porque alguien tiene que contarlo).  
-- 📚 Rutas de estudio que te harán parecer productivo, aunque no lo seas.  
-- 🤷 Noticias irrelevantes sobre mí que no pediste saber, pero igual te las cuento.  
+
+- 🧠 **Mis pensamientos** (aunque nadie los haya pedido).  
+- 💻 **Anécdotas y aprendizajes** de mi trabajo (porque alguien tiene que contarlas).  
+- 📚 **Rutas de estudio** para que al menos parezcas productivo, incluso si no lo eres.  
+- 🤷 **Noticias irrelevantes** sobre mí que probablemente no necesitas saber.  
+
+<div class="btn-container text-center mt-4">
+  <a href="#quién-soy" class="btn btn-info mr-2">Más sobre mí</a>
+  <a href="#qué-encontrarás-aquí" class="btn btn-warning">Saltar a contenido</a>
+</div>
 
 ---
 
 ## Disfruta tu estancia  
 {: .fs-6 .fw-300 }
 
-Y si no… al menos ya perdí más tiempo escribiendo esto que tú leyéndolo.  
+Y si no… al menos ya perdí más tiempo escribiendo esto que tú leyéndolo. 😉  
 
-Ah, y por si te preguntas más sobre mí:  
-esto no es Tinder ni Grindr. Aquí no se discrimina a nadie.  
+Por si te preguntas más sobre mí:  
+esto no es Tinder ni Grindr, pero aquí no se discrimina a nadie.  
 
-Pero si decides quedarte, **bienvenido**. 😎  
+Si decides quedarte, **¡bienvenido!** 😎  
+
+<div class="btn-container text-center mt-4">
+  <a href="#inicio" class="btn btn-success">Volver al inicio</a>
+</div>
 
 ---
 
-![corazones](assets/img/14Vb.gif){: .d-block .mx-auto .mt-6 .rounded }
+![corazones](assets/img/14Vb.gif){: .d-block .mx-auto .mt-6 .rounded-lg }
