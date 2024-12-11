@@ -21,6 +21,8 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 
 [**Explorar Let'sDefend**](https://letsdefend.io/) {: .btn .btn-purple}
 
+[**Mi perfil en Let'sDefend**](https://app.letsdefend.io/user/nervi0zz0) {: .btn .btn-orange}
+
 ![Let'sDefend](../assets/img/letsdefend.png)
 
 ---
@@ -37,6 +39,8 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 
 [**Explorar Blue Team Labs Online**](https://blueteamlabs.online/) {: .btn .btn-blue}
 
+[**Mi perfil en Blue Team Labs**](https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f) {: .btn .btn-orange}
+
 ![BlueTeamLabs](../assets/img/bluet.jpg)
 
 ---
@@ -52,6 +56,11 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 - 🏅 **Badges y Certificados**: Gana badges a medida que completas los retos y demuestra tus logros en ciberseguridad.
 
 [**Explorar TryHackMe**](https://tryhackme.com/) {: .btn .btn-green}
+
+[**Mi perfil en TryHackMe**](https://tryhackme.com/r/p/nervi) {: .btn .btn-orange}
+
+### **Mi badge de TryHackMe**
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1489256" style='border:none;'></iframe>
 
 ![TryHackMe](../assets/img/tryhackme.jpg)
 
