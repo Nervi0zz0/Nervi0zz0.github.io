@@ -3,7 +3,8 @@ title: Porque defender también es arte
 nav_order: 3
 ---
 
-# 🛡️ **Plataformas de Formación en Ciberseguridad: Mejora tus Habilidades**
+# 🛡️ **Plataformas de Ciberseguridad para Practicar**  
+{: .text-center }
 
 La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los que se conforman solo con leer documentos o guías interminables. Me gusta experimentar, tocar y poner en práctica todo lo que aprendo. Es por eso que estas plataformas se han convertido en mis aliadas favoritas. Ofrecen un enfoque interactivo que te permite aprender a defender sistemas como si estuvieras en un escenario real, pero sin riesgo de comprometer nada… o casi nada. 😅
 
@@ -11,6 +12,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 
 ## **1. Let'sDefend** 🖥️  
 **Mi puntuación: ⭐️⭐️⭐️⭐️½**  
+{: .label .label-blue }  
 
 [**Let'sDefend**](https://letsdefend.io/) es una plataforma de simulación de ciberseguridad diseñada para que los usuarios puedan practicar en un entorno controlado, pero con simulaciones de incidentes reales. Es ideal para aquellos que quieren entrar en acción rápidamente y mejorar sus habilidades de defensa de manera práctica.
 
@@ -30,6 +32,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 
 ## **2. Blue Team Labs Online** 🛡️  
 **Mi puntuación: ⭐️⭐️⭐️⭐️**  
+{: .label .label-green }  
 
 [**Blue Team Labs Online**](https://blueteamlabs.online/) es una plataforma fantástica para mejorar tus habilidades en la respuesta ante incidentes y en la investigación forense. Aquí podrás practicar cómo defender sistemas mediante ejercicios prácticos y simulaciones que te preparan para los desafíos del mundo real.
 
@@ -49,6 +52,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 
 ## **3. TryHackMe** 👾  
 **Mi puntuación: ⭐️⭐️⭐️⭐️⭐️**  
+{: .label .label-purple }  
 
 [**TryHackMe**](https://tryhackme.com/) es, sin lugar a dudas, una de las plataformas más populares para aprender hacking ético de forma divertida y educativa. Desde los fundamentos hasta las técnicas más avanzadas, TryHackMe ofrece laboratorios prácticos que te permiten enfrentarte a situaciones reales de ciberseguridad.
 
@@ -62,7 +66,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 [**Mi perfil en TryHackMe**](https://tryhackme.com/r/p/nervi) {: .btn .btn-purple }
 </span>
 
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1489256" style='border:none;'></iframe>
+<img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="Your Image Badge" />
 
 ![TryHackMe](../assets/img/tryhackme.jpg)
 
