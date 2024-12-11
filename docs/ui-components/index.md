@@ -4,7 +4,7 @@ nav_order: 3
 theme: dark
 ---
 
-# 🛡️ **Plataformas de Ciber para Practicar**  
+# 🛡️ **Plataformas de Ciberseguridad para Practicar**  
 {: .text-center }
 
 La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los que se conforman solo con leer documentos o guías interminables. Me gusta experimentar, tocar y poner en práctica todo lo que aprendo. Es por eso que estas plataformas se han convertido en mis aliadas favoritas. Ofrecen un enfoque interactivo que te permite aprender a defender sistemas como si estuvieras en un escenario real, pero sin riesgo de comprometer nada… o casi nada. 😅
@@ -12,6 +12,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 ---
 
 ## **1. Let'sDefend** 🖥️  
+![Let'sDefend](/assets/images/plataformas/letsdefend1.png){: .img-fluid .mb-2 width="250"}
 **Nota: ⭐️⭐️⭐️⭐️½ / 5**  
 {: .label .label-blue }  
 
@@ -22,16 +23,15 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 - 💻 **Desafíos del Mundo Real**: Aprende a gestionar incidentes de seguridad como lo harías en una empresa real.
 - 🎓 **Certificación**: Al completar módulos, obtienes una certificación que valida tu habilidad para defender infraestructuras digitales.
 
-<span class="fs-3">
-[**Explorar Let'sDefend**](https://letsdefend.io/) {: .btn .btn-purple .mr-2}
-[**Mi perfil en Let'sDefend**](https://app.letsdefend.io/user/nervi0zz0) {: .btn .btn-blue }
-</span>
+<button type="button" name="button" class="btn">Explorar Let'sDefend</button>
+<button type="button" name="button" class="btn">Mi perfil en Let'sDefend</button>
 
-![Let'sDefend](/assets/images/plataformas/letsdefend1.png){: .img-fluid .mb-2 width="150"}
+
 
 ---
 
 ## **2. Blue Team Labs Online** 🛡️  
+![BlueTeamLabs](/assets/images/plataformas/btl.jpg){: .img-fluid .mb-2 width="250"}
 **Nota: ⭐️⭐️⭐️⭐️ / 5**  
 {: .label .label-green }  
 
@@ -42,16 +42,15 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 - ⚡ **Simulacros de Respuesta a Incidentes**: Pon a prueba tu capacidad para responder rápidamente a ciberataques.
 - 🏆 **Certificación**: Obtén una certificación que reconoce tu habilidad en protección de sistemas y redes.
 
-<span class="fs-3">
-[**Explorar Blue Team Labs Online**](https://blueteamlabs.online/) {: .btn .btn-blue .mr-2}
-[**Mi perfil en Blue Team Labs**](https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f) {: .btn .btn-purple }
-</span>
+<button type="button" name="button" class="btn">Explorar Blue Team Labs Online</button>
+<button type="button" name="button" class="btn">Mi perfil en Blue Team Labs</button>
 
-![BlueTeamLabs](/assets/images/plataformas/btl.jpg){: .img-fluid .mb-2 width="150"}
+
 
 ---
 
-## **3. TryHackMe** 👾  
+## **3. TryHackMe** 👾 
+![TryHackMe](/assets/images/plataformas/thm.png){: .img-fluid .mb-2 width="250"} 
 **Nota: ⭐️⭐️⭐️⭐️⭐️ / 5**  
 {: .label .label-purple }  
 
@@ -62,14 +61,12 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 - 🔓 **Ciberseguridad para Todos**: Comienza desde lo básico y avanza hacia habilidades más complejas, con guías paso a paso.
 - 🏅 **Badges y Certificados**: Gana badges a medida que completas los retos y demuestra tus logros en ciberseguridad.
 
-<span class="fs-3">
-[**Explorar TryHackMe**](https://tryhackme.com/) {: .btn .btn-green .mr-2}
-[**Mi perfil en TryHackMe**](https://tryhackme.com/r/p/nervi) {: .btn .btn-purple }
-</span>
+<button type="button" name="button" class="btn">Explorar TryHackMe</button>
+<button type="button" name="button" class="btn">Mi perfil en TryHackMe</button>
 
 ![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/nervi.png){: .mb-2}
 
-![TryHackMe](/assets/images/plataformas/thm.png){: .img-fluid .mb-2 width="150"}
+
 
 ---
 
