@@ -21,8 +21,8 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
   <img src="/assets/images/plataformas/letsdefend1.png" alt="Let'sDefend" class="img-fluid mb-2" width="250" style="border: 3px solid #000; border-radius: 8px;">
 </div>
 
-**Nota: ⭐️⭐️⭐️⭐️/ 5**  
-{: .label .label-blue }  
+**Nota: ⭐️⭐️⭐️⭐️ / 5**  
+{: .label .label-red }  
 
 [**Let'sDefend**](https://letsdefend.io/) es una plataforma centrada en simulaciones de ciberseguridad, diseñada para ofrecerte una experiencia práctica en defensa de redes y sistemas. A través de escenarios realistas, puedes mejorar tus habilidades y adquirir conocimientos que se aplican directamente en el campo profesional.
 
@@ -33,10 +33,10 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
 
 <div style="text-align:center;">
   <a href="https://letsdefend.io/" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #5a5a5a; color: white; border-radius: 8px;">Explorar Let'sDefend</button>
+    <button type="button" name="button" class="btn btn-outline" style="border-radius: 8px;">Explorar Let'sDefend</button>
   </a>
   <a href="https://letsdefend.io/dashboard" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #5a5a5a; color: white; border-radius: 8px;">Mi perfil en Let'sDefend</button>
+    <button type="button" name="button" class="btn btn-outline" style="border-radius: 8px;">Mi perfil en Let'sDefend</button>
   </a>
 </div>
 
@@ -48,8 +48,8 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
   <img src="/assets/images/plataformas/btl.jpg" alt="Blue Team Labs" class="img-fluid mb-2" width="250" style="border: 3px solid #000; border-radius: 8px;">
 </div>
 
-**Nota: ⭐️⭐️⭐️½  / 5**  
-{: .label .label-blue }  
+**Nota: ⭐️⭐️⭐️⭐️½ / 5**  
+{: .label .label-yellow }  
 
 [**Blue Team Labs Online**](https://blueteamlabs.online/) es ideal para quienes desean fortalecer sus habilidades en respuesta a incidentes de seguridad y en la investigación forense. A través de ejercicios prácticos y simulaciones, aprenderás a defenderte de ciberataques y gestionar situaciones críticas de seguridad.
 
@@ -60,10 +60,10 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
 
 <div style="text-align:center;">
   <a href="https://blueteamlabs.online/" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #5a5a5a; color: white; border-radius: 8px;">Explorar Blue Team Labs</button>
+    <button type="button" name="button" class="btn btn-outline" style="border-radius: 8px;">Explorar Blue Team Labs</button>
   </a>
   <a href="https://blueteamlabs.online/profile" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #5a5a5a; color: white; border-radius: 8px;">Mi perfil en Blue Team Labs</button>
+    <button type="button" name="button" class="btn btn-outline" style="border-radius: 8px;">Mi perfil en Blue Team Labs</button>
   </a>
 </div>
 
@@ -76,7 +76,7 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
 </div>
 
 **Nota: ⭐️⭐️⭐️⭐️⭐️ / 5**  
-{: .label .label-blue }  
+{: .label .label-green }  
 
 [**TryHackMe**](https://tryhackme.com/) se ha consolidado como una de las plataformas de referencia para aprender hacking ético de una manera práctica y accesible. Desde lo más básico hasta desafíos avanzados, los laboratorios interactivos te permiten poner a prueba tus habilidades en un entorno seguro y educativo.
 
@@ -87,10 +87,10 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
 
 <div style="text-align:center;">
   <a href="https://tryhackme.com/" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #5a5a5a; color: white; border-radius: 8px;">Explorar TryHackMe</button>
+    <button type="button" name="button" class="btn btn-outline" style="border-radius: 8px;">Explorar TryHackMe</button>
   </a>
   <a href="https://tryhackme.com/p/nervi" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #5a5a5a; color: white; border-radius: 8px;">Mi perfil en TryHackMe</button>
+    <button type="button" name="button" class="btn btn-outline" style="border-radius: 8px;">Mi perfil en TryHackMe</button>
   </a>
 </div>
 
@@ -108,6 +108,4 @@ La mejor manera de aprender ciberseguridad es sumergirse directamente en la prá
 
 **Todos estos servicios ofrecen planes gratuitos**, lo que te permite comenzar sin compromiso. Si decides invertir en un plan de pago, cada plataforma tiene características exclusivas que podrían valer la pena dependiendo de tus necesidades y metas.
 
-No importa si eres un principiante o un experto en ciberseguridad: estas plataformas tienen algo para ti. Lo mejor de todo, es que puedes hacerlo desde la comodidad de tu hogar, aprendiendo a tu propio ritmo y obteniendo reconocimiento por tus logros.
 
-¡Haz clic en los botones, empieza a explorar y pon a prueba tus conocimientos ahora mismo!
