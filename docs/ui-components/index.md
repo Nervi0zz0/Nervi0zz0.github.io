@@ -1,6 +1,7 @@
 ---
 title: Porque defender también es arte
 nav_order: 3
+theme: dark
 ---
 
 # 🛡️ **Plataformas de Ciberseguridad para Practicar**  
@@ -26,7 +27,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 [**Mi perfil en Let'sDefend**](https://app.letsdefend.io/user/nervi0zz0) {: .btn .btn-blue }
 </span>
 
-![Let'sDefend](/assets/images/plataformas/letsdefend1.png){: .img-fluid .mb-2}
+![Let'sDefend](/assets/images/plataformas/letsdefend1.png){: .img-fluid .mb-2 width="150"}
 
 ---
 
@@ -46,7 +47,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 [**Mi perfil en Blue Team Labs**](https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f) {: .btn .btn-purple }
 </span>
 
-![BlueTeamLabs](/assets/images/plataformas/btl.jpg){: .img-fluid .mb-2}
+![BlueTeamLabs](/assets/images/plataformas/btl.jpg){: .img-fluid .mb-2 width="150"}
 
 ---
 
@@ -66,9 +67,9 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 [**Mi perfil en TryHackMe**](https://tryhackme.com/r/p/nervi) {: .btn .btn-purple }
 </span>
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="Your Image Badge" width="150" class="mb-2"/>
+![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/nervi.png){: .mb-2}
 
-![TryHackMe](/assets/images/plataformas/thm.png){: .img-fluid .mb-2}
+![TryHackMe](/assets/images/plataformas/thm.png){: .img-fluid .mb-2 width="150"}
 
 ---
 
