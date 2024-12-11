@@ -21,7 +21,7 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
   <img src="/assets/images/plataformas/letsdefend1.png" alt="Let'sDefend" class="img-fluid mb-2" width="250" style="border: 3px solid #000; border-radius: 8px;">
 </div>
 
-**Nota: ⭐️⭐️⭐️⭐️½ / 5**  
+**Nota: ⭐️⭐️⭐️⭐️/ 5**  
 {: .label .label-blue }  
 
 [**Let'sDefend**](https://letsdefend.io/) es una plataforma centrada en simulaciones de ciberseguridad, diseñada para ofrecerte una experiencia práctica en defensa de redes y sistemas. A través de escenarios realistas, puedes mejorar tus habilidades y adquirir conocimientos que se aplican directamente en el campo profesional.
@@ -30,12 +30,6 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
 - 🔐 **Simulaciones Realistas**: Pon a prueba tus habilidades en situaciones de ciberseguridad con incidentes simulados.
 - 💻 **Desafíos del Mundo Real**: Aprende a gestionar ataques y proteger infraestructuras digitales tal como lo harías en un entorno profesional.
 - 🎓 **Certificación**: Completa módulos para obtener una certificación.
-
-### **Planes y Precios**
-**Plan Gratuito**: Ofrece una cantidad limitada de simulaciones y escenarios. Es ideal para iniciarse, pero si buscas desafíos más complejos o una variedad más amplia, puedes considerar el plan de pago.
-**Plan de Pago**: Desde 12 USD al mes, ofrece acceso a más simulaciones, un entorno de práctica más completo y una mayor personalización.
-
-**¿Vale la pena pagar?** Si te apasiona la ciberseguridad y quieres enfrentarte a incidentes más realistas, el plan de pago puede ser una excelente inversión.
 
 <div style="text-align:center;">
   <a href="https://letsdefend.io/" target="_blank">
@@ -54,7 +48,7 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
   <img src="/assets/images/plataformas/btl.jpg" alt="Blue Team Labs" class="img-fluid mb-2" width="250" style="border: 3px solid #000; border-radius: 8px;">
 </div>
 
-**Nota: ⭐️⭐️⭐️⭐️ / 5**  
+**Nota: ⭐️⭐️⭐️½  / 5**  
 {: .label .label-blue }  
 
 [**Blue Team Labs Online**](https://blueteamlabs.online/) es ideal para quienes desean fortalecer sus habilidades en respuesta a incidentes de seguridad y en la investigación forense. A través de ejercicios prácticos y simulaciones, aprenderás a defenderte de ciberataques y gestionar situaciones críticas de seguridad.
@@ -63,12 +57,6 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
 - 🔍 **Desafíos Forenses**: Realiza investigaciones digitales para descubrir vulnerabilidades y rastrear amenazas ocultas.
 - ⚡ **Simulacros de Respuesta a Incidentes**: Desarrolla tu capacidad para responder rápidamente a ciberataques y minimizar su impacto.
 - 🏆 **Certificación**: Obtén una certificación que acredita tus competencias en protección de sistemas y redes.
-
-### **Planes y Precios**
-**Plan Gratuito**: Ofrece acceso a varios ejercicios básicos y simulaciones introductorias. Es perfecto para familiarizarte con el contenido.
-**Plan de Pago**: Desde 9.99 USD al mes, el plan premium otorga acceso a simulaciones avanzadas y entrenamientos específicos en áreas clave.
-
-**¿Vale la pena pagar?** Si te interesa profundizar en la respuesta a incidentes y tienes la intención de trabajar en un equipo de defensa, el plan de pago es una gran opción.
 
 <div style="text-align:center;">
   <a href="https://blueteamlabs.online/" target="_blank">
@@ -97,12 +85,6 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
 - 🔓 **Ciberseguridad para Todos**: Comienza desde los conceptos más simples y avanza hacia retos más complejos, con guías detalladas para cada paso.
 - 🏅 **Badges y Certificados**: Completa retos y gana badges que acreditan tu experiencia y logros en el campo de la ciberseguridad.
 
-### **Planes y Precios**
-**Plan Gratuito**: Acceso a una gran cantidad de laboratorios y contenidos básicos para comenzar en el hacking ético. 
-**Plan de Pago**: Desde 10 USD al mes, el plan premium ofrece acceso a más laboratorios avanzados y contenido exclusivo.
-
-**¿Vale la pena pagar?** Si estás buscando una plataforma muy interactiva, con contenido exclusivo y desafíos avanzados, el plan de pago es recomendable para profundizar aún más en tus habilidades.
-
 <div style="text-align:center;">
   <a href="https://tryhackme.com/" target="_blank">
     <button type="button" name="button" class="btn" style="background-color: #5a5a5a; color: white; border-radius: 8px;">Explorar TryHackMe</button>
@@ -113,7 +95,6 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
 </div>
 
 ---
-
 
 <div style="text-align:center;">
   <img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="TryHackMe Badge" class="mb-2" style="border-radius: 8px;">
