@@ -1,10 +1,10 @@
 ---
-title: Porque defender también es arte
+title: A estudiar
 nav_order: 3
 theme: dark
 ---
 
-# 🛡️ **Plataformas de Ciberseguridad para Practicar**  
+# 🛡️ **Plataformas de Ciber para Practicar**  
 {: .text-center }
 
 Aprender ciberseguridad no solo es cuestión de leer teorías o memorizar conceptos. La mejor forma de aprender es a través de la práctica. Por eso, he reunido algunas de las plataformas más populares y efectivas que te permiten enfrentar escenarios del mundo real y mejorar tus habilidades sin riesgos. Aquí, podrás experimentar con ataques simulados, mejorar tus técnicas de defensa y realizar investigaciones forenses, todo mientras avanzas a tu propio ritmo.
