@@ -19,9 +19,10 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 - 💻 **Desafíos del Mundo Real**: Aprende a gestionar incidentes de seguridad como lo harías en una empresa real.
 - 🎓 **Certificación**: Al completar módulos, obtienes una certificación que valida tu habilidad para defender infraestructuras digitales.
 
-[**Explorar Let'sDefend**](https://letsdefend.io/) {: .btn .btn-purple}
-
-[**Mi perfil en Let'sDefend**](https://app.letsdefend.io/user/nervi0zz0) {: .btn .btn-orange}
+<span class="fs-3">
+[**Explorar Let'sDefend**](https://letsdefend.io/) {: .btn .btn-purple .mr-2}
+[**Mi perfil en Let'sDefend**](https://app.letsdefend.io/user/nervi0zz0) {: .btn .btn-blue }
+</span>
 
 ![Let'sDefend](../assets/img/letsdefend.png)
 
@@ -37,9 +38,10 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 - ⚡ **Simulacros de Respuesta a Incidentes**: Pon a prueba tu capacidad para responder rápidamente a ciberataques.
 - 🏆 **Certificación**: Obtén una certificación que reconoce tu habilidad en protección de sistemas y redes.
 
-[**Explorar Blue Team Labs Online**](https://blueteamlabs.online/) {: .btn .btn-blue}
-
-[**Mi perfil en Blue Team Labs**](https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f) {: .btn .btn-orange}
+<span class="fs-3">
+[**Explorar Blue Team Labs Online**](https://blueteamlabs.online/) {: .btn .btn-blue .mr-2}
+[**Mi perfil en Blue Team Labs**](https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f) {: .btn .btn-purple }
+</span>
 
 ![BlueTeamLabs](../assets/img/bluet.jpg)
 
@@ -55,11 +57,11 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 - 🔓 **Ciberseguridad para Todos**: Comienza desde lo básico y avanza hacia habilidades más complejas, con guías paso a paso.
 - 🏅 **Badges y Certificados**: Gana badges a medida que completas los retos y demuestra tus logros en ciberseguridad.
 
-[**Explorar TryHackMe**](https://tryhackme.com/) {: .btn .btn-green}
+<span class="fs-3">
+[**Explorar TryHackMe**](https://tryhackme.com/) {: .btn .btn-green .mr-2}
+[**Mi perfil en TryHackMe**](https://tryhackme.com/r/p/nervi) {: .btn .btn-purple }
+</span>
 
-[**Mi perfil en TryHackMe**](https://tryhackme.com/r/p/nervi) {: .btn .btn-orange}
-
-### **Mi badge de TryHackMe**
 <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1489256" style='border:none;'></iframe>
 
 ![TryHackMe](../assets/img/tryhackme.jpg)
