@@ -48,7 +48,7 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
   <img src="/assets/images/plataformas/btl.jpg" alt="Blue Team Labs" class="img-fluid mb-2" width="250" style="border: 3px solid #000; border-radius: 8px;">
 </div>
 
-**Nota: ⭐️⭐️⭐️⭐️½ / 5**  
+**Nota: ⭐️⭐️⭐️½ / 5**  
 {: .label .label-green }  
 
 [**Blue Team Labs Online**](https://blueteamlabs.online/) es ideal para quienes desean fortalecer sus habilidades en respuesta a incidentes de seguridad y en la investigación forense. A través de ejercicios prácticos y simulaciones, aprenderás a defenderte de ciberataques y gestionar situaciones críticas de seguridad.
