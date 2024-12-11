@@ -22,7 +22,7 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
 </div>
 
 **Nota: ⭐️⭐️⭐️⭐️ / 5**  
-{: .label .label-red }  
+{: .label .label-green }  
 
 [**Let'sDefend**](https://letsdefend.io/) es una plataforma centrada en simulaciones de ciberseguridad, diseñada para ofrecerte una experiencia práctica en defensa de redes y sistemas. A través de escenarios realistas, puedes mejorar tus habilidades y adquirir conocimientos que se aplican directamente en el campo profesional.
 
@@ -49,7 +49,7 @@ Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. �
 </div>
 
 **Nota: ⭐️⭐️⭐️⭐️½ / 5**  
-{: .label .label-yellow }  
+{: .label .label-green }  
 
 [**Blue Team Labs Online**](https://blueteamlabs.online/) es ideal para quienes desean fortalecer sus habilidades en respuesta a incidentes de seguridad y en la investigación forense. A través de ejercicios prácticos y simulaciones, aprenderás a defenderte de ciberataques y gestionar situaciones críticas de seguridad.
 
