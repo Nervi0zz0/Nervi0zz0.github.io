@@ -14,7 +14,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 ## **1. Let'sDefend** 🖥️  
 
 <div style="text-align:center;">
-  <img src="/assets/images/plataformas/letsdefend1.png" alt="Let'sDefend" class="img-fluid mb-2" width="250">
+  <img src="/assets/images/plataformas/letsdefend1.png" alt="Let'sDefend" class="img-fluid mb-2" width="250" style="border: 3px solid #4CAF50; border-radius: 8px;">
 </div>
 
 **Nota: ⭐️⭐️⭐️⭐️½ / 5**  
@@ -31,7 +31,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
   <a href="https://letsdefend.io/" target="_blank">
     <button type="button" name="button" class="btn">Explorar Let'sDefend</button>
   </a>
-  <a href="https://app.letsdefend.io/user/nervi0zz0" target="_blank">
+  <a href="https://letsdefend.io/dashboard" target="_blank">
     <button type="button" name="button" class="btn">Mi perfil en Let'sDefend</button>
   </a>
 </div>
@@ -41,7 +41,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 ## **2. Blue Team Labs Online** 🛡️  
 
 <div style="text-align:center;">
-  <img src="/assets/images/plataformas/btl.jpg" alt="Blue Team Labs" class="img-fluid mb-2" width="250">
+  <img src="/assets/images/plataformas/btl.jpg" alt="Blue Team Labs" class="img-fluid mb-2" width="250" style="border: 3px solid #2D87F0; border-radius: 8px;">
 </div>
 
 **Nota: ⭐️⭐️⭐️⭐️ / 5**  
@@ -58,7 +58,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
   <a href="https://blueteamlabs.online/" target="_blank">
     <button type="button" name="button" class="btn">Explorar Blue Team Labs Online</button>
   </a>
-  <a href="https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f" target="_blank">
+  <a href="https://blueteamlabs.online/profile" target="_blank">
     <button type="button" name="button" class="btn">Mi perfil en Blue Team Labs</button>
   </a>
 </div>
@@ -68,7 +68,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 ## **3. TryHackMe** 👾  
 
 <div style="text-align:center;">
-  <img src="/assets/images/plataformas/thm.png" alt="TryHackMe" class="img-fluid mb-2" width="250">
+  <img src="/assets/images/plataformas/thm.png" alt="TryHackMe" class="img-fluid mb-2" width="250" style="border: 3px solid #9C27B0; border-radius: 8px;">
 </div>
 
 **Nota: ⭐️⭐️⭐️⭐️⭐️ / 5**  
@@ -90,10 +90,10 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
   </a>
 </div>
 
+---
+
 <div style="text-align:center;">
-
-
-  <img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="TryHackMe Badge" class="mb-2">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="TryHackMe Badge" class="mb-2" style="border: 3px solid #9C27B0; border-radius: 8px;">
 </div>
 
 ---
@@ -105,4 +105,3 @@ En el mundo de la ciberseguridad, no hay tiempo para aprender solo en teoría. *
 Si estás buscando una forma divertida y efectiva de aprender, mejorar tus habilidades o simplemente practicar en escenarios del mundo real, estas plataformas son el lugar ideal para ti. ¡Haz clic en los botones, empieza a explorar y pon a prueba tus conocimientos!
 
 ---
-
