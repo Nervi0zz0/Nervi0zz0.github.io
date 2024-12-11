@@ -26,7 +26,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 [**Mi perfil en Let'sDefend**](https://app.letsdefend.io/user/nervi0zz0) {: .btn .btn-blue }
 </span>
 
-![Let'sDefend](../assets/img/letsdefend.png)
+![Let'sDefend](/assets/images/plataformas/letsdefend1.png){: .img-fluid .mb-2}
 
 ---
 
@@ -46,7 +46,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 [**Mi perfil en Blue Team Labs**](https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f) {: .btn .btn-purple }
 </span>
 
-![BlueTeamLabs](../assets/img/bluet.jpg)
+![BlueTeamLabs](/assets/images/plataformas/btl.jpg){: .img-fluid .mb-2}
 
 ---
 
@@ -66,9 +66,9 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 [**Mi perfil en TryHackMe**](https://tryhackme.com/r/p/nervi) {: .btn .btn-purple }
 </span>
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="Your Image Badge" width="250" />
+<img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="Your Image Badge" width="150" class="mb-2"/>
 
-![TryHackMe](../assets/img/tryhackme.jpg)
+![TryHackMe](/assets/images/plataformas/thm.png){: .img-fluid .mb-2}
 
 ---
 
@@ -79,3 +79,5 @@ En el mundo de la ciberseguridad, no hay tiempo para aprender solo en teoría. *
 Si estás buscando una forma divertida y efectiva de aprender, mejorar tus habilidades o simplemente practicar en escenarios del mundo real, estas plataformas son el lugar ideal para ti. ¡Haz clic en los botones, empieza a explorar y pon a prueba tus conocimientos!
 
 ---
+
+<button type="button" name="button" class="btn">Button element</button>
