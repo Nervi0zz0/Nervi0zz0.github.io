@@ -31,7 +31,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
   <a href="https://letsdefend.io/" target="_blank">
     <button type="button" name="button" class="btn">Explorar Let'sDefend</button>
   </a>
-  <a href="https://letsdefend.io/dashboard" target="_blank">
+  <a href="https://app.letsdefend.io/user/nervi0zz0" target="_blank">
     <button type="button" name="button" class="btn">Mi perfil en Let'sDefend</button>
   </a>
 </div>
@@ -58,7 +58,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
   <a href="https://blueteamlabs.online/" target="_blank">
     <button type="button" name="button" class="btn">Explorar Blue Team Labs Online</button>
   </a>
-  <a href="https://blueteamlabs.online/profile" target="_blank">
+  <a href="https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f" target="_blank">
     <button type="button" name="button" class="btn">Mi perfil en Blue Team Labs</button>
   </a>
 </div>
@@ -91,6 +91,8 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 </div>
 
 <div style="text-align:center;">
+
+
   <img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="TryHackMe Badge" class="mb-2">
 </div>
 
