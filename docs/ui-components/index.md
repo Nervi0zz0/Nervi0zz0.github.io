@@ -14,7 +14,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 ## **1. Let'sDefend** 🖥️  
 
 <div style="text-align:center;">
-  <img src="/assets/images/plataformas/letsdefend1.png" alt="Let'sDefend" class="img-fluid mb-2" width="250" style="border: 3px solid #4CAF50; border-radius: 8px;">
+  <img src="/assets/images/plataformas/letsdefend1.png" alt="Let'sDefend" class="img-fluid mb-2" width="250" style="border: 3px solid #000; border-radius: 8px;">
 </div>
 
 **Nota: ⭐️⭐️⭐️⭐️½ / 5**  
@@ -29,10 +29,10 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 
 <div style="text-align:center;">
   <a href="https://letsdefend.io/" target="_blank">
-    <button type="button" name="button" class="btn">Explorar Let'sDefend</button>
+    <button type="button" name="button" class="btn" style="background-color: #2D87F0; color: white;">Explorar Let'sDefend</button>
   </a>
   <a href="https://letsdefend.io/dashboard" target="_blank">
-    <button type="button" name="button" class="btn">Mi perfil en Let'sDefend</button>
+    <button type="button" name="button" class="btn" style="background-color: #4CAF50; color: white;">Mi perfil en Let'sDefend</button>
   </a>
 </div>
 
@@ -41,7 +41,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 ## **2. Blue Team Labs Online** 🛡️  
 
 <div style="text-align:center;">
-  <img src="/assets/images/plataformas/btl.jpg" alt="Blue Team Labs" class="img-fluid mb-2" width="250" style="border: 3px solid #2D87F0; border-radius: 8px;">
+  <img src="/assets/images/plataformas/btl.jpg" alt="Blue Team Labs" class="img-fluid mb-2" width="250" style="border: 3px solid #000; border-radius: 8px;">
 </div>
 
 **Nota: ⭐️⭐️⭐️⭐️ / 5**  
@@ -56,10 +56,10 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 
 <div style="text-align:center;">
   <a href="https://blueteamlabs.online/" target="_blank">
-    <button type="button" name="button" class="btn">Explorar Blue Team Labs Online</button>
+    <button type="button" name="button" class="btn" style="background-color: #2D87F0; color: white;">Explorar Blue Team Labs Online</button>
   </a>
   <a href="https://blueteamlabs.online/profile" target="_blank">
-    <button type="button" name="button" class="btn">Mi perfil en Blue Team Labs</button>
+    <button type="button" name="button" class="btn" style="background-color: #4CAF50; color: white;">Mi perfil en Blue Team Labs</button>
   </a>
 </div>
 
@@ -68,7 +68,7 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 ## **3. TryHackMe** 👾  
 
 <div style="text-align:center;">
-  <img src="/assets/images/plataformas/thm.png" alt="TryHackMe" class="img-fluid mb-2" width="250" style="border: 3px solid #9C27B0; border-radius: 8px;">
+  <img src="/assets/images/plataformas/thm.png" alt="TryHackMe" class="img-fluid mb-2" width="250" style="border: 3px solid #000; border-radius: 8px;">
 </div>
 
 **Nota: ⭐️⭐️⭐️⭐️⭐️ / 5**  
@@ -83,17 +83,17 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 
 <div style="text-align:center;">
   <a href="https://tryhackme.com/" target="_blank">
-    <button type="button" name="button" class="btn">Explorar TryHackMe</button>
+    <button type="button" name="button" class="btn" style="background-color: #2D87F0; color: white;">Explorar TryHackMe</button>
   </a>
   <a href="https://tryhackme.com/p/nervi" target="_blank">
-    <button type="button" name="button" class="btn">Mi perfil en TryHackMe</button>
+    <button type="button" name="button" class="btn" style="background-color: #4CAF50; color: white;">Mi perfil en TryHackMe</button>
   </a>
 </div>
 
 ---
 
 <div style="text-align:center;">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="TryHackMe Badge" class="mb-2" style="border: 3px solid #9C27B0; border-radius: 8px;">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="TryHackMe Badge" class="mb-2">
 </div>
 
 ---
