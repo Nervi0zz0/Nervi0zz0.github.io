@@ -7,7 +7,9 @@ theme: dark
 # 🛡️ **Plataformas de Ciberseguridad para Practicar**  
 {: .text-center }
 
-La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los que se conforman solo con leer documentos o guías interminables. Me gusta experimentar, tocar y poner en práctica todo lo que aprendo. Es por eso que estas plataformas se han convertido en mis aliadas favoritas. Ofrecen un enfoque interactivo que te permite aprender a defender sistemas como si estuvieras en un escenario real, pero sin riesgo de comprometer nada… o casi nada. 😅
+Aprender ciberseguridad no solo es cuestión de leer teorías o memorizar conceptos. La mejor forma de aprender es a través de la práctica. Por eso, he reunido algunas de las plataformas más populares y efectivas que te permiten enfrentar escenarios del mundo real y mejorar tus habilidades sin riesgos. Aquí, podrás experimentar con ataques simulados, mejorar tus técnicas de defensa y realizar investigaciones forenses, todo mientras avanzas a tu propio ritmo.
+
+Si eres de los que prefieren aprender haciendo, estas plataformas son para ti. ¡Vamos a ver qué tienen para ofrecer!
 
 ---
 
@@ -20,19 +22,19 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 **Nota: ⭐️⭐️⭐️⭐️½ / 5**  
 {: .label .label-blue }  
 
-[**Let'sDefend**](https://letsdefend.io/) es una plataforma de simulación de ciberseguridad diseñada para que los usuarios puedan practicar en un entorno controlado, pero con simulaciones de incidentes reales. Es ideal para aquellos que quieren entrar en acción rápidamente y mejorar sus habilidades de defensa de manera práctica.
+[**Let'sDefend**](https://letsdefend.io/) es una plataforma centrada en simulaciones de ciberseguridad, diseñada para ofrecerte una experiencia práctica en defensa de redes y sistemas. A través de escenarios realistas, puedes mejorar tus habilidades y adquirir conocimientos que se aplican directamente en el campo profesional.
 
 ### **Lo Mejor de Let'sDefend**
-- 🔐 **Simulaciones Realistas**: Vive escenarios de ciberseguridad donde deberás proteger redes y sistemas de ataques.
-- 💻 **Desafíos del Mundo Real**: Aprende a gestionar incidentes de seguridad como lo harías en una empresa real.
-- 🎓 **Certificación**: Al completar módulos, obtienes una certificación que valida tu habilidad para defender infraestructuras digitales.
+- 🔐 **Simulaciones Realistas**: Pon a prueba tus habilidades en situaciones de ciberseguridad con incidentes simulados.
+- 💻 **Desafíos del Mundo Real**: Aprende a gestionar ataques y proteger infraestructuras digitales tal como lo harías en un entorno profesional.
+- 🎓 **Certificación**: Completa módulos para obtener una certificación que valida tu destreza en defensa de redes.
 
 <div style="text-align:center;">
   <a href="https://letsdefend.io/" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #2D87F0; color: white;">Explorar Let'sDefend</button>
+    <button type="button" name="button" class="btn" style="background-color: #007BFF; color: white; border-radius: 8px;">Explorar Let'sDefend</button>
   </a>
   <a href="https://letsdefend.io/dashboard" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #4CAF50; color: white;">Mi perfil en Let'sDefend</button>
+    <button type="button" name="button" class="btn" style="background-color: #007BFF; color: white; border-radius: 8px;">Mi perfil en Let'sDefend</button>
   </a>
 </div>
 
@@ -47,19 +49,19 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 **Nota: ⭐️⭐️⭐️⭐️ / 5**  
 {: .label .label-green }  
 
-[**Blue Team Labs Online**](https://blueteamlabs.online/) es una plataforma fantástica para mejorar tus habilidades en la respuesta ante incidentes y en la investigación forense. Aquí podrás practicar cómo defender sistemas mediante ejercicios prácticos y simulaciones que te preparan para los desafíos del mundo real.
+[**Blue Team Labs Online**](https://blueteamlabs.online/) es ideal para quienes desean fortalecer sus habilidades en respuesta a incidentes de seguridad y en la investigación forense. A través de ejercicios prácticos y simulaciones, aprenderás a defenderte de ciberataques y gestionar situaciones críticas de seguridad.
 
 ### **Lo Mejor de Blue Team Labs**
-- 🔍 **Desafíos Forenses**: Realiza investigaciones digitales complejas y descubre vulnerabilidades ocultas.
-- ⚡ **Simulacros de Respuesta a Incidentes**: Pon a prueba tu capacidad para responder rápidamente a ciberataques.
-- 🏆 **Certificación**: Obtén una certificación que reconoce tu habilidad en protección de sistemas y redes.
+- 🔍 **Desafíos Forenses**: Realiza investigaciones digitales para descubrir vulnerabilidades y rastrear amenazas ocultas.
+- ⚡ **Simulacros de Respuesta a Incidentes**: Desarrolla tu capacidad para responder rápidamente a ciberataques y minimizar su impacto.
+- 🏆 **Certificación**: Obtén una certificación que acredita tus competencias en protección de sistemas y redes.
 
 <div style="text-align:center;">
   <a href="https://blueteamlabs.online/" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #2D87F0; color: white;">Explorar Blue Team Labs Online</button>
+    <button type="button" name="button" class="btn" style="background-color: #007BFF; color: white; border-radius: 8px;">Explorar Blue Team Labs</button>
   </a>
   <a href="https://blueteamlabs.online/profile" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #4CAF50; color: white;">Mi perfil en Blue Team Labs</button>
+    <button type="button" name="button" class="btn" style="background-color: #007BFF; color: white; border-radius: 8px;">Mi perfil en Blue Team Labs</button>
   </a>
 </div>
 
@@ -74,34 +76,38 @@ La mejor forma de aprender ciberseguridad, para mí, es haciendo. No soy de los 
 **Nota: ⭐️⭐️⭐️⭐️⭐️ / 5**  
 {: .label .label-purple }  
 
-[**TryHackMe**](https://tryhackme.com/) es, sin lugar a dudas, una de las plataformas más populares para aprender hacking ético de forma divertida y educativa. Desde los fundamentos hasta las técnicas más avanzadas, TryHackMe ofrece laboratorios prácticos que te permiten enfrentarte a situaciones reales de ciberseguridad.
+[**TryHackMe**](https://tryhackme.com/) se ha consolidado como una de las plataformas de referencia para aprender hacking ético de una manera práctica y accesible. Desde lo más básico hasta desafíos avanzados, los laboratorios interactivos te permiten poner a prueba tus habilidades en un entorno seguro y educativo.
 
 ### **Lo Mejor de TryHackMe**
-- 💻 **Labs Interactivos**: Resuelve desafíos de hacking ético y aprende a defenderte de ciberataques en entornos virtuales.
-- 🔓 **Ciberseguridad para Todos**: Comienza desde lo básico y avanza hacia habilidades más complejas, con guías paso a paso.
-- 🏅 **Badges y Certificados**: Gana badges a medida que completas los retos y demuestra tus logros en ciberseguridad.
+- 💻 **Labs Interactivos**: Participa en simulaciones de hacking ético, defendiendo sistemas y resolviendo retos de ciberseguridad en un entorno virtual.
+- 🔓 **Ciberseguridad para Todos**: Comienza desde los conceptos más simples y avanza hacia retos más complejos, con guías detalladas para cada paso.
+- 🏅 **Badges y Certificados**: Completa retos y gana badges que acreditan tu experiencia y logros en el campo de la ciberseguridad.
 
 <div style="text-align:center;">
   <a href="https://tryhackme.com/" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #2D87F0; color: white;">Explorar TryHackMe</button>
+    <button type="button" name="button" class="btn" style="background-color: #007BFF; color: white; border-radius: 8px;">Explorar TryHackMe</button>
   </a>
   <a href="https://tryhackme.com/p/nervi" target="_blank">
-    <button type="button" name="button" class="btn" style="background-color: #4CAF50; color: white;">Mi perfil en TryHackMe</button>
+    <button type="button" name="button" class="btn" style="background-color: #007BFF; color: white; border-radius: 8px;">Mi perfil en TryHackMe</button>
   </a>
 </div>
 
 ---
 
+## **Mi Badge de TryHackMe**  
+
 <div style="text-align:center;">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="TryHackMe Badge" class="mb-2">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="TryHackMe Badge" class="mb-2" style="border-radius: 8px;">
 </div>
 
 ---
 
 ## **En Resumen: Mejora tus Habilidades en Ciberseguridad**
 
-En el mundo de la ciberseguridad, no hay tiempo para aprender solo en teoría. **Let'sDefend**, **Blue Team Labs Online** y **TryHackMe** ofrecen un enfoque práctico que te permitirá simular ataques reales, defender redes y realizar investigaciones forenses. Y lo mejor de todo, ¡puedes hacerlo desde la comodidad de tu casa!
+La mejor manera de aprender ciberseguridad es sumergirse directamente en la práctica. Las plataformas **Let'sDefend**, **Blue Team Labs Online** y **TryHackMe** son el lugar perfecto para empezar o mejorar tus habilidades. Aquí puedes realizar simulaciones de ataques, defender infraestructuras y experimentar con incidentes en tiempo real.
 
-Si estás buscando una forma divertida y efectiva de aprender, mejorar tus habilidades o simplemente practicar en escenarios del mundo real, estas plataformas son el lugar ideal para ti. ¡Haz clic en los botones, empieza a explorar y pon a prueba tus conocimientos!
+No importa si eres un principiante o un experto en ciberseguridad: estas plataformas tienen algo para ti. Lo mejor de todo, es que puedes hacerlo desde la comodidad de tu hogar, aprendiendo a tu propio ritmo y obteniendo reconocimiento por tus logros.
+
+¡Haz clic en los botones, empieza a explorar y pon a prueba tus conocimientos ahora mismo!
 
 ---
