@@ -5,18 +5,20 @@ nav_order: 4
 description: "Un espacio donde la genialidad y el sarcasmo conviven en una especie de caos organizado."
 permalink: /mi-blog/
 ---
-<hr style="border: none; border-top: 1px solidrgb(242, 240, 245); margin: 40px 0; width: 100%;">
+
+<hr style="border: none; border-top: 1px solid rgb(200, 200, 200); margin: 40px 0; width: 100%;">
+
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/NERVI0ZZ0.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(200, 193, 193, 0.3); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
+  <img src="/assets/images/NERVI0ZZ0.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
 </div>
 
 <div style="text-align: center; margin: 30px 0;">
-<h1 style="font-size: 36px; font-weight: 700; color: #2D3748; text-shadow: 1px 1px 6px rgba(0,0,0,0.3); margin: 0; font-family: 'Arial', sans-serif; letter-spacing: 1px;">
-  Esto es <span style="color:rgb(66, 37, 100); font-style: italic;">"Diario de un Cojo"</span>
-</h1>
-<p style="font-size: 18px; color:rgb(125, 86, 152); font-family: 'Arial', sans-serif; font-style: italic; margin-top: 10px;">
-  El blog que nadie pidió, pero todos necesitan (o no).
-</p>
+  <h1 style="font-size: 36px; font-weight: 700; color: #F5F5F5; text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5); margin: 0; font-family: 'Arial', sans-serif; letter-spacing: 1px;">
+    Esto es <span style="color:rgb(66, 37, 100); font-style: italic;">"Diario de un Cojo"</span>
+  </h1>
+  <p style="font-size: 18px; color: rgb(160, 120, 200); font-family: 'Arial', sans-serif; font-style: italic; margin-top: 10px;">
+    El blog que nadie pidió, pero todos necesitan (o no).
+  </p>
 </div>
 
 <hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0;">
@@ -57,8 +59,6 @@ Si no te gusta, no pasa nada. Hay una "X" en la esquina de tu navegador. Pero si
 
 {: .important }
 > El autor no se responsabiliza de las cosas absurdas que escriba bajo los efectos de medicamentos recetados. Si algo te parece una gilipollez, probablemente lo sea.
-
-
 
 <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
