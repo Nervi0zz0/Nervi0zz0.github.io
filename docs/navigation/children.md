@@ -1,124 +1,97 @@
----
 layout: post
 title: ♿ Mi experiencia con la certificación Blue Team Level 1 (BTL1)
 nav_order: 1
 parent: Diario de un Cojo
 ---
 
-<div style="text-align: center; margin: 40px auto;">
-    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/BTLLOCO (1).jpg" alt="BTL1 Logo" style="width: 40%; border-radius: 20px; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.8);">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 50px;">
+    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/BTLLOCO (1).jpg" alt="BTL1 Logo" style="width: 40%; border-radius: 15px;">
 </div>
 
-<div style="background: linear-gradient(90deg, #FFD700 0%, #FF4500 100%); padding: 20px; border-radius: 15px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); margin: 30px auto; max-width: 700px; text-align: center;">
-  <div style="font-family: 'Montserrat', sans-serif; font-size: 1.8rem; font-weight: bold; color: #FFFFFF; text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6); letter-spacing: 2px;">
-    💻 BTL1: ¿Un desafío formativo o un masoquismo disfrazado? 💀
+<div style="background-color: #3a3a3a; padding: 16px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); margin: 20px auto; max-width: 600px; text-align: center;">
+  <div style="font-family: 'Arial Black', sans-serif; font-size: 1.4rem; color: #E0E0E0; text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.4);">
+    💻 (BTL1): ¿Un paso en la dirección correcta o simplemente masoquismo profesional? 💀
   </div>
 </div>
 
 ---
 
-### 🌟 **Introducción: Una batalla épica contra el caos digital**
-
-Certificarse en **ciberseguridad** no es solo un logro académico; es una prueba de fuego. El **Blue Team Level 1 (BTL1)** te lleva al límite mientras aprendes a defenderte del caos:  
-🔹 **Los usuarios** (tu mayor enemigo).  
-🔹 **Las herramientas** (tan útiles como impredecibles).  
-🔹 **Tu paciencia** (en constante prueba).  
-
-Este curso promete convertirte en un verdadero defensor técnico, armado con poderosas herramientas como **CyberChef**, **Volatility**, **KAPE** y **Wireshark**. Pero déjame advertirte: no todo es tan sencillo como parece.
+Certificarte en **ciberseguridad** puede parecer un objetivo noble, pero déjame decirte algo: hacer el **BTL1** es un pequeño marrón y no solo una publicación bonita para subir en LinkedIn. **BTL1** es un curso que te enseñará, literalmente, a sobrevivir mientras luchas contra las fuerzas del caos… también conocidas como usuari@s.
 
 ---
 
-### 📘 **La caja de Pandora: Primer vistazo al material**
+### Primer contacto con el material: un buffet de herramientas y temas
 
-El curso incluye **300 lecciones**, videos detallados, laboratorios prácticos y exámenes. En teoría, completarás todo en "30 horas".  
+La introducción al curso es amable: **300 lecciones**, vídeos, exámenes y actividades prácticas. Te prometen que en **30 horas** estarás listo para enfrentarte al mundo como un defensor técnico, armado con nombres rimbombantes como **CyberChef**, **KAPE**, **Volatility** y, por supuesto, el viejo y confiable **Wireshark**. ¡Vaya arsenal! Pero claro, no te dicen que esas 30 horas son solo el tiempo estimado.  
+**Spoiler alert:** Si eres un humano normal, multiplícalo por tres porque vas a invertir más horas intentando entender por qué algo no funciona como en los videos.
 
-> **Spoiler alert:** La realidad te hará invertir al menos el doble si eres humano (y no una IA).  
-
-Cada módulo es un buffet de conocimiento técnico, con recursos prácticos para enfrentarte a escenarios reales. Suena prometedor, ¿verdad? Pero cuidado: los retos son tan fascinantes como frustrantes.
-
-<div style="text-align: center; margin: 30px auto;">
-    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/8xs6.gif" alt="GIF divertido" style="border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);">
+<div style="text-align: center; margin: 20px 0;">
+    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/8xs6.gif" alt="GIF divertido">
 </div>
 
 ---
 
-### 🚀 **Los temas clave: Donde la magia (y el sufrimiento) suceden**
+### Los temas estrella: Phishing, SIEM y Forense Digital
 
-#### 🕵️‍♂️ **Phishing: El arte de desarmar trampas digitales**
-Descubrirás cómo analizar correos maliciosos, desde cabeceras hasta URLs engañosas. Aquí serás un detective, pero también te preguntarás cómo la gente sigue cayendo en correos como:  
-*"¡Ganaste un millón de dólares!"*
+#### **Phishing**
 
-#### 🔍 **SIEM (Splunk): Dominando el caos del monitoreo**
-**Splunk** y otros sistemas de eventos serán tus mejores aliados para investigar actividades sospechosas. La relación con estas herramientas es intensa, casi tóxica:  
-🔹 **Intenso** por la cantidad de datos.  
-🔹 **Tóxico** por lo adictivo que resulta resolver cada enigma.  
+¡Ah, el noble arte de descubrir por qué alguien abrió un correo titulado "Felicitaciones, ganó un millón de dólares!" En el curso aprendes a analizar correos y entender desde cabeceras hasta URLs sospechosas.
 
-#### 🖥️ **Forense Digital: CSI versión ciberespacio**
-Con herramientas como **Autopsy** y **Volatility**, descubrirás que cada archivo o memoria RAM guarda secretos dignos de una novela negra. Este módulo es perfecto si sueñas con ser un analista de delitos digitales.
+#### **SIEM (Splunk)**
 
----
+Aquí es donde te conviertes en un detective. **Splunk** y otros sistemas de monitoreo son tus lupas para investigar actividades maliciosas. Lo que no te dicen es que tu relación con el SIEM será como la de un romance tóxico: intenso, complicado y lleno de búsquedas interminables de información.
 
-### ⏱️ **El examen: 24 horas contra el reloj**
+#### **Forense Digital**
 
-El examen final es el verdadero reto: un laboratorio práctico de **24 horas**, donde investigas incidentes reales y preparas un informe detallado.  
-
-> **Advertencia:** No subestimes el tiempo. Las primeras horas las pasarás configurando todo; las últimas, cuestionando tu cordura.
-
-🔹 **Lo que haces:** Recolectas evidencias, analizas datos y encuentras soluciones.  
-🔹 **Lo que aprendes:** A improvisar bajo presión.  
+Si alguna vez soñaste con ser un CSI, pero sin ser Gil Grissom, aquí tienes tu oportunidad. Desde usar **Autopsy** hasta analizar memorias con **Volatility**, este apartado es ideal para darte cuenta de que cualquier archivo, por inocente que parezca, puede guardar más secretos que tu ex.
 
 ---
 
-### 🎢 **Mi experiencia con el examen: De lo agónico a lo épico**
+### El examen: la joya de la corona
 
-Obtuve un **80%** en la corrección automática, lo cual ya era suficiente para aprobar. Pero, como buen perfeccionista, pedí una revisión manual. Un mes después, la gran noticia: ¡mi nota subió al **90%**! 🎉  
+El examen es un desafío de **24 horas**, lo que suena como mucho tiempo, pero no te dejes engañar: la mitad del tiempo lo gastarás dudando de tus decisiones de vida, y la otra mitad rogando que el informe final sea lo suficientemente claro como para impresionar a los revisores.  
+**¿Qué haces en el examen?** Te sumerges en un laboratorio en la nube, investigando incidentes mientras el reloj avanza sin piedad.  
+**¿Dramático?** Sí. **¿Entretenido?** También.
 
-Este logro me otorgó la codiciada **Gold Coin**, un trofeo digital que ahora decora mi perfil.
+---
 
-<div style="text-align: center; margin: 30px 0;">
-    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/COIN.jpg" alt="Gold Coin" style="width: 50%; border-radius: 15px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); filter: brightness(1.1);">
+### Mi experiencia con el examen
+
+Mi experiencia con el examen fue toda una montaña rusa. Primero, obtuve un **80%** en la corrección automática, lo cual ya era suficiente para aprobar. Pero algo en mí no me dejó tranquilo, así que pedí una revisión manual. Después de un mes de espera, me llegó una sorpresa increíble: ¡mi nota había subido a un **90%**! 🎉  
+¿El resultado? No solo aprobé, sino que gané mi **Gold Coin**, ese codiciado trofeo digital que ahora presumo con orgullo en cualquier ocasión.
+
+<div style="text-align: center; margin: 20px 0;">
+    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/COIN.jpg" alt="Gold Coin" style="width: 50%; border-radius: 15px;">
 </div>
 
-<div style="text-align: center; margin: 30px 0;">
-    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/90.png" alt="90% Nota" style="width: 40%; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);">
+<div style="text-align: center; margin: 20px 0;">
+    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/90.png" alt="90% Nota" style="border-radius: 15px;">
 </div>
 
 ---
 
-### ✅ **¿Vale la pena el esfuerzo?**
+### ¿Vale la pena el esfuerzo?
 
-#### **Respuesta corta:** Sí.  
-#### **Respuesta larga:** Depende de lo que busques.  
-
-El **BTL1** no es una certificación para marcar casillas y avanzar. Aquí te enfrentas a situaciones reales que desafían tus habilidades técnicas y mentales.  
-
-🔹 **Ideal para:**  
-- Principiantes con hambre de conocimiento práctico.  
-- Profesionales que buscan fortalecer su defensa cibernética.  
-
-🔹 **No recomendado para:**  
-- Quienes odian sudar frente a un teclado.
+- **La respuesta corta:** Sí.  
+- **La respuesta larga:** Depende de tus expectativas. Este curso no es la típica certificación donde marcas casillas y pasas un test de opción múltiple. Aquí aprendes haciendo, equivocándote y volviendo a intentarlo. Además, es ideal si estás iniciando en ciberseguridad o necesitas ampliar tus habilidades defensivas.
 
 ---
 
-### 💡 **Reflexión final**
+### Reflexiones finales
 
-El **BTL1** es como un maestro exigente: te saca de tu zona de confort, pero al final, te deja herramientas valiosas y un orgullo difícil de describir.  
+El **BTL1** es como ese profesor con mala leche que insiste en enseñarte con métodos rigurosos, pero al final, cuando pasas su examen, te sientes orgulloso. Aprenderás a investigar phishing, analizar tráfico de red, manejar herramientas forenses y mucho más.  
+**¿Es difícil?** Sí, pero es un tipo de dificultad que te forma como profesional.
 
-Si tuviera que hacerlo otra vez, mi lema sería:  
-**“Más café, menos expectativas de terminar en 30 horas.”** ☕  
-
-Porque, como en ciberseguridad, **el camino es tan importante como el destino**. Y si al final consigues tu **Gold Coin**, sabrás que todo valió la pena.
+Si me preguntas si volvería a hacerlo, mi respuesta sería:  
+“**Con gusto, pero esta vez con más café y menos ilusiones de terminar rápido.**”  
+Porque, como todo en ciberseguridad, el camino es tan importante como el destino. Y si al final consigues tu **Gold Coin**, créeme, la satisfacción lo vale.
 
 ---
 
-### 📚 **¿Quieres más información?**
+Para más información sobre la certificación, visita [Security Blue Team - eLearning](https://elearning.securityblue.team/)
 
-Descubre más sobre esta certificación en:  
-[Security Blue Team - eLearning](https://elearning.securityblue.team/)
-
-<hr style="border: none; border-top: 2px solid #FFD700; margin: 40px 0; width: 100%; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.5);">
+<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
 
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 3px solid #FFD700; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 25%; height: auto; border-radius: 15px; border: 2px solid #FFD700; box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5); filter: brightness(0.95) saturate(1.1);">
 </div>
