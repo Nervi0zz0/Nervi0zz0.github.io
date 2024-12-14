@@ -5,9 +5,9 @@ nav_order: 4
 description: "Un espacio donde la genialidad y el sarcasmo conviven en una especie de caos organizado."
 permalink: /mi-blog/
 ---
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solidrgb(242, 240, 245); margin: 40px 0; width: 100%;">
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/NERVI0ZZ0.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
+  <img src="/assets/images/NERVI0ZZ0.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(200, 193, 193, 0.3); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
 </div>
 
 <div style="text-align: center; margin: 30px 0;">
