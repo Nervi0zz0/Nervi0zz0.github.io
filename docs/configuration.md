@@ -34,11 +34,11 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 
 ## **Experiencia Profesional**
 
-<div style="display: flex; align-items: center; margin-top: 40px; flex-wrap: wrap; justify-content: center; background-color: #121212; padding: 40px;">
+<div style="display: flex; align-items: center; margin-top: 40px; flex-wrap: wrap; justify-content: center; padding: 40px;">
   <div style="flex: 0 0 auto; margin-bottom: 20px; width: 100%; max-width: 300px; border: 2px solid #00aaff; padding: 20px; background-color: #ffffff; border-radius: 15px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
     <img src="/assets/images/wise (1).png" alt="Logo Wise Security" style="max-width: 100%; display: block; margin: 0 auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); transition: transform 0.3s ease;">
   </div>
-</div>
+
 
 
 
