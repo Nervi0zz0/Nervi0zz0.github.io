@@ -6,14 +6,14 @@ nav_order: 2
 <hr style="border: none; border-top: 1px solid rgb(246, 242, 5); margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
 
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); filter: brightness(1.1) saturate(1.2); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
+  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 225, 236, 0.8); filter: brightness(1.1) saturate(1.2); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
 </div>
 
 
 
 <div style="text-align: center; margin-top: 20px;">
   <a href="mailto:jmiguel.htp@gmail.com" style="text-decoration: none;">
-    <button class="btn btn-outline" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color: #2b2b2b; color: rgb(200, 216, 27); transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(255, 215, 0, 0.5);">
+    <button class="btn btn-outline" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color: #2b2b2b; color: rgb(250, 251, 246); transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(5, 63, 255, 0.5);">
       📧 Contactar por Email
     </button>
   </a>
@@ -86,7 +86,7 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 
 <div style="text-align: center; margin-top: 20px;">
   <a href="https://www.credly.com/badges/a6308e7b-a79d-4e58-900e-b979c3c471d0/linked_in?t=smucyk" target="_blank" style="text-decoration: none;">
-    <button style="background-color: #FFD700; color: black; padding: 12px 25px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; transition: transform 0.2s; margin: 5px;">
+    <button style="background-color:rgb(4, 234, 255); color: black; padding: 12px 25px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; transition: transform 0.2s; margin: 5px;">
       🏅 Ver Credencial FortiGate 7.4 Operator
     </button>
   </a>
