@@ -4,7 +4,6 @@ parent: Diario de un Cojo
 nav_order: 3
 ---
 
-<hr style="border: none; border-top: 1px solid rgb(120, 120, 120); margin: 40px 0; width: 100%;">
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
     <img src="/assets/images/La_Razon/9rXb.gif" alt="GIF Jimmy" style="width: 60%; border-radius: 15px;">

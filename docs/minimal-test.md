@@ -9,7 +9,7 @@ nav_order: 1
     <img src="/assets/images/Mi vida como analista de SOC/fumando.jpeg" alt="depre" style="width: 40%; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); filter: brightness(1.1) saturate(1.2);">
 </div>
 
-<div style="background: linear-gradient(135deg, #FFD700 20%,rgb(10, 3, 0) 80%); padding: 25px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9); margin: 40px auto; max-width: 800px; text-align: center;">
+<div style="background: linear-gradient(135deg,rgb(5, 5, 4) 20%,rgb(4, 78, 21) 80%); padding: 25px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9); margin: 40px auto; max-width: 800px; text-align: center;">
   <div style="font-family: 'Oswald', sans-serif; font-size: 1.4rem; font-weight: 900; color: #FFFFFF; text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); letter-spacing: 3px; line-height: 1.5;">
     💻 Mi día a día como analista de SOC:  
   </div>
@@ -18,7 +18,7 @@ nav_order: 1
   </div>
 </div>
 
-<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 5px rgba(255, 215, 0, 0.3);">
+---
 
 ### Un inicio lleno de dudas
 
@@ -87,8 +87,11 @@ Y aunque todos los días te preguntas si todo esto vale la pena, si de verdad na
 
 Siempre tendrás una buena historia que contar… o al menos, una excusa para reunirte con tus compañeros analistas a echarte unas risas por el Teams como si te pagaran por ello.
 
-<hr style="border: none; border-top: 3px solid #FFD700; margin: 50px 0; box-shadow: 0 4px 8px rgba(255, 215, 0, 0.6);">
+<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
 <div style="text-align: center; margin: 50px auto;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 4px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+</div>
+<div style="text-align: center; margin-top: 40px;">
+  <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
 </div>
