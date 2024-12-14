@@ -32,10 +32,11 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 
 ## **Experiencia Profesional**
 
-<div style="display: flex; align-items: flex-start; margin-top: 40px; flex-wrap: wrap;">
-  <div style="flex: 0 0 auto; margin-bottom: 20px; width: 100%; border: 2px solid #A7C7E7; padding: 10px; background-color: #1c1c1c;">
-    <img src="/assets/images/wise (1).png" alt="Logo Wise Security" style="max-width: 200px; display: block; margin: 0 auto;">
+<div style="display: flex; align-items: flex-start; margin-top: 40px; flex-wrap: wrap; justify-content: center;">
+  <div style="flex: 0 0 auto; margin-bottom: 20px; width: 100%; border: 2px solid #FFD700; padding: 10px; background-color: #121212; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); transition: transform 0.3s ease;">
+    <img src="/assets/images/wise (1).png" alt="Logo Wise Security" style="max-width: 200px; display: block; margin: 0 auto; border-radius: 8px; transition: transform 0.3s ease;">
   </div>
+</div>
   <div style="flex: 1; min-width: 300px; color: #dcdcdc;">
     <h3 style="font-size: 1.1em; font-weight: bold; color: #ffd700; margin-bottom: 10px;">Analista de Ciberseguridad - SOC | Nivel 1</h3>
     <p style="font-style: italic; color: #999; font-size: 0.9em; margin-bottom: 5px;"><strong>Dic. 2022 – Presente | Madrid, España</strong></p>
@@ -53,7 +54,7 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 
 <div style="margin-top: 30px; text-align: center;">
   <a href="https://www.wisesecurity.com/" target="_blank">
-    <button type="button" name="button" class="btn" style="padding: 10px 20px; background-color: #A7C7E7; border: none; border-radius: 5px; color: white; font-size: 0.95em; cursor: pointer; transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(167, 199, 231, 0.7);">
+    <button type="button" name="button" class="btn" style="padding: 10px 20px; background-color:rgb(29, 14, 234); border: none; border-radius: 5px; color: white; font-size: 0.95em; cursor: pointer; transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(228, 233, 239, 0.7);">
       Visitar Wise Security
     </button>
   </a>
