@@ -6,23 +6,30 @@ nav_order: 2
 <hr style="border: none; border-top: 1px solid rgb(255, 255, 255); margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
 
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 225, 236, 0.8); filter: brightness(0.1) saturate(0.2); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(0.05)';" onmouseout="this.style.transform='scale(1)';">
+  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 225, 236, 0.8); filter: brightness(1.1) hue-rotate(170deg); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
 </div>
+
 
 
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="mailto:jmiguel.htp@gmail.com" style="text-decoration: none;">
-    <button class="btn btn-outline" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color:rgb(138, 0, 12); color: rgb(250, 251, 246); transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(5, 63, 255, 0.5);">
-      📧 Contactar por Email
-    </button>
-  </a>
-  <a href="https://www.linkedin.com/in/jmam84" target="_blank" style="text-decoration: none; margin-left: 10px;">
-    <button class="btn btn-outline" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color:rgb(0, 4, 224); color: #007bff; transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);">
-      🌐 LinkedIn
-    </button>
-  </a>
+  <span class="fs-3">
+    <a href="mailto:jmiguel.htp@gmail.com" style="text-decoration: none;">
+      <button class="btn" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color:rgb(0, 117, 138); color: rgb(250, 251, 246); transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(5, 63, 255, 0.5);">
+        📧 Contactar por Email
+      </button>
+    </a>
+  </span>
+
+  <span class="fs-3" style="margin-left: 10px;">
+    <a href="https://www.linkedin.com/in/jmam84" target="_blank" style="text-decoration: none;">
+      <button class="btn" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color:rgb(0, 4, 224); color: #007bff; transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);">
+        🌐 LinkedIn
+      </button>
+    </a>
+  </span>
 </div>
+
 
 ---
 
@@ -156,4 +163,6 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 <div style="text-align: center; margin: 50px auto;">
   <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
 </div>
-"
+<div style="text-align: center; margin-top: 40px;">
+  <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
+</div>
