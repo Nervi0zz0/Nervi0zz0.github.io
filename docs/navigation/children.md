@@ -75,8 +75,11 @@ Un laboratorio en la nube donde investigas un incidente, recoges evidencias y pr
 <div style="background: linear-gradient(90deg, #282828, #FFD700); padding: 15px; border-radius: 15px; margin: 40px auto; max-width: 800px; text-align: center; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);">
   <div style="font-family: 'Roboto', sans-serif; font-size: 1.4rem; color: #FFFFFF;">
     **🎯 Mi resultado:**  
-    Aprobé con un **80%**, pero pedí revisión manual. ¡Y sorpresa! Subí a un **90%** y conseguí la codiciada **Gold Coin**.  
+    Aprobé con un 80%, pero pedí revisión manual. ¡Y sorpresa! Subí a un 90% y conseguí la codiciada Gold Coin.  
   </div>
+  <div style="text-align: center; margin: 40px 0;">
+    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/90.png" alt="90% Nota" style="border-radius: 15px;">
+</div>
 </div>
 
 <div style="text-align: center; margin: 40px auto;">
