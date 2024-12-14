@@ -5,12 +5,12 @@ parent: Diario de un Cojo
 nav_order: 1
 ---
 
-<div style="background: linear-gradient(to right,rgb(179, 212, 233),rgb(182, 233, 214)); padding: 40px; border-radius: 10px; text-align: center; color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
+<div style="background: linear-gradient(to right,rgb(207, 227, 239),rgb(97, 227, 180)); padding: 40px; border-radius: 10px; text-align: center; color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
     <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 10px;">Mi día a día como analista de SOC:</h1>
     <h2 style="font-size: 1.75rem; font-weight: 300;">Sobreviviendo entre alertas, caos y usuarios que piensan que un ‘clic’ no hace daño</h2>
 </div>
 
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solidrgb(242, 255, 3); margin: 40px 0; width: 100%;">
 
 La ciberseguridad no es solo un trabajo; **es un estilo de vida**. Y si estás leyendo esto, ya sabes que ser analista de ciberseguridad es como ser ese hombre que se sienta al final de la barra de un bar mugroso, con la mirada perdida, un cigarro en la mano y un vaso de whisky barato que te hace cuestionar tus decisiones de vida. Solo que, en lugar de humo de tabaco y caras olvidadas, estamos rodeados de bytes, alertas y logs que se apilan como botellas vacías en una noche de resaca.
 
@@ -88,7 +88,7 @@ Y aunque todos los días te preguntas si todo esto vale la pena, si de verdad na
 Siempre tendrás una buena historia que contar… o al menos, una excusa para reunirte con tus compañeros analistas a echarte unas risas por el Teams como si te pagaran por ello.
 
 ---
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solidrgb(241, 237, 7); margin: 40px 0; width: 100%;">
 
 <div style="text-align: center; margin: 40px 0;">
   <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 30%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);">

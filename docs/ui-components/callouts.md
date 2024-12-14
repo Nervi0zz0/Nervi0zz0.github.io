@@ -3,7 +3,7 @@ title: 🛡️ Microsoft Sentinel
 parent: Supervivencia Sin Esfuerzo
 priority: 4
 ---
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solidrgb(230, 242, 9); margin: 40px 0; width: 100%;">
 
 
 ## Introducción
@@ -126,7 +126,7 @@ SecurityEvent | where SourceIP in ('192.168.1.100', '203.0.113.45') | project Ti
 - `project`: Muestra las columnas de hora, cuenta, IP de origen y computadora.
 - `order by`: Ordena los resultados por tiempo.
 
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solidrgb(239, 247, 7); margin: 40px 0; width: 100%;">
 
 <div style="text-align: center; margin: 40px 0;">
   <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 30%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);">

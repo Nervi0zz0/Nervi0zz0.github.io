@@ -3,9 +3,9 @@ title: Security Blue Team
 nav_order: 6
 ---
 
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solidrgb(203, 248, 2); margin: 40px 0; width: 100%;">
 
-<div style="background: linear-gradient(45deg, #007bff, #6f42c1); padding: 30px; border-radius: 10px; text-align: center; color: white;">
+<div style="background: linear-gradient(45deg,rgb(55, 191, 100),rgb(9, 150, 72)); padding: 30px; border-radius: 10px; text-align: center; color: white;">
   <h1 style="font-size: 2.5rem;">🛡️ <strong>¿Qué es Blue Team Labs y Security Blue Team eLearning?</strong></h1>
 </div>
 

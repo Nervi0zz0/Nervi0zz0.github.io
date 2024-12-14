@@ -2,16 +2,16 @@
 title: Mi CV
 nav_order: 2
 ---
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solidrgb(246, 242, 5); margin: 40px 0; width: 100%;">
 
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
+  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(224, 243, 139, 0.3); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
 </div>
 
 
 <div style="text-align: center; margin-top: 20px;">
   <a href="mailto:jmiguel.htp@gmail.com" style="text-decoration: none;">
-    <button class="btn btn-outline" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color: white; color: #007bff; transition: background-color 0.3s;">
+    <button class="btn btn-outline" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color: white; color:rgb(200, 216, 27); transition: background-color 0.3s;">
       📧 Contactar por Email
     </button>
   </a>

@@ -3,7 +3,7 @@ title: 🛡️ Tipos de Registros DNS
 parent: Supervivencia Sin Esfuerzo
 priority: 4
 ---
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solidrgb(242, 238, 6); margin: 40px 0; width: 100%;">
 
 # Tipos de Registros DNS:
 
@@ -124,5 +124,5 @@ Recuerda que, además de configurar correctamente estos registros, es fundamenta
 <hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
 
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 30%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 30%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(248, 244, 2, 0.3);">
 </div>

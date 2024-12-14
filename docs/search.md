@@ -3,7 +3,7 @@ title: Pickle Rick | Walkthrough
 parent: TryHackMe
 nav_order: 2
 ---
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solidrgb(227, 243, 9); margin: 40px 0; width: 100%;">
 
 # 🧪 Pickle Rick | TryHackMe Walkthrough  
 ![Pickle Rick](../assets/img/rick.png)
@@ -122,7 +122,7 @@ Rick ha vuelto a su forma humana, al menos por ahora. Este reto nos recuerda lo 
 
 Firma
 
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solidrgb(245, 229, 7); margin: 40px 0; width: 100%;">
 
 <div style="text-align: center; margin: 40px 0;">
   <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 30%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);">
