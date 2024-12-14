@@ -36,3 +36,11 @@ Así que, ¿qué más nos queda? Solo esperar a que algún nuevo héroe se atrev
 Nos vemos en la próxima marcha de compañeros. Mientras tanto, te dejo con mi circulito verde… o bueno, ya sabes, con mi circulito gris. 🥲
 
 Siempre nos quedará Discord o LinkedIn, un brindis por los compañeros perdidos.
+<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+
+<div style="text-align: center; margin: 50px auto;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+</div>
+<div style="text-align: center; margin-top: 40px;">
+  <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
+</div>

@@ -23,7 +23,7 @@ permalink: /mi-blog/
 
 ## ¿De qué va este blog?
 
-Pues va de mí. ¿De qué más iba a ir? Esto no es un consultorio sentimental ni un tutorial para cambiar el mundo. Este es mi espacio, mi pequeño rincón de Internet donde vengo a despotricar, reflexionar y, de vez en cuando, soltar alguna que otra anécdota sobre ciberseguridad y la vida profesional. Es como un diario, pero más público, porque claro, ¿para qué sufrir solo si puedo compartirlo con desconocidos?
+Pues va de mí. ¿De qué más iba a ir? Esto no es un consultorio sentimental ni un tutorial para cambiar el mundo. Este es mi espacio, mi pequeño rincón de Internet donde vengo a despotricar, reflexionar y, de vez en cuando, soltar alguna que otra anécdota sobre ciberseguridad y la vida profesional. Es como un diario, pero más público, porque claro, ¿para qué sufrir solo si puedo compartirlo contigo?
 
 ---
 
@@ -58,11 +58,13 @@ Si no te gusta, no pasa nada. Hay una "X" en la esquina de tu navegador. Pero si
 {: .important }
 > El autor no se responsabiliza de las cosas absurdas que escriba bajo los efectos de medicamentos recetados. Si algo te parece una gilipollez, probablemente lo sea.
 
----
 
-**Bienvenido a este rincón lleno de caos  y una buena dosis de mala leche.**
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
 
-<div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 30%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);">
+<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+
+<div style="text-align: center; margin: 50px auto;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+</div>
+<div style="text-align: center; margin-top: 40px;">
+  <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
 </div>
