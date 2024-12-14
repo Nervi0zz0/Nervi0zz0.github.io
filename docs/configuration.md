@@ -3,11 +3,10 @@ title: Mi CV
 nav_order: 2
 ---
 
-<hr style="border: none; border-top: 1px solid rgb(255, 255, 255); margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
-
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 225, 236, 0.8); filter: brightness(1.1) hue-rotate(170deg); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
+  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 225, 236, 0.8); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(0.05)';" onmouseout="this.style.transform='scale(1)';">
 </div>
+
 
 <div style="text-align: center; margin-top: 20px;">
   <span class="fs-3">
