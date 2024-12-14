@@ -19,7 +19,7 @@ parent: Diario de un Cojo
 
 ### 🏁 **Introducción: Una lucha épica entre aprendizaje y frustración**
 
-Certificarte en **ciberseguridad** no es un simple "logro LinkedIn". La certificación **Blue Team Level 1 (BTL1)** pone a prueba tu resistencia mental y tu habilidad para resolver problemas reales.  
+Certificarte en **ciberseguridad** no es un simple "logro LinkedIn". La certificación **Blue Team Level 1 (BTL1)** pone a prueba tu resistencia mental y tu habilidad para resolver problemas reales. 1BTL es un curso que te enseñará, literalmente, a sobrevivir mientras luchas contra las fuerzas del caos… también conocidas como usuari@s.
 
 💡 **¿Qué ofrece?**  
 Una transformación total: de entusiasta a **defensor técnico profesional**, listo para enfrentar amenazas reales armado con herramientas como **Wireshark**, **CyberChef**, **Volatility** y **KAPE**.  
@@ -51,10 +51,10 @@ Descubre el arte de desarmar correos maliciosos. Desde cabeceras engañosas hast
 > **Nivel de diversión:** Alto.  
 > **Nivel de frustración:** Aún más alto.
 
-#### 🔎 **SIEM (Splunk): Tu lupa cibernética**
+#### 🔎 **SIEM (Splunk)**
 El SIEM (como Splunk) se convertirá en tu herramienta principal para analizar eventos sospechosos. Es un sistema poderoso que te dará una sensación de detective digital… hasta que descubras cuán adictivo puede ser.  
 
-🔹 **Nota clave:** Prepárate para largas noches revisando logs infinitos.
+🔹 **Nota clave:** Prepárate para revisar logs infinitos.
 
 #### 🖥️ **Forense Digital: Desentrañando secretos ocultos**
 Con herramientas como **Autopsy** y **Volatility**, aprenderás a investigar memorias, discos duros y archivos aparentemente inocentes.  
@@ -68,9 +68,9 @@ Con herramientas como **Autopsy** y **Volatility**, aprenderás a investigar mem
 El examen práctico es un auténtico **reto de 24 horas** que pone a prueba todo lo aprendido.  
 
 🔹 **¿Qué implica?**  
-Un laboratorio en la nube donde investigas un incidente cibernético, recoges evidencias y presentas un informe completo.  
+Un laboratorio en la nube donde investigas un incidente, recoges evidencias y presentas un informe completo.  
 
-🔹 **Advertencia:** Las primeras 12 horas son para la investigación. Las últimas 12 las dedicarás a preguntarte si realmente elegiste la carrera correcta.  
+🔹 ¿Dramático? Sí. ¿Entretenido? También.
 
 <div style="background: linear-gradient(90deg, #282828, #FFD700); padding: 15px; border-radius: 15px; margin: 40px auto; max-width: 800px; text-align: center; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);">
   <div style="font-family: 'Roboto', sans-serif; font-size: 1.4rem; color: #FFFFFF;">
@@ -80,7 +80,7 @@ Un laboratorio en la nube donde investigas un incidente cibernético, recoges ev
 </div>
 
 <div style="text-align: center; margin: 40px auto;">
-    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/COIN.jpg" alt="Gold Coin" style="width: 45%; border-radius: 20px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9); filter: brightness(1.2);">
+    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/COIN.jpg" alt="Gold Coin" style="width: 65%; border-radius: 20px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9); filter: brightness(1.2);">
 </div>
 
 ---
@@ -103,11 +103,11 @@ Un laboratorio en la nube donde investigas un incidente cibernético, recoges ev
 
 ### 💡 **Reflexión final**
 
-El **BTL1** es como un maestro estricto: duro, pero increíblemente formativo. Aprenderás más de tus errores que de tus aciertos, y al final, te sentirás invencible.  
+El BTL1 es como ese profesor con muy mala hostia que insiste en enseñarte con métodos rigurosos, pero al final, cuando pasas su examen, te sientes orgulloso. Aprenderás más de tus errores que de tus aciertos.  
 
-Si tuviera que hacerlo otra vez, lo haría con más café, menos prisas y la certeza de que cada minuto valdrá la pena.  
+Si tuviera que hacerlo otra vez, lo haría con más café y menos prisas y.  
 
-> Porque, en ciberseguridad, el conocimiento no es una meta, sino un camino continuo de aprendizaje y evolución.
+> Porque, en ciber el conocimiento no es una meta, sino un camino continuo de aprendizaje y evolución.
 
 ---
 
