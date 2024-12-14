@@ -3,13 +3,12 @@ title: Mi CV
 nav_order: 2
 ---
 
-<hr style="border: none; border-top: 1px solid rgb(0, 132, 255); margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
+<hr style="border: none; border-top: 1px solid rgb(246, 242, 5); margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
 
-<div style="display: flex; align-items: flex-start; margin-top: 40px; flex-wrap: wrap; justify-content: center; background-color: #ffffff;">
-  <div style="flex: 0 0 auto; margin-bottom: 20px; width: 100%; border: 3px solid rgb(15, 178, 223); padding: 20px; background-color: #ffffff; border-radius: 12px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
-    <img src="/assets/images/wise (1).png" alt="Logo Wise Security" style="max-width: 200px; display: block; margin: 0 auto; border-radius: 8px; transition: transform 0.3s ease; border: 2px solid rgb(15, 178, 223); padding: 5px;">
-  </div>
+<div style="text-align: center; margin: 40px 0;">
+  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); filter: brightness(1.1) saturate(1.2); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
 </div>
+
 
 
 <div style="text-align: center; margin-top: 20px;">
@@ -35,11 +34,12 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 
 ## **Experiencia Profesional**
 
-<div style="display: flex; align-items: flex-start; margin-top: 40px; flex-wrap: wrap; justify-content: center; background-color: #ffffff;">
-  <div style="flex: 0 0 auto; margin-bottom: 20px; width: 100%; border: 2px solid rgb(15, 178, 223); padding: 20px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
-    <img src="/assets/images/wise (1).png" alt="Logo Wise Security" style="max-width: 200px; display: block; margin: 0 auto; border-radius: 8px; transition: transform 0.3s ease;">
+<div style="display: flex; align-items: center; margin-top: 40px; flex-wrap: wrap; justify-content: center; background-color: #121212; padding: 40px;">
+  <div style="flex: 0 0 auto; margin-bottom: 20px; width: 100%; max-width: 300px; border: 2px solid #00aaff; padding: 20px; background-color: #ffffff; border-radius: 15px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+    <img src="/assets/images/wise (1).png" alt="Logo Wise Security" style="max-width: 100%; display: block; margin: 0 auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); transition: transform 0.3s ease;">
   </div>
 </div>
+
 
 
 </div>
