@@ -9,9 +9,6 @@ nav_order: 2
   <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 225, 236, 0.8); filter: brightness(1.1) hue-rotate(170deg); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
 </div>
 
-
-
-
 <div style="text-align: center; margin-top: 20px;">
   <span class="fs-3">
     <a href="mailto:jmiguel.htp@gmail.com" style="text-decoration: none;">
