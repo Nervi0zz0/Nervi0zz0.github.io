@@ -6,16 +6,16 @@ description: "El blog que nadie pidió, pero todos necesitan (o no)."
 permalink: /
 ---
 
-<div style="background: linear-gradient(135deg, #1E90FF, #1a1a1a); color: #f5f5f5; padding: 30px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);">
-  <h2 align="center" style="font-family: 'Roboto', sans-serif; color: #f5f5f5; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">&iquest;Y quién soy yo?</h2>
+<div style="background: linear-gradient(135deg, #1E90FF, #1a1a1a); color: #f5f5f5; padding: 30px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);">
+  <h2 align="center" style="font-family: 'Roboto', sans-serif; color: #f5f5f5; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);">&iquest;Y quién soy yo?</h2>
   <div style="text-align: center; margin-top: 20px;">
-    <img src="/assets/images/txemita.jpg" alt="Soy el que no lleva gorro... Obvio." style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 0 40px rgba(255, 255, 255, 0.3); margin-bottom: 20px;">
+    <img src="/assets/images/txemita.jpg" alt="Soy el que no lleva gorro... Obvio." style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); margin-bottom: 20px;">
     <p style="font-size: 18px; color: #dcdcdc; font-style: italic;">Soy el que no lleva gorro... Obvio.</p>
   </div>
 </div>
 
-<div style="background: #1a1a1a; color: #f5f5f5; padding: 40px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.7); margin-top: 20px; animation: fadeIn 1.5s ease-in-out;">
-  <h2 align="center" style="font-family: 'Roboto', sans-serif; color: #1E90FF; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Un poco sobre mí, o cómo la vida me empujó a hacer esto...</h2>
+<div style="background: #1a1a1a; color: #f5f5f5; padding: 40px; border-radius: 15px; box-shadow: 0 0 25px rgba(0, 0, 0, 0.3); margin-top: 20px; animation: fadeIn 1.5s ease-in-out;">
+  <h2 align="center" style="font-family: 'Roboto', sans-serif; color: #1E90FF; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);">Un poco sobre mí, o cómo la vida me empujó a hacer esto...</h2>
 
   <p style="font-size: 16px; line-height: 1.8; color: #dcdcdc;">Mi nombre es <strong>Miguel</strong>, también conocido como <strong>nervi0zz0</strong> (no me conocen ni en mi casa). En este momento, estoy mucho más cojo de lo habitual, debido a una lesión reciente en la pierna que me ha dejado con un dolor insoportable y una receta interminable de opiáceos. La medicina manda ahora, porque, siendo sincero, lo único que alivia el sufrimiento físico es andar por la vida como un zombi.</p>
 
@@ -25,33 +25,49 @@ permalink: /
 
   <p style="font-size: 16px; line-height: 1.8; color: #dcdcdc;"><strong>¿Por qué escribir un blog sobre todo esto?</strong> La respuesta es simple: esta pierna jodida me da tiempo para pensar y compartir mis reflexiones sobre lo absurdo de la vida. Y si puedo mezclar un poco de mala hostia con ciberseguridad en el camino, ¿por qué no?</p>
 
-  <p style="text-align: center; font-size: 22px; font-weight: bold; color: #1E90FF; margin-top: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Bienvenidos a mi espacio: Diario de un Cojo.</p>
+  <p style="text-align: center; font-size: 22px; font-weight: bold; color: #1E90FF; margin-top: 20px; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);">Bienvenidos a mi espacio: Diario de un Cojo.</p>
 </div>
 
-<div style="background: #1a1a1a; color: #f5f5f5; padding: 20px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); margin-top: 40px;">
-  <h3 align="center" style="color: #1E90FF; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Tabla de Contenidos</h3>
+<div style="background: #1a1a1a; color: #f5f5f5; padding: 20px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); margin-top: 40px;">
+  <h3 align="center" style="color: #1E90FF; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);">Tabla de Contenidos</h3>
   <ul style="list-style: none; padding: 0; font-size: 16px; color: #dcdcdc;">
-    <li style="margin-bottom: 10px;"><a href="/cuando-el-conectado-se-desvanece" style="color: #1E90FF; text-decoration: none;">♿ Cuando el Conectado se Desvanece</a></li>
-    <li style="margin-bottom: 10px;"><a href="/otro-post" style="color: #1E90FF; text-decoration: none;">Otro Post Ejemplo</a></li>
+    <li style="margin-bottom: 10px;">
+      <a href="/CHANGELOG.md" style="color: #1E90FF; text-decoration: none; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);">Talent4Cyber 2024, Cuando los premios y el caos se encuentran</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      <a href="/MIGRATION.md" style="color: #1E90FF; text-decoration: none; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);">Las Jornadas STIC, El Desfile de la Ciberseguridad</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      <a href="/docs/¡Que-salgo-en-los-periódicos!.md" style="color: #1E90FF; text-decoration: none; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);">Que salgo en los periódicos</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      <a href="/docs/minimal-test.md" style="color: #1E90FF; text-decoration: none; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);">Mi vida como analista de SOC</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      <a href="/docs/navigation/children.md" style="color: #1E90FF; text-decoration: none; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);">Mi experiencia con la certificación Blue Team Level 1 (BTL1)</a>
+    </li>
+    <li style="margin-bottom: 10px;">
+      <a href="/docs/utilities/typography.md" style="color: #1E90FF; text-decoration: none; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);">Cuando el Conectado se Desvanece</a>
+    </li>
   </ul>
 </div>
 
-<div style="background: #1a1a1a; color: #f5f5f5; padding: 20px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); margin-top: 40px;">
-  <h3 align="center" style="color: #1E90FF; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Antes de continuar debes saber que...</h3>
+<div style="background: #1a1a1a; color: #f5f5f5; padding: 20px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); margin-top: 40px;">
+  <h3 align="center" style="color: #1E90FF; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);">Antes de continuar debes saber que...</h3>
   <blockquote style="font-size: 16px; line-height: 1.8; color: #999; border-left: 5px solid #1E90FF; padding-left: 15px; margin-top: 20px;">
     🚨 <strong>Atención:</strong> Algunos de los temas tratados en este blog son solo para expertos en ciberseguridad. No intentes esto en casa sin supervisión... ¡Que no, tonto! Pasa, anda, no ves que este blog lo escribo yo.
   </blockquote>
 </div>
 
 <div style="text-align: center; margin-top: 40px; animation: popIn 1.5s ease-in-out;">
-  <p style="font-size: 22px; color: #1E90FF; font-weight: bold; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);">Si decides quedarte, ¡bienvenido! 😎</p>
-  <img src="/assets/images/gif/14Vb.gif" alt="corazones" style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 15px 30px rgba(30, 144, 255, 0.8); margin-top: 20px;">
+  <p style="font-size: 22px; color: #1E90FF; font-weight: bold; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);">Si decides quedarte, ¡bienvenido! 😎</p>
+  <img src="/assets/images/gif/14Vb.gif" alt="corazones" style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 15px 30px rgba(30, 144, 255, 0.6); margin-top: 20px;">
 </div>
 
 <hr style="border: none; border-top: 1px solid #1E90FF; margin: 40px 0; opacity: 0.9;">
 
 <div style="text-align: center; margin-top: 40px; animation: popIn 1.5s ease-in-out;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; height: auto; border-radius: 50%; box-shadow: 0 20px 40px rgba(30, 144, 255, 0.9);">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; height: auto; border-radius: 50%; box-shadow: 0 20px 40px rgba(30, 144, 255, 0.6);">
 </div>
 
 <style>
