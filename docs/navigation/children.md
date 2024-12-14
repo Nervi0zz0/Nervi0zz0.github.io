@@ -88,3 +88,9 @@ Porque, como todo en ciberseguridad, el camino es tan importante como el destino
 ---
 
 Para más información sobre la certificación, visita [Security Blue Team - eLearning](https://elearning.securityblue.team/)
+
+<hr style="border: none; border-top: 1px solid #9575cd; margin: 40px 0; width: 100%; opacity: 0.8;">
+
+<div style="text-align: center; margin: 40px 0;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 30%; height: auto; border-radius: 20px; box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); filter: brightness(0.9) saturate(1.2);">
+</div>
