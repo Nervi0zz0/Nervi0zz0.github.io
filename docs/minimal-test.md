@@ -5,17 +5,17 @@ parent: Diario de un Cojo
 nav_order: 1
 ---
 
-<div style="background: linear-gradient(to right,rgb(11, 56, 83),rgb(5, 3, 59)); padding: 40px; border-radius: 10px; text-align: center; color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
+<div style="background: linear-gradient(to right, #0B2A45, #05033B); padding: 40px; border-radius: 10px; text-align: center; color: #E0E0E0; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); margin-bottom: 30px;">
     <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 10px;">Mi día a día como analista de SOC:</h1>
     <h2 style="font-size: 1.75rem; font-weight: 300;">Sobreviviendo entre alertas, caos y usuarios que piensan que un ‘clic’ no hace daño</h2>
 </div>
 
-<hr style="border: none; border-top: 1px solidrgb(242, 255, 3); margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 5px rgba(255, 215, 0, 0.3);">
 
 La ciberseguridad no es solo un trabajo; **es un estilo de vida**. Y si estás leyendo esto, ya sabes que ser analista de ciberseguridad es como ser ese hombre que se sienta al final de la barra de un bar mugroso, con la mirada perdida, un cigarro en la mano y un vaso de whisky barato que te hace cuestionar tus decisiones de vida. Solo que, en lugar de humo de tabaco y caras olvidadas, estamos rodeados de bytes, alertas y logs que se apilan como botellas vacías en una noche de resaca.
 
 <div style="text-align: center;">
-    <img src="/assets/images/Mi vida como analista de SOC/fumando.jpeg" alt="depre" style="border-radius: 15px; max-width: 80%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+    <img src="/assets/images/Mi vida como analista de SOC/fumando.jpeg" alt="depre" style="border-radius: 15px; max-width: 80%; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); margin-bottom: 20px; filter: brightness(0.9) saturate(1.1);">
 </div>
 
 ---
@@ -60,7 +60,7 @@ Pero, claro, en lugar de culpar a la persona, terminas preguntándote:
 - **¿Quizá disfrazados de algo que realmente los haga prestar atención?**
 
 <div style="text-align: center;">
-    <img src="/assets/images/Mi vida como analista de SOC/deadpool.jpeg" alt="Mi Imagen" style="border-radius: 15px; max-width: 80%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+    <img src="/assets/images/Mi vida como analista de SOC/deadpool.jpeg" alt="Mi Imagen" style="border-radius: 15px; max-width: 80%; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); margin-bottom: 20px; filter: brightness(0.9) saturate(1.1);">
 </div>
 
 ---
@@ -83,12 +83,11 @@ Al final, en este mundo de ciberseguridad, descubres una verdad profunda:
 
 Eres simplemente el tipo que, en medio del apocalipsis digital, trata de evitar que alguien nombre su contraseña "123456". 
 
-Y aunque todos los días te preguntas si todo esto vale la pena, si de verdad naciste para vigilar logs como un jodido búho frente a un monitor, sabes que al menos tienes esta ventaja: 
+Y aunque todos los días te preguntas si todo esto vale la pena, si de verdad naciste para vigilar logs como un búho frente a un monitor, sabes que al menos tienes esta ventaja: 
 
 Siempre tendrás una buena historia que contar… o al menos, una excusa para reunirte con tus compañeros analistas a echarte unas risas por el Teams como si te pagaran por ello.
 
----
-<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
+<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 5px rgba(255, 215, 0, 0.3);">
 
 <div style="text-align: center; margin: 40px 0;">
   <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 25%; height: auto; border-radius: 15px; border: 2px solid #FFD700; box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5); filter: brightness(0.95) saturate(1.1);">
