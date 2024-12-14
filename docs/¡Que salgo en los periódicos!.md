@@ -60,8 +60,8 @@ Hoy miro atrás y pienso: *"Menos mal que respondí a esa llamada"*. Lo que pare
     <a href="https://www.larazon.es/sociedad/20230122/l33me6qeq5feljn5njg5grxhou.html" target="_blank" style="color: #1D3557; font-size: 1.2rem; font-weight: bold;">Entrevista en La Razón</a>  
 </div>
 
-<hr style="border: none; border-top: 1px solidrgb(246, 255, 0); margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
 
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 30%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 25%; height: auto; border-radius: 15px; border: 2px solid #FFD700; box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5); filter: brightness(0.95) saturate(1.1);">
 </div>

@@ -12,9 +12,8 @@ nav_order: 7
 
 ---
 
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 50px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
 
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 22%; height: auto; border-radius: 25px; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 25%; height: auto; border-radius: 15px; border: 2px solid #FFD700; box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5); filter: brightness(0.95) saturate(1.1);">
 </div>
-
