@@ -32,13 +32,15 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 
 ## **Experiencia Profesional**
 
-<div style="display: flex; align-items: flex-start; margin-top: 40px; flex-wrap: wrap; justify-content: center;">
-  <div style="flex: 0 0 auto; margin-bottom: 20px; width: 100%; border: 2px solid #FFD700; padding: 10px; background-color: #121212; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); transition: transform 0.3s ease;">
+<div style="display: flex; align-items: flex-start; margin-top: 40px; flex-wrap: wrap; justify-content: center; background-color: #ffffff;">
+  <div style="flex: 0 0 auto; margin-bottom: 20px; width: 100%; border: 2px solid rgb(15, 178, 223); padding: 10px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
     <img src="/assets/images/wise (1).png" alt="Logo Wise Security" style="max-width: 200px; display: block; margin: 0 auto; border-radius: 8px; transition: transform 0.3s ease;">
   </div>
 </div>
+
+</div>
   <div style="flex: 1; min-width: 300px; color: #dcdcdc;">
-    <h3 style="font-size: 1.1em; font-weight: bold; color: #ffd700; margin-bottom: 10px;">Analista de Ciberseguridad - SOC | Nivel 1</h3>
+    <h3 style="font-size: 1.1em; font-weight: bold; color:rgb(4, 25, 250); margin-bottom: 10px;">Analista de Ciberseguridad - SOC | Nivel 1</h3>
     <p style="font-style: italic; color: #999; font-size: 0.9em; margin-bottom: 5px;"><strong>Dic. 2022 – Presente | Madrid, España</strong></p>
     <ul style="font-size: 0.95em; line-height: 1.6; color: #bbb; margin-bottom: 15px;">
       <li><strong>Monitoreo de sondas y análisis de eventos de seguridad:</strong> Supervisión activa de eventos mediante sondas de seguridad, con análisis detallado de las alertas generadas y validación de incidentes potenciales.</li>
