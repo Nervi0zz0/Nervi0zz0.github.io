@@ -1,15 +1,16 @@
 ---
-title: ♿¡Que salgo en los periódicos!
+title: 🔹¡Que salgo en los periódicos!
 parent: Diario de un Cojo
 nav_order: 3
 ---
-<hr style="border: none; border-top: 1px solidrgb(198, 187, 216); margin: 40px 0; width: 100%;">
+
+<hr style="border: none; border-top: 1px solid rgb(120, 120, 120); margin: 40px 0; width: 100%;">
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
     <img src="/assets/images/La_Razon/9rXb.gif" alt="GIF Jimmy" style="width: 60%; border-radius: 15px;">
 </div>
 
-<div style="text-align: center; font-family: 'Arial Black', sans-serif; font-size: 2.5rem; color:rgb(174, 159, 159); text-shadow: 2px 2px 5px rgba(240, 210, 210, 0.5); margin-bottom: 16px;">
+<div style="text-align: center; font-family: 'Arial Black', sans-serif; font-size: 2.5rem; color:rgb(210, 210, 210); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); margin-bottom: 16px;">
     ¡La Razón habla de mí! 🗞️
 </div>
 
@@ -57,10 +58,10 @@ Hoy miro atrás y pienso: *"Menos mal que respondí a esa llamada"*. Lo que pare
 
 <div style="text-align: center; margin-top: 20px;">
     📖 **Lee el artículo completo aquí:**  
-    <a href="https://www.larazon.es/sociedad/20230122/l33me6qeq5feljn5njg5grxhou.html" target="_blank" style="color: #1D3557; font-size: 1.2rem; font-weight: bold;">Entrevista en La Razón</a>  
+    <a href="https://www.larazon.es/sociedad/20230122/l33me6qeq5feljn5njg5grxhou.html" target="_blank" style="color: #3b7aa5; font-size: 1.2rem; font-weight: bold; text-decoration: underline;">Entrevista en La Razón</a>  
 </div>
 
-<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+<hr style="border: none; border-top: 1px solid rgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
 <div style="text-align: center; margin: 50px auto;">
   <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
