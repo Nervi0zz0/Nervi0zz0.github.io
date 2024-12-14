@@ -9,7 +9,7 @@ parent: Diario de un Cojo
     <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/BTLLOCO (1).jpg" alt="BTL1 Logo" style="width: 40%; border-radius: 15px;">
 </div>
 
-<div style="background-color: #3a3a3a; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); margin: 20px auto; max-width: 600px; text-align: center;">
+<div style="background-color: #3a3a3a; padding: 16px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); margin: 20px auto; max-width: 600px; text-align: center;">
   <div style="font-family: 'Arial Black', sans-serif; font-size: 1.8rem; color: #E0E0E0; text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.4);">
     💻 (BTL1): ¿Un paso en la dirección correcta o simplemente masoquismo profesional? :💀
   </div>
@@ -92,8 +92,8 @@ Porque, como todo en ciberseguridad, el camino es tan importante como el destino
 
 Para más información sobre la certificación, visita [Security Blue Team - eLearning](https://elearning.securityblue.team/)
 
-<hr style="border: none; border-top: 1px solid #9575cd; margin: 40px 0; width: 100%; opacity: 0.8;">
+<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
 
-<div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 30%; height: auto; border-radius: 20px; box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); filter: brightness(0.9) saturate(1.2);">
+<div style="text-align: center; margin: 40px 0; background-color: #2e2e2e; padding: 20px; border-radius: 20px; border: 2px solid #FFD700; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 25%; height: auto; border-radius: 15px; box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5); filter: brightness(0.95) saturate(1.1);">
 </div>
