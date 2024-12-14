@@ -2,21 +2,21 @@
 title: Mi CV
 nav_order: 2
 ---
-<hr style="border: none; border-top: 1px solidrgb(246, 242, 5); margin: 40px 0; width: 100%;">
+
+<hr style="border: none; border-top: 1px solid rgb(246, 242, 5); margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
 
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(224, 243, 139, 0.3); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
+  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); filter: brightness(1.1) saturate(1.2); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
 </div>
-
 
 <div style="text-align: center; margin-top: 20px;">
   <a href="mailto:jmiguel.htp@gmail.com" style="text-decoration: none;">
-    <button class="btn btn-outline" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color: white; color:rgb(200, 216, 27); transition: background-color 0.3s;">
+    <button class="btn btn-outline" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color: #2b2b2b; color: rgb(200, 216, 27); transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(255, 215, 0, 0.5);">
       📧 Contactar por Email
     </button>
   </a>
   <a href="https://www.linkedin.com/in/jmam84" target="_blank" style="text-decoration: none; margin-left: 10px;">
-    <button class="btn btn-outline" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color: white; color: #007bff; transition: background-color 0.3s;">
+    <button class="btn btn-outline" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color: #2b2b2b; color: #007bff; transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);">
       🌐 LinkedIn
     </button>
   </a>
@@ -33,13 +33,13 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 ## **Experiencia Profesional**
 
 <div style="display: flex; align-items: flex-start; margin-top: 40px; flex-wrap: wrap;">
-  <div style="flex: 0 0 auto; margin-bottom: 20px; width: 100%; border: 2px solid #A7C7E7; padding: 10px;">
+  <div style="flex: 0 0 auto; margin-bottom: 20px; width: 100%; border: 2px solid #A7C7E7; padding: 10px; background-color: #1c1c1c;">
     <img src="/assets/images/wise (1).png" alt="Logo Wise Security" style="max-width: 200px; display: block; margin: 0 auto;">
   </div>
-  <div style="flex: 1; min-width: 300px;">
-    <h3 style="font-size: 1.1em; font-weight: bold; color: #2E3A59; margin-bottom: 10px;">Analista de Ciberseguridad - SOC | Nivel 1</h3>
-    <p style="font-style: italic; color: #777; font-size: 0.9em; margin-bottom: 5px;"><strong>Dic. 2022 – Presente | Madrid, España</strong></p>
-    <ul style="font-size: 0.95em; line-height: 1.6; color: #555; margin-bottom: 15px;">
+  <div style="flex: 1; min-width: 300px; color: #dcdcdc;">
+    <h3 style="font-size: 1.1em; font-weight: bold; color: #ffd700; margin-bottom: 10px;">Analista de Ciberseguridad - SOC | Nivel 1</h3>
+    <p style="font-style: italic; color: #999; font-size: 0.9em; margin-bottom: 5px;"><strong>Dic. 2022 – Presente | Madrid, España</strong></p>
+    <ul style="font-size: 0.95em; line-height: 1.6; color: #bbb; margin-bottom: 15px;">
       <li><strong>Monitoreo de sondas y análisis de eventos de seguridad:</strong> Supervisión activa de eventos mediante sondas de seguridad, con análisis detallado de las alertas generadas y validación de incidentes potenciales.</li>
       <li><strong>Gestión y mitigación de IOCs:</strong> Investigación, clasificación y bloqueo de indicadores de compromiso (IOCs) en diversas plataformas de seguridad, con énfasis en la prevención de ataques.</li>
       <li><strong>Colaboración interdepartamental:</strong> Coordinación efectiva con equipos multidisciplinarios para asegurar la respuesta rápida ante incidentes y fortalecer la postura de seguridad organizacional.</li>
@@ -53,7 +53,7 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 
 <div style="margin-top: 30px; text-align: center;">
   <a href="https://www.wisesecurity.com/" target="_blank">
-    <button type="button" name="button" class="btn" style="padding: 10px 20px; background-color: #A7C7E7; border: none; border-radius: 5px; color: white; font-size: 0.95em; cursor: pointer; transition: background-color 0.3s;">
+    <button type="button" name="button" class="btn" style="padding: 10px 20px; background-color: #A7C7E7; border: none; border-radius: 5px; color: white; font-size: 0.95em; cursor: pointer; transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(167, 199, 231, 0.7);">
       Visitar Wise Security
     </button>
   </a>
@@ -115,43 +115,19 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 | **Security Essentials**                                     | Fundación ONCE / Inserta Empleo    | 2022   |
 | **Administración de Sistemas Cloud**                       | Fundación ONCE / Inserta           | 2022   |
 | **IFCT049PO Experto en Virtualización con VMware y Microsoft** | CEINPRO                           | 2024   |
-| **IFCT119PO Virtualización y Cloud Computing (VMware y Microsoft)** | CEINPRO                         | 2024   |
+| **IFCT119PO Virtualización y Cloud Computing (VMware)**    | Formación Continua                | 2024   |
 
 ---
 
 ## **Habilidades Técnicas**
 
-- **Monitoreo y Gestión de Eventos (SIEM & SOAR):** Experiencia en plataformas como Microsoft Sentinel, Google SOAR, AlienVault, y Devo para el monitoreo, análisis y correlación de eventos de seguridad en tiempo real.
-- **Detección y Respuesta a Amenazas:** Uso de herramientas avanzadas como Microsoft Defender XDR y Bitdefender EDR.
-- **Seguridad en la Nube:** Conocimientos en la protección de infraestructuras virtualizadas, principalmente en Azure.
-- **Investigación de Phishing:** Análisis de correos electrónicos y campañas de phishing utilizando herramientas especializadas como Abnormal, Proofpoint URL Defense y KnowBe4.
+- **Herramientas:** SIEM (Splunk, SentinelOne, FortiSIEM), SOAR, Firewalls, IPS/IDS, análisis forense.
+- **Sistemas:** Windows, Linux, macOS, VMware, AWS.
+- **Lenguajes de Programación:** Python, Bash.
+- **Protocolos:** TCP/IP, HTTP/S, DNS, SMTP, SSH.
+- **Otros:** Gestión de vulnerabilidades, análisis de malware, contenedores Docker.
+<hr style="border: none; border-top: 3px solid #FFD700; margin: 50px 0; box-shadow: 0 4px 8px rgba(255, 215, 0, 0.6);">
 
----
-
-## **Idiomas**
-
-- **Español:** Nativo.
-- **Inglés:** Nivel Intermedio.
-
----
-
-## **Distinciones y Reconocimientos**
-
-- Reconocido con el **Gold Coin** en la certificación Blue Team Level 1 (BTL1) por rendimiento sobresaliente.
-- Participación activa en simulaciones de ataque/defensa (CTFs).
-- Formación impartida por **Román Ramírez**, cofundador de **RootedCON**, un referente destacado en la comunidad de ciberseguridad.
-
----
-
-**Certificado de Discapacidad**: Superior al 33%, con acceso a programas de inclusión laboral.
-
-
-<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
-
-<div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 25%; height: auto; border-radius: 15px; border: 2px solid #FFD700; box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5); filter: brightness(0.95) saturate(1.1);">
+<div style="text-align: center; margin: 50px auto;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 4px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
 </div>
-
-
-
-
