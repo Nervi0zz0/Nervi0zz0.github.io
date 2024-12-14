@@ -10,7 +10,7 @@ parent: Diario de un Cojo
 </div>
 
 <div style="background: linear-gradient(135deg, #FFD700 20%, #FF4500 80%); padding: 25px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9); margin: 40px auto; max-width: 800px; text-align: center;">
-  <div style="font-family: 'Oswald', sans-serif; font-size: 2.2rem; font-weight: 900; color: #FFFFFF; text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); letter-spacing: 3px; line-height: 1.5;">
+  <div style="font-family: 'Oswald', sans-serif; font-size: 1.4rem; font-weight: 900; color: #FFFFFF; text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); letter-spacing: 3px; line-height: 1.5;">
     💻 BTL1: EL DESAFÍO QUE TODO ANALISTA DEBERÍA ENFRENTAR 💀
   </div>
 </div>
@@ -74,7 +74,7 @@ Un laboratorio en la nube donde investigas un incidente, recoges evidencias y pr
 
 <div style="background: linear-gradient(90deg, #282828, #FFD700); padding: 15px; border-radius: 15px; margin: 40px auto; max-width: 800px; text-align: center; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);">
   <div style="font-family: 'Roboto', sans-serif; font-size: 1.4rem; color: #FFFFFF;">
-    **🎯 Mi resultado:**  
+    🎯 Mi resultado:  
     Aprobé con un 80%, pero pedí revisión manual. ¡Y sorpresa! Subí a un 90% y conseguí la codiciada Gold Coin.  
   </div>
   <div style="text-align: center; margin: 40px 0;">
@@ -83,7 +83,7 @@ Un laboratorio en la nube donde investigas un incidente, recoges evidencias y pr
 </div>
 
 <div style="text-align: center; margin: 40px auto;">
-    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/COIN.jpg" alt="Gold Coin" style="width: 65%; border-radius: 20px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9); filter: brightness(1.2);">
+    <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/COIN.jpg" alt="Gold Coin" style="width: 55%; border-radius: 20px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9); filter: brightness(1.2);">
 </div>
 
 ---
