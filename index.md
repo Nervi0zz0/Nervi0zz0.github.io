@@ -79,8 +79,11 @@ permalink: /
 <div style="text-align: center; margin-top: 40px;">
   <img src="/assets/images/gif/14Vb.gif" alt="corazones" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);">
 </div>
-<hr style="border: none; border-top: 3px solid #FFD700; margin: 50px 0; box-shadow: 0 4px 8px rgba(255, 215, 0, 0.6);">
+<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
 <div style="text-align: center; margin: 50px auto;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 4px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+</div>
+<div style="text-align: center; margin-top: 40px;">
+  <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
 </div>
