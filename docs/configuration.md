@@ -11,7 +11,7 @@ nav_order: 2
 <div style="text-align: center; margin-top: 20px;">
   <span class="fs-3">
     <a href="mailto:jmiguel.htp@gmail.com" style="text-decoration: none;">
-      <button class="btn" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color:rgb(0, 117, 138); color: rgb(250, 251, 246); transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(5, 63, 255, 0.5);">
+      <button class="btn" style="padding: 12px 30px; font-size: 16px; font-weight: bold; border-radius: 50px; border: none; background: linear-gradient(135deg, #00b3b3, #00cccc); color: white; transition: all 0.3s ease-in-out; box-shadow: 0 6px 15px rgba(0, 180, 180, 0.3); transform: scale(1); cursor: pointer;">
         📧 Contactar por Email
       </button>
     </a>
@@ -19,12 +19,13 @@ nav_order: 2
 
   <span class="fs-3" style="margin-left: 10px;">
     <a href="https://www.linkedin.com/in/jmam84" target="_blank" style="text-decoration: none;">
-      <button class="btn" style="padding: 12px 25px; font-size: 14px; border-radius: 50px; border: none; background-color:rgb(0, 4, 224); color: #007bff; transition: background-color 0.3s; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);">
+      <button class="btn" style="padding: 12px 30px; font-size: 16px; font-weight: bold; border-radius: 50px; border: none; background: linear-gradient(135deg, #0073e6, #0049b7); color: white; transition: all 0.3s ease-in-out; box-shadow: 0 6px 15px rgba(0, 115, 230, 0.3); transform: scale(1); cursor: pointer;">
         🌐 LinkedIn
       </button>
     </a>
   </span>
 </div>
+
 
 
 ---
@@ -154,7 +155,7 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 ---
 
 **Certificado de Discapacidad**: Superior al 33%, con acceso a programas de inclusión laboral.
-<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 4px 8px rgba(255, 215, 0, 0.6);">
+<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
 <div style="text-align: center; margin: 50px auto;">
   <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
