@@ -4,8 +4,9 @@ nav_order: 2
 ---
 
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 225, 236, 0.8); transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(0.05)';" onmouseout="this.style.transform='scale(1)';">
+  <img src="/assets/images/NERVCV.png" alt="Portada" style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: none; transition: none;">
 </div>
+
 
 
 <div style="text-align: center; margin-top: 20px;">
