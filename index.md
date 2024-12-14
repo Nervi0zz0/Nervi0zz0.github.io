@@ -29,6 +29,14 @@ permalink: /
 </div>
 
 <div style="background: #1a1a1a; color: #f5f5f5; padding: 20px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); margin-top: 40px;">
+  <h3 align="center" style="color: #1E90FF; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Tabla de Contenidos</h3>
+  <ul style="list-style: none; padding: 0; font-size: 16px; color: #dcdcdc;">
+    <li style="margin-bottom: 10px;"><a href="/cuando-el-conectado-se-desvanece" style="color: #1E90FF; text-decoration: none;">♿ Cuando el Conectado se Desvanece</a></li>
+    <li style="margin-bottom: 10px;"><a href="/otro-post" style="color: #1E90FF; text-decoration: none;">Otro Post Ejemplo</a></li>
+  </ul>
+</div>
+
+<div style="background: #1a1a1a; color: #f5f5f5; padding: 20px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); margin-top: 40px;">
   <h3 align="center" style="color: #1E90FF; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Antes de continuar debes saber que...</h3>
   <blockquote style="font-size: 16px; line-height: 1.8; color: #999; border-left: 5px solid #1E90FF; padding-left: 15px; margin-top: 20px;">
     🚨 <strong>Atención:</strong> Algunos de los temas tratados en este blog son solo para expertos en ciberseguridad. No intentes esto en casa sin supervisión... ¡Que no, tonto! Pasa, anda, no ves que este blog lo escribo yo.
