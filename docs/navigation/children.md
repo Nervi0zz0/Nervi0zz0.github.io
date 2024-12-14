@@ -9,7 +9,7 @@ parent: Diario de un Cojo
     <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/BTLLOCO (1).jpg" alt="BTL1 Logo" style="width: 40%; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); filter: brightness(1.1) saturate(1.2);">
 </div>
 
-<div style="background: linear-gradient(135deg, #FFD700 20%, #FF4500 80%); padding: 25px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9); margin: 40px auto; max-width: 800px; text-align: center;">
+<div style="background: linear-gradient(135deg, #FFD700 20%,rgb(14, 4, 1) 80%); padding: 25px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9); margin: 40px auto; max-width: 800px; text-align: center;">
   <div style="font-family: 'Oswald', sans-serif; font-size: 1.4rem; font-weight: 900; color: #FFFFFF; text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); letter-spacing: 3px; line-height: 1.5;">
     💻 ¿BTL1: Paso en la dirección correcta o masoquismo profesional? 💀
   </div>
@@ -33,7 +33,7 @@ Pero cuidado: este viaje no es un paseo por el parque. Es un reto diseñado para
 El curso es un festival de conocimiento: **300 lecciones**, videos detallados, laboratorios y cuestionarios que te sumergen en el mundo defensivo.  
 
 📚 **Promesa oficial:** Completarás todo en 30 horas.  
-⏳ **Realidad:** Multiplica eso por dos, porque aprenderás mientras corriges errores inesperados.
+⏳ **Realidad:** Multiplica eso por tres, porque aprenderás mientras corriges errores inesperados.
 
 > **Spoiler:** Te convertirás en experto en buscar respuestas en Google.  
 

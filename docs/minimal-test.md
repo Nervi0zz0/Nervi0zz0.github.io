@@ -9,7 +9,7 @@ nav_order: 1
     <img src="/assets/images/Mi vida como analista de SOC/fumando.jpeg" alt="depre" style="width: 40%; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); filter: brightness(1.1) saturate(1.2);">
 </div>
 
-<div style="background: linear-gradient(135deg, #FFD700 20%, #FF4500 80%); padding: 25px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9); margin: 40px auto; max-width: 800px; text-align: center;">
+<div style="background: linear-gradient(135deg, #FFD700 20%,rgb(10, 3, 0) 80%); padding: 25px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9); margin: 40px auto; max-width: 800px; text-align: center;">
   <div style="font-family: 'Oswald', sans-serif; font-size: 1.4rem; font-weight: 900; color: #FFFFFF; text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); letter-spacing: 3px; line-height: 1.5;">
     💻 Mi día a día como analista de SOC:  
   </div>
