@@ -87,8 +87,8 @@ Y aunque todos los días te preguntas si todo esto vale la pena, si de verdad na
 
 Siempre tendrás una buena historia que contar… o al menos, una excusa para reunirte con tus compañeros analistas a echarte unas risas por el Teams como si te pagaran por ello.
 
-<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 5px rgba(255, 215, 0, 0.3);">
+<hr style="border: none; border-top: 3px solid #FFD700; margin: 50px 0; box-shadow: 0 4px 8px rgba(255, 215, 0, 0.6);">
 
 <div style="text-align: center; margin: 50px auto;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 25%; height: auto; border-radius: 15px; border: 2px solid #FFD700; box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5); filter: brightness(0.95) saturate(1.1);">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 4px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
 </div>
