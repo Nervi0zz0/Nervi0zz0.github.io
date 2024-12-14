@@ -122,11 +122,29 @@ Soy **Analista de Ciberseguridad** con experiencia en **CSOC**, especializado en
 
 ## **Habilidades Técnicas**
 
-- **Herramientas:** SIEM (Splunk, SentinelOne, FortiSIEM), SOAR, Firewalls, IPS/IDS, análisis forense.
-- **Sistemas:** Windows, Linux, macOS, VMware, AWS.
-- **Lenguajes de Programación:** Python, Bash.
-- **Protocolos:** TCP/IP, HTTP/S, DNS, SMTP, SSH.
-- **Otros:** Gestión de vulnerabilidades, análisis de malware, contenedores Docker.
+- **Monitoreo y Gestión de Eventos (SIEM & SOAR):** Experiencia en plataformas como Microsoft Sentinel, Google SOAR, AlienVault, y Devo para el monitoreo, análisis y correlación de eventos de seguridad en tiempo real.
+- **Detección y Respuesta a Amenazas:** Uso de herramientas avanzadas como Microsoft Defender XDR y Bitdefender EDR.
+- **Seguridad en la Nube:** Conocimientos en la protección de infraestructuras virtualizadas, principalmente en Azure.
+- **Investigación de Phishing:** Análisis de correos electrónicos y campañas de phishing utilizando herramientas especializadas como Abnormal, Proofpoint URL Defense y KnowBe4.
+
+---
+
+## **Idiomas**
+
+- **Español:** Nativo.
+- **Inglés:** Nivel Intermedio.
+
+---
+
+## **Distinciones y Reconocimientos**
+
+- Reconocido con el **Gold Coin** en la certificación Blue Team Level 1 (BTL1) por rendimiento sobresaliente.
+- Participación activa en simulaciones de ataque/defensa (CTFs).
+- Formación impartida por **Román Ramírez**, cofundador de **RootedCON**, un referente destacado en la comunidad de ciberseguridad.
+
+---
+
+**Certificado de Discapacidad**: Superior al 33%, con acceso a programas de inclusión laboral.
 <hr style="border: none; border-top: 3px solid #FFD700; margin: 50px 0; box-shadow: 0 4px 8px rgba(255, 215, 0, 0.6);">
 
 <div style="text-align: center; margin: 50px auto;">
