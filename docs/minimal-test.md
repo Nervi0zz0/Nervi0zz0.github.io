@@ -1,3 +1,4 @@
+---
 layout: post
 title: 🔹 Mi vida como analista de SOC
 parent: Diario de un Cojo
