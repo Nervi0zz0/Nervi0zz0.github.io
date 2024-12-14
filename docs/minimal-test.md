@@ -5,7 +5,7 @@ parent: Diario de un Cojo
 nav_order: 1
 ---
 
-<div style="background: linear-gradient(to right,rgb(207, 227, 239),rgb(97, 227, 180)); padding: 40px; border-radius: 10px; text-align: center; color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
+<div style="background: linear-gradient(to right,rgb(11, 56, 83),rgb(5, 3, 59)); padding: 40px; border-radius: 10px; text-align: center; color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 30px;">
     <h1 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 10px;">Mi día a día como analista de SOC:</h1>
     <h2 style="font-size: 1.75rem; font-weight: 300;">Sobreviviendo entre alertas, caos y usuarios que piensan que un ‘clic’ no hace daño</h2>
 </div>
