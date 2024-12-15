@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 🔹 Talent4Cyber 2024: Cuando los premios y el caos se encuentran
+title:🔹Talent4Cyber 2024: Cuando los premios y el caos se encuentran
 date: 2024-12-06 19:00:12 
 categories: blog
 ---
