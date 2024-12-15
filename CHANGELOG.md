@@ -61,17 +61,14 @@ El 28 de noviembre, mientras el resto de los mortales seguía con su día a día
 
 <!-- GIF -->
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/img/JWa7.gif" alt="Carlos Flethes Recibe el Premio" style="width: 50%; border-radius: 15px; margin: 20px auto; box-shadow: 0 12px 25px rgba(255, 255, 255, 0.2); border: 3px solid #FFD700;">
+  <img src="/assets/images/ccncert/JWa7.gifl Premio" style="width: 50%; border-radius: 15px; margin: 20px auto; box-shadow: 0 12px 25px rgba(255, 255, 255, 0.2); border: 3px solid #FFD700;">
 </div>
 
-<hr style="border: none; border-top: 1px solid #FFD700; margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+ <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
-<!-- Firma final -->
-<div style="text-align: center; margin: 50px auto;">
-  <img src="/assets/images/ccncert/JWa7.gif" alt="Firma" style="max-width: 15%; border-radius: 50%; border: 2px solid #FFD700; box-shadow: 0 12px 24px rgba(255, 255, 255, 0.2);">
-</div>
-
-<div style="text-align: center; margin-top: 40px;">
-  <p style="font-size: 0.9em; color: #bbb;">© 2024 Nervi0zz0</p>
-</div>
-  
+  <div style="text-align: center; margin: 50px auto;">
+    <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+  </div>
+  <div style="text-align: center; margin-top: 40px;">
+    <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
+  </div>
