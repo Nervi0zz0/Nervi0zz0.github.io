@@ -26,14 +26,6 @@ Hoy el sol brilla como siempre, las alertas siguen entrando, los tickets siguen 
   </p>
 </div>
 
-<div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/img/circulito-gris.jpg" alt="Círculo gris de Teams" 
-       style="width: 35%; max-width: 400px; border-radius: 15px; 
-              box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6); border: 2px solid #444;">
-  <figcaption style="margin-top: 10px; font-family: 'Helvetica', sans-serif; font-size: 14px; color: #bbb; font-style: italic;">
-    "El símbolo de la pérdida en el mundo digital: el temido círculo gris."
-  </figcaption>
-</div>
 
 ---
 
