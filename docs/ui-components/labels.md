@@ -4,165 +4,174 @@ parent: Supervivencia Sin Esfuerzo
 priority: 9
 ---
 
-# 🌐 **Modelo OSI en Ciberseguridad** {: .fs-8 .fw-700 .text-blue-300}
+# 🌐 **Modelo OSI en Ciberseguridad** {: .fs-8 .fw-700 .text-blue-300 .text-center}
 
-**Una guía rápida sobre las 7 capas del Modelo OSI y sus amenazas en ciberseguridad.**  
-Aquí analizaremos cada capa, sus funciones y cómo protegerlas.  
-{: .fs-5 .text-grey-dk-200}
-
----
-
-## 📌 **1. Capa Física** {: .fs-6 .fw-500 .text-red-200}
-
-{: .warning-title }
-> **Atención: Seguridad del hardware**  
-> La **Capa Física** trata sobre el **hardware**: cables, switches, y señales.
-
-### 🔍 Amenazas:
-- **Eavesdropping/Tapping**: Interceptar cables para obtener datos.  
-- **Interferencia Electromagnética**: Atacar señales con ruido externo.  
-- **Manipulación física**: Acceso no autorizado al equipo.
-
-{: .important }
-🛡 **Defensa sugerida:**  
-Utilizar **fibra óptica**, monitoreo CCTV y controles de acceso físico.
+**Domina las 7 capas del Modelo OSI con una guía interactiva y visual.**  
+Explora sus funciones, amenazas comunes y estrategias de defensa.  
+{: .fs-5 .text-grey-dk-200 .text-center}
 
 ---
 
-## 🔒 **2. Capa de Enlace de Datos** {: .fs-6 .fw-500 .text-green-300}
+<div class="interactive-container">
 
-{: .highlight }
-> **Capa de Frames y Direcciones MAC**  
-> La **Capa de Enlace** gestiona la transmisión de **frames** dentro de una red local.
+## 📌 **1. Capa Física**  
+<div class="accordion">
+  <details>
+    <summary>🖥️ **Hardware y Seguridad Física**</summary>
+    La **Capa Física** trata sobre **cables, switches y señales físicas**.
 
-### 🔍 Amenazas:
-- **MAC Address Spoofing**: Suplantar direcciones MAC.  
-- **ARP Spoofing**: Manipular la tabla ARP para interceptar tráfico.
+    ### 🔍 **Amenazas**  
+    - **Eavesdropping/Tapping**: Interceptar cables para obtener datos.  
+    - **Interferencia Electromagnética**: Ruido externo que afecta señales.  
+    - **Manipulación Física**: Acceso no autorizado al equipo.  
 
-{: .new-title }
-> **Soluciones destacadas:**  
-> Implementar **ARP Inspection** y usar **switches con seguridad habilitada**.
-
----
-
-## 🚚 **3. Capa de Red** {: .fs-6 .fw-500 .text-yellow-200}
-
-{: .note }
-> **Movimiento de paquetes**  
-> Aquí se gestionan los **paquetes** y las direcciones IP.
-
-### 🔍 Amenazas:
-- **IP Spoofing**: Falsificar direcciones IP para ocultar ataques.  
-- **Route Table Manipulation**: Alterar rutas de red.
-
-{: .note-title }
-> **Defensas esenciales:**  
-> Configurar **firewalls robustos** y usar **autenticación de rutas dinámicas**.
+    ### 🛡 **Defensa Sugerida**  
+    - Uso de **fibra óptica** para seguridad.  
+    - Monitoreo con **CCTV**.  
+    - Controles de acceso físico restringido.  
+  </details>
+</div>
 
 ---
 
-## 📡 **4. Capa de Transporte** {: .fs-6 .fw-500 .text-purple-300}
+## 🔒 **2. Capa de Enlace de Datos**  
+<div class="accordion">
+  <details>
+    <summary>🔗 **Transmisión Segura en Redes Locales**</summary>
+    La **Capa de Enlace** controla la transmisión de **frames** y **direcciones MAC**.
 
-{: .highlight-title }
-> **Control del flujo de datos**  
-> Esta capa garantiza la entrega de datos segmentados y reensamblados.
+    ### 🔍 **Amenazas**  
+    - **MAC Address Spoofing**: Suplantación de direcciones MAC.  
+    - **ARP Spoofing**: Manipulación de la tabla ARP para interceptar tráfico.  
 
-### 🔍 Amenazas:
-- **SYN Flood**: Agotar recursos enviando conexiones falsas.  
-- **UDP Flood**: Saturar la red con paquetes UDP.
-
-{: .important }
-🛡 **Defensas recomendadas:**  
-Utilizar **rate limiting** y herramientas avanzadas de **detección DDoS**.
-
----
-
-## 🔄 **5. Capa de Sesión** {: .fs-6 .fw-500 .text-blue-200}
-
-{: .warning }
-> **Control de sesiones seguras**  
-> Gestiona las **sesiones** de comunicación entre dispositivos.
-
-### 🔍 Amenazas:
-- **Session Replay**: Reutilizar sesiones autenticadas.  
-- **Man-in-the-Middle (MITM)**: Interceptar y modificar datos.
-
-{: .new }
-🛡 **Protección clave:**  
-Usar **TLS (Transport Layer Security)** y autenticación robusta.
+    ### 🛡 **Defensa Sugerida**  
+    - Implementar **ARP Inspection**.  
+    - Usar **switches seguros** con autenticación.  
+  </details>
+</div>
 
 ---
 
-## 🔐 **6. Capa de Presentación** {: .fs-6 .fw-500 .text-yellow-100}
+## 🚚 **3. Capa de Red**  
+<div class="accordion">
+  <details>
+    <summary>🌐 **Movimiento Inteligente de Paquetes**</summary>
+    Gestiona las **direcciones IP** y el **enrutamiento de paquetes**.
 
-{: .note }
-> **Conversión y cifrado de datos**  
-> Transformar los datos en un **formato entendible** y manejar **cifrado**.
+    ### 🔍 **Amenazas**  
+    - **IP Spoofing**: Falsificación de direcciones IP.  
+    - **Manipulación de Tablas de Rutas**.  
 
-### 🔍 Amenazas:
-- **SSL Stripping**: Degradar la conexión segura.  
-- **Data Manipulation**: Alterar la compresión o codificación.
-
-{: .important-title }
-> **Mejores prácticas:**  
-> Implementar **TLS/SSL** actualizado y realizar validación estricta de certificados.
-
----
-
-## 🌍 **7. Capa de Aplicación** {: .fs-6 .fw-500 .text-red-300}
-
-{: .highlight }
-> **Protocolos visibles para el usuario**  
-> Maneja servicios como **HTTP, FTP y SMTP**.
-
-### 🔍 Amenazas:
-- **SQL Injection**: Inyección de código malicioso.  
-- **Cross-Site Scripting (XSS)**: Ejecución de scripts en navegadores.  
-- **DDoS Attacks**: Saturación de servidores.
-
-{: .note }
-🛡 **Soluciones efectivas:**  
-Configurar **WAF (Web Application Firewall)**, validación de entradas y herramientas **anti-DDoS**.
+    ### 🛡 **Defensa Sugerida**  
+    - Configuración de **firewalls robustos**.  
+    - Autenticación segura en rutas dinámicas.  
+  </details>
+</div>
 
 ---
 
-## 🎯 **Resumen Interactivo** {: .fs-7 .fw-700 .text-purple-200}
+## 📡 **4. Capa de Transporte**  
+<div class="accordion">
+  <details>
+    <summary>🚦 **Flujo Controlado de Datos**</summary>
+    Garantiza la **entrega confiable y segmentada** de datos.
 
-| **Capa**             | **Ejemplos de Amenazas**              | **Defensas Clave**               |
-|:----------------------|:--------------------------------------|:---------------------------------|
-| **1. Física**         | Eavesdropping, interferencia          | Fibra óptica, seguridad física   |
-| **2. Enlace**         | MAC Spoofing, ARP Spoofing            | ARP Inspection, switches seguros |
-| **3. Red**            | IP Spoofing, manipulación de rutas    | Firewalls, autenticación de rutas|
-| **4. Transporte**     | SYN Flood, UDP Flood                  | Rate limiting, detección DDoS    |
-| **5. Sesión**         | Session Replay, MITM                  | TLS, autenticación segura        |
-| **6. Presentación**   | SSL Stripping, manipulación de datos  | TLS/SSL, validación estricta     |
-| **7. Aplicación**     | SQL Injection, XSS, DDoS              | WAF, validación de entradas      |
+    ### 🔍 **Amenazas**  
+    - **SYN Flood**: Agotamiento de recursos con conexiones falsas.  
+    - **UDP Flood**: Saturación de redes con tráfico UDP.
+
+    ### 🛡 **Defensa Sugerida**  
+    - Implementar **rate limiting**.  
+    - Usar sistemas de **detección y mitigación DDoS**.  
+  </details>
+</div>
 
 ---
 
-🌐 **Visualización Interactiva:**  
-![Modelo OSI](/assets/images/gif/osi.gif)  
-*Comprende cada capa y sus riesgos con esta guía visual.*  
+## 🔄 **5. Capa de Sesión**  
+<div class="accordion">
+  <details>
+    <summary>💬 **Gestión Segura de Sesiones**</summary>
+    Administra sesiones de **comunicación activa** entre dispositivos.
+
+    ### 🔍 **Amenazas**  
+    - **Session Replay**: Reutilización de sesiones autenticadas.  
+    - **MITM (Man-in-the-Middle)**: Interceptación y manipulación de datos.
+
+    ### 🛡 **Defensa Sugerida**  
+    - Uso de **TLS** (Transport Layer Security).  
+    - Autenticación robusta y renovada.  
+  </details>
+</div>
+
+---
+
+## 🔐 **6. Capa de Presentación**  
+<div class="accordion">
+  <details>
+    <summary>🔐 **Conversión y Cifrado de Datos**</summary>
+    Maneja la **transformación de datos** y su cifrado para proteger la integridad.
+
+    ### 🔍 **Amenazas**  
+    - **SSL Stripping**: Degradación de conexiones seguras.  
+    - **Data Manipulation**: Alteración del formato y codificación.
+
+    ### 🛡 **Defensa Sugerida**  
+    - Implementar **TLS/SSL actualizado**.  
+    - Validación estricta de certificados digitales.  
+  </details>
+</div>
+
+---
+
+## 🌍 **7. Capa de Aplicación**  
+<div class="accordion">
+  <details>
+    <summary>🌐 **Servicios al Usuario Final**</summary>
+    Administra los servicios más visibles como **HTTP, FTP y SMTP**.
+
+    ### 🔍 **Amenazas**  
+    - **SQL Injection**: Ejecución de comandos maliciosos.  
+    - **Cross-Site Scripting (XSS)**: Scripts no autorizados en navegadores.  
+    - **DDoS Attacks**: Saturación de servicios.
+
+    ### 🛡 **Defensa Sugerida**  
+    - Configurar un **WAF (Web Application Firewall)**.  
+    - Validar entradas de usuarios y proteger contra **DDoS**.  
+  </details>
+</div>
+
+</div> <!-- End Interactive Container -->
+
+---
+
+## 🎯 **Resumen Visual** {: .fs-7 .fw-700 .text-purple-200}
+
+| **Capa**             | **Amenazas Clave**                    | **Defensas Principales**         |
+|:---------------------|:-------------------------------------|:---------------------------------|
+| **1. Física**        | Eavesdropping, manipulación física    | Fibra óptica, CCTV, acceso físico|
+| **2. Enlace**        | MAC Spoofing, ARP Spoofing            | ARP Inspection, switches seguros |
+| **3. Red**           | IP Spoofing, manipulación de rutas    | Firewalls, autenticación rutas   |
+| **4. Transporte**    | SYN Flood, UDP Flood                  | Rate limiting, detección DDoS    |
+| **5. Sesión**        | Session Replay, MITM                  | TLS, autenticación fuerte        |
+| **6. Presentación**  | SSL Stripping, manipulación de datos  | TLS/SSL actualizado, validación  |
+| **7. Aplicación**    | SQL Injection, XSS, DDoS              | WAF, validación de entradas      |
+
+---
+
+![Interfaz Visual](/assets/images/gif/osi.gif)  
+*Interactúa con las capas y amenazas visualmente.*  
 {: .text-center .mt-4}
 
 ---
 
-**¿Listo para proteger tu red capa por capa?**  
-Aplica estas defensas y mantente a la vanguardia en ciberseguridad.  
-{: .fs-5 .fw-400 .text-grey-dk-300}
+[🔒 **Explora más sobre Seguridad**](#){: .btn .btn-blue .mt-4}  
+[🌐 **Comparte esta guía**](#){: .btn .btn-outline .mt-4}
 
 ---
 
-[🛡 Más recursos sobre ciberseguridad](#){: .btn .btn-blue .mt-4}  
-[💻 Comparte este post](#){: .btn .btn-outline .mt-4}
-
----
-
-<hr style="border: none; border-top: 1px solid #FFD700; margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
-
-<div style="text-align: center; margin: 50px auto;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+<div style="text-align: center;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);">
 </div>
-<div style="text-align: center; margin-top: 40px;">
-  <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
-</div>
+
+
