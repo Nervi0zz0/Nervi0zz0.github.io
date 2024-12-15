@@ -4,146 +4,190 @@ parent: Supervivencia Sin Esfuerzo
 priority: 10
 ---
 
-# 🛡 **Shodan Cheat Sheet** {: .fs-8 .fw-700 .text-blue-300}
+# 🛡️ **Shodan Cheat Sheet** {: .fs-8 .fw-700 .text-blue-300 .text-center}
 
-### 📊 **¿Qué es Shodan?** {: .fs-6 .fw-500 .text-grey-dk-100}
-
-Shodan es un **motor de búsqueda** público que escanea dispositivos conectados a Internet y muestra servicios, banners y ubicaciones relacionadas. Es una herramienta esencial en **ciberseguridad** para descubrir sistemas expuestos.
+**Domina Shodan para descubrir sistemas expuestos y vulnerabilidades en Internet.**  
+Una guía imprescindible para **profesionales de ciberseguridad** y **pentesters**.  
+{: .fs-5 .text-grey-dk-200 .text-center}
 
 ---
 
-## 🗺 **Búsqueda por Ubicación Física** {: .fs-6 .fw-500 .text-yellow-300}
+## 📊 **¿Qué es Shodan?**  
+{: .fs-6 .fw-500 .text-grey-dk-100}
 
-Shodan permite buscar dispositivos por **ubicación**:
-- **País:** `country:"US"`
-- **Ciudad:** `city:"New York"`
-- **Estado/Región:** `state:"NY"` o `region:"NY"`
-- **Código Postal:** `postal:"92127"`
+Shodan es un **motor de búsqueda** que escanea dispositivos conectados a Internet, mostrando **servicios, banners y ubicaciones**.  
+Permite encontrar desde servidores hasta cámaras IP.
+
+---
+
+## 🗺️ **Búsqueda por Ubicación**  
+<div class="accordion">
+  <details>
+    <summary>🗺️ **Filtra por País, Ciudad y Coordenadas**</summary>
+
+### 🔍 **Ejemplos Prácticos:**  
+- **País:** `country:"US"`  
+- **Ciudad:** `city:"New York"`  
+- **Código Postal:** `postal:"92127"`  
 - **Coordenadas GPS:**
     ```sh
     geo:"40.759487,-73.978356"
     geo:"40.759487,-73.978356,2"
     ```
 
-{: .highlight }
-### 💡 **Consejo:** Utiliza coordenadas precisas para una búsqueda más específica.
+💡 **Consejo:** Utiliza coordenadas precisas para descubrir dispositivos cercanos.
+  </details>
+</div>
 
 ---
 
-## 💻 **Direcciones IP & Subredes** {: .fs-6 .fw-500 .text-green-300}
+## 💻 **Direcciones IP & Subredes**  
+<div class="accordion">
+  <details>
+    <summary>💻 **Filtra por IP, Hostnames y Proveedores**</summary>
 
-🔍 **Ejemplos básicos:**
-- **IP individual:** `52.179.197.205`
-- **Hostname:** `hostname:"microsoft.com"`
-- **Subred:** `net:"52.179.0.0/24"`
-- **Puerto específico:**
+### 🔍 **Ejemplos Básicos:**  
+- **IP Individual:** `52.179.197.205`  
+- **Hostname:** `hostname:"microsoft.com"`  
+- **Subred:** `net:"52.179.0.0/24"`  
+- **Puerto Específico:**
     ```sh
     port:"21"
     ```
-- **Proveedores ISP:** `isp:"Spectrum"`
+- **Proveedor ISP:** `isp:"Spectrum"`  
 - **Sistema Autónomo ASN:** `asn:"AS8075"`
 
-{: .note-title }
-> **Nota:**
-> Puedes combinar filtros para obtener resultados más específicos.
+> **Nota:** Combina múltiples filtros para resultados específicos.
+  </details>
+</div>
 
 ---
 
-## 🖥 **Sistemas Operativos y Productos** {: .fs-6 .fw-500 .text-red-200}
+## 🖥️ **Sistemas Operativos y Productos**  
+<div class="accordion">
+  <details>
+    <summary>🖥️ **Encuentra Sistemas por OS y Dispositivos**</summary>
 
-🔎 **Operativos y versiones específicas:**
-- **Sistema Operativo:** `os:"Windows Server 2008"`
-- **Organización/Empresa:** `org:"Microsoft"`
-- **Producto:**
+### 🔍 **Ejemplos Comunes:**  
+- **Sistema Operativo:** `os:"Windows Server 2008"`  
+- **Organización:** `org:"Microsoft"`  
+- **Producto Específico:**
     ```sh
     product:"Cisco C3550 Router"
     ```
-- **Categorías de Shodan:**
-    ```sh
-    category:"ics" o category:"malware"
-    ```
-- **SMB específico:** `smb:"1" o smb:"2"`
-- **Carpetas Compartidas:**
+- **Categorías:** `category:"ics"` o `category:"malware"`  
+- **SMB y Carpetas:**
     ```sh
     port:"445" "shares"
     ```
 
-{: .important }
-### ⚠️ **Importante:** Las búsquedas de categorías pueden revelar dispositivos altamente vulnerables.
+⚠️ **Importante:** Busca **dispositivos vulnerables** filtrando categorías específicas.
+  </details>
+</div>
 
 ---
 
-## 🌐 **Aplicaciones Web** {: .fs-6 .fw-500 .text-blue-200}
+## 🌐 **Aplicaciones Web**  
+<div class="accordion">
+  <details>
+    <summary>🌐 **Encuentra Servicios Web y SSL**</summary>
 
-🔍 **Ejemplos de búsquedas avanzadas en web:**
-- **Título HTML:** `title:"Index of /ftp"`
-- **Cuerpo HTML:** `html:"XML-RPC server accepts"`
-- **Tecnologías web específicas:**
+### 🔍 **Ejemplos Avanzados:**  
+- **Título HTML:** `title:"Index of /ftp"`  
+- **Cuerpo HTML:** `html:"XML-RPC server accepts"`  
+- **Tecnologías Web:**
     ```sh
     http.component:"php"
     ```
-- **SSL/TLS:**
+- **SSL/TLS Inseguro:**
     ```sh
-    ssl.version:"ssl3" o ssl.version:"tlsv1.1"
+    ssl.version:"ssl3"
     ssl.cert.expired:"true"
     ```
 
-{: .note }
-**Tip:** Filtra por versiones específicas de SSL/TLS para encontrar dispositivos con configuraciones inseguras.
+💡 **Tip:** Identifica configuraciones **inseguras** para priorizar análisis.
+  </details>
+</div>
 
 ---
 
-## ⏰ **Filtros de Tiempo y Otros** {: .fs-6 .fw-500 .text-grey-200}
+## ⏰ **Filtros Temporales y Visuales**  
+<div class="accordion">
+  <details>
+    <summary>⏰ **Búsqueda por Fecha y Capturas de Pantalla**</summary>
 
-🔎 **Buscar por fechas:**
-- **Después de:** `after:"01/01/18"`
+### 🔍 **Por Fecha:**  
+- **Después de:** `after:"01/01/18"`  
 - **Antes de:** `before:"12/31/17"`
 
-🔎 **Buscar capturas de pantalla:**
-- **Pantalla disponible:**
+### 🖼️ **Capturas de Pantalla:**  
+- **Pantalla Disponible:**
     ```sh
     port:"80" has_screenshot:"true"
     ```
-- **Específico para Windows:**
+- **Específico Windows:**
     ```sh
     port:"3389" has_screenshot:"true"
     ```
 
-{: .important }
-### 🔍 **Recomendación:** Las capturas de pantalla pueden proporcionar información visual valiosa sobre dispositivos expuestos.
+🔍 **Recomendación:** Las capturas visuales ofrecen **información clave** sobre dispositivos expuestos.
+  </details>
+</div>
 
 ---
 
-## 🔒 **Acceso Limitado** {: .fs-6 .fw-500 .text-purple-300}
+## 🔒 **Acceso Premium & Vulnerabilidades**  
+<div class="accordion">
+  <details>
+    <summary>🔒 **Accede a Vulnerabilidades (CVE)**</summary>
 
-Para cuentas premium:
-- **Vulnerabilidades (CVE):**
+### 🔍 **Filtros Premium:**  
+- **Buscar Vulnerabilidades:** `vuln:"CVE-2017-0143"`  
+- **Tags Específicos:**
     ```sh
-    vuln:"CVE-2017-0143"
-    ```
-- **Tags específicos:**
-    ```sh
-    tag:"ics" o tag:"database"
+    tag:"ics"
+    tag:"database"
     ```
 
-{: .warning }
-### ⚠️ **Atención:** Acceso a información sensible requiere cuenta premium.
+⚠️ **Atención:** Acceder a estas búsquedas requiere una cuenta premium.
+  </details>
+</div>
 
 ---
 
-## 🖼 **Shodan Cheat Sheet - Visual** {: .fs-6 .fw-500 .text-blue-300}
+## 📄 **Resumen Visual**  
 
-![Shodan Cheat Sheet](shodan.jpeg)
-*Referencia rápida para tus búsquedas con Shodan.*
-{: .text-center .mt-4}
+| **Filtro**            | **Ejemplo**                 | **Descripción**                     |
+|------------------------|----------------------------|-------------------------------------|
+| **País**              | `country:"US"`             | Dispositivos en Estados Unidos      |
+| **Coordenadas**       | `geo:"40.7,-74"`           | Ubicación geográfica específica     |
+| **Producto**          | `product:"Apache"`         | Servidores Apache                   |
+| **Puerto**            | `port:"22"`                | Filtra servicios SSH                |
+| **SSL Expirado**      | `ssl.cert.expired:"true"`  | Certificados vencidos               |
+| **Vulnerabilidad CVE**| `vuln:"CVE-2021-34527"`    | Dispositivos vulnerables detectados |
 
 ---
 
-### 🎯 **¿Por qué es importante?** {: .fs-5 .fw-400 .text-grey-dk-200}
+![Shodan Cheat Sheet](/assets/images/shodan.jpeg){: .text-center .rounded-lg .mt-4}  
+*Referencia visual para tus búsquedas.*  
+{: .fs-6 .text-grey-dk-200 .text-center}
 
-Shodan permite descubrir vulnerabilidades y **recursos expuestos** en redes y servidores. Es una herramienta vital para **pentesters, investigadores** y **profesionales de ciberseguridad**.
+---
+
+## 🎯 **¿Por qué usar Shodan?**  
+
+Shodan es **crucial** para descubrir:  
+- Recursos **expuestos** (cámaras, servidores, routers).  
+- **Vulnerabilidades conocidas** mediante CVE.  
+- **Infraestructura crítica** que necesita atención.  
+
+Es una herramienta vital para **pentesters, investigadores y equipos de respuesta** en ciberseguridad.
 
 ---
 
 [🔍 Explora Shodan](https://www.shodan.io){: .btn .btn-blue .mt-4}  
-[💬 Comparte esta guía](#){: .btn .btn-outline .mt-4}
+[💬 Comparte esta guía](#){: .btn .btn-outline .mt-4}  
+
+<div style="text-align: center;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 15%; border-radius: 50%; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);">
+</div>
