@@ -3,13 +3,13 @@ title: 🛡️ Métodos de Solicitud HTTP
 parent: Supervivencia Sin Esfuerzo
 priority: 4
 ---
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+
 
 # Métodos de Solicitud HTTP
 
 En este artículo se cubren los **9 principales métodos de solicitud HTTP** utilizados en las aplicaciones web. Cada método tiene un propósito específico dentro de la comunicación entre cliente y servidor. Esta guía te ayudará a comprender el uso correcto de cada método y cuándo aplicarlos.
 
-![ImagendeBytebyteGo](/assets/img/http.gif)
+![ImagendeBytebyteGo](/assets/images/gif/http.gif)
 
 ## 1. GET
 

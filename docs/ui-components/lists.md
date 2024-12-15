@@ -128,7 +128,6 @@ Si necesitas un análisis más profundo, considera los siguientes enfoques:
 - [Guía oficial de SPF](https://www.openspf.org)
 - [Analizador de Cabeceras de Gmail](https://toolbox.googleapps.com/apps/messageheader/)
 
----
   <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
   <div style="text-align: center; margin: 50px auto;">

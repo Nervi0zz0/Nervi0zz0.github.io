@@ -85,7 +85,6 @@ Wireshark es una herramienta de análisis de red poderosa y versátil. Aquí te 
 
 > **Recuerda**: Cuanto más específicos sean tus filtros, más rápido y eficiente será tu análisis.
 
----
 
   <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 

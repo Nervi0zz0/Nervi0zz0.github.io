@@ -5,7 +5,7 @@ description: Consejos y recursos
 parent: Supervivencia Sin Esfuerzo
 priority: 3
 ---
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+
 
 # 🛡️ **Guía Avanzada de Monitoreo de Eventos en Windows**
 
@@ -148,9 +148,7 @@ La ejecución de un proceso **powershell.exe** o un servicio inusual podría ser
 - [Referencia de Event IDs de Microsoft](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4672): Documentación oficial sobre eventos clave.
 - [Tutorial de Wazuh SIEM](https://documentation.wazuh.com/current/): Guía para implementar **Wazuh** en tu infraestructura.
 
----
 
-Con esta guía, estarás mejor preparado para identificar y responder a posibles amenazas en entornos Windows.
 
   <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 

@@ -5,7 +5,7 @@ description: Consejos y recursos
 parent: Supervivencia Sin Esfuerzo
 priority: 5
 ---
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+
 
 <div style="background-color:rgb(83, 177, 146); padding: 30px; text-align: center; border-radius: 8px; color: white; font-size: 24px; font-weight: bold;">
   SPLUNK
@@ -199,7 +199,7 @@ Splunk también es una herramienta invaluable en la **respuesta a incidentes**, 
 - [TryHackMe](https://www.tryhackme.com): Laboratorios prácticos y desafíos de ciberseguridad.
 - [Hack The Box](https://www.hackthebox.eu): Desafíos interactivos y pruebas de penetración.
 
----
+
 
   <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 

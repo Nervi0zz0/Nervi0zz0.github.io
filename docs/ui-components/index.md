@@ -10,7 +10,6 @@ nav_order: 7
     <h1 style="font-size: 42px; font-weight: bold; margin: 0; letter-spacing: 1.5px;">🕵️‍♂️ Apuntes y Cheat Sheets de Ciber 🔓</h1>
 </div>
 
----
 
   <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 

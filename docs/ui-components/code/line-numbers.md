@@ -8,7 +8,7 @@ priority: 4
 
 Los **vectores de ataque ** son los caminos o métodos utilizados por los atacantes para acceder a las redes, sistemas o datos de una organización. A continuación, se describen los principales vectores de ataque, sus objetivos y las técnicas de identificación más utilizadas.
 
-![Vectores de Ataque ](/assets/img/vectores.jpg)
+![Vectores de Ataque ](/assets/images/vectores.jpg)
 
 ## 1. Malware
 
