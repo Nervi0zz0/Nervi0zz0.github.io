@@ -2,12 +2,7 @@
 layout: post
 title: 	🔹Cuando el Conectado se Desvanece
 parent: Diario de un Cojo
----
 
----
-layout: post
-title: ♿Cuando el Conectado se Desvanece
-parent: Diario de un Cojo
 ---
 
 <div style="text-align: center; margin: 50px 0;">
