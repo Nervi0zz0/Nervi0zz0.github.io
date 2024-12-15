@@ -6,9 +6,8 @@ parent: Supervivencia Sin Esfuerzo
 priority: 5
 ---
 
-
-<div style="background-color:rgb(83, 177, 146); padding: 30px; text-align: center; border-radius: 8px; color: white; font-size: 24px; font-weight: bold;">
-  SPLUNK
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/BTL/splunk.jpg" alt="Splunk" style="width: 60%; border-radius: 15px; border: 3px solid #000;">
 </div>
 
 
