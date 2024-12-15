@@ -6,7 +6,7 @@ parent: Diario de un Cojo
 
 <!-- Encabezado con imagen adaptada -->
 <div style="text-align: center; margin: 30px 0;">
-  <img src="" alt="/assets/images/ccncert/portadacarlos.jpg" style="width: 50%; border-radius: 15px; box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); border: 2px solid #555;">
+  <img src="/assets/images/ccncert/portadacarlos.jpg" alt="Portada de Carlos Flethes" style="width: 50%; border-radius: 15px; box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); border: 2px solid #555;">
 </div>
 
 <p style="font-family: 'Georgia', serif; font-size: 18px; color: #ddd; text-align: justify; line-height: 1.8;">
@@ -25,8 +25,9 @@ El 28 de noviembre, mientras el resto de los mortales seguía con su día a día
 
 <!-- Imágenes de Carlos -->
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/ccncert/soycarlos.jpg" alt="Carlos Flethes" style="width: 45%; border-radius: 15px; margin: 10px; box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); border: 3px solid #FFD700;">
+  <img src="/assets/images/ccncert/soycarlos.jpg" alt="Carlos Flethes" style="width: 60%; border-radius: 15px; margin: 10px; box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); border: 3px solid #FFD700;">
 </div>
+
 
 ---
 
@@ -46,6 +47,7 @@ El 28 de noviembre, mientras el resto de los mortales seguía con su día a día
       "Un momento para la posteridad: Carlos Flethes Montesinos y su equipo brillando como siempre."
     </figcaption>
   </div>
+
 ---
 
 <!-- Sección final del evento -->
@@ -61,14 +63,14 @@ El 28 de noviembre, mientras el resto de los mortales seguía con su día a día
 
 <!-- GIF -->
 <div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/ccncert/JWa7.gifl Premio" style="width: 50%; border-radius: 15px; margin: 20px auto; box-shadow: 0 12px 25px rgba(255, 255, 255, 0.2); border: 3px solid #FFD700;">
+  <img src="/assets/images/ccncert/JWa7.gif" style="width: 50%; border-radius: 15px; margin: 20px auto; box-shadow: 0 12px 25px rgba(255, 255, 255, 0.2); border: 3px solid #FFD700;">
 </div>
 
- <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
-  <div style="text-align: center; margin: 50px auto;">
-    <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
-  </div>
-  <div style="text-align: center; margin-top: 40px;">
-    <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
-  </div>
+<div style="text-align: center; margin: 50px auto;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+</div>
+<div style="text-align: center; margin-top: 40px;">
+  <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
+</div>
