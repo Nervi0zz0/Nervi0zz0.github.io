@@ -1,10 +1,13 @@
 ---
 layout: post
-title: ♿ Las Jornadas STIC, El Desfile de la Ciberseguridad
+title: 🔹Las Jornadas STIC, El Desfile de la Ciberseguridad
 parent: Diario de un Cojo
 ---
-![Mi Imagen](/assets/img/stic.jpeg)
 
+<!-- Imagen de encabezado -->
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/assets/images/ccncert/stic.jpeg" alt="Imagen STIC" style="width: 80%; max-width: 900px; border-radius: 20px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); border: 3px solid #444;">
+</div>
 
 # Las Jornadas STIC: Ciberdefensa, Cervezas y Canapés 🛡️
 
@@ -40,9 +43,15 @@ Al salir, me pregunté si no sería mejor ver las charlas desde casa, con mi pro
 
 *"Porque, al final, lo digital nos conecta, pero los canapés nos separan."*
 
+<!-- Imagen final -->
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/assets/images/ccncert/stic2.jpg" alt="Imagen final STIC" style="width: 80%; max-width: 900px; border-radius: 20px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); border: 3px solid #444;">
+</div>
+ <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
-![Mi Imagen2](/assets/img/stic2.jpg)
-
-
-
-
+  <div style="text-align: center; margin: 50px auto;">
+    <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+  </div>
+  <div style="text-align: center; margin-top: 40px;">
+    <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
+  </div>
