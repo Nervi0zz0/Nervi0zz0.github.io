@@ -1,6 +1,6 @@
 ---
 layout: post
-title:🔹Las Jornadas STIC, El Gran Banquete de la Ciberseguridad
+title: 🔹Las Jornadas STIC, El Gran Banquete de la Ciberseguridad
 parent: Diario de un Cojo
 ---
 
