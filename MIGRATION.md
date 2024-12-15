@@ -1,68 +1,84 @@
 ---
 layout: post
-title: 🔹Las Jornadas STIC, El Desfile de la Ciberseguridad
+title: 🥂 Las Jornadas STIC: El Gran Banquete de la Ciberseguridad
 parent: Diario de un Cojo
 ---
 
 <div class="post-header" style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/ccncert/stic.jpeg" alt="Imagen STIC" style="width: 70%; max-width: 600px; border-radius: 20px; border: 2px solid #FFD700; background-color: #222; padding: 5px;">
+  <img src="/assets/images/ccncert/stic.jpeg" alt="Imagen STIC" style="width: 50%; max-width: 500px; border-radius: 20px; border: 2px solid #FFD700; background-color: #222; padding: 5px;">
 </div>
 
-# Las Jornadas STIC: Ciberdefensa, Cervezas y Canapés 🛡️
-{: .text-center .fs-7 .fw-500 }
-
-<div style="font-size: 1rem; line-height: 1.6; color: #EEE;">
-Las **Jornadas STIC** y las **Jornadas de Ciberdefensa ESPDEF-CERT** son eventos donde **el Centro Criptológico Nacional**, el **Mando Conjunto del Ciberespacio**, y **RootedCON** se dan cita para hablar sobre la protección digital del futuro.
+<div style="background-color: #FFD700; padding: 15px; border-radius: 15px; text-align: center; margin-bottom: 30px; color: #222;">
+  <h1 style="margin: 0; font-size: 2rem;">Las Jornadas STIC: El verdadero Campo de Batalla🛡️</h1>
+  <p style="margin: 10px 0 0; font-size: 1rem;">Ciberseguridad, croquetas y cómo vender tu alma por merchandising.</p>
 </div>
-{: .mb-5 }
 
 ---
 
-## La Accesibilidad: Un reto olvidado 🚪
+## Una Entrada Triunfal… Cojeando
+{: .fs-7 .fw-500 }
+
+<div style="font-size: 1rem; line-height: 1.8; color: #EEE; border-left: 5px solid #FFD700; padding-left: 15px; margin-bottom: 30px;">
+Llegar a las **Jornadas STIC** es como llegar a Mordor: muchos lo intentan, pocos lo logran, y los que llegamos estamos más preocupados por el mercha y tapitas que por el programa.
+</div>
+
+---
+
+## Accesibilidad: El Gran Olvido 🎢
 {: .fs-6 .fw-400 }
 
-<div style="font-size: 0.95rem; line-height: 1.6; margin-top: 20px; color: #CCC;">
-Las jornadas son una gran oportunidad de aprender, pero también son una demostración de cómo la **accesibilidad** no siempre es prioridad. La falta de asientos y las aglomeraciones convierten el evento en un desafío logístico que **nadie se atreve a resolver**.
+<div style="font-size: 0.95rem; line-height: 1.8; background-color: #333; padding: 20px; border-radius: 10px; margin-bottom: 30px; color: #CCC;">
+Cuando dicen "evento accesible", parece que hablan de Wi-Fi, porque lo que es rampas y espacios, ni en pintura, entrar cojeando ya no es una metáfora, es un spoiler. **¿Y las sillas?** Ah, esas están reservadas para la élite que llega con pase VIP.
 </div>
-{: .mb-5 }
 
 ---
 
-## Networking: Canapés y Merchandising 🍢
+<div style="background-color: #FFD700; padding: 15px; border-radius: 15px; text-align: center; margin-bottom: 30px; color: #222;">
+  <h2 style="margin: 0; font-size: 1.5rem;">Merchandising: Trueque Moderno 🧢</h2>
+  <p style="margin: 10px 0 0; font-size: 1rem;">Donde tu dignidad se cambia por bolis y pegatinas.</p>
+</div>
+
+<div style="font-size: 0.95rem; line-height: 1.8; color: #CCC; border-left: 5px solid #FFD700; padding-left: 15px; margin-bottom: 30px;">
+El networking aquí es sencillo: haces cola para que te escaneen la acreditación y te llevas un bolígrafo que no escribe y una camiseta dos tallas más grand. ¿El truco? Actuar como si realmente necesitas esos productos para sobrevivir. A estas alturas, **el merchandising es la verdadera moneda de cambio.**
+</div>
+
+---
+
+## El Cóctel: La Guerra de las Croquetas 🥊
 {: .fs-6 .fw-400 }
 
-<div style="font-size: 0.95rem; line-height: 1.6; margin-top: 20px; color: #CCC;">
-El momento de **networking** fue un desfile de camisetas, bolígrafos y canapés. A medida que nos acercábamos a los stands, la pregunta era: ¿cuánto de esto es realmente útil? El **trueque moderno** se realiza aquí, pero en vez de intercambiar bienes, se intercambian datos por **merchandising** barato.
+<div style="font-size: 0.95rem; line-height: 1.8; background-color: #333; padding: 20px; border-radius: 10px; color: #CCC;">
+Finalmente llegamos al momento más esperado: el cóctel. Aquí se despliegan tácticas de combate que harían sonrojar al mismísimo Rambo. **Tienes dos opciones:** pelear por la última croqueta como si los de los "Juegos del hambre" tratase.
 </div>
-
-<div style="font-size: 0.95rem; line-height: 1.6; margin-top: 10px; color: #CCC;">
-Sin embargo, la tentación de llevarse una nueva gorra o una pegatina hace que, de alguna manera, sea el *evento de la temporada*.
-</div>
-{: .mb-5 }
 
 ---
 
-## El Cóctel: Canapés de guerra 🍸
-{: .fs-6 .fw-400 }
-
-<div style="font-size: 0.95rem; line-height: 1.6; margin-top: 20px; color: #CCC;">
-No hay nada más "ciberdefensa" que pelear por un canapé en un cóctel. El juego de **estrategia y velocidad** es real, sobre todo cuando solo hay un par de ellos sobre la mesa. Es como si las croquetas fueran **el bien más preciado** del evento.
+<div style="background-color: #FFD700; padding: 15px; border-radius: 15px; text-align: center; margin-bottom: 30px; color: #222;">
+  <h2 style="margin: 0; font-size: 1.5rem;">Las Charlas: Entre Inspiración y Realidad 🌟</h2>
+  <p style="margin: 10px 0 0; font-size: 1rem;">De GoodJob al MCCE: momentos que inspiran y otros que... bueno, también inspiran (con paciencia).</p>
 </div>
-{: .mb-5 }
+
+<div style="font-size: 0.95rem; line-height: 1.8; background-color: #333; padding: 20px; border-radius: 10px; color: #CCC;">
+  Este año, mi experiencia se resumió en tres charlas clave: dos de la Fundación GoodJob y una del MCCE.  
+  Las charlas de GoodJob fueron un soplo de aire fresco, enfocándose en la inclusión dentro de la ciberseguridad, tocando temas humanos y con un mensaje que va más allá de lo técnico.  
+  Por otro lado, la del MCCE presentó el Talent4Cyber 2024, un nuevo hackathon creado para que compitan entre universitarios y que ganó mi compañero Carlos, pero de eso hablo en otro post. 
+  Tres charlas, tres enfoques, y un recordatorio de que incluso en eventos como este, siempre hay espacio para conectar más allá del teclado.
+</div>
+
+
 
 ---
 
-## Reflexión Final: ¿Vale la pena? 🤔
+## Reflexión Final: Las Jornadas STIC y sus **Supervivientes** 🧟
 {: .fs-6 .fw-500 }
 
-<div style="font-size: 0.95rem; line-height: 1.6; margin-top: 20px; color: #CCC;">
-Al final, salir de allí me dejó una sensación ambigua: **la ciberseguridad es vital**, pero hay que proteger también a los asistentes.
+<div style="font-size: 1rem; line-height: 1.8; color: #EEE; text-align: center; margin-bottom: 30px;">
+Si sales de ahí sin merch inútil, hambre y una mala postura, ¡enhorabuena! Eres el verdadero hacker del evento. Entre canapés desaparecidos y un networking que es básicamente Tinder corporativo, queda claro que la ciberseguridad tiene mucho que proteger... menos la dignidad de los asistentes.
 </div>
 
-<div style="font-style: italic; text-align: center; font-size: 1rem; margin-top: 20px; color: #AAA;">
-*"Porque la ciberdefensa no solo se trata de proteger sistemas, sino también de crear espacios más inclusivos para todos."*
+<div style="font-style: italic; text-align: center; font-size: 1.1rem; margin-top: 20px; color: #AAA;">
+*"El verdadero enemigo no es el malware, son las croquetas."*
 </div>
-{: .mb-5 }
 
 <div class="post-footer" style="text-align: center; margin: 50px 0;">
   <img src="/assets/images/ccncert/stic2.jpg" alt="Imagen final STIC" style="width: 35%; max-width: 350px; border-radius: 20px; border: 2px solid #FFD700; background-color: #222; padding: 5px;">
@@ -77,4 +93,3 @@ Al final, salir de allí me dejó una sensación ambigua: **la ciberseguridad es
 <div style="text-align: center; margin-top: 20px; color: #AAA;">
   <p style="font-size: 0.9em;">© 2024 Nervi0zz0</p>
 </div>
-1
