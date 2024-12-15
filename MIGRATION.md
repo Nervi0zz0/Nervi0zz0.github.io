@@ -8,7 +8,7 @@ parent: Diario de un Cojo
   <img src="/assets/images/ccncert/stic.jpeg" alt="Imagen STIC" style="width: 50%; max-width: 500px; border-radius: 20px; border: 2px solid #5A5A5A; background-color: #222; padding: 5px;">
 </div>
 
-<div style="background-color: #4B4B4B; padding: 15px; border-radius: 15px; text-align: center; margin-bottom: 30px; color: #EEE;">
+<div style="background-color: #4B4B4B; padding: 13px; border-radius: 15px; text-align: center; margin-bottom: 30px; color: #EEE;">
   <h1 style="margin: 0; font-size: 2rem;">Las Jornadas STIC: El verdadero Campo de Batalla🛡️</h1>
   <p style="margin: 10px 0 0; font-size: 1rem;">Ciberseguridad, croquetas y cómo vender tu alma por merchandising.</p>
 </div>
