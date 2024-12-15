@@ -55,23 +55,11 @@ En el mundo analista de SOC, perder a un compañero es casi como perder una piez
   </p>
 </div>
 
----
-
-<div style="text-align: center; margin: 40px auto;">
-  <video controls style="width: 50%; max-width: 350px; border-radius: 15px; 
-                          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); border: 1px solid #D3D3D3;">
-    <source src="/assets/img/circulitoVideo.mp4" type="video/mp4">
-    Tu navegador no soporta el video.
-  </video>
-  <figcaption style="margin-top: 10px; font-family: 'Helvetica', sans-serif; font-size: 14px; color: #999; font-style: italic;">
-    "Recordando a los compañeros perdidos."
-  </figcaption>
-</div>
 
 ---
 
 <div style="text-align: center; margin: 50px auto;">
-  <img src="/assets/img/brindis.jpg" alt="Un brindis por los compañeros perdidos" 
+  <img src="/assets/images/gif/1zZ2.gif"
        style="width: 45%; max-width: 500px; border-radius: 15px; 
               box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); border: 2px solid #D3D3D3;">
   <figcaption style="margin-top: 10px; font-family: 'Helvetica', sans-serif; font-size: 14px; color: #999; font-style: italic;">
@@ -79,11 +67,11 @@ En el mundo analista de SOC, perder a un compañero es casi como perder una piez
   </figcaption>
 </div>
 
-<div style="text-align: center; margin: 40px auto;">
-  <img src="/assets/images/cojo.png" alt="Firma" 
-       style="width: 100px; border-radius: 50%; border: 2px solid #D3D3D3; 
-              box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);">
-  <p style="margin-top: 20px; font-family: 'Helvetica', sans-serif; font-size: 14px; color: #888;">
-    © 2024 Nervi0zz0
-  </p>
+<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+
+<div style="text-align: center; margin: 50px auto;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+</div>
+<div style="text-align: center; margin-top: 40px;">
+  <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
 </div>
