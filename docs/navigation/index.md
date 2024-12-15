@@ -87,9 +87,11 @@ Wireshark es una herramienta de análisis de red poderosa y versátil. Aquí te 
 
 ---
 
-¡A disfrutar del análisis de tráfico con Wireshark! 🚀
-<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
+  <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
-<div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 25%; height: auto; border-radius: 15px; border: 2px solid #FFD700; box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5); filter: brightness(0.95) saturate(1.1);">
-</div>
+  <div style="text-align: center; margin: 50px auto;">
+    <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+  </div>
+  <div style="text-align: center; margin-top: 40px;">
+    <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
+  </div>
