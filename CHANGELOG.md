@@ -6,7 +6,7 @@ parent: Diario de un Cojo
 
 <!-- Encabezado con imagen adaptada -->
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/assets/images/ccncert/portadacarlos.jpg" alt="Portada de Carlos Flethes" style="width: 50%; border-radius: 15px; box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); border: 2px solid #555;">
+  <img src="/assets/images/ccncert/portadacarlos.jpg" alt="Portada de Carlos Flethes" style="width: 50%; border-radius: 15px; box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); border: 3px solid #FFD700;">
 </div>
 
 <p style="font-family: 'Georgia', serif; font-size: 18px; color: #ddd; text-align: justify; line-height: 1.8;">
@@ -28,7 +28,6 @@ El 28 de noviembre, mientras el resto de los mortales seguía con su día a día
   <img src="/assets/images/ccncert/soycarlos.jpg" alt="Carlos Flethes" style="width: 60%; border-radius: 15px; margin: 10px; box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); border: 3px solid #FFD700;">
 </div>
 
-
 ---
 
 <!-- Reflexión humorística -->
@@ -38,15 +37,17 @@ El 28 de noviembre, mientras el resto de los mortales seguía con su día a día
     Una vez dentro de la ponencia, el entretenimiento estaba garantizado... aunque no por las razones que esperábamos. Delante de mí, un general luchaba contra el sueño como si su vida dependiera de ello (¡qué lástima que no hubiera un CTF para mantenerse despierto! 😴). El ponente, un alto cargo del <strong>MCCE</strong> con medallas hasta en los calcetines, se había preparado el reto del <strong>CTF</strong> como quien hace los deberes en el bus. Vamos, que entre los problemas técnicos, el internet que no funcionaba y el acceso a las herramientas que brillaba por su ausencia, aquello era el caos. Podías escuchar murmullos del tipo: <em>"Si esta gente vela por nuestra seguridad, estamos apañaos"</em>. No pude contener la risa, y mezclado con los opiáceos que llevaba encima (prescripción médica, por supuesto), aquello fue uno de los momentos cumbre de la jornada.
   </p>
 </div>
-  <div style="text-align: center; margin: 40px 0;">
-    <video controls style="width: 100%; max-width: 700px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8); border: 2px solid #FF4500;">
-      <source src="/assets/images/ccncert/carlosVideo.mp4" type="video/mp4">
-      Tu navegador no soporta el video.
-    </video>
-    <figcaption style="margin-top: 10px; font-family: 'Helvetica', sans-serif; font-size: 14px; color: #c0c0c0; font-style: italic;">
-      "Un momento para la posteridad: Carlos Flethes Montesinos y su equipo brillando como siempre."
-    </figcaption>
-  </div>
+
+<!-- Video -->
+<div style="text-align: center; margin: 40px 0;">
+  <video controls style="width: 100%; max-width: 700px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8); border: 3px solid #FFD700;">
+    <source src="/assets/images/ccncert/carlosVideo.mp4" type="video/mp4">
+    Tu navegador no soporta el video.
+  </video>
+  <figcaption style="margin-top: 10px; font-family: 'Helvetica', sans-serif; font-size: 14px; color: #c0c0c0; font-style: italic;">
+    "Un momento para la posteridad: Carlos Flethes Montesinos y su equipo brillando como siempre."
+  </figcaption>
+</div>
 
 ---
 
@@ -66,10 +67,11 @@ El 28 de noviembre, mientras el resto de los mortales seguía con su día a día
   <img src="/assets/images/ccncert/JWa7.gif" style="width: 50%; border-radius: 15px; margin: 20px auto; box-shadow: 0 12px 25px rgba(255, 255, 255, 0.2); border: 3px solid #FFD700;">
 </div>
 
-<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+<hr style="border: none; border-top: 1px solid rgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
+<!-- Firma -->
 <div style="text-align: center; margin: 50px auto;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 3px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
 </div>
 <div style="text-align: center; margin-top: 40px;">
   <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
