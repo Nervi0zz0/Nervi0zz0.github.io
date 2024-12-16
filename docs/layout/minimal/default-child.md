@@ -56,7 +56,7 @@ El trabajo del Blue Team es dinámico y desafiante, ya que deben estar siempre a
 💵 **Coste:**  
 La versión gratuita ofrece acceso a una cantidad limitada de alertas, mientras que la suscripción completa (entre **$25** y **$40/mes**) desbloquea más escenarios, materiales de formación avanzados y la posibilidad de generar más alertas para practicar.
 
-**Puntuación:** 🛡️🛡️🛡️🛡️
+**Puntuación:** 🛡️🛡️🛡️🛡️✰
 
 ---
 
@@ -71,7 +71,7 @@ La versión gratuita ofrece acceso a una cantidad limitada de alertas, mientras 
 
 💡 **Consejo**: La suscripción VIP cuesta solo **$17/mes**, lo cual es una inversión razonable para acceder a laboratorios avanzados y materiales especializados en análisis de amenazas y respuesta ante incidentes.
 
-**Puntuación:** 🛡️🛡️🛡️🛡️
+**Puntuación:** 🛡️🛡️🛡️🛡️✰
 
 ---
 
@@ -87,7 +87,7 @@ Estas plataformas se complementan perfectamente para cualquier persona que quier
 
 ## 🧰 **Recursos adicionales para mejorar tus habilidades en el Blue Team**
 
-Aquí tienes más herramientas y recursos esenciales para seguir desarrollando tus habilidades en el Blue Team:
+### 📑 **Tabla de recursos adicionales**
 
 | **Recurso**                  | **Descripción**                                                         | **Enlace**                                                                 |
 |------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------|
@@ -105,12 +105,12 @@ Aquí tienes más herramientas y recursos esenciales para seguir desarrollando t
 
 ## ⚙️ **Mejores prácticas para unirte al Blue Team**
 
-Si decides embarcarte en el mundo del Blue Team, aquí tienes algunas mejores prácticas:
-
-1. **Practica lo aprendido constantemente**: La ciberseguridad es un campo muy práctico. No solo aprendas teoría, sino que aplícala en escenarios reales y entornos controlados.
-2. **Mantente al día con las amenazas emergentes**: La ciberseguridad cambia rápidamente. Sigue blogs, foros y redes sociales especializadas para estar al tanto de las últimas amenazas y vulnerabilidades.
-3. **Obtén certificaciones**: Certificaciones como CompTIA Security+, GIAC, y otras relacionadas te ayudarán a validar tus habilidades y aumentar tu empleabilidad.
-4. **Únete a comunidades y redes**: Participar en foros como Reddit, Discord y LinkedIn, donde se discuten temas de ciberseguridad, es una excelente manera de aprender de expertos y conectar con otros profesionales.
+> {: .important-title }
+> **¡Algunas recomendaciones clave!**  
+> - **Practica constantemente**: La ciberseguridad es un campo muy práctico. No solo aprendas teoría, sino que aplícala en escenarios reales y entornos controlados.
+> - **Mantente al día con las amenazas emergentes**: La ciberseguridad cambia rápidamente. Sigue blogs, foros y redes sociales especializadas para estar al tanto de las últimas amenazas y vulnerabilidades.
+> - **Obtén certificaciones**: Certificaciones como CompTIA Security+, GIAC, y otras relacionadas te ayudarán a validar tus habilidades y aumentar tu empleabilidad.
+> - **Únete a comunidades y redes**: Participar en foros como Reddit, Discord y LinkedIn, donde se discuten temas de ciberseguridad, es una excelente manera de aprender de expertos y conectar con otros profesionales.
 
 ---
 
@@ -119,5 +119,4 @@ Si decides embarcarte en el mundo del Blue Team, aquí tienes algunas mejores pr
 El camino hacia convertirte en un profesional del Blue Team puede ser desafiante, pero las plataformas y herramientas mencionadas aquí son una excelente forma de comenzar. Recuerda, la práctica constante y el aprendizaje continuo son clave para avanzar en este campo dinámico. ¡Sigue aprendiendo y protegiendo el ciberespacio!
 
 ---
-
 
