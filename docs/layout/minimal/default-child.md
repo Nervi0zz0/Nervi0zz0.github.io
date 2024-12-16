@@ -1,17 +1,21 @@
 ---
-title: ¿Y donde practicar?
+title: ¿Y dónde practicar?
 layout: minimal
 ---
 
-## 🚀 **Introducción: Plataformas de Aprendizaje para el Blue Team**
+<div style="background: linear-gradient(135deg, rgba(17, 45, 78, 0.9), rgba(21, 59, 94, 0.9)); padding: 40px; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); text-align: center; color: white;">
+  <div style="margin-bottom: 30px;">
+    <img src="/workspaces/Nervi0zz0.github.io/assets/images/plataformas.webp" alt="Imagen de portada futurista de Ciberseguridad" style="width: 70%; border-radius: 25px; box-shadow: 0 15px 30px rgba(255, 255, 255, 0.5);">
+  </div>
+  <h1 style="font-size: 3em; font-family: 'Arial Black', sans-serif; margin: 0; letter-spacing: 1.5px; text-shadow: 3px 3px 6px rgba(0,0,0,0.8);">🚀 <strong>Introducción: Plataformas de Aprendizaje para el Blue Team</strong
 
-¿Estás interesado en aprender ciberseguridad y formar parte de un **Blue Team**? Si es así, ¡estás en el lugar adecuado! El Blue Team se enfoca en la defensa activa contra amenazas cibernéticas. Para desarrollar tus habilidades en esta área, es crucial practicar en plataformas que te permitan enfrentar escenarios reales y simulados. En este artículo te presento algunas de las mejores plataformas de aprendizaje para mejorar tus habilidades defensivas en ciberseguridad.
+¿Estás interesado en aprender ciberseguridad y formar parte de un **Blue Team**? Si es así, ¡estás en el lugar adecuado! El Blue Team se enfoca en la defensa activa contra amenazas cibernéticas. Para desarrollar tus habilidades en esta área, es crucial practicar en plataformas que te permitan enfrentar escenarios reales y simulados. En este artículo, te presento algunas de las mejores plataformas de aprendizaje para mejorar tus habilidades defensivas en ciberseguridad.
 
 ---
 
 ## 🧑‍💻 **¿Qué es el Blue Team en Ciberseguridad?**
 
-El **Blue Team** es el encargado de proteger los sistemas informáticos contra amenazas externas e internas. Su trabajo se centra en la defensa, detección y respuesta a incidentes de seguridad, utilizando herramientas avanzadas y técnicas de mitigación. 
+El **Blue Team** se encarga de proteger los sistemas informáticos contra amenazas externas e internas. Su trabajo se centra en la defensa, detección y respuesta a incidentes de seguridad, utilizando herramientas avanzadas y técnicas de mitigación.
 
 ### 🔑 **Responsabilidades clave del Blue Team:**
 - **Monitoreo de Seguridad**: Usar herramientas como **SIEM** para detectar comportamientos sospechosos.
@@ -132,3 +136,4 @@ Las plataformas mencionadas ofrecen una excelente forma de comenzar o mejorar tu
 <div style="text-align: center; margin-top: 40px;">
     <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
 </div>
+
