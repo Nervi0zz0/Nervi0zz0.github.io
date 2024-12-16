@@ -1,5 +1,5 @@
 ---
-title: 🛡️ **Modelo OSI en Ciberseguridad**
+title: 🛡️ Modelo OSI en Ciberseguridad
 parent: Supervivencia Sin Esfuerzo
 priority: 9
 ---
