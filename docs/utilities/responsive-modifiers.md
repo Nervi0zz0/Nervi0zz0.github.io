@@ -151,10 +151,6 @@ Es una herramienta imprescindible para **equipos de respuesta, pentesters y anal
 [🔍 Explora Shodan](https://www.shodan.io){: .btn .btn-blue .my-4}  
 [💬 Comparte esta guía](#){: .btn .btn-outline .my-4}  
 
-<div class="text-center">
-  <img src="/assets/images/cojo.png" alt="Firma" class="rounded-full shadow-lg my-6" style="max-width: 15%;">
-</div>
-  <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
   <div style="text-align: center; margin: 50px auto;">
     <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
