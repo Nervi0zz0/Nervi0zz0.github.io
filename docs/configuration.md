@@ -1,6 +1,7 @@
 ---
 title: Mi CV
-nav_order: 2
+parent: ¿Quién soy?
+nav_order: 1
 ---
 
 <div style="text-align: center; margin: 40px 0;">
