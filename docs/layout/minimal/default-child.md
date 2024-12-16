@@ -40,7 +40,7 @@ El **Blue Team** se encarga de proteger los sistemas informáticos contra amenaz
 - **Evaluación continua**: Cada módulo incluye ejercicios y cuestionarios para medir tu progreso.
 
 {: .highlight }
-> 💡 **Consejo práctico**: Aunque algunos laboratorios requieren una suscripción VIP (**$10/mes**), los escenarios de alto nivel justifican la inversión.
+> 💡 **Consejo práctico**: Aunque algunos laboratorios requieren una suscripción VIP (**€12/mes**), los escenarios de alto nivel justifican la inversión.
 
 {: .label .label-blue }
 **Plataforma recomendada para principiantes.**
@@ -60,7 +60,7 @@ El **Blue Team** se encarga de proteger los sistemas informáticos contra amenaz
   - Enfocadas en la gestión de vulnerabilidades y análisis de tráfico de red.
 
 {: .note }
-> 💡 **Coste**: La suscripción completa (entre **$25** y **$40/mes**) desbloquea más alertas y escenarios avanzados.
+> 💡 **Coste**: La suscripción completa (entre **€15** y **€40/mes**) desbloquea más alertas y escenarios avanzados, siempre puedes encontrar una buena promo.
 
 {: .label .label-green }
 **Plataforma estable para mejorar tus habilidades en SOC.**
@@ -77,7 +77,7 @@ El **Blue Team** se encarga de proteger los sistemas informáticos contra amenaz
 - **Colaboración en equipo**: Trabaja con otros profesionales de ciberseguridad en escenarios colaborativos, como un SOC real.
 
 {: .important }
-> 💡 **Consejo práctico**: La suscripción VIP cuesta **$17/mes**, lo que permite acceder a escenarios avanzados y materiales especializados.
+> 💡 **Consejo práctico**: La suscripción VIP cuesta **€ 17/mes**, lo que permite acceder a escenarios avanzados y materiales especializados.
 
 {: .label .label-purple }
 **Plataforma ideal para expertos en ciberseguridad.**
