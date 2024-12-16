@@ -1,5 +1,6 @@
 ---
 title: TryHackMe
+parent: ¿Y donde practico?
 nav_order: 5
 ---
 

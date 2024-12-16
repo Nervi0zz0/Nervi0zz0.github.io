@@ -1,6 +1,6 @@
 ---
 title: ¿Y dónde practicar?
-layout: minimal
+layout: post
 ---
 <div style="background: linear-gradient(135deg, rgba(17, 45, 78, 0.9), rgba(21, 59, 94, 0.9)); padding: 40px; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); text-align: center; color: white;">
   <div style="margin-bottom: 30px;">
