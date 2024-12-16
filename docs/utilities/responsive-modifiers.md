@@ -177,7 +177,7 @@ Una guía técnica indispensable para **analistas de ciberseguridad**, **pentest
 
 ---
 
-![Shodan Visual Cheat Sheet](/assets/images/shodan-cheat-sheet.png){: .text-center .rounded-lg .shadow-lg .mt-4}  
+![Shodan Cheat Sheet](../assets/images/shodan-cheat-sheet.png){: .text-center .rounded-lg .shadow-lg .mt-4}  
 *Representación visual de los filtros más utilizados.*  
 {: .fs-6 .text-grey-200 .text-center}
 
@@ -198,5 +198,5 @@ Shodan es una herramienta crítica para la ciberseguridad, permitiendo:
 [📤 Comparte esta guía](#){: .btn .btn-outline .mt-4}  
 
 <div class="text-center">
-  <img src="/assets/images/signature.png" alt="Firma" class="rounded-full shadow-lg" style="max-width: 15%;">
+  <img src="../assets/images/signature.png" alt="Firma" class="rounded-full shadow-lg" style="max-width: 15%;">
 </div>
