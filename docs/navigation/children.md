@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 🔹 Mi experiencia con la certificación Blue Team Level 1 (BTL1)
+title: "Mi experiencia con la certificación Blue Team Level 1 (BTL1)"
 nav_order: 1
 parent: Diario de un Cojo
 ---

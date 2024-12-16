@@ -5,9 +5,6 @@ parent: Diario de un Cojo
 ---
 
 ---
-
-description: "Una mirada irónica desde la trinchera de un analista SOC."
----
 <div style="background: linear-gradient(135deg, rgba(17, 45, 78, 0.9), rgba(21, 59, 94, 0.9)); padding: 40px; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); text-align: center; color: white;"> <div style="margin-bottom: 30px;"> <img src="/assets/images/Manual de Supervivencia SOC_ Los Usuarios Modelo (1).png" alt="Manual de Supervivencia SOC" style="width: 50%; border-radius: 20px; box-shadow: 0 12px 24px rgba(255, 255, 255, 0.5);"> </div> <h1 style="font-size: 3em; font-family: 'Arial Black', sans-serif; margin: 0; letter-spacing: 1.5px; text-shadow: 3px 3px 6px rgba(0,0,0,0.8);">Manual de Supervivencia SOC: Los Usuarios Modelo</h1> </div>
 
 # Manual de Supervivencia SOC: Los Usuarios Modelo
@@ -75,3 +72,11 @@ Trabajar como analista SOC no es solo un empleo, es un ejercicio de paciencia, s
 
 > **Mensaje de esperanza:** Fuerza y café, colega. Cuando veas logs llenos de intentos fallidos de inicio de sesión o un ransomware haciendo fiesta en la red, recuerda: **el verdadero ataque siempre viene desde adentro**. Y por "adentro", me refiero al cerebro de nuestros adorables usuarios.
 
+  <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+
+  <div style="text-align: center; margin: 50px auto;">
+    <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+  </div>
+  <div style="text-align: center; margin-top: 40px;">
+    <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
+  </div>

@@ -1,5 +1,5 @@
 ---
-title: 🔹¡Que salgo en los periódicos!
+title: "¡Que salgo en los periódicos!"
 parent: Diario de un Cojo
 nav_order: 3
 ---
