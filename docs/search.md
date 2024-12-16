@@ -1,6 +1,7 @@
 ---
 title: Pickle Rick | Walkthrough
 parent: TryHackMe
+grand_parent: ¿Y dónde practicar?
 nav_order: 2
 ---
 <hr style="border: none; border-top: 1px solidrgb(227, 243, 9); margin: 40px 0; width: 100%;">

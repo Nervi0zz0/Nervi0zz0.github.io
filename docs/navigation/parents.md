@@ -1,6 +1,7 @@
 ---
 title: Deep Blue | Walkthrough
 parent: Security Blue Team
+grand_parent: ¿Y dónde practicar?
 nav_order: 2
 ---
 

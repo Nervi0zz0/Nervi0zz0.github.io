@@ -1,6 +1,7 @@
 ---
 title: Examen BTL-1
 parent: Security Blue Team
+grand_parent: ¿Y dónde practicar?
 nav_order: 2
 ---
 
