@@ -1,6 +1,7 @@
 ---
-title: 🛡️ Tipos de Registros DNS
-parent: Supervivencia Sin Esfuerzo
+title: Tipos de Registros DNS
+parent: Cheat sheet
+grand_parent: ¿Y dónde practicar?
 priority: 4
 ---
 <hr style="border: none; border-top: 1px solidrgb(242, 238, 6); margin: 40px 0; width: 100%;">

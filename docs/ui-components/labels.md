@@ -1,6 +1,7 @@
 ---
 title: 🛡️ Modelo OSI en Ciberseguridad
-parent: Supervivencia Sin Esfuerzo
+parent: Cheat sheet
+grand_parent: ¿Y dónde practicar?
 priority: 9
 ---
 

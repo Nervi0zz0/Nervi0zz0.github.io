@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 🛡️ Monitoreo de Eventos en Windows
-description: Consejos y recursos
-parent: Supervivencia Sin Esfuerzo
+title: Monitoreo de Eventos en Windows
+parent: Cheat sheet
+grand_parent: ¿Y dónde practicar?
 priority: 3
 ---
 

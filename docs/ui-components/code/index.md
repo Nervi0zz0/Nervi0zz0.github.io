@@ -1,6 +1,7 @@
 ---
-title: 🛡️ Métodos de Solicitud HTTP 
-parent: Supervivencia Sin Esfuerzo
+title: Métodos de Solicitud HTTP 
+parent: Cheat sheet
+grand_parent: ¿Y dónde practicar?
 priority: 4
 ---
 
