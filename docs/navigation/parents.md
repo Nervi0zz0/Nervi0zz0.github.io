@@ -5,7 +5,8 @@ grand_parent: ¿Y dónde practicar?
 nav_order: 2
 ---
 
-![DeepBlue](/assets/images/BTL/deppblue/portada.png) 
+![DeepBlue](/assets/images/deepblue/portada.png) 
+ 
 
 En este laboratorio gratuito de [Blue Team Labs Online](https://blueteamlabs.online/home/investigation/deep-blue-a4c18ce507), se realiza un análisis detallado de logs EVTX (`Security.evtx` y `System.evtx`) para investigar un compromiso del sistema mediante un ataque RDP y la ejecución de Meterpreter. Se utiliza **DeepBlueCLI**, un módulo de PowerShell que facilita la identificación de eventos sospechosos y permite una respuesta más rápida.
 
@@ -116,10 +117,13 @@ Estos hallazgos confirman un ataque exitoso mediante RDP seguido de actividades 
 # Herramienta clave:
 DeepBlueCLI acelera la revisión de eventos críticos en logs EVTX, optimizando la respuesta a incidentes.
 
-![DB7](/assets/images/BTL/deppblue/1tvm.gif)
 
-<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
 
-<div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 25%; height: auto; border-radius: 15px; border: 2px solid #FFD700; box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5); filter: brightness(0.95) saturate(1.1);">
-</div>
+  <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+
+  <div style="text-align: center; margin: 50px auto;">
+    <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+  </div>
+  <div style="text-align: center; margin-top: 40px;">
+    <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
+  </div>
