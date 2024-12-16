@@ -1,5 +1,5 @@
 ---
-title: 🛡️ Modelo OSI en Ciberseguridad
+title: 🛡️ **Modelo OSI en Ciberseguridad**
 parent: Supervivencia Sin Esfuerzo
 priority: 9
 ---
@@ -173,5 +173,3 @@ Explora sus funciones, amenazas comunes y estrategias de defensa.
 <div style="text-align: center;">
   <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);">
 </div>
-
-
