@@ -1,14 +1,15 @@
+
 ---
-title: 🛡️ Vectores de Ataque 
+title: 🛡️ Vectores de Ataque
 parent: Supervivencia Sin Esfuerzo
 priority: 4
 ---
 
-# Vectores de Ataque 
+# Vectores de Ataque
 
-Los **vectores de ataque ** son los caminos o métodos utilizados por los atacantes para acceder a las redes, sistemas o datos de una organización. A continuación, se describen los principales vectores de ataque, sus objetivos y las técnicas de identificación más utilizadas.
+Los **vectores de ataque** son los caminos o métodos utilizados por los atacantes para acceder a las redes, sistemas o datos de una organización. A continuación, se describen los principales vectores de ataque, sus objetivos y las técnicas de identificación más utilizadas.
 
-![Vectores de Ataque ](/assets/images/vectores.jpg)
+![Vectores de Ataque](/assets/images/vectores.jpg)
 
 ## 1. Malware
 
@@ -139,6 +140,7 @@ Los **vectores de ataque ** son los caminos o métodos utilizados por los atacan
 - Implementar límites en los intentos de inicio de sesión y bloqueos temporales.  
 - Utilizar autenticación multifactor (MFA) para asegurar las cuentas de usuario.  
 </div>
+
 ---
 
 ### Recursos Adicionales
@@ -147,11 +149,13 @@ Los **vectores de ataque ** son los caminos o métodos utilizados por los atacan
 - [Guía de Seguridad NIST](https://www.nist.gov/cyberframework)
 - [Curso de Ciberseguridad en TryHackMe](https://tryhackme.com)
 - [Vectores de Ataque en LetsDefend](https://www.letsdefend.io)
-  <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
-  <div style="text-align: center; margin: 50px auto;">
-    <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
-  </div>
-  <div style="text-align: center; margin-top: 40px;">
-    <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
-  </div>
+<hr style="border: none; border-top: 1px solid rgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+
+<div style="text-align: center; margin: 50px auto;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+</div>
+
+<div style="text-align: center; margin-top: 40px;">
+  <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
+</div>
