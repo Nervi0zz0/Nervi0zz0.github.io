@@ -7,8 +7,9 @@ nav_order: 2
 
 <hr style="border: none; border-top: 1px solid rgb(227, 243, 9); margin: 40px 0; width: 100%;">
 
+
 # 🧪 **Pickle Rick | TryHackMe Walkthrough**  
-![Pickle Rick](/assets/images/RickyMorty/portada.png){: .img-center}
+![Pickle Rick](/assets/images/RickyMorty/portada.png){: .img-center style="max-width: 50%;"}
 
 ---
 
@@ -20,7 +21,7 @@ Si aún no conoces el desafío, [haz clic aquí](https://tryhackme.com/room/pick
 
 ---
 
-![Pickle Rick](/assets/images/RickyMorty/fxmn.gif){: .img-center}
+![Pickle Rick](/assets/images/RickyMorty/fxmn.gif){: .img-center style="max-width: 50%;"}
 
 ## 🛠️ **Pasos para resolver el reto**
 
@@ -125,7 +126,7 @@ Finalmente, navegamos al directorio `/root`, donde encontramos el último archiv
 
 Rick ha vuelto a su forma humana, al menos por ahora. Este reto nos recuerda lo importante que es la **seguridad en servidores** y por qué no debes dejar contraseñas en archivos visibles. ¡Gracias por seguir este walkthrough y hasta el próximo desafío! 🚀
 
-![Pickle Rick](/assets/images/RickyMorty/fxmn.gif){: .img-center}
+![Pickle Rick](/assets/images/RickyMorty/WG8Q.gif){: .img-center style="max-width: 50%;"}
 
 <hr style="border: none; border-top: 1px solid rgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
