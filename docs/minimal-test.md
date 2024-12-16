@@ -9,14 +9,15 @@ nav_order: 1
     <img src="/assets/images/Mi vida como analista de SOC/fumando.jpeg" alt="depre" style="width: 40%; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); filter: brightness(1.1) saturate(1.2);">
 </div>
 
-<div style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.85) 20%, rgba(30, 30, 30, 0.95) 80%); padding: 30px; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.75); margin: 50px auto; max-width: 850px; text-align: center;">
-  <div style="font-family: 'Oswald', sans-serif; font-size: 1.6rem; font-weight: 900; color: #E1E1E1; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); letter-spacing: 2px; line-height: 1.6;">
+<div style="background: linear-gradient(135deg, rgba(10, 10, 10, 0.9) 20%, rgba(45, 45, 45, 0.95) 80%); padding: 30px; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); margin: 50px auto; max-width: 850px; text-align: center;">
+  <div style="font-family: 'Oswald', sans-serif; font-size: 1.6rem; font-weight: 900; color: #B0B0B0; text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); letter-spacing: 1px; line-height: 1.6;">
     💻 Mi día a día como analista de SOC:  
   </div>
-  <div style="font-family: 'Roboto', sans-serif; font-size: 1.3rem; color: #D1D1D1; font-weight: 400; text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); line-height: 1.5;">
+  <div style="font-family: 'Roboto', sans-serif; font-size: 1.3rem; color: #A8A8A8; font-weight: 400; text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); line-height: 1.5;">
     Sobreviviendo entre alertas, caos y usuarios que piensan que un ‘clic’ no hace daño
   </div>
 </div>
+
 
 
 ---
