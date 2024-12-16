@@ -5,9 +5,9 @@ parent: ¿Y dónde practicar?
 nav_order: 2
 ---
 
-<hr style="border: none; border-top: 1px solidrgb(203, 248, 2); margin: 40px 0; width: 100%;">
+<hr style="border: none; border-top: 1px solid rgb(203, 248, 2); margin: 40px 0; width: 100%;">
 
-<div style="background: linear-gradient(45deg,rgb(55, 191, 100),rgb(9, 150, 72)); padding: 30px; border-radius: 10px; text-align: center; color: white;">
+<div style="background: linear-gradient(45deg, rgb(55, 191, 100), rgb(9, 150, 72)); padding: 30px; border-radius: 10px; text-align: center; color: white;">
   <h1 style="font-size: 2.5rem;">🛡️ <strong>¿Qué es Blue Team Labs y Security Blue Team eLearning?</strong></h1>
 </div>
 
@@ -17,7 +17,7 @@ En el dinámico mundo de la **ciberseguridad**, desarrollar habilidades práctic
 
 ## **1. Blue Team Labs Online** 🖥️
 
-<div style="float: left; margin-right: 20px;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="/assets/images/BTL/bluelabs.png" alt="Blue Team Labs" style="width: 50%; border-radius: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
 </div>
 
@@ -25,23 +25,24 @@ En el dinámico mundo de la **ciberseguridad**, desarrollar habilidades práctic
 
 ### **Características Principales**  
 
-| **Función**               | **Descripción**                                                                 |
-|---------------------------|---------------------------------------------------------------------------------|
-| 🔍 **Análisis de Logs**    | Identifica patrones sospechosos y correlaciona eventos para detectar incidentes. |
-| 📧 **Análisis de Phishing** | Aprende a reconocer intentos de fraude cibernético mediante correos maliciosos.   |
-| 🕵️ **Forense Digital**     | Investiga discos duros y memoria RAM para descubrir evidencia oculta.            |
-| 📊 **Gestión de SIEM**      | Administra sistemas de gestión de eventos de seguridad y alertas.                |
-| 🚨 **Respuesta a Incidentes** | Mejora tu capacidad de reacción ante ciberataques con simulacros realistas.      |
+| **Función**                 | **Descripción**                                                                    |
+|-----------------------------|------------------------------------------------------------------------------------|
+| 🔍 **Análisis de Logs**      | Identifica patrones sospechosos y correlaciona eventos para detectar incidentes.   |
+| 📧 **Análisis de Phishing**  | Aprende a reconocer intentos de fraude cibernético mediante correos maliciosos.    |
+| 🕵️ **Forense Digital**       | Investiga discos duros y memoria RAM para descubrir evidencia oculta.              |
+| 📊 **Gestión de SIEM**       | Administra sistemas de gestión de eventos de seguridad y alertas.                  |
+| 🚨 **Respuesta a Incidentes**| Mejora tu capacidad de reacción ante ciberataques con simulacros realistas.        |
 
-Cada desafío en Blue Team Labs está diseñado para evaluar y fortalecer tus habilidades técnicas. Además, la plataforma ofrece **certificados** que validan tu experiencia y progresión.
+{: .tip }
+> Cada desafío en Blue Team Labs está diseñado para evaluar y fortalecer tus habilidades técnicas. Además, la plataforma ofrece **certificados** que validan tu experiencia y progresión.
 
-[**Explorar Blue Team Labs Online**](https://blueteamlabs.online/){: .btn .btn-outline }
+[**Explorar Blue Team Labs Online**](https://blueteamlabs.online/){: .btn .btn-green }
 
 ---
 
 ## **2. Security Blue Team eLearning** 🎓
 
-<div style="float: left; margin-right: 20px;">
+<div style="text-align: center; margin-bottom: 20px;">
   <img src="/assets/images/BTL/security.png" alt="Security Blue Team eLearning" style="width: 50%; border-radius: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
 </div>
 
@@ -49,21 +50,24 @@ Cada desafío en Blue Team Labs está diseñado para evaluar y fortalecer tus ha
 
 ### **Lo que Encontrarás**  
 
-| **Recurso**                 | **Beneficio**                                                                 |
-|-----------------------------|-------------------------------------------------------------------------------|
-| ✅ **Cursos de Certificación** | Preparación para exámenes como **BTL-1** mediante ejercicios prácticos efectivos. |
-| 🔄 **Entrenamiento en Respuesta a Incidentes** | Simulaciones que refuerzan la capacidad de gestionar crisis cibernéticas. |
-| 🕵️ **Análisis Forense**       | Reconstrucción de incidentes mediante técnicas avanzadas de análisis digital.   |
-| 📊 **Gestión de SIEM**        | Aprende a manejar grandes volúmenes de datos y alertas con herramientas prácticas. |
-| 🧠 **Threat Hunting**         | Identifica y previene amenazas ocultas con metodologías avanzadas.              |
+| **Recurso**                    | **Beneficio**                                                                    |
+|--------------------------------|----------------------------------------------------------------------------------|
+| ✅ **Cursos de Certificación**  | Preparación para exámenes como **BTL-1** mediante ejercicios prácticos efectivos.|
+| 🔄 **Entrenamiento en Respuesta a Incidentes** | Simulaciones que refuerzan la capacidad de gestionar crisis cibernéticas.|
+| 🕵️ **Análisis Forense**        | Reconstrucción de incidentes mediante técnicas avanzadas de análisis digital.    |
+| 📊 **Gestión de SIEM**          | Aprende a manejar grandes volúmenes de datos y alertas con herramientas prácticas.|
+| 🧠 **Threat Hunting**           | Identifica y previene amenazas ocultas con metodologías avanzadas.              |
 
-[**Explorar Security Blue Team eLearning**](https://elearning.securityblue.team/home){: .btn .btn-outline }
+{: .important }
+> Security Blue Team eLearning proporciona los conocimientos necesarios para enfrentar desafíos reales y destacarse en la industria de ciberseguridad.
+
+[**Explorar Security Blue Team eLearning**](https://elearning.securityblue.team/home){: .btn .btn-blue }
 
 ---
 
 ## **3. Mi Perfil en Blue Team Labs**  
 
-🔗 [**Ver mi perfil en Blue Team Labs Online**](https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f)  
+🔗 [**Ver mi perfil en Blue Team Labs Online**](https://blueteamlabs.online/public/user/a3a6318eb3a0c77729337f){: .btn .btn-outline }
 
 En mi experiencia personal, **Blue Team Labs Online** ha sido una plataforma clave para probar y mejorar mis habilidades en un entorno práctico. Los desafíos no solo fortalecen mis capacidades técnicas, sino que también incrementan mi confianza en la resolución de problemas complejos. Cada reto completado es un paso más hacia la maestría en **ciberseguridad**.
 
@@ -71,7 +75,8 @@ En mi experiencia personal, **Blue Team Labs Online** ha sido una plataforma cla
 
 ## **4. Conclusión: Potencia tus Habilidades en Ciberseguridad**  
 
-Plataformas como **Blue Team Labs Online** y **Security Blue Team eLearning** ofrecen recursos únicos y valiosos para los profesionales de ciberseguridad. Estas herramientas no solo mejoran tus competencias técnicas, sino que también te preparan para obtener certificaciones reconocidas que avalan tu capacidad para afrontar escenarios reales.
+{: .callout }
+> Plataformas como **Blue Team Labs Online** y **Security Blue Team eLearning** ofrecen recursos únicos y valiosos para los profesionales de ciberseguridad. Estas herramientas no solo mejoran tus competencias técnicas, sino que también te preparan para obtener certificaciones reconocidas que avalan tu capacidad para afrontar escenarios reales.
 
 Ya sea que estés iniciando tu carrera o busques avanzar al siguiente nivel, ambas plataformas ofrecen:  
 - **Simulaciones prácticas.**  
@@ -84,8 +89,10 @@ Explora estas opciones y lleva tus habilidades a nuevos horizontes en el dinámi
 [**Comenzar en Security Blue Team**](https://elearning.securityblue.team/home){: .btn .btn-outline }
 
 ---
-<hr style="border: none; border-top: 1px solid #FFD700; margin: 40px 0; width: 100%; opacity: 0.9; box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);">
 
-<div style="text-align: center; margin: 40px 0;">
-  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 25%; height: auto; border-radius: 15px; border: 2px solid #FFD700; box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5); filter: brightness(0.95) saturate(1.1);">
+<div style="text-align: center; margin: 50px auto;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+</div>
+<div style="text-align: center; margin-top: 40px;">
+  <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
 </div>
