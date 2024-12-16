@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Mis Links
+title: Links utiles
+parent: ¿Y dónde practicar?
 nav_order: 8
-description: Guía avanzada de herramientas para Blue Team, técnicas y recursos especializados en ciberseguridad.
 ---
 
 <div style="background: linear-gradient(135deg, #4a90e2, #50e3c2); padding: 20px; border-radius: 15px; text-align: center; color: #fff; font-family: 'Arial', sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <h1 style="font-size: 36px; margin: 0;">🌐 **Herramientas y Estrategias para Blue Team**</h1>
+    <h1 style="font-size: 36px; margin: 0;">🌐 Herramientas y Estrategias para Blue Team</h1>
 </div>
 
 ---
