@@ -1,7 +1,8 @@
 ---
 title: TryHackMe
-parent: ¿Y dónde practico?
-nav_order: 5
+layout: default
+parent: ¿Y dónde practicar?
+nav_order: 3
 ---
 
 <hr style="border: none; border-top: 2px solid #7e57c2; margin: 40px 0; width: 100%;">

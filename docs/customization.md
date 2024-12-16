@@ -1,7 +1,8 @@
 ---
 title: Security Blue Team
-parent: ¿Y dónde practico?
-nav_order: 6
+layout: default
+parent: ¿Y dónde practicar?
+nav_order: 2
 ---
 
 <hr style="border: none; border-top: 1px solidrgb(203, 248, 2); margin: 40px 0; width: 100%;">

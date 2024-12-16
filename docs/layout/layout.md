@@ -1,8 +1,8 @@
 ---
 title: LetsDefend
 layout: default
-parent: ¿Y dónde practico?
-nav_order: 4
+parent: ¿Y dónde practicar?
+nav_order: 1
 ---
 
 [perfil](/assets/img/letsdefend1.png)
