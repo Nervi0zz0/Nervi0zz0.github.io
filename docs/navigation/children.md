@@ -9,11 +9,12 @@ parent: Diario de un Cojo
     <img src="/assets/images/Mi experiencia con la certificación Blue Team Level 1/BTLLOCO (1).jpg" alt="BTL1 Logo" style="width: 40%; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); filter: brightness(1.1) saturate(1.2);">
 </div>
 
-<div style="background: linear-gradient(135deg, rgba(255, 215, 0, 0.8) 20%, rgba(14, 4, 1, 0.8) 80%); padding: 30px; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9); margin: 40px auto; max-width: 800px; text-align: center;">
-  <div style="font-family: 'Oswald', sans-serif; font-size: 1.6rem; font-weight: 900; color: #FFFFFF; text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); letter-spacing: 3px; line-height: 1.5;">
+<div style="background: linear-gradient(135deg, rgba(25, 25, 25, 0.9) 20%, rgba(50, 50, 50, 0.95) 80%); padding: 30px; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8); margin: 40px auto; max-width: 800px; text-align: center;">
+  <div style="font-family: 'Oswald', sans-serif; font-size: 1.6rem; font-weight: 900; color: #D1D1D1; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); letter-spacing: 2px; line-height: 1.6;">
     💻 ¿BTL1: Paso en la dirección correcta o masoquismo profesional? 💀
   </div>
 </div>
+
 
 
 ---
