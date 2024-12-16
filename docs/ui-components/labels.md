@@ -12,136 +12,119 @@ Explora sus funciones, amenazas comunes y estrategias de defensa.
 
 ---
 
-<div class="interactive-container">
-
 ## 📌 **1. Capa Física**  
-<div class="accordion">
-  <details>
-    <summary>🖥️ **Hardware y Seguridad Física**</summary>
-    La **Capa Física** trata sobre **cables, switches y señales físicas**.
+{: .note}
+> **La Capa Física** trata sobre **cables, switches y señales físicas**.
 
-    ### 🔍 **Amenazas**  
-    - **Eavesdropping/Tapping**: Interceptar cables para obtener datos.  
-    - **Interferencia Electromagnética**: Ruido externo que afecta señales.  
-    - **Manipulación Física**: Acceso no autorizado al equipo.  
+### 🔍 **Amenazas Comunes**
+- **Eavesdropping/Tapping**: Interceptar cables para obtener datos.  
+- **Interferencia Electromagnética**: Ruido externo que afecta señales.  
+- **Manipulación Física**: Acceso no autorizado al equipo.  
 
-    ### 🛡 **Defensa Sugerida**  
-    - Uso de **fibra óptica** para seguridad.  
-    - Monitoreo con **CCTV**.  
-    - Controles de acceso físico restringido.  
-  </details>
-</div>
+### 🛡 **Defensas Recomendadas**
+- Uso de **fibra óptica** para seguridad.  
+- Monitoreo con **CCTV**.  
+- Controles de acceso físico restringido.  
+
+{: .highlight}
+**Importante:** Mantén el acceso físico restringido en áreas sensibles para evitar manipulaciones no autorizadas.
 
 ---
 
 ## 🔒 **2. Capa de Enlace de Datos**  
-<div class="accordion">
-  <details>
-    <summary>🔗 **Transmisión Segura en Redes Locales**</summary>
-    La **Capa de Enlace** controla la transmisión de **frames** y **direcciones MAC**.
+{: .note}
+> **La Capa de Enlace** controla la transmisión de **frames** y **direcciones MAC**.
 
-    ### 🔍 **Amenazas**  
-    - **MAC Address Spoofing**: Suplantación de direcciones MAC.  
-    - **ARP Spoofing**: Manipulación de la tabla ARP para interceptar tráfico.  
+### 🔍 **Amenazas Comunes**
+- **MAC Address Spoofing**: Suplantación de direcciones MAC.  
+- **ARP Spoofing**: Manipulación de la tabla ARP para interceptar tráfico.  
 
-    ### 🛡 **Defensa Sugerida**  
-    - Implementar **ARP Inspection**.  
-    - Usar **switches seguros** con autenticación.  
-  </details>
-</div>
+### 🛡 **Defensas Recomendadas**
+- Implementar **ARP Inspection**.  
+- Usar **switches seguros** con autenticación.  
+
+{: .important}
+**Recomendación:** Configura la inspección ARP para evitar ataques de suplantación y proteger la integridad de la red.
 
 ---
 
 ## 🚚 **3. Capa de Red**  
-<div class="accordion">
-  <details>
-    <summary>🌐 **Movimiento Inteligente de Paquetes**</summary>
-    Gestiona las **direcciones IP** y el **enrutamiento de paquetes**.
+{: .highlight}
+> **La Capa de Red** gestiona las **direcciones IP** y el **enrutamiento de paquetes**.
 
-    ### 🔍 **Amenazas**  
-    - **IP Spoofing**: Falsificación de direcciones IP.  
-    - **Manipulación de Tablas de Rutas**.  
+### 🔍 **Amenazas Comunes**
+- **IP Spoofing**: Falsificación de direcciones IP.  
+- **Manipulación de Tablas de Rutas**: Alteración de rutas en la red.
 
-    ### 🛡 **Defensa Sugerida**  
-    - Configuración de **firewalls robustos**.  
-    - Autenticación segura en rutas dinámicas.  
-  </details>
-</div>
+### 🛡 **Defensas Recomendadas**
+- Configuración de **firewalls robustos**.  
+- Autenticación segura en rutas dinámicas.
 
 ---
 
 ## 📡 **4. Capa de Transporte**  
-<div class="accordion">
-  <details>
-    <summary>🚦 **Flujo Controlado de Datos**</summary>
-    Garantiza la **entrega confiable y segmentada** de datos.
+{: .note}
+> **La Capa de Transporte** garantiza la **entrega confiable y segmentada** de datos.
 
-    ### 🔍 **Amenazas**  
-    - **SYN Flood**: Agotamiento de recursos con conexiones falsas.  
-    - **UDP Flood**: Saturación de redes con tráfico UDP.
+### 🔍 **Amenazas Comunes**
+- **SYN Flood**: Agotamiento de recursos con conexiones falsas.  
+- **UDP Flood**: Saturación de redes con tráfico UDP.
 
-    ### 🛡 **Defensa Sugerida**  
-    - Implementar **rate limiting**.  
-    - Usar sistemas de **detección y mitigación DDoS**.  
-  </details>
-</div>
+### 🛡 **Defensas Recomendadas**
+- Implementar **rate limiting**.  
+- Usar sistemas de **detección y mitigación DDoS**.  
+
+{: .warning}
+**Advertencia:** Los ataques DDoS pueden causar interrupciones significativas en los servicios, asegúrate de contar con protección adecuada.
 
 ---
 
 ## 🔄 **5. Capa de Sesión**  
-<div class="accordion">
-  <details>
-    <summary>💬 **Gestión Segura de Sesiones**</summary>
-    Administra sesiones de **comunicación activa** entre dispositivos.
+{: .highlight}
+> **La Capa de Sesión** gestiona las **sesiones activas** entre dispositivos.
 
-    ### 🔍 **Amenazas**  
-    - **Session Replay**: Reutilización de sesiones autenticadas.  
-    - **MITM (Man-in-the-Middle)**: Interceptación y manipulación de datos.
+### 🔍 **Amenazas Comunes**
+- **Session Replay**: Reutilización de sesiones autenticadas.  
+- **MITM (Man-in-the-Middle)**: Interceptación y manipulación de datos.
 
-    ### 🛡 **Defensa Sugerida**  
-    - Uso de **TLS** (Transport Layer Security).  
-    - Autenticación robusta y renovada.  
-  </details>
-</div>
+### 🛡 **Defensas Recomendadas**
+- Uso de **TLS** (Transport Layer Security).  
+- Autenticación robusta y renovada.
 
 ---
 
 ## 🔐 **6. Capa de Presentación**  
-<div class="accordion">
-  <details>
-    <summary>🔐 **Conversión y Cifrado de Datos**</summary>
-    Maneja la **transformación de datos** y su cifrado para proteger la integridad.
+{: .note}
+> **La Capa de Presentación** maneja la **transformación y cifrado de datos** para proteger la integridad.
 
-    ### 🔍 **Amenazas**  
-    - **SSL Stripping**: Degradación de conexiones seguras.  
-    - **Data Manipulation**: Alteración del formato y codificación.
+### 🔍 **Amenazas Comunes**
+- **SSL Stripping**: Degradación de conexiones seguras.  
+- **Data Manipulation**: Alteración de datos a través de formatos no seguros.
 
-    ### 🛡 **Defensa Sugerida**  
-    - Implementar **TLS/SSL actualizado**.  
-    - Validación estricta de certificados digitales.  
-  </details>
-</div>
+### 🛡 **Defensas Recomendadas**
+- Implementar **TLS/SSL actualizado**.  
+- Validación estricta de certificados digitales.  
+
+{: .highlight}
+**Importante:** Siempre valida los certificados digitales para evitar ataques de intermediarios.
 
 ---
 
 ## 🌍 **7. Capa de Aplicación**  
-<div class="accordion">
-  <details>
-    <summary>🌐 **Servicios al Usuario Final**</summary>
-    Administra los servicios más visibles como **HTTP, FTP y SMTP**.
+{: .note}
+> **La Capa de Aplicación** gestiona los servicios más visibles como **HTTP, FTP y SMTP**.
 
-    ### 🔍 **Amenazas**  
-    - **SQL Injection**: Ejecución de comandos maliciosos.  
-    - **Cross-Site Scripting (XSS)**: Scripts no autorizados en navegadores.  
-    - **DDoS Attacks**: Saturación de servicios.
+### 🔍 **Amenazas Comunes**
+- **SQL Injection**: Ejecución de comandos maliciosos en la base de datos.  
+- **Cross-Site Scripting (XSS)**: Inserción de scripts no autorizados en el navegador.  
+- **DDoS Attacks**: Saturación de los servicios web.
 
-    ### 🛡 **Defensa Sugerida**  
-    - Configurar un **WAF (Web Application Firewall)**.  
-    - Validar entradas de usuarios y proteger contra **DDoS**.  
-  </details>
-</div>
+### 🛡 **Defensas Recomendadas**
+- Configurar un **WAF (Web Application Firewall)**.  
+- Validar las entradas de usuarios y proteger contra **DDoS**.
 
-</div> <!-- End Interactive Container -->
+{: .important}
+**Recomendación:** Protege tus aplicaciones web utilizando un WAF y realizando pruebas regulares de seguridad.
 
 ---
 
