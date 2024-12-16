@@ -1,195 +1,202 @@
 ---
-title: 🛡️ Shodan Cheat Sheet
-description: Una referencia completa para dominar Shodan y descubrir dispositivos conectados y vulnerabilidades.
-parent: Supervivencia Sin Esfuerzo
-priority: 10
+title: 🛡️ Shodan: Guía Técnica Definitiva  
+description: Una referencia exhaustiva para profesionales de ciberseguridad que buscan dominar Shodan y descubrir vulnerabilidades en dispositivos conectados.  
+parent: Supervivencia Sin Esfuerzo  
+priority: 10  
 ---
 
-# 🛡️ **Shodan Cheat Sheet** {: .fs-8 .fw-700 .text-cyan-300 .text-center}
+# 🛡️ **Shodan Cheat Sheet**  
+{: .fs-8 .fw-800 .text-cyan-300 .text-center}
 
-**Domina Shodan para descubrir sistemas expuestos y vulnerabilidades en Internet.**  
-Guía esencial para **profesionales de ciberseguridad** y **pentesters**.  
+**Explora el panorama de dispositivos conectados y servicios expuestos en Internet con Shodan.**  
+Una guía técnica indispensable para **analistas de ciberseguridad**, **pentesters** e investigadores.  
 {: .fs-5 .text-grey-200 .text-center}
 
 ---
 
-## 📊 **¿Qué es Shodan?**  
-{: .fs-6 .fw-500 .text-grey-100}
+## 📊 **Introducción a Shodan**  
+{: .fs-6 .fw-600 .text-grey-100}
 
-Shodan es un **motor de búsqueda** que escanea dispositivos conectados a Internet, mostrando **servicios, banners y ubicaciones**.  
-Permite encontrar desde servidores hasta cámaras IP.
+**Shodan** es un **motor de búsqueda especializado** que permite descubrir dispositivos conectados a Internet, identificando **servicios, banners, puertos abiertos** y más. Desde cámaras IP hasta servidores críticos, Shodan es una herramienta vital para el análisis de exposición y seguridad.  
+
+### **Características principales:**  
+- Descubre **infraestructura crítica** en riesgo.  
+- Identifica **vulnerabilidades activas** mediante CVEs.  
+- Explora servicios y tecnologías implementadas en sistemas conectados.
+
+> 💡 **Tip:** Shodan puede revelar configuraciones inseguras en redes y dispositivos.  
 
 ---
 
-## 🗺️ **Búsqueda por Ubicación**  
+## 🗺️ **Búsquedas Geolocalizadas**  
 {: .text-yellow-300 .fw-600}
 
 <details>
-<summary class="hover-underline">🗺️ **Filtra por País, Ciudad y Coordenadas**</summary>
+<summary class="hover-underline">🌍 **Filtrar por País, Ciudad y Coordenadas**</summary>
 
-### 🔍 **Ejemplos Prácticos:**
-- **País:** `country:"US"`  
-- **Ciudad:** `city:"New York"`  
-- **Código Postal:** `postal:"92127"`  
-- **Coordenadas GPS:**
+### 🔍 **Ejemplos de búsqueda:**  
+- **País específico:** `country:"US"`  
+- **Ciudad:** `city:"San Francisco"`  
+- **Código Postal:** `postal:"90210"`  
+- **Coordenadas GPS:**  
     ```sh
-    geo:"40.759487,-73.978356"
-    geo:"40.759487,-73.978356,2"
+    geo:"37.7749,-122.4194"
+    geo:"37.7749,-122.4194,5"
     ```
 
-💡 **Consejo:** Utiliza coordenadas precisas para descubrir dispositivos cercanos.
+💡 **Consejo:** Las coordenadas permiten un análisis granular, útil para mapear activos expuestos en ubicaciones específicas.  
 </details>
 
 ---
 
-## 💻 **Direcciones IP & Subredes**  
+## 💻 **Direcciones IP y Subredes**  
 {: .text-green-300 .fw-600}
 
 <details>
-<summary class="hover-underline">💻 **Filtra por IP, Hostnames y Proveedores**</summary>
+<summary class="hover-underline">🔎 **Explora IPs, Hostnames y Proveedores**</summary>
 
-### 🔍 **Ejemplos Básicos:**
-- **IP Individual:** `52.179.197.205`  
-- **Hostname:** `hostname:"microsoft.com"`  
-- **Subred:** `net:"52.179.0.0/24"`  
-- **Puerto Específico:**
+### 🔍 **Búsquedas avanzadas:**  
+- **IP específica:** `52.179.197.205`  
+- **Hostname:** `hostname:"example.com"`  
+- **Subred:** `net:"192.168.0.0/24"`  
+- **Puerto activo:**  
     ```sh
-    port:"21"
-    ```
-- **Proveedor ISP:** `isp:"Spectrum"`  
-- **Sistema Autónomo ASN:** `asn:"AS8075"`
+    port:"80"
+    ```  
+- **Proveedor ISP:** `isp:"Google"`  
+- **Sistema Autónomo (ASN):** `asn:"AS15169"`
 
-> **Nota:** Combina múltiples filtros para resultados específicos.
+> 🔐 **Pro Tip:** Combina estos filtros con palabras clave para obtener resultados más detallados.  
 </details>
 
 ---
 
-## 🖥️ **Sistemas Operativos y Productos**  
+## 🖥️ **Sistemas Operativos y Dispositivos**  
 {: .text-orange-300 .fw-600}
 
 <details>
-<summary class="hover-underline">🖥️ **Encuentra Sistemas por OS y Dispositivos**</summary>
+<summary class="hover-underline">🖥️ **Identifica Sistemas por OS, Organizaciones y Productos**</summary>
 
-### 🔍 **Ejemplos Comunes:**
-- **Sistema Operativo:** `os:"Windows Server 2008"`  
-- **Organización:** `org:"Microsoft"`  
-- **Producto Específico:**
+### 🔍 **Filtros útiles:**  
+- **Sistema Operativo:** `os:"Linux"`  
+- **Organización:** `org:"Amazon"`  
+- **Producto específico:**  
     ```sh
-    product:"Cisco C3550 Router"
-    ```
-- **Categorías:** `category:"ics"` o `category:"malware"`  
-- **SMB y Carpetas:**
+    product:"OpenSSH 7.4"
+    ```  
+- **Categorías predefinidas:** `category:"ics"` o `category:"webcam"`  
+- **Carpetas compartidas (SMB):**  
     ```sh
     port:"445" "shares"
-    ```
+    ```  
 
-⚠️ **Importante:** Busca **dispositivos vulnerables** filtrando categorías específicas.
+⚠️ **Nota:** La búsqueda por categoría es útil para identificar dispositivos críticos como ICS o cámaras expuestas.  
 </details>
 
 ---
 
-## 🌐 **Aplicaciones Web**  
+## 🌐 **Aplicaciones Web y SSL**  
 {: .text-blue-300 .fw-600}
 
 <details>
-<summary class="hover-underline">🌐 **Encuentra Servicios Web y SSL**</summary>
+<summary class="hover-underline">🌐 **Descubre Servicios Web y Certificados Inseguros**</summary>
 
-### 🔍 **Ejemplos Avanzados:**
-- **Título HTML:** `title:"Index of /ftp"`  
-- **Cuerpo HTML:** `html:"XML-RPC server accepts"`  
-- **Tecnologías Web:**
+### 🔍 **Filtros relevantes:**  
+- **Título de página HTML:** `title:"Index of /admin"`  
+- **Cuerpo HTML:** `html:"Welcome to nginx"`  
+- **Tecnología web:**  
     ```sh
-    http.component:"php"
-    ```
-- **SSL/TLS Inseguro:**
+    http.component:"nginx"
+    ```  
+- **SSL/TLS inseguro:**  
     ```sh
-    ssl.version:"ssl3"
+    ssl.version:"tls1.0"
     ssl.cert.expired:"true"
-    ```
+    ```  
 
-💡 **Tip:** Identifica configuraciones **inseguras** para priorizar análisis.
+💡 **Tip avanzado:** Identifica configuraciones SSL/TLS débiles para priorizar acciones correctivas.  
 </details>
 
 ---
 
-## ⏰ **Filtros Temporales y Visuales**  
+## ⏰ **Búsquedas Temporales y Capturas**  
 {: .text-purple-300 .fw-600}
 
 <details>
-<summary class="hover-underline">⏰ **Búsqueda por Fecha y Capturas de Pantalla**</summary>
+<summary class="hover-underline">⏰ **Filtrar por Tiempo y Visualización**</summary>
 
-### 🔍 **Por Fecha:**
-- **Después de:** `after:"01/01/18"`  
-- **Antes de:** `before:"12/31/17"`
+### 🔍 **Filtrando por fechas:**  
+- **Después de una fecha específica:** `after:"2023-01-01"`  
+- **Antes de una fecha:** `before:"2022-12-31"`  
 
-### 🖼️ **Capturas de Pantalla:**
-- **Pantalla Disponible:**
+### 🖼️ **Capturas de Pantalla:**  
+- **Servicios con capturas:**  
     ```sh
-    port:"80" has_screenshot:"true"
-    ```
-- **Específico Windows:**
+    has_screenshot:"true"
+    ```  
+- **Pantallas RDP específicas:**  
     ```sh
     port:"3389" has_screenshot:"true"
-    ```
+    ```  
 
-🔍 **Recomendación:** Las capturas visuales ofrecen **información clave** sobre dispositivos expuestos.
+💡 **Consejo:** Las capturas son una herramienta visual poderosa para identificar configuraciones expuestas.  
 </details>
 
 ---
 
-## 🔒 **Acceso Premium & Vulnerabilidades**  
+## 🔒 **Vulnerabilidades (CVE) y Tags Premium**  
 {: .text-red-300 .fw-600}
 
 <details>
-<summary class="hover-underline">🔒 **Accede a Vulnerabilidades (CVE)**</summary>
+<summary class="hover-underline">🛡️ **Filtra Vulnerabilidades Conocidas**</summary>
 
-### 🔍 **Filtros Premium:**
-- **Buscar Vulnerabilidades:** `vuln:"CVE-2017-0143"`  
-- **Tags Específicos:**
+### 🔍 **Accediendo a CVEs:**  
+- **Vulnerabilidad específica:** `vuln:"CVE-2021-44228"`  
+- **Tags avanzados:**  
     ```sh
-    tag:"ics"
     tag:"database"
-    ```
+    tag:"ics"
+    ```  
 
-⚠️ **Atención:** Acceder a estas búsquedas requiere una cuenta premium.
+⚠️ **Importante:** Algunos filtros requieren una suscripción premium de Shodan.  
 </details>
 
 ---
 
-## 📄 **Resumen Visual**  
+## 📄 **Resumen de Filtros Comunes**  
 {: .fs-6 .fw-700 .text-grey-100}
 
-| **Filtro**            | **Ejemplo**                 | **Descripción**                     |
-|------------------------|-----------------------------|---------------------------------------|
-| **País**              | `country:"US"`             | Dispositivos en Estados Unidos        |
-| **Coordenadas**       | `geo:"40.7,-74"`           | Ubicación geográfica específica       |
-| **Producto**          | `product:"Apache"`         | Servidores Apache                     |
-| **Puerto**            | `port:"22"`                | Filtra servicios SSH                  |
-| **SSL Expirado**      | `ssl.cert.expired:"true"`  | Certificados vencidos                 |
-| **Vulnerabilidad CVE**| `vuln:"CVE-2021-34527"`    | Dispositivos vulnerables detectados   |
+| **Filtro**              | **Ejemplo**                  | **Uso Común**                              |
+|--------------------------|------------------------------|--------------------------------------------|
+| **País**                | `country:"US"`              | Dispositivos en Estados Unidos             |
+| **Puerto**              | `port:"443"`                | Servicios HTTPS                            |
+| **Producto**            | `product:"nginx"`           | Servidores web con nginx                   |
+| **Sistema Operativo**   | `os:"Windows 10"`           | Dispositivos con Windows 10                |
+| **Certificado Vencido** | `ssl.cert.expired:"true"`   | Detecta certificados TLS/SSL expirados     |
+| **Vulnerabilidad CVE**  | `vuln:"CVE-2023-12345"`     | Dispositivos afectados por CVEs específicos|
 
 ---
 
-![Shodan Cheat Sheet](/assets/images/shodan.jpeg){: .text-center .rounded-lg .shadow-lg .mt-4}  
-*Referencia visual para tus búsquedas.*  
+![Shodan Visual Cheat Sheet](/assets/images/shodan-cheat-sheet.png){: .text-center .rounded-lg .shadow-lg .mt-4}  
+*Representación visual de los filtros más utilizados.*  
 {: .fs-6 .text-grey-200 .text-center}
 
 ---
 
-## 🎯 **¿Por qué usar Shodan?**  
+## 🎯 **Por qué Usar Shodan**  
 
-Shodan es **crucial** para descubrir:  
-- Recursos **expuestos** (cámaras, servidores, routers).  
-- **Vulnerabilidades conocidas** mediante CVE.  
-- **Infraestructura crítica** que necesita atención.  
+Shodan es una herramienta crítica para la ciberseguridad, permitiendo:  
+- Identificar **recursos expuestos** como cámaras, servidores o routers.  
+- Localizar **vulnerabilidades activas** en infraestructura conectada.  
+- Mapear **activos críticos** para reforzar su seguridad.  
 
-Es una herramienta vital para **pentesters, investigadores y equipos de respuesta** en ciberseguridad.
+> **Ideal para:** Analistas de ciberseguridad, pentesters e investigadores de amenazas.  
 
 ---
 
 [🔍 Explora Shodan](https://www.shodan.io){: .btn .btn-blue .mt-4}  
-[💬 Comparte esta guía](#){: .btn .btn-outline .mt-4}  
+[📤 Comparte esta guía](#){: .btn .btn-outline .mt-4}  
 
 <div class="text-center">
-  <img src="/assets/images/cojo.png" alt="Firma" class="rounded-full shadow-lg" style="max-width: 15%;">
+  <img src="/assets/images/signature.png" alt="Firma" class="rounded-full shadow-lg" style="max-width: 15%;">
 </div>
