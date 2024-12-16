@@ -1,6 +1,6 @@
 ---
-title: 🛡️ Shodan
-  parent: Supervivencia Sin Esfuerzo  
+title: 🛡️ Shodan 
+ parent: Supervivencia Sin Esfuerzo  
 priority: 10  
 ---
 
@@ -20,99 +20,101 @@ Guía definitiva para **profesionales de ciberseguridad**, **pentesters** e inve
 
 **Shodan** es un motor de búsqueda que indexa dispositivos conectados a Internet, identificando servicios expuestos, banners de aplicaciones, puertos abiertos y más. Es una herramienta indispensable para auditar la seguridad de infraestructura crítica.  
 
-### **Características principales:**  
-- Localiza **dispositivos vulnerables** en tiempo real.  
-- Analiza configuraciones incorrectas o servicios inseguros.  
-- Identifica tecnologías implementadas en sistemas remotos.  
+{: .note-title }
+> **💡 Características principales**  
+> - Localiza **dispositivos vulnerables** en tiempo real.  
+> - Analiza configuraciones incorrectas o servicios inseguros.  
+> - Identifica tecnologías implementadas en sistemas remotos.
 
-> 💡 **Tip:** Combina búsquedas avanzadas para un análisis más preciso.  
+> {: .note }
+💡 **Tip:** Combina búsquedas avanzadas para un análisis más preciso.  
 
 ---
 
 ## 🗺️ **Búsqueda por Ubicación**  
 {: .text-yellow-300 .fw-600 .mt-6}
 
-<div class="border-l-4 border-yellow-500 bg-grey-800 p-4 rounded-lg shadow-sm">
-### 🔍 **Filtros Prácticos:**  
-- **Por País:** `country:"US"`  
-- **Por Ciudad:** `city:"New York"`  
-- **Por Código Postal:** `postal:"90210"`  
-- **Coordenadas GPS:**  
-    ```sh
-    geo:"40.712776,-74.005974"
-    geo:"40.712776,-74.005974,10"
-    ```
-
-> 💡 **Consejo:** Usa el filtro `geo` con precisión para identificar activos en ubicaciones específicas.  
-</div>
+{: .highlight-title }
+> **🌍 Filtros por Ubicación**  
+>
+> - **Por País:** `country:"US"`  
+> - **Por Ciudad:** `city:"New York"`  
+> - **Por Código Postal:** `postal:"90210"`  
+> - **Coordenadas GPS:**  
+>   ```sh
+>   geo:"40.712776,-74.005974"
+>   geo:"40.712776,-74.005974,10"
+>   ```
+>
+> **💡 Consejo:** Usa el filtro `geo` con precisión para identificar activos en ubicaciones específicas.
 
 ---
 
 ## 💻 **Direcciones IP y Subredes**  
 {: .text-green-300 .fw-600 .mt-6}
 
-<div class="border-l-4 border-green-500 bg-grey-800 p-4 rounded-lg shadow-sm">
-### 🔍 **Búsquedas clave:**  
-- **IP Individual:** `ip:"8.8.8.8"`  
-- **Hostname:** `hostname:"example.com"`  
-- **Subred:** `net:"192.168.0.0/24"`  
-- **Por Puerto:**  
-    ```sh
-    port:"80"
-    ```  
-- **Proveedor ISP:** `isp:"Google LLC"`  
-- **Sistema Autónomo (ASN):** `asn:"AS15169"`
-
-> **Nota:** Combina filtros para afinar resultados.  
-</div>
+{: .important-title }
+> **🔍 Filtros Clave por IP**  
+>
+> - **IP Individual:** `ip:"8.8.8.8"`  
+> - **Hostname:** `hostname:"example.com"`  
+> - **Subred:** `net:"192.168.0.0/24"`  
+> - **Por Puerto:**  
+>   ```sh
+>   port:"80"
+>   ```  
+> - **Proveedor ISP:** `isp:"Google LLC"`  
+> - **Sistema Autónomo (ASN):** `asn:"AS15169"`
+>
+> ⚠️ **Advertencia:** Combina filtros para afinar resultados.
 
 ---
 
 ## 🖥️ **Sistemas Operativos y Productos**  
 {: .text-orange-300 .fw-600 .mt-6}
 
-<div class="border-l-4 border-orange-500 bg-grey-800 p-4 rounded-lg shadow-sm">
-### 🔍 **Filtros Avanzados:**  
-- **Por Sistema Operativo:** `os:"Linux"`  
-- **Organización:** `org:"Amazon"`  
-- **Producto Específico:**  
-    ```sh
-    product:"Apache httpd 2.4.49"
-    ```  
-- **Por Categoría:**  
-    ```sh
-    category:"webcam"
-    category:"ics"
-    ```  
-- **Carpetas Compartidas (SMB):**  
-    ```sh
-    port:"445" "shares"
-    ```
-
-⚠️ **Advertencia:** Los dispositivos de infraestructura crítica (ICS) suelen ser los más vulnerables.  
-</div>
+{: .new-title }
+> **🖥️ Encuentra Dispositivos por OS y Categorías**  
+>
+> - **Sistema Operativo:** `os:"Linux"`  
+> - **Organización:** `org:"Amazon"`  
+> - **Producto Específico:**  
+>   ```sh
+>   product:"Apache httpd 2.4.49"
+>   ```  
+> - **Por Categoría:**  
+>   ```sh
+>   category:"webcam"
+>   category:"ics"
+>   ```  
+> - **Carpetas Compartidas (SMB):**  
+>   ```sh
+>   port:"445" "shares"
+>   ```
+>
+> ⚠️ **Advertencia:** Los dispositivos de infraestructura crítica (ICS) suelen ser los más vulnerables.
 
 ---
 
 ## 🌐 **Aplicaciones Web y Certificados**  
 {: .text-blue-300 .fw-600 .mt-6}
 
-<div class="border-l-4 border-blue-500 bg-grey-800 p-4 rounded-lg shadow-sm">
-### 🔍 **Búsquedas clave:**  
-- **Título de Página Web:** `title:"Index of /"`  
-- **Texto en HTML:** `html:"Welcome to nginx"`  
-- **Tecnología Web Específica:**  
-    ```sh
-    http.component:"nginx"
-    ```  
-- **SSL/TLS inseguro:**  
-    ```sh
-    ssl.version:"tls1.0"
-    ssl.cert.expired:"true"
-    ```  
-
-💡 **Consejo:** Busca configuraciones SSL/TLS débiles para priorizar correcciones.  
-</div>
+{: .note-title }
+> **🌐 Encuentra Servicios Web y SSL**  
+>
+> - **Título de Página Web:** `title:"Index of /"`  
+> - **Texto en HTML:** `html:"Welcome to nginx"`  
+> - **Tecnología Web Específica:**  
+>   ```sh
+>   http.component:"nginx"
+>   ```  
+> - **SSL/TLS inseguro:**  
+>   ```sh
+>   ssl.version:"tls1.0"
+>   ssl.cert.expired:"true"
+>   ```  
+>
+> 💡 **Consejo:** Busca configuraciones SSL/TLS débiles para priorizar correcciones.
 
 ---
 
