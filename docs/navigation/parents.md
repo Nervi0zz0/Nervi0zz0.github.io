@@ -15,7 +15,7 @@ En este laboratorio gratuito de [Blue Team Labs Online](https://blueteamlabs.onl
 # Escenario
 Un sistema Windows fue comprometido mediante RDP expuesto a internet. Posteriormente, el atacante desplegó Meterpreter para realizar actividades maliciosas. Los archivos `Security.evtx` y `System.evtx` se proporcionan para análisis forense.
 
-![DeepBlue](/assets/images/deppblue/Resolved.png)
+![DeepBlue](/assets/images/deepblue/Resolved.png)
 
 # Herramientas utilizadas
 - DeepBlueCLI: Herramienta para analizar eventos críticos en logs EVTX.
@@ -29,7 +29,7 @@ Ejecutamos DeepBlueCLI sobre el archivo `Security.evtx`.
 Comando:
 .\DeepBlue.ps1 C:\Users\BTLOTest\Desktop\Investigation\Security.evtx
 
-![DB1](/assets/images/deppblue/deepblue-1.png)
+![DB1](/assets/images/deepblue/deepblue-1.png)
 
 Resultado:
 Mike Smith ejecutó `GoogleUpdate.exe`, un archivo sospechoso vinculado al inicio del ataque.
@@ -41,7 +41,7 @@ Mike Smith ejecutó `GoogleUpdate.exe`, un archivo sospechoso vinculado al inici
 # Paso 2: Evidencia de actividad de Meterpreter
 Analizamos el archivo `Security.evtx` para identificar eventos relacionados con Meterpreter.
 
-![DB2](/assets/images/deppblue/deepblue-2.png)
+![DB2](/assets/images/deepblue/deepblue-2.png)
 
 Resultado:
 La actividad maliciosa ocurrió a las 10:48:14. El uso de pipes en comandos, una técnica común de Meterpreter, permitió la escalación de privilegios.
@@ -55,7 +55,7 @@ Utilizamos DeepBlueCLI para analizar `System.evtx` y detectar servicios sospecho
 Comando:
 .\DeepBlue.ps1 C:\Users\BTLOTest\Desktop\Investigation\System.evtx
 
-![DB3](/assets/images/deppblue/deepblue-3.png)
+![DB3](/assets/images/deepblue/deepblue-3.png)
 
 Resultado:
 El servicio `rztbzn` fue creado como parte de la persistencia del atacante.
@@ -67,7 +67,7 @@ El servicio `rztbzn` fue creado como parte de la persistencia del atacante.
 # Paso 4: Ejecutable malicioso descargado
 Revisamos eventos de creación de procesos (ID 4688) en el rango de tiempo identificado.
 
-![DB4](/assets/images/deppblue/deepblue-4.png)
+![DB4](/assets/images/deepblue/deepblue-4.png)
 
 Resultado:
 El archivo `serviceupdate.exe`, descargado en la carpeta Descargas, fue ejecutado antes de la conexión de Meterpreter.
@@ -80,7 +80,7 @@ El archivo `serviceupdate.exe`, descargado en la carpeta Descargas, fue ejecutad
 # Paso 5: Cuenta creada para persistencia
 Buscamos comandos relacionados con la creación de cuentas en `Security.evtx`.
 
-![DB5](/assets/images/deppblue/deepblue-5.png)
+![DB5](/assets/images/deepblue/deepblue-5.png)
 
 Resultado:
 La cuenta `ServiceAct` fue creada mediante el comando `net user ServiceAct /add`.
@@ -93,7 +93,7 @@ La cuenta `ServiceAct` fue creada mediante el comando `net user ServiceAct /add`
 # Paso 6: Grupos donde se añadió la cuenta
 Identificamos los grupos a los que fue añadida la cuenta `ServiceAct`.
 
-![DB7](/assets/images/deppblue/DeepBlue-7.jpg)
+![DB7](/assets/images/deepblue/DeepBlue-7.jpg)
 
 Resultado:
 La cuenta fue añadida a los grupos `Administrators` y `Remote Desktop Users`.
