@@ -1,6 +1,6 @@
 ---
 title: 🛡️ Shodan 
- parent: Supervivencia Sin Esfuerzo  
+parent: Supervivencia Sin Esfuerzo  
 priority: 10  
 ---
 
