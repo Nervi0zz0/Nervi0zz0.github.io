@@ -84,6 +84,15 @@ Ahora paso los días entre sesiones de cama, sofá y reposo forzoso, haciendo co
 
 ---
 
+<div style="text-align: center; margin: 30px 0;">
+  <p style="font-size: 16px; color: #CBD5E0;">
+    Si estás viendo este blog desde un teléfono móvil (o celular, si eres del otro lado del charco), recuerda que para ver el contenido completo debes abrir el menú situado en la parte superior derecha, representado por tres líneas horizontales. No seas zoquete.
+  </p>
+  <img src="assets/images/tlf.jpg" alt="Menú en móvil" style="max-width: 60%; height: auto; border-radius: 10px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); margin-top: 20px;">
+</div>
+
+---
+
 <div style="text-align: center; margin-top: 40px;">
   <span style="font-size: 20px; color: #F7FAFC; font-weight: bold;">Si decides quedarte, ¡bienvenido! 😎</span>
 </div>
