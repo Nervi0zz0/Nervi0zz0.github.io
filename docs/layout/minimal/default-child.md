@@ -1,7 +1,6 @@
 ---
-title: ¿Y donde practico?
+title: ¿Y donde practicar?
 layout: minimal
-
 ---
 
 
@@ -105,7 +104,6 @@ Estas plataformas se complementan perfectamente para cualquier persona que quier
 
 ## ⚙️ **Mejores prácticas para unirte al Blue Team**
 
-> {: .important-title }
 > **¡Algunas recomendaciones clave!**  
 > - **Practica constantemente**: La ciberseguridad es un campo muy práctico. No solo aprendas teoría, sino que aplícala en escenarios reales y entornos controlados.
 > - **Mantente al día con las amenazas emergentes**: La ciberseguridad cambia rápidamente. Sigue blogs, foros y redes sociales especializadas para estar al tanto de las últimas amenazas y vulnerabilidades.
@@ -116,7 +114,16 @@ Estas plataformas se complementan perfectamente para cualquier persona que quier
 
 ## 💡 **Conclusión: ¡Da el primer paso y únete al Blue Team!**
 
-El camino hacia convertirte en un profesional del Blue Team puede ser desafiante, pero las plataformas y herramientas mencionadas aquí son una excelente forma de comenzar. Recuerda, la práctica constante y el aprendizaje continuo son clave para avanzar en este campo dinámico. ¡Sigue aprendiendo y protegiendo el ciberespacio!
+El camino hacia convertirte en un profesional del Blue Team puede ser desafiante, pero las plataformas y herramientas mencionadas aquí son una excelente forma de comenzar. **Lo mejor es aprender haciendo**, y estas plataformas ofrecen escenarios reales que te permitirán practicar y mejorar tus habilidades de manera constante.
+
+Recuerda, la práctica constante y el aprendizaje continuo son clave para avanzar en este campo dinámico. ¡Sigue aprendiendo y protegiendo el ciberespacio!
 
 ---
+  <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
+  <div style="text-align: center; margin: 50px auto;">
+    <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+  </div>
+  <div style="text-align: center; margin-top: 40px;">
+    <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
+  </div>
