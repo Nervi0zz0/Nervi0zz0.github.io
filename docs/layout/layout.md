@@ -1,7 +1,7 @@
 ---
 title: LetsDefend
 layout: default
-parent: ¿Y donde practico?
+parent: ¿Y dónde practico?
 nav_order: 4
 ---
 

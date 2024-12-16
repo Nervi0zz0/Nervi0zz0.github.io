@@ -1,6 +1,6 @@
 ---
 title: Security Blue Team
-parent: ¿Y donde practico?
+parent: ¿Y dónde practico?
 nav_order: 6
 ---
 
