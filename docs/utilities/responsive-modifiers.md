@@ -1,5 +1,5 @@
 ---
-title: 🛡️ Shodan: Guía Técnica Definitiva  
+title: 🛡️ Shodan 
 description: Una referencia completa para dominar Shodan y descubrir dispositivos conectados, vulnerabilidades y configuraciones expuestas en Internet.  
 parent: Supervivencia Sin Esfuerzo  
 priority: 10  
