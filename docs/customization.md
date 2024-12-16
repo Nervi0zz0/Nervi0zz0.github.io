@@ -5,11 +5,11 @@ parent: ¿Y dónde practicar?
 nav_order: 2
 ---
 
-<hr style="border: none; border-top: 1px solid rgb(203, 248, 2); margin: 40px 0; width: 100%;">
 
-<div style="background: linear-gradient(45deg, rgb(55, 191, 100), rgb(9, 150, 72)); padding: 30px; border-radius: 10px; text-align: center; color: white;">
-  <h1 style="font-size: 2.5rem;">🛡️ <strong>¿Qué es Blue Team Labs y Security Blue Team eLearning?</strong></h1>
+<div style="background: linear-gradient(135deg, rgba(34, 49, 63, 0.9), rgba(44, 62, 80, 0.9)); padding: 40px; border-radius: 20px; box-shadow: 0 12px 24px rgba(0,0,0,0.5); text-align: center; color: white; max-width: 800px; margin: 40px auto;">
+  <h1 style="font-size: 2.5rem; font-family: 'Arial Black', sans-serif; margin: 0; letter-spacing: 1px; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">🛡️ <strong>¿Qué es Blue Team Labs y Security Blue Team eLearning?</strong></h1>
 </div>
+
 
 En el dinámico mundo de la **ciberseguridad**, desarrollar habilidades prácticas y enfrentarse a escenarios reales es fundamental para el éxito. Este artículo profundiza en dos plataformas clave que lideran la formación en defensa cibernética: **Blue Team Labs Online** y **Security Blue Team eLearning**. Si buscas potenciar tu carrera en **defensa cibernética**, estas plataformas son imprescindibles.
 
