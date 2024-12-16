@@ -4,7 +4,6 @@ parent: Supervivencia Sin Esfuerzo
 priority: 4
 ---
 
-
 # 🛡️ **Guía Técnica para Detectar y Analizar Intentos de Phishing**
 
 La **detección de phishing** es esencial para mantener la seguridad de los sistemas informáticos, proteger a los usuarios y mitigar riesgos organizacionales. En esta guía, aprenderás a **identificar correos fraudulentos** y a usar herramientas clave para analizar su legitimidad.
@@ -27,6 +26,7 @@ El **phishing** es un ataque cibernético que busca engañar a los usuarios para
 - Solicitudes urgentes para ingresar información personal.
 - Archivos adjuntos maliciosos.
 - Correos provenientes de dominios o remitentes desconocidos.
+- Contenido que genera **urgencia** o **miedo**.
 
 {: .note }
 **Nota**: Estar alerta a estos signos puede ayudarte a detectar un posible ataque de phishing.
@@ -74,6 +74,23 @@ Para identificar correos legítimos, los servidores de correo utilizan tres tecn
 2. **DKIM (DomainKeys Identified Mail):** Garantiza que el contenido del correo no ha sido modificado durante el tránsito.
 3. **DMARC (Domain-Based Message Authentication, Reporting, and Conformance):** Combina SPF y DKIM para validar la autenticidad del correo.
 
+### 🌍 **Cómo Funciona DMARC**
+
+![Cómo Funciona DMARC](1734322748523.gif)
+
+{: .callout-note }
+**Nota**: El protocolo DMARC ayuda a evitar la suplantación de dominios, aplicando una política de **rechazo, cuarentena o entrega** según los resultados de SPF y DKIM.
+
+### **Ejemplo de DMARC en Acción**
+
+Imagina que recibes un correo de **"banco-importante.com"**, pero su autenticación SPF y DKIM falla:
+
+- **Resultado SPF:** Fallo (el servidor de origen no está en la lista autorizada).
+- **Resultado DKIM:** Fallo (la firma del mensaje no coincide).
+- **Política DMARC:** **Rechazar**.
+
+> Resultado: El correo es rechazado o marcado como spam, protegiendo al usuario.
+
 | **Herramienta**           | **Función**                              | **Enlace**                               |
 |---------------------------|------------------------------------------|------------------------------------------|
 | **MXToolbox**             | Verifica registros SPF/DKIM/DMARC.       | [MXToolbox](https://mxtoolbox.com)       |
@@ -86,7 +103,7 @@ Para identificar correos legítimos, los servidores de correo utilizan tres tecn
 
 ## 🛠️ **Herramientas de Análisis de Phishing**
 
-Para facilitar el análisis, aquí tienes una lista de herramientas útiles. Estas también están representadas en la **imagen de apoyo**.
+Para facilitar el análisis, aquí tienes una lista de herramientas útiles:
 
 | **Herramienta**           | **Descripción**                                                                                     |
 |---------------------------|---------------------------------------------------------------------------------------------------|
@@ -98,29 +115,7 @@ Para facilitar el análisis, aquí tienes una lista de herramientas útiles. Est
 | **Microsoft SmartScreen** | Filtro integrado en productos de Microsoft para detectar correos fraudulentos.                  |
 | **ThePhish**              | Herramienta open-source para automatizar el análisis de correos phishing.                       |
 | **Mimecast Email Security** | Utiliza inteligencia artificial para filtrar correos maliciosos y proteger contra amenazas sofisticadas. |
-
-![Imagen de Herramientas de Análisis](/assets/img/phis.jpeg)
-
-> {: .note }
-> **Consejo**: Siempre valida los enlaces con **CheckShortURL** para evitar engaños por URLs acortadas.
-
----
-
-## 🧰 **Análisis Forense Avanzado**
-
-Si necesitas un análisis más profundo, considera los siguientes enfoques:
-
-1. **Revisión de Metadatos:**
-   - Extrae los metadatos del archivo adjunto utilizando herramientas como **ExifTool**.
-2. **Análisis de IP:**
-   - Usa servicios como **IPinfo** o **AbuseIPDB** para identificar la ubicación y el proveedor del servidor.
-3. **Entornos Aislados:**
-   - Analiza los adjuntos o enlaces sospechosos en un sandbox, como **Cuckoo Sandbox** o **Any.Run**.
-4. **Rastreo de Enlaces:**
-   - Utiliza **CheckShortURL** o inspección manual para expandir y verificar enlaces acortados.
-
-{: .important-title }
-**Importante**: Siempre realiza un análisis exhaustivo de los archivos adjuntos y los enlaces antes de tomar decisiones sobre su legitimidad.
+| **URLScan.io**            | Escanea y analiza sitios web sospechosos en tiempo real.                                         |
 
 ---
 
@@ -131,6 +126,7 @@ Si necesitas un análisis más profundo, considera los siguientes enfoques:
 3. **Evita descargar archivos de remitentes desconocidos.**
 4. **Habilita autenticación en dos pasos (2FA) siempre que sea posible.**
 5. **Educa a los usuarios sobre los riesgos del phishing.**
+6. **Reporta correos sospechosos a tu proveedor de correo electrónico.**
 
 {: .highlight }
 **Sugerencia**: La autenticación de dos factores (2FA) es una capa adicional de seguridad que **redunda enormemente** en la protección contra ataques de phishing.
@@ -142,12 +138,14 @@ Si necesitas un análisis más profundo, considera los siguientes enfoques:
 - [PhishTank: Base de datos de phishing](https://www.phishtank.com)
 - [Guía oficial de SPF](https://www.openspf.org)
 - [Analizador de Cabeceras de Gmail](https://toolbox.googleapps.com/apps/messageheader/)
+- [URLScan.io](https://urlscan.io)
+- [MITRE ATT&CK: Técnicas de Phishing](https://attack.mitre.org/techniques/T1566/)
 
-  <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
-  <div style="text-align: center; margin: 50px auto;">
-    <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
-  </div>
-  <div style="text-align: center; margin-top: 40px;">
-    <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
-  </div>
+<div style="text-align: center; margin: 50px auto;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+</div>
+<div style="text-align: center; margin-top: 40px;">
+  <p style="font-size: 0.9em; color: #888;">&copy; 2024 Nervi0zz0</p>
+</div>
