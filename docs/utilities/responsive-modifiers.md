@@ -1,6 +1,7 @@
 ---
-title: 🛡️ Shodan 
-parent: Supervivencia Sin Esfuerzo  
+title: Shodan 
+parent: Cheat sheet
+grand_parent: ¿Y dónde practicar?
 priority: 10  
 ---
 

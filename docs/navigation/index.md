@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 🛡️ Filtros en Wireshark
-description: Consejos y recursos
-parent: Supervivencia Sin Esfuerzo
+title: Filtros en Wireshark
+parent: Cheat sheet
+grand_parent: ¿Y dónde practicar?
 priority: 4
 ---
 

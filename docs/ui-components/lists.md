@@ -1,6 +1,7 @@
 ---
-title: 🛡️ Detectar y Analizar Intentos de Phishing
-parent: Supervivencia Sin Esfuerzo
+title: Detectar y Analizar Intentos de Phishing
+parent: Cheat sheet
+grand_parent: ¿Y dónde practicar?
 priority: 4
 ---
 

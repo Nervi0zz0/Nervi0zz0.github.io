@@ -1,6 +1,7 @@
 ---
-title: 🛡️ Microsoft Sentinel
-parent: Supervivencia Sin Esfuerzo
+title: Microsoft Sentinel
+parent: Cheat sheet
+grand_parent: ¿Y dónde practicar?
 priority: 4
 ---
 <hr style="border: none; border-top: 1px solidrgb(230, 242, 9); margin: 40px 0; width: 100%;">

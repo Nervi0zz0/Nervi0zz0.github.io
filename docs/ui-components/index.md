@@ -1,5 +1,6 @@
 ---
-title: Supervivencia Sin Esfuerzo
+title: Cheat sheet
+parent: ¿Y dónde practicar?
 nav_order: 7
 ---
 <hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">

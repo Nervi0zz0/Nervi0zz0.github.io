@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 🛡️ Splunk - Monitoreo y Análisis de Datos
-description: Consejos y recursos
-parent: Supervivencia Sin Esfuerzo
+title: Splunk - Monitoreo y Análisis de Datos
+parent: Cheat sheet
+grand_parent: ¿Y dónde practicar?
 priority: 5
 ---
 

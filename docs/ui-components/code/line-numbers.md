@@ -1,6 +1,7 @@
 ---
-title: 🛡️ Vectores de Ataque
-parent: Supervivencia Sin Esfuerzo
+title: Vectores de Ataque
+parent: Cheat sheet
+grand_parent: ¿Y dónde practicar?
 priority: 4
 ---
 
