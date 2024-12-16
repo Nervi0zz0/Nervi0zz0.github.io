@@ -80,22 +80,22 @@ Ahora paso los días entre sesiones de cama, sofá y reposo forzoso, haciendo co
 > Ten en cuenta que no me responsabilizo de lo escrito aquí. ¿Los opiáceos cuentan como atenuante?
 
 {: .warning }
-> ⚠️ **Atención:** Algunos de los temas tratados en este blog son solo para audiencias experimentadas en el mundo de la ciberseguridad. No intente esto en casa sin supervisión...
+> ⚠️ **Atención:** Algunos de los temas tratados en este blog son solo para audiencias experimentadas en el mundo de la ciberseguridad. No intentes esto en casa sin supervisión... Que no, tonto, si lo escribo yo, que no tengo mucha idea.
+
 
 ---
 
 <div style="text-align: center; margin: 30px 0;">
   <p style="font-size: 16px; color: #CBD5E0;">
-    Si estás viendo este blog desde un teléfono móvil (o celular, si eres del otro lado del charco), recuerda que para ver el contenido completo debes abrir el menú situado en la parte superior derecha, representado por tres líneas horizontales. No seas zoquete.
+    Si estás viendo este blog desde un teléfono móvil o celular, recuerda que para ver el contenido completo debes abrir el menú situado en la parte superior derecha, representado por tres líneas horizontales. No seas zoquete.
   </p>
   <img src="assets/images/tlf.jpg" alt="Menú en móvil" style="max-width: 60%; height: auto; border-radius: 10px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); margin-top: 20px;">
 </div>
 
 ---
 
-<div style="text-align: center; margin-top: 40px;">
-  <span style="font-size: 20px; color: #F7FAFC; font-weight: bold;">Si decides quedarte, ¡bienvenido! 😎</span>
-</div>
+{: .success }
+> Si decides quedarte, <strong>¡bienvenido!</strong> Y si no, al menos me habré reído un poco. ¡Gracias, pierna, por darme tanto tiempo para hacer cosas tan útiles!
 
 <div style="text-align: center; margin-top: 40px;">
   <img src="/assets/images/gif/14Vb.gif" alt="corazones" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);">
