@@ -1,6 +1,6 @@
 ---
-title: 🛡️ Shodan  
-parent: Supervivencia Sin Esfuerzo  
+title: 🛡️ Shodan
+  parent: Supervivencia Sin Esfuerzo  
 priority: 10  
 ---
 
@@ -32,9 +32,7 @@ Guía definitiva para **profesionales de ciberseguridad**, **pentesters** e inve
 ## 🗺️ **Búsqueda por Ubicación**  
 {: .text-yellow-300 .fw-600 .mt-6}
 
-<details class="border rounded-lg shadow-sm my-4 p-4 bg-grey-800">
-<summary class="hover-underline">🗺️ **Filtra por País, Ciudad y Coordenadas**</summary>
-
+<div class="border-l-4 border-yellow-500 bg-grey-800 p-4 rounded-lg shadow-sm">
 ### 🔍 **Filtros Prácticos:**  
 - **Por País:** `country:"US"`  
 - **Por Ciudad:** `city:"New York"`  
@@ -46,16 +44,14 @@ Guía definitiva para **profesionales de ciberseguridad**, **pentesters** e inve
     ```
 
 > 💡 **Consejo:** Usa el filtro `geo` con precisión para identificar activos en ubicaciones específicas.  
-</details>
+</div>
 
 ---
 
 ## 💻 **Direcciones IP y Subredes**  
 {: .text-green-300 .fw-600 .mt-6}
 
-<details class="border rounded-lg shadow-sm my-4 p-4 bg-grey-800">
-<summary class="hover-underline">💻 **Explora IPs, Hostnames y Proveedores**</summary>
-
+<div class="border-l-4 border-green-500 bg-grey-800 p-4 rounded-lg shadow-sm">
 ### 🔍 **Búsquedas clave:**  
 - **IP Individual:** `ip:"8.8.8.8"`  
 - **Hostname:** `hostname:"example.com"`  
@@ -68,16 +64,14 @@ Guía definitiva para **profesionales de ciberseguridad**, **pentesters** e inve
 - **Sistema Autónomo (ASN):** `asn:"AS15169"`
 
 > **Nota:** Combina filtros para afinar resultados.  
-</details>
+</div>
 
 ---
 
 ## 🖥️ **Sistemas Operativos y Productos**  
 {: .text-orange-300 .fw-600 .mt-6}
 
-<details class="border rounded-lg shadow-sm my-4 p-4 bg-grey-800">
-<summary class="hover-underline">🖥️ **Encuentra Dispositivos por OS y Tecnologías**</summary>
-
+<div class="border-l-4 border-orange-500 bg-grey-800 p-4 rounded-lg shadow-sm">
 ### 🔍 **Filtros Avanzados:**  
 - **Por Sistema Operativo:** `os:"Linux"`  
 - **Organización:** `org:"Amazon"`  
@@ -96,16 +90,14 @@ Guía definitiva para **profesionales de ciberseguridad**, **pentesters** e inve
     ```
 
 ⚠️ **Advertencia:** Los dispositivos de infraestructura crítica (ICS) suelen ser los más vulnerables.  
-</details>
+</div>
 
 ---
 
 ## 🌐 **Aplicaciones Web y Certificados**  
 {: .text-blue-300 .fw-600 .mt-6}
 
-<details class="border rounded-lg shadow-sm my-4 p-4 bg-grey-800">
-<summary class="hover-underline">🌐 **Descubre Servicios Web y Configuraciones SSL/TLS**</summary>
-
+<div class="border-l-4 border-blue-500 bg-grey-800 p-4 rounded-lg shadow-sm">
 ### 🔍 **Búsquedas clave:**  
 - **Título de Página Web:** `title:"Index of /"`  
 - **Texto en HTML:** `html:"Welcome to nginx"`  
@@ -120,7 +112,7 @@ Guía definitiva para **profesionales de ciberseguridad**, **pentesters** e inve
     ```  
 
 💡 **Consejo:** Busca configuraciones SSL/TLS débiles para priorizar correcciones.  
-</details>
+</div>
 
 ---
 
