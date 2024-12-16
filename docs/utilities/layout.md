@@ -5,62 +5,86 @@ parent: ¿Y dónde practicar?
 nav_order: 3
 ---
 
-<hr style="border: none; border-top: 2px solid #7e57c2; margin: 40px 0; width: 100%;">
 
-![thm](/assets/img/THMlogo.png)
+<div style="background: linear-gradient(135deg, rgba(227, 235, 242, 0.9), rgba(44, 62, 80, 0.9)); padding: 40px; border-radius: 25px; box-shadow: 0 15px 30px rgba(0,0,0,0.5); text-align: center; color: white;">
+  <div style="margin-bottom: 30px;">
+    <img src="/assets/images/THMlogo.png" alt="TryHackMe" style="width: 50%; border-radius: 20px; box-shadow: 0 12px 24px rgba(255, 255, 255, 0.5);">
+  </div>
+  <h1 style="font-size: 3em; font-family: 'Arial Black', sans-serif; margin: 0; letter-spacing: 1.5px; text-shadow: 3px 3px 6px rgba(0,0,0,0.8);">TryHackMe: El lugar donde la ciberseguridad te pone en tu sitio</h1>
+</div>
 
-# TryHackMe: El lugar donde la ciberseguridad te pone en tu sitio
 
-¿Siempre quisiste hackear, pero no sabías por dónde empezar? **TryHackMe** es como un parque temático para novatos (y no tan novatos), donde puedes aprender de tus fracasos (y de mis *epic fails*) mientras te enfrentas a retos que suenan geniales en teoría, pero en la práctica son una auténtica tortura divertida.
+
+
+{: .note }
+**TryHackMe es una plataforma que convierte el aprendizaje de ciberseguridad en algo práctico, emocionante y, a veces, frustrante (de forma divertida).** Aquí puedes empezar desde cero o retarte con niveles avanzados sin miedo a romper tu propia red.  
 
 ---
 
 ## **¿Por qué TryHackMe?**
 
-<div style="background-color: #f3e5f5; padding: 15px; border-left: 5px solid #7e57c2; margin: 20px 0; border-radius: 5px;">
-Lo mejor de todo: **¡tienes recursos gratuitos!** Porque, seamos honestos, ¿quién necesita gastar dinero mientras te frustras aprendiendo algo nuevo? Si decides apostar más en serio por la ciberseguridad, la suscripción mensual merece la pena: te da acceso a rutas avanzadas, desafíos exclusivos y un soporte que hace que gritarle a la pantalla sea opcional.
-</div>
+{: .important }
+> **💡 Lo mejor:** TryHackMe ofrece recursos gratuitos, ideales para principiantes y expertos. Si buscas avanzar seriamente, considera su suscripción premium para rutas avanzadas, desafíos exclusivos y soporte técnico.  
 
-**TryHackMe** te permite aprender al ritmo que prefieras, desde desbloquear niveles básicos de hacking, como descifrar contraseñas obvias, hasta rutas avanzadas que te dejarán *"con cara de gili..."*.  
-**Aquí tienes la oportunidad de practicar sin miedo a derribar la red de tu casa por accidente.**
+**Ventajas principales:**
+- Aprende a tu propio ritmo.
+- Prácticas en entornos seguros.
+- Desde lo básico hasta niveles profesionales.
+
+**¿Y lo mejor de todo?**  
+¡Es accesible y divertido! Te permite avanzar sin gastar una fortuna, aunque invertir en la versión premium siempre suma.  
 
 ---
 
 ## **Rutas de Aprendizaje Recomendadas** 🎯
 
-| Ruta                 | Descripción                                                                                        | Nivel         |
-|----------------------|----------------------------------------------------------------------------------------------------|--------------|
-| **SOC Level 1 Analyst** | Aprende a manejar logs, analizar tráfico y detectar vulnerabilidades con escenarios reales.       | Intermedio   |
-| **Cyber Defense Path**  | Domina los fundamentos de la ciberseguridad, como reconocimiento, explotación y análisis básico. | Principiante |
-| **Principiante Absoluto** | Explora conceptos básicos como IPs, redes y Linux con lecciones interactivas.                    | Principiante |
-| **Red Teaming Basics**   | Introducción a pentesting y mentalidad hacker. ¡Cuida tus comandos!                             | Avanzado     |
+{: .tip }
+> **Sigue estas rutas de aprendizaje según tu nivel:** Ya seas un principiante absoluto o alguien en busca de retos más avanzados, TryHackMe tiene algo para ti.
+
+| Ruta                    | Descripción                                                                                     | Nivel         |
+|-------------------------|-------------------------------------------------------------------------------------------------|--------------|
+| **SOC Level 1 Analyst** | Aprende a manejar logs, analizar tráfico y detectar vulnerabilidades con escenarios reales.      | Intermedio   |
+| **Cyber Defense Path**  | Domina los fundamentos de la ciberseguridad: reconocimiento, explotación y análisis básico.      | Principiante |
+| **Principiante Absoluto** | Explora conceptos básicos como IPs, redes y Linux con lecciones interactivas.                   | Principiante |
+| **Red Teaming Basics**  | Introducción al pentesting y mentalidad hacker. ¡Cuidado con los comandos!                       | Avanzado     |
 
 ---
 
 ## **Mi Experiencia Personal**
 
-### [Perfil de nervi en TryHackMe](https://tryhackme.com/r/p/nervi)
+### [Ver mi perfil en TryHackMe](https://tryhackme.com/r/p/nervi)  
+{: .btn .btn-purple }
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="https://tryhackme-badges.s3.amazonaws.com/nervi.png" alt="Insignia de TryHackMe" style="max-width: 40%; height: auto; border: 2px solid #7e57c2; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);">
 </div>
 
-Mi travesía en TryHackMe comenzó como cualquier viaje en ciberseguridad: **con una mezcla de curiosidad, frustración y satisfacción**. Desde rutas básicas hasta la de **SOC Level 1 Analyst**, cada desafío me ha permitido crecer. Aunque, admito, algunos días siento que retrocedo más de lo que avanzo. Pero así es la curva de aprendizaje, ¿verdad?
+**Mi travesía:**  
+Comencé como cualquier novato: **lleno de curiosidad, frustración y algo de suerte.** Desde conceptos básicos hasta rutas como **SOC Level 1 Analyst**, TryHackMe ha sido mi compañero en este viaje de altibajos y aprendizaje constante.  
 
-### **Algunos logros, muchos fallos... así aprendo**  
+### **Logros y lecciones:**
+- Habilidades en constante evolución.
+- Aprender de errores (y algún que otro tropezón).
+- Practicar en un entorno seguro sin miedo a cometer errores.  
 
-Mis habilidades están en constante evolución (con un par de saltos y varios tropezones).  
-Si estás buscando inspiración o quieres ver cómo "no hackear", visita mi perfil. Porque, en este mundo, **fallar es parte del éxito**.
+> **🎉 Tip:** Fallar es parte del éxito en este campo. Si quieres aprender cómo no hacerlo, visita mi perfil.  
 
 ---
 
 ## **¿Por qué Recomiendo TryHackMe?**
 
-<div style="background-color: #e3f2fd; padding: 15px; border-left: 5px solid #1976d2; margin: 20px 0; border-radius: 5px;">
-Si buscas una plataforma que mezcle teoría, práctica y un toque de frustración saludable, **TryHackMe** es ideal. Sus rutas de aprendizaje son excelentes tanto para quienes comienzan desde cero como para quienes buscan avanzar en su carrera profesional.
-</div>
+{: .warning }
+> **⚠ Ten cuidado:** Algunos ejercicios avanzados requieren conocimientos previos. No te apresures, tómate el tiempo necesario para dominar lo básico primero.  
 
-Sus recursos gratuitos hacen que sea accesible para todos, y con promociones como las de **Black Friday**, no hay excusa para no probar el contenido premium. **Empieza con las rutas básicas y experimenta el caos organizado que es la ciberseguridad.**
+{: .callout }
+> **TryHackMe** es perfecto para:  
+> - Principiantes que quieren aprender desde cero.  
+> - Profesionales que buscan reforzar habilidades o aprender técnicas avanzadas.  
+> - Cualquiera que quiera practicar ciberseguridad de forma segura y estructurada.  
+
+Además, **sus recursos gratuitos son perfectos para empezar.** Aprovecha promociones como las de **Black Friday** para acceder al contenido premium por menos.  
+
+**Empieza con las rutas básicas y disfruta el caos organizado que es la ciberseguridad.**  
 
 ---
 
