@@ -1,21 +1,22 @@
 ---
-title: 🛡️ Shodan 
-description: Una referencia completa para dominar Shodan y descubrir dispositivos conectados, vulnerabilidades y configuraciones expuestas en Internet.  
+title: 🛡️ Shodan  
 parent: Supervivencia Sin Esfuerzo  
 priority: 10  
 ---
 
 # 🛡️ **Shodan Cheat Sheet**  
-{: .fs-8 .fw-800 .text-cyan-300 .text-center}
+{: .fs-8 .fw-800 .text-cyan-300 .text-center .mt-8}
 
 **Domina Shodan para explorar sistemas conectados y detectar vulnerabilidades críticas.**  
-La guía definitiva para **profesionales de ciberseguridad**, **pentesters** e investigadores.  
-{: .fs-5 .text-grey-200 .text-center}
+{: .fs-5 .text-grey-200 .text-center .mt-2}
+
+Guía definitiva para **profesionales de ciberseguridad**, **pentesters** e investigadores.  
+{: .fs-6 .text-grey-400 .text-center}
 
 ---
 
 ## 📊 **¿Qué es Shodan?**  
-{: .fs-6 .fw-700 .text-grey-100}
+{: .fs-6 .fw-700 .text-grey-100 .mt-6}
 
 **Shodan** es un motor de búsqueda que indexa dispositivos conectados a Internet, identificando servicios expuestos, banners de aplicaciones, puertos abiertos y más. Es una herramienta indispensable para auditar la seguridad de infraestructura crítica.  
 
@@ -29,9 +30,9 @@ La guía definitiva para **profesionales de ciberseguridad**, **pentesters** e i
 ---
 
 ## 🗺️ **Búsqueda por Ubicación**  
-{: .text-yellow-300 .fw-600}
+{: .text-yellow-300 .fw-600 .mt-6}
 
-<details>
+<details class="border rounded-lg shadow-sm my-4 p-4 bg-grey-800">
 <summary class="hover-underline">🗺️ **Filtra por País, Ciudad y Coordenadas**</summary>
 
 ### 🔍 **Filtros Prácticos:**  
@@ -45,13 +46,14 @@ La guía definitiva para **profesionales de ciberseguridad**, **pentesters** e i
     ```
 
 > 💡 **Consejo:** Usa el filtro `geo` con precisión para identificar activos en ubicaciones específicas.  
+</details>
 
 ---
 
 ## 💻 **Direcciones IP y Subredes**  
-{: .text-green-300 .fw-600}
+{: .text-green-300 .fw-600 .mt-6}
 
-<details>
+<details class="border rounded-lg shadow-sm my-4 p-4 bg-grey-800">
 <summary class="hover-underline">💻 **Explora IPs, Hostnames y Proveedores**</summary>
 
 ### 🔍 **Búsquedas clave:**  
@@ -71,9 +73,9 @@ La guía definitiva para **profesionales de ciberseguridad**, **pentesters** e i
 ---
 
 ## 🖥️ **Sistemas Operativos y Productos**  
-{: .text-orange-300 .fw-600}
+{: .text-orange-300 .fw-600 .mt-6}
 
-<details>
+<details class="border rounded-lg shadow-sm my-4 p-4 bg-grey-800">
 <summary class="hover-underline">🖥️ **Encuentra Dispositivos por OS y Tecnologías**</summary>
 
 ### 🔍 **Filtros Avanzados:**  
@@ -99,9 +101,9 @@ La guía definitiva para **profesionales de ciberseguridad**, **pentesters** e i
 ---
 
 ## 🌐 **Aplicaciones Web y Certificados**  
-{: .text-blue-300 .fw-600}
+{: .text-blue-300 .fw-600 .mt-6}
 
-<details>
+<details class="border rounded-lg shadow-sm my-4 p-4 bg-grey-800">
 <summary class="hover-underline">🌐 **Descubre Servicios Web y Configuraciones SSL/TLS**</summary>
 
 ### 🔍 **Búsquedas clave:**  
@@ -122,52 +124,8 @@ La guía definitiva para **profesionales de ciberseguridad**, **pentesters** e i
 
 ---
 
-## ⏰ **Filtros Temporales y Capturas Visuales**  
-{: .text-purple-300 .fw-600}
-
-<details>
-<summary class="hover-underline">⏰ **Filtra por Fecha y Visualiza Capturas**</summary>
-
-### 🔍 **Filtros Temporales:**  
-- **Después de una fecha:** `after:"2023-01-01"`  
-- **Antes de una fecha:** `before:"2022-12-31"`  
-
-### 🖼️ **Capturas de Pantalla:**  
-- **Dispositivos con Capturas Disponibles:**  
-    ```sh
-    has_screenshot:"true"
-    ```  
-- **Pantallas RDP Específicas:**  
-    ```sh
-    port:"3389" has_screenshot:"true"
-    ```  
-
-💡 **Tip:** Las capturas de pantalla son útiles para identificar configuraciones visualmente expuestas.  
-</details>
-
----
-
-## 🔒 **Vulnerabilidades y Filtros Premium**  
-{: .text-red-300 .fw-600}
-
-<details>
-<summary class="hover-underline">🔒 **Accede a Vulnerabilidades y Tags Premium**</summary>
-
-### 🔍 **Filtros de Vulnerabilidad:**  
-- **CVE Específico:** `vuln:"CVE-2021-44228"`  
-- **Por Tag Avanzado:**  
-    ```sh
-    tag:"malware"
-    tag:"database"
-    ```  
-
-⚠️ **Nota:** Algunos filtros avanzados requieren una cuenta premium.  
-</details>
-
----
-
 ## 📄 **Resumen Visual**  
-{: .fs-6 .fw-800 .text-grey-100}
+{: .fs-6 .fw-800 .text-grey-100 .mt-6}
 
 | **Filtro**              | **Ejemplo**                 | **Uso Común**                              |
 |--------------------------|-----------------------------|--------------------------------------------|
@@ -179,7 +137,7 @@ La guía definitiva para **profesionales de ciberseguridad**, **pentesters** e i
 
 ---
 
-![Shodan Cheat Sheet](/assets/images/shodan.jpeg){: .text-center .rounded-lg .shadow-lg .mt-4}  
+![Shodan Cheat Sheet](/assets/images/shodan.jpeg){: .text-center .rounded-lg .shadow-lg .my-6}  
 *Guía visual de los filtros más importantes de Shodan.*  
 {: .fs-6 .text-grey-200 .text-center}
 
@@ -196,9 +154,9 @@ Es una herramienta imprescindible para **equipos de respuesta, pentesters y anal
 
 ---
 
-[🔍 Explora Shodan](https://www.shodan.io){: .btn .btn-blue .mt-4}  
-[💬 Comparte esta guía](#){: .btn .btn-outline .mt-4}  
+[🔍 Explora Shodan](https://www.shodan.io){: .btn .btn-blue .my-4}  
+[💬 Comparte esta guía](#){: .btn .btn-outline .my-4}  
 
 <div class="text-center">
-  <img src="/assets/images/cojo.png" alt="Firma" class="rounded-full shadow-lg" style="max-width: 15%;">
+  <img src="/assets/images/cojo.png" alt="Firma" class="rounded-full shadow-lg my-6" style="max-width: 15%;">
 </div>
