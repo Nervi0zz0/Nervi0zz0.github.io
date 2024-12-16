@@ -23,12 +23,13 @@ La **Capa Física** trata sobre **cables, switches y señales físicas**.
 - **Interferencia Electromagnética**: Ruido externo que afecta señales.  
 - **Manipulación Física**: Acceso no autorizado al equipo.  
 
+{: .note }
+**Nota Importante**: Mantén el acceso físico restringido en áreas sensibles para evitar manipulaciones no autorizadas.
+
 ### 🛡️ **Defensas Sugeridas**:
 - Uso de **fibra óptica** para seguridad.  
 - Monitoreo con **CCTV**.  
 - Controles de acceso físico restringido.  
-
-> **Importante**: Mantén el acceso físico restringido en áreas sensibles para evitar manipulaciones no autorizadas.
 
 ---
 
@@ -42,11 +43,12 @@ La **Capa de Enlace** controla la transmisión de **frames** y **direcciones MAC
 - **MAC Address Spoofing**: Suplantación de direcciones MAC.  
 - **ARP Spoofing**: Manipulación de la tabla ARP para interceptar tráfico.  
 
+{: .highlight }
+**Consejo**: Configura la inspección ARP para evitar ataques de suplantación y proteger la integridad de la red.
+
 ### 🛡️ **Defensas Sugeridas**:
 - Implementar **ARP Inspection**.  
 - Usar **switches seguros** con autenticación.  
-
-> **Recomendación**: Configura la inspección ARP para evitar ataques de suplantación y proteger la integridad de la red.
 
 ---
 
@@ -64,6 +66,9 @@ Gestiona las **direcciones IP** y el **enrutamiento de paquetes**.
 - Configuración de **firewalls robustos**.  
 - Autenticación segura en rutas dinámicas.
 
+{: .warning }
+**Advertencia**: Los ataques de manipulación de rutas pueden redirigir el tráfico a servidores comprometidos, exponiendo la red a vulnerabilidades.
+
 ---
 
 ## 📡 Capa 4: Transporte
@@ -76,11 +81,12 @@ Garantiza la **entrega confiable y segmentada** de datos.
 - **SYN Flood**: Agotamiento de recursos con conexiones falsas.  
 - **UDP Flood**: Saturación de redes con tráfico UDP.
 
+{: .important }
+**Recomendación**: Implementa **rate limiting** y usa **sistemas de mitigación DDoS** para protegerte contra estos ataques.
+
 ### 🛡️ **Defensas Sugeridas**:
 - Implementar **rate limiting**.  
 - Usar sistemas de **detección y mitigación DDoS**.  
-
-> **Advertencia**: Los ataques DDoS pueden causar interrupciones significativas en los servicios, asegúrate de contar con protección adecuada.
 
 ---
 
@@ -98,6 +104,9 @@ Administra sesiones de **comunicación activa** entre dispositivos.
 - Uso de **TLS** (Transport Layer Security).  
 - Autenticación robusta y renovada.
 
+{: .highlight }
+**Recomendación**: Asegúrate de usar una **autenticación multifactor** para prevenir ataques de suplantación de sesión.
+
 ---
 
 ## 🔐 Capa 6: Presentación
@@ -110,11 +119,12 @@ Maneja la **transformación de datos** y su cifrado para proteger la integridad.
 - **SSL Stripping**: Degradación de conexiones seguras.  
 - **Data Manipulation**: Alteración de datos a través de formatos no seguros.
 
+{: .note }
+**Consejo**: Siempre valida los certificados digitales para evitar ataques de intermediarios y proteger la autenticidad de los datos.
+
 ### 🛡️ **Defensas Sugeridas**:
 - Implementar **TLS/SSL actualizado**.  
 - Validación estricta de certificados digitales.  
-
-> **Importante**: Siempre valida los certificados digitales para evitar ataques de intermediarios.
 
 ---
 
@@ -129,11 +139,12 @@ Administra los servicios más visibles como **HTTP, FTP y SMTP**.
 - **Cross-Site Scripting (XSS)**: Inserción de scripts no autorizados en el navegador.  
 - **DDoS Attacks**: Saturación de los servicios web.
 
+{: .important }
+**Recomendación**: Protege tus aplicaciones web utilizando un **WAF** y realizando pruebas regulares de seguridad.
+
 ### 🛡️ **Defensas Sugeridas**:
 - Configurar un **WAF (Web Application Firewall)**.  
 - Validar las entradas de usuarios y proteger contra **DDoS**.
-
-> **Recomendación**: Protege tus aplicaciones web utilizando un WAF y realizando pruebas regulares de seguridad.
 
 ---
 
