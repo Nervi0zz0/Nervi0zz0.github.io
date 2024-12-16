@@ -76,7 +76,7 @@ Para identificar correos legítimos, los servidores de correo utilizan tres tecn
 
 ### 🌍 **Cómo Funciona DMARC**
 
-![Cómo Funciona DMARC](1734322748523.gif)
+![Cómo Funciona DMARC](/assets/images/gif/1734322748523.gif)
 
 {: .callout-note }
 **Nota**: El protocolo DMARC ayuda a evitar la suplantación de dominios, aplicando una política de **rechazo, cuarentena o entrega** según los resultados de SPF y DKIM.
