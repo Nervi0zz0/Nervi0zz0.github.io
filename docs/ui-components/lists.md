@@ -1,9 +1,9 @@
 ---
-title: 🛡️ Guía Análisis de Phishing
+title: 🛡️ Detectar y Analizar Intentos de Phishing
 parent: Supervivencia Sin Esfuerzo
 priority: 4
 ---
-<hr style="border: none; border-top: 1px solid #7e57c2; margin: 40px 0; width: 100%;">
+
 
 # 🛡️ **Guía Técnica para Detectar y Analizar Intentos de Phishing**
 
@@ -28,6 +28,9 @@ El **phishing** es un ataque cibernético que busca engañar a los usuarios para
 - Archivos adjuntos maliciosos.
 - Correos provenientes de dominios o remitentes desconocidos.
 
+{: .note }
+**Nota**: Estar alerta a estos signos puede ayudarte a detectar un posible ataque de phishing.
+
 ---
 
 ## 🔍 **Análisis Forense de Correos Electrónicos**
@@ -43,6 +46,9 @@ El análisis de las **cabeceras de correos electrónicos** es crucial para detec
 | **Yahoo**             | Abre el correo > Haz clic en los tres puntos (⋮) > Selecciona **"Ver encabezado completo"**.      |
 | **Thunderbird**       | Haz clic derecho sobre el correo > Selecciona **"Ver fuente del mensaje"**.                       |
 
+{: .highlight }
+**Consejo**: Al obtener las cabeceras, busca patrones extraños o inconsistentes en los valores de los campos. Esto puede ser un indicio de suplantación.
+
 ---
 
 ### 🛠️ **Campos Clave a Analizar:**
@@ -55,7 +61,8 @@ El análisis de las **cabeceras de correos electrónicos** es crucial para detec
 | **X-Originating-IP**         | IP del servidor original.                                                                           | Realiza un análisis **Whois** si la IP parece sospechosa.               |
 | **X-Authentication-Results** | Verificación SPF/DKIM/DMARC.                                                                         | Fallos en estas verificaciones son indicadores de suplantación.         |
 
-> **Tip:** Usa herramientas automatizadas para analizar cabeceras rápidamente. Consulta la lista de herramientas más adelante.
+> {: .important }
+> **Importante**: Si encuentras fallos en las verificaciones de SPF/DKIM/DMARC, es un **fuerte indicio de phishing**. 
 
 ---
 
@@ -72,7 +79,8 @@ Para identificar correos legítimos, los servidores de correo utilizan tres tecn
 | **MXToolbox**             | Verifica registros SPF/DKIM/DMARC.       | [MXToolbox](https://mxtoolbox.com)       |
 | **DMARC Analyzer**        | Analiza políticas DMARC implementadas.   | [DMARC Analyzer](https://www.dmarcian.com) |
 
-> **Ejemplo práctico:** Si un correo falla en la autenticación DMARC, puede ser un indicador de que el remitente está suplantando el dominio.
+> {: .highlight }
+> **Ejemplo práctico**: Si un correo falla en la autenticación DMARC, es probable que el dominio haya sido **suplantado**.
 
 ---
 
@@ -93,7 +101,8 @@ Para facilitar el análisis, aquí tienes una lista de herramientas útiles. Est
 
 ![Imagen de Herramientas de Análisis](/assets/img/phis.jpeg)
 
-> **Descarga la imagen**: [Herramientas de Análisis](https://www.example.com)
+> {: .note }
+> **Consejo**: Siempre valida los enlaces con **CheckShortURL** para evitar engaños por URLs acortadas.
 
 ---
 
@@ -110,6 +119,9 @@ Si necesitas un análisis más profundo, considera los siguientes enfoques:
 4. **Rastreo de Enlaces:**
    - Utiliza **CheckShortURL** o inspección manual para expandir y verificar enlaces acortados.
 
+{: .important-title }
+**Importante**: Siempre realiza un análisis exhaustivo de los archivos adjuntos y los enlaces antes de tomar decisiones sobre su legitimidad.
+
 ---
 
 ## 🔒 **Mejores Prácticas para Protegerte del Phishing**
@@ -119,6 +131,9 @@ Si necesitas un análisis más profundo, considera los siguientes enfoques:
 3. **Evita descargar archivos de remitentes desconocidos.**
 4. **Habilita autenticación en dos pasos (2FA) siempre que sea posible.**
 5. **Educa a los usuarios sobre los riesgos del phishing.**
+
+{: .highlight }
+**Sugerencia**: La autenticación de dos factores (2FA) es una capa adicional de seguridad que **redunda enormemente** en la protección contra ataques de phishing.
 
 ---
 
