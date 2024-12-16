@@ -4,7 +4,7 @@ layout: minimal
 ---
 <div style="background: linear-gradient(135deg, rgba(17, 45, 78, 0.9), rgba(21, 59, 94, 0.9)); padding: 40px; border-radius: 25px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); text-align: center; color: white;">
   <div style="margin-bottom: 30px;">
-    <img src="/workspaces/Nervi0zz0.github.io/assets/images/plataformas.webp" alt="Imagen de portada futurista de Ciberseguridad" style="width: 70%; border-radius: 25px; box-shadow: 0 15px 30px rgba(255, 255, 255, 0.5);">
+    <img src="/assets/images/plataformas.webp" alt="Imagen de portada futurista de Ciberseguridad" style="width: 70%; border-radius: 25px; box-shadow: 0 15px 30px rgba(255, 255, 255, 0.5);">
   </div>
   <h1 style="font-size: 3em; font-family: 'Arial Black', sans-serif; margin: 0; letter-spacing: 1.5px; text-shadow: 3px 3px 6px rgba(0,0,0,0.8);">🚀 <strong>Introducción: Plataformas de Aprendizaje para el Blue Team</strong></h1>
 </div>
