@@ -10,9 +10,13 @@ La **detección de phishing** es esencial para mantener la seguridad de los sist
 
 ---
 
-<div style="background-color: #2E3B4E; padding: 20px; text-align: center; border-radius: 8px; color: white; font-size: 28px; font-weight: bold;">
-  🛡️ **Protégete del Phishing con Estrategias Efectivas**
+<div style="background: linear-gradient(135deg, rgb(23, 87, 184), rgb(58, 117, 214)); padding: 20px; text-align: center; border-radius: 8px; color: white; font-size: 28px; font-weight: bold;">
+  🛡️ Protégete del Phishing con Estrategias Efectivas
+  <div style="text-align: center; margin-top: 20px;">
+    <img src="/assets/images/phis.webp" alt="Protección contra Phishing" style="width: 50%; border-radius: 15px;">
+  </div>
 </div>
+
 
 ---
 
