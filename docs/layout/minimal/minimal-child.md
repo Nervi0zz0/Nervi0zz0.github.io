@@ -187,15 +187,26 @@ Las certificaciones pueden ser un gran impulso en tu carrera. Aquí tienes algun
 - **CISSP**: [Enlace](https://lnkd.in/dK4YNCM2)  
 - **CEH (v12)**: [Enlace](https://lnkd.in/dVeQUwiw)  
 
-## 🎥 **Canales de YouTube recomendados**  
+## 🎥 **Canales de YouTube recomendados**
+
 Si eres fanático de aprender a través de videos y tutoriales, aquí tienes unos canales de YouTube que te serán muy útiles:
 
-| **Canal**                        | **Enlace**                                                    |
-|:----------------------------------|:--------------------------------------------------------------|
-| **El Pingüino de Mario**          | [El Pingüino de Mario](https://www.youtube.com/channel/UCGLfzfKRUsV6BzkrF1kJGsg) |
-| **Hackavis**                      | [Hackavis](https://www.youtube.com/@Hackavis)                 |
-| **Securiters**                    | [Securiters](https://www.youtube.com/@Securiters)             |
-| **RINKU**                         | [RINKU](https://www.youtube.com/@rinkutech_)                  |
+{: .note }
+> **[El Pingüino de Mario](https://www.youtube.com/channel/UCGLfzfKRUsV6BzkrF1kJGsg)**  
+> Canal enfocado en tutoriales de seguridad informática, hacking ético y diversas herramientas de ciberseguridad.
+
+{: .highlight }
+> **[Hackavis](https://www.youtube.com/@Hackavis)**  
+> Canal con contenido orientado a forense y hacking ético.
+
+{: .important }
+> **[Securiters](https://www.youtube.com/@Securiters)**  
+> Canal dedicado a la ciberseguridad, con énfasis en protección de infraestructuras y análisis de amenazas.
+
+{: .warning }
+> **[RINKU](https://www.youtube.com/@rinkutech_)**  
+> Canal que ofrece contenido sobre hacking, ciberseguridad y herramientas de análisis de vulnerabilidades.
+
 
 <hr style="border: none; border-top: 1px solid rgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
