@@ -92,6 +92,7 @@ El conocimiento es importante, pero las herramientas correctas lo son aún más.
 - **Hashcat**: Para pruebas de contraseñas, Hashcat es una de las herramientas más rápidas y versátiles. [Hashcat](https://hashcat.net/hashcat/)
 
 
+
 ---
 
 ## 🎯 **Plataformas para Práctica**  
