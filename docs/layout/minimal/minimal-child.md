@@ -71,26 +71,50 @@ Eleva tu perfil con estas certificaciones que te abrirán puertas en el mundo de
 
 El conocimiento es importante, pero las herramientas correctas lo son aún más. ¡Aquí tienes algunas de las mejores para que puedas mejorar tus habilidades prácticas!
 
-### **Análisis y Respuesta**  
-| **Herramienta**              | **Descripción**                           | **Enlace**                                |
-|-----------------------------|-------------------------------------------|-------------------------------------------|
-| **Wireshark**                | Análisis de tráfico de red.               | [Wireshark](https://www.wireshark.org/)   |
-| **Volatility**               | Análisis forense de memoria RAM.          | [Volatility](https://volatilityfoundation.org/) |
-| **Autopsy**                  | Herramienta de análisis forense digital.  | [Autopsy](https://www.autopsy.com/)      |
+### **Análisis y Respuesta**
 
-### **Pentesting y Seguridad Web**  
-| **Herramienta**              | **Descripción**                           | **Enlace**                                |
-|-----------------------------|-------------------------------------------|-------------------------------------------|
-| **Burp Suite Community**     | Testeo de seguridad de aplicaciones web.  | [Burp Suite](https://portswigger.net/burp)|
-| **Nmap**                     | Escaneo de redes y detección de vulnerabilidades. | [Nmap](https://nmap.org/)                |
-| **Metasploit Framework**     | Framework para pruebas de penetración.    | [Metasploit](https://metasploit.com/)     |
+> **Wireshark**  
+> *Análisis de tráfico de red.*  
+> [Wireshark](https://www.wireshark.org/)
 
-### **Nuevas Herramientas para Mejorar tus Habilidades**  
+> **Volatility**  
+> *Análisis forense de memoria RAM.*  
+> [Volatility](https://volatilityfoundation.org/)
+
+> **Autopsy**  
+> *Herramienta de análisis forense digital.*  
+> [Autopsy](https://www.autopsy.com/)
+
+### **Pentesting y Seguridad Web**
+
+> **Burp Suite Community**  
+> *Testeo de seguridad de aplicaciones web.*  
+> [Burp Suite](https://portswigger.net/burp)
+
+> **Nmap**  
+> *Escaneo de redes y detección de vulnerabilidades.*  
+> [Nmap](https://nmap.org/)
+
+> **Metasploit Framework**  
+> *Framework para pruebas de penetración.*  
+> [Metasploit](https://metasploit.com/)
+
+### **Nuevas Herramientas para Mejorar tus Habilidades**
+
 ¡Si quieres profundizar más! Aquí te dejo algunas herramientas avanzadas que no pueden faltar en tu arsenal:
 
-- **Kali Linux**: Una de las distribuciones más potentes para pruebas de penetración. Contiene más de 600 herramientas preinstaladas para análisis de seguridad y pentesting. [Kali Linux](https://www.kali.org/)
-- **Cuckoo Sandbox**: Si te interesa el análisis de malware, Cuckoo te permitirá estudiar el comportamiento de archivos maliciosos en un entorno seguro. [Cuckoo Sandbox](https://cuckoosandbox.org/)
-- **Hashcat**: Para pruebas de contraseñas, Hashcat es una de las herramientas más rápidas y versátiles. [Hashcat](https://hashcat.net/hashcat/)
+> **Kali Linux**  
+> *Una de las distribuciones más potentes para pruebas de penetración. Contiene más de 600 herramientas preinstaladas para análisis de seguridad y pentesting.*  
+> [Kali Linux](https://www.kali.org/)
+
+> **Cuckoo Sandbox**  
+> *Si te interesa el análisis de malware, Cuckoo te permitirá estudiar el comportamiento de archivos maliciosos en un entorno seguro.*  
+> [Cuckoo Sandbox](https://cuckoosandbox.org/)
+
+> **Hashcat**  
+> *Para pruebas de contraseñas, Hashcat es una de las herramientas más rápidas y versátiles.*  
+> [Hashcat](https://hashcat.net/hashcat/)
+
 
 
 
