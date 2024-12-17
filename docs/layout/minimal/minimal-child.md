@@ -1,12 +1,17 @@
 ---
-title: Recursos Gratuitos
+title: Cositas Gratis
 layout: post
 parent: ¿Y dónde practicar?
 ---
 
-# 🚀 **Guía Completa de Recursos Gratuitos en Ciberseguridad**
+<div style="text-align: center; margin: 40px 0;">
+  <img src="assets/images/gif/w1D.gif" alt="Gif divertido" style="width: 50%; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.5);">
+</div>
 
-## 🌀 **10 Cursos Gratuitos del Equipo Azul (Blue Team)**  
+# **Aquí traigo unos recursos GRATIS!! Y ya sabes, lo gratis siempre mola. Corred insensatos!**
+
+
+## 🌀 **10 Cursos Gratuitos de Blue Team**  
 | **Curso**                                           | **Enlace**                                           |
 |-----------------------------------------------------|-----------------------------------------------------|
 | **Cybersecurity for Students**                     | [Enlace](https://lnkd.in/g4YmXP9J)                  |
@@ -38,7 +43,7 @@ parent: ¿Y dónde practicar?
 
 ---
 
-## 🔐 **Certificaciones Gratuitas en Ciberseguridad**  
+## 🔐 **Certificaciones Gratuitas en Ciber**  
 | **Certificación**                                  | **Enlace**                                           | **Descripción**                                     |
 |----------------------------------------------------|-----------------------------------------------------|---------------------------------------------------|
 | **Splunk Fundamentals 1**                          | [Enlace](https://lnkd.in/gtxP-54b)                  | Análisis de datos y monitoreo de seguridad.       |
