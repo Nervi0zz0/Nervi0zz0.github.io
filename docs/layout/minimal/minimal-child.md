@@ -1,5 +1,5 @@
 ---
-title: **Cositas Gratis para el Cyber Warrior que llevas dentro**
+title: Cositas Gratis 
 layout: post
 parent: ¿Y dónde practicar?
 ---
@@ -17,7 +17,7 @@ Como siempre, lo gratis mola más, así que aquí tienes una lista de herramient
 ¡Prepárate para defender tu red y tus sistemas con estos cursos especializados en Blue Team!  
 
 | **Curso**                                           | **Enlace**                                           |
-|-----------------------------------------------------|-----------------------------------------------------|
+|:----------------------------------------------------|:-----------------------------------------------------|
 | **Cybersecurity for Students**                     | [Enlace](https://lnkd.in/g4YmXP9J)                  |
 | **SOC Fundamentals**                               | [Enlace](https://lnkd.in/gVfUGNR3)                  |
 | **Phishing Email Analysis**                        | [Enlace](https://lnkd.in/giQWrn3a)                  |
@@ -35,7 +35,7 @@ Como siempre, lo gratis mola más, así que aquí tienes una lista de herramient
 No solo de ciberseguridad vive el hombre. Amplía tus conocimientos tecnológicos con estos cursos gratuitos.  
 
 | **Curso**                                           | **Enlace**                                           |
-|-----------------------------------------------------|-----------------------------------------------------|
+|:----------------------------------------------------|:-----------------------------------------------------|
 | **Cybersecurity Basics**                           | [Enlace](https://lnkd.in/d97Bd4Xs)                  |
 | **Data Science Career Guide**                      | [Enlace](https://lnkd.in/dr-sMbas)                  |
 | **Data Science Professional Certificate**          | [Enlace](https://lnkd.in/dR_wZN-w)                  |
@@ -53,7 +53,7 @@ No solo de ciberseguridad vive el hombre. Amplía tus conocimientos tecnológico
 Eleva tu perfil con estas certificaciones que te abrirán puertas en el mundo de la ciberseguridad. Son completamente gratuitas y están reconocidas por la industria.  
 
 | **Certificación**                                  | **Enlace**                                           | **Descripción**                                     |
-|----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
+|:---------------------------------------------------|:-----------------------------------------------------|:---------------------------------------------------|
 | **Splunk Fundamentals 1**                          | [Enlace](https://lnkd.in/gtxP-54b)                  | Análisis de datos y monitoreo de seguridad.         |
 | **DHS FedVTE - Cybersecurity Fundamentals**        | [Enlace](https://lnkd.in/g7aYGi3Z)                  | Defensa de redes y respuesta a incidentes.          |
 | **Google Cybersecurity Career Certificate**        | [Enlace](https://lnkd.in/gkS8VycS)                  | Detección de amenazas y seguridad de redes.         |
@@ -61,7 +61,7 @@ Eleva tu perfil con estas certificaciones que te abrirán puertas en el mundo de
 | **Cisco Networking Academy - Intro to Cybersecurity** | [Enlace](https://www.netacad.com/)                 | Gestión de riesgos y defensa de redes.              |
 | **IBM SkillsBuild - Cybersecurity Analyst**        | [Enlace](https://skillsbuild.org/)                  | Análisis de seguridad y respuesta a amenazas.       |
 | **TryHackMe - Intro to Cyber Security**            | [Enlace](https://tryhackme.com/)                    | Seguridad de redes y aplicaciones web.              |
-| **Fortinet NSE 1 & 2**                             | [Enlace](https://lnkd.in/gXF8H_Nm)                  | Principios de seguridad en redes.                   |
+| **Fortinet NSE 1, 2 & 3**                             | [Enlace](https://lnkd.in/gXF8H_Nm)                  | Principios de seguridad en redes.                   |
 | **Microsoft SC-900**                               | [Enlace](https://lnkd.in/gwu8BM-5)                  | Seguridad en la nube y gestión de identidad.        |
 | **Cybrary - Cybersecurity Foundations**            | [Enlace](https://www.cybrary.it/)                   | Protección de sistemas y análisis de riesgos.       |
 
@@ -72,14 +72,14 @@ El conocimiento es importante, pero las herramientas correctas lo son aún más.
 
 ### **Análisis y Respuesta**  
 | **Herramienta**               | **Descripción**                            | **Enlace**                                |
-|-------------------------------|--------------------------------------------|------------------------------------------|
+|:------------------------------|:------------------------------------------|:------------------------------------------|
 | **Wireshark**                 | Análisis de tráfico de red.               | [Wireshark](https://www.wireshark.org/)   |
 | **Volatility**                | Análisis forense de memoria RAM.          | [Volatility](https://volatilityfoundation.org/) |
 | **Autopsy**                   | Herramienta de análisis forense digital.  | [Autopsy](https://www.autopsy.com/)      |
 
 ### **Pentesting y Seguridad Web**  
 | **Herramienta**               | **Descripción**                            | **Enlace**                                |
-|-------------------------------|--------------------------------------------|------------------------------------------|
+|:------------------------------|:------------------------------------------|:------------------------------------------|
 | **Burp Suite Community**      | Testeo de seguridad de aplicaciones web.  | [Burp Suite](https://portswigger.net/burp)|
 | **Nmap**                      | Escaneo de redes y detección de vulnerabilidades. | [Nmap](https://nmap.org/)                |
 | **Metasploit Framework**      | Framework para pruebas de penetración.    | [Metasploit](https://metasploit.com/)     |
@@ -96,7 +96,7 @@ El conocimiento es importante, pero las herramientas correctas lo son aún más.
 ## 🎯 **Plataformas para Práctica**  
 
 | **Plataforma**               | **Descripción**                            | **Enlace**                                |
-|------------------------------|--------------------------------------------|------------------------------------------|
+|:-----------------------------|:------------------------------------------|:------------------------------------------|
 | **TryHackMe**                | Desafíos y labs de ciberseguridad.        | [TryHackMe](https://tryhackme.com/)       |
 | **Hack The Box**             | Máquinas virtuales de pentesting.         | [Hack The Box](https://www.hackthebox.com/) |
 | **VulnHub**                  | Máquinas vulnerables para práctica.       | [VulnHub](https://www.vulnhub.com/)       |
@@ -117,7 +117,7 @@ Una forma de tener una dirección clara es seguir una hoja de ruta. Estas guías
 ## 🌐 **Blogs y Comunidades de Ciberseguridad**  
 
 | **Recurso**                  | **Descripción**                            | **Enlace**                                |
-|------------------------------|--------------------------------------------|------------------------------------------|
+|:-----------------------------|:------------------------------------------|:------------------------------------------|
 | **The Hacker News**          | Noticias y tendencias en ciberseguridad.  | [Enlace](https://thehackernews.com/)      |
 | **OWASP Blog**               | Recursos sobre seguridad web.             | [Enlace](https://owasp.org/blog)          |
 | **Reddit – NetSec**          | Comunidad activa de seguridad.            | [Enlace](https://www.reddit.com/r/netsec/)|
@@ -136,7 +136,7 @@ Si deseas unirte a conversaciones más técnicas o compartir experiencias, algun
 Pon a prueba tus habilidades con estos eventos y plataformas de recompensas por errores (bug bounty).  
 
 | **Plataforma**               | **Enlace**                                |
-|------------------------------|------------------------------------------|
+|:-----------------------------|:------------------------------------------|
 | **CTFTime**                  | [CTFTime](https://ctftime.org/)           |
 | **HackerOne**                | [HackerOne](https://www.hackerone.com/)   |
 | **Bugcrowd**                 | [Bugcrowd](https://www.bugcrowd.com/)     |
@@ -154,14 +154,13 @@ Las certificaciones pueden ser un gran impulso en tu carrera. Aquí tienes algun
 Si eres fanático de aprender a través de videos y tutoriales, aquí tienes unos canales de YouTube que te serán muy útiles:
 
 | **Canal**                        | **Enlace**                                                    |
-|-----------------------------------|--------------------------------------------------------------|
+|:----------------------------------|:--------------------------------------------------------------|
 | **El Pingüino de Mario**          | [El Pingüino de Mario](https://www.youtube.com/channel/UCGLfzfKRUsV6BzkrF1kJGsg) |
 | **Hackavis**                      | [Hackavis](https://www.youtube.com/@Hackavis)                 |
 | **Securiters**                    | [Securiters](https://www.youtube.com/@Securiters)             |
 | **RINKU**                         | [RINKU](https://www.youtube.com/@rinkutech_)                  |
 
-
-<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+<hr style="border: none; border-top: 1px solid rgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
 
 <div style="text-align: center; margin: 50px auto;">
   <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
