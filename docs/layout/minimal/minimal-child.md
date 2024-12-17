@@ -1,17 +1,21 @@
 ---
-title: Cositas Gratis
+title: **Cositas Gratis para el Cyber Warrior que llevas dentro**
 layout: post
 parent: ¿Y dónde practicar?
 ---
 
 <div style="text-align: center; margin: 40px 0;">
-  <img src="assets/images/gif/w1D.gif" alt="Gif divertido" style="width: 50%; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.5);">
+  <img src="/assets/images/gif/w1D.gif" alt="Gif divertido" style="width: 50%; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.5);">
 </div>
 
-# **Aquí traigo unos recursos GRATIS!! Y ya sabes, lo gratis siempre mola. Corred insensatos!**
+# **¡Recursos GRATUITOS para ti!**  
+Como siempre, lo gratis mola más, así que aquí tienes una lista de herramientas, cursos, certificaciones y mucho más para que sigas creciendo en el mundo de la ciberseguridad. ¡Corred insensatos, el conocimiento está a un clic de distancia!
 
+---
 
 ## 🌀 **10 Cursos Gratuitos de Blue Team**  
+¡Prepárate para defender tu red y tus sistemas con estos cursos especializados en Blue Team!  
+
 | **Curso**                                           | **Enlace**                                           |
 |-----------------------------------------------------|-----------------------------------------------------|
 | **Cybersecurity for Students**                     | [Enlace](https://lnkd.in/g4YmXP9J)                  |
@@ -28,6 +32,8 @@ parent: ¿Y dónde practicar?
 ---
 
 ## 🌀 **10 Cursos Gratuitos de Tecnología**  
+No solo de ciberseguridad vive el hombre. Amplía tus conocimientos tecnológicos con estos cursos gratuitos.  
+
 | **Curso**                                           | **Enlace**                                           |
 |-----------------------------------------------------|-----------------------------------------------------|
 | **Cybersecurity Basics**                           | [Enlace](https://lnkd.in/d97Bd4Xs)                  |
@@ -43,30 +49,33 @@ parent: ¿Y dónde practicar?
 
 ---
 
-## 🔐 **Certificaciones Gratuitas en Ciber**  
+## 🔐 **Certificaciones Gratuitas en Ciberseguridad**  
+Eleva tu perfil con estas certificaciones que te abrirán puertas en el mundo de la ciberseguridad. Son completamente gratuitas y están reconocidas por la industria.  
+
 | **Certificación**                                  | **Enlace**                                           | **Descripción**                                     |
-|----------------------------------------------------|-----------------------------------------------------|---------------------------------------------------|
-| **Splunk Fundamentals 1**                          | [Enlace](https://lnkd.in/gtxP-54b)                  | Análisis de datos y monitoreo de seguridad.       |
-| **DHS FedVTE - Cybersecurity Fundamentals**        | [Enlace](https://lnkd.in/g7aYGi3Z)                  | Defensa de redes y respuesta a incidentes.        |
-| **Google Cybersecurity Career Certificate**        | [Enlace](https://lnkd.in/gkS8VycS)                  | Detección de amenazas y seguridad de redes.       |
-| **(ISC)² Certified in Cybersecurity (CC)**         | [Enlace](https://www.isc2.org/)                     | Fundamentos en prácticas de ciberseguridad.       |
-| **Cisco Networking Academy - Intro to Cybersecurity** | [Enlace](https://www.netacad.com/)                 | Gestión de riesgos y defensa de redes.            |
-| **IBM SkillsBuild - Cybersecurity Analyst**        | [Enlace](https://skillsbuild.org/)                  | Análisis de seguridad y respuesta a amenazas.     |
-| **TryHackMe - Intro to Cyber Security**            | [Enlace](https://tryhackme.com/)                    | Seguridad de redes y aplicaciones web.            |
-| **Fortinet NSE 1 & 2**                             | [Enlace](https://lnkd.in/gXF8H_Nm)                  | Principios de seguridad en redes.                 |
-| **Microsoft SC-900**                               | [Enlace](https://lnkd.in/gwu8BM-5)                  | Seguridad en la nube y gestión de identidad.      |
-| **Cybrary - Cybersecurity Foundations**            | [Enlace](https://www.cybrary.it/)                   | Protección de sistemas y análisis de riesgos.     |
+|----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
+| **Splunk Fundamentals 1**                          | [Enlace](https://lnkd.in/gtxP-54b)                  | Análisis de datos y monitoreo de seguridad.         |
+| **DHS FedVTE - Cybersecurity Fundamentals**        | [Enlace](https://lnkd.in/g7aYGi3Z)                  | Defensa de redes y respuesta a incidentes.          |
+| **Google Cybersecurity Career Certificate**        | [Enlace](https://lnkd.in/gkS8VycS)                  | Detección de amenazas y seguridad de redes.         |
+| **(ISC)² Certified in Cybersecurity (CC)**         | [Enlace](https://www.isc2.org/)                     | Fundamentos en prácticas de ciberseguridad.         |
+| **Cisco Networking Academy - Intro to Cybersecurity** | [Enlace](https://www.netacad.com/)                 | Gestión de riesgos y defensa de redes.              |
+| **IBM SkillsBuild - Cybersecurity Analyst**        | [Enlace](https://skillsbuild.org/)                  | Análisis de seguridad y respuesta a amenazas.       |
+| **TryHackMe - Intro to Cyber Security**            | [Enlace](https://tryhackme.com/)                    | Seguridad de redes y aplicaciones web.              |
+| **Fortinet NSE 1 & 2**                             | [Enlace](https://lnkd.in/gXF8H_Nm)                  | Principios de seguridad en redes.                   |
+| **Microsoft SC-900**                               | [Enlace](https://lnkd.in/gwu8BM-5)                  | Seguridad en la nube y gestión de identidad.        |
+| **Cybrary - Cybersecurity Foundations**            | [Enlace](https://www.cybrary.it/)                   | Protección de sistemas y análisis de riesgos.       |
 
 ---
 
 ## 🛠️ **Herramientas Gratuitas para Ciberseguridad**  
+El conocimiento es importante, pero las herramientas correctas lo son aún más. ¡Aquí tienes algunas de las mejores para que puedas mejorar tus habilidades prácticas!
 
 ### **Análisis y Respuesta**  
 | **Herramienta**               | **Descripción**                            | **Enlace**                                |
 |-------------------------------|--------------------------------------------|------------------------------------------|
 | **Wireshark**                 | Análisis de tráfico de red.               | [Wireshark](https://www.wireshark.org/)   |
 | **Volatility**                | Análisis forense de memoria RAM.          | [Volatility](https://volatilityfoundation.org/) |
-| **Autopsy**                   | Herramienta de análisis forense digital.  | [Autopsy](https://www.autopsy.com/)       |
+| **Autopsy**                   | Herramienta de análisis forense digital.  | [Autopsy](https://www.autopsy.com/)      |
 
 ### **Pentesting y Seguridad Web**  
 | **Herramienta**               | **Descripción**                            | **Enlace**                                |
@@ -74,6 +83,13 @@ parent: ¿Y dónde practicar?
 | **Burp Suite Community**      | Testeo de seguridad de aplicaciones web.  | [Burp Suite](https://portswigger.net/burp)|
 | **Nmap**                      | Escaneo de redes y detección de vulnerabilidades. | [Nmap](https://nmap.org/)                |
 | **Metasploit Framework**      | Framework para pruebas de penetración.    | [Metasploit](https://metasploit.com/)     |
+
+### **Nuevas herramientas para mejorar tus habilidades**  
+¡Si quieres profundizar más! Aquí te dejo algunas herramientas avanzadas que no pueden faltar en tu arsenal:  
+
+- **Kali Linux**: Una de las distribuciones más potentes para pruebas de penetración. Contiene más de 600 herramientas preinstaladas para análisis de seguridad y pentesting. [Kali Linux](https://www.kali.org/)
+- **Cuckoo Sandbox**: Si te interesa el análisis de malware, Cuckoo te permitirá estudiar el comportamiento de archivos maliciosos en un entorno seguro. [Cuckoo Sandbox](https://cuckoosandbox.org/)
+- **Hashcat**: Para pruebas de contraseñas, Hashcat es una de las herramientas más rápidas y versátiles. [Hashcat](https://hashcat.net/hashcat/)
 
 ---
 
@@ -90,9 +106,11 @@ parent: ¿Y dónde practicar?
 ---
 
 ## 📈 **Guías y Hojas de Ruta de Ciberseguridad**  
+Una forma de tener una dirección clara es seguir una hoja de ruta. Estas guías te ayudarán a planificar tu camino de aprendizaje y alcanzar tus metas.  
+
 - **Blue Team Roadmap**: Desde fundamentos (Linux, redes) hasta análisis forense y defensa avanzada.  
 - **Red Team Roadmap**: Desde pentesting básico hasta post-explotación y evasión de detecciones.  
-   - [Cybersecurity Roadmap – Roadmap.sh](https://roadmap.sh/).  
+   - [Cybersecurity Roadmap – Roadmap.sh](https://roadmap.sh/).
 
 ---
 
@@ -105,9 +123,18 @@ parent: ¿Y dónde practicar?
 | **Reddit – NetSec**          | Comunidad activa de seguridad.            | [Enlace](https://www.reddit.com/r/netsec/)|
 | **Medium - Cybersecurity**   | Artículos de expertos en seguridad.       | [Enlace](https://medium.com/tag/cybersecurity) |
 
+### **Conecta con otros Cyber Warriors**  
+Si deseas unirte a conversaciones más técnicas o compartir experiencias, algunas comunidades adicionales que podrías explorar son:
+
+- **Stack Exchange Security**: Un sitio donde puedes hacer preguntas y compartir tus conocimientos sobre ciberseguridad. [Security Stack Exchange](https://security.stackexchange.com/)
+- **Twitter**: Sigue a expertos y profesionales del sector en ciberseguridad. Muchas veces comparten vulnerabilidades recientes, artículos o tips útiles.  
+  - Por ejemplo, **@thegrugq** o **@Cyb3rWard0g**.
+
 ---
 
 ## 🎮 **Eventos Capture The Flag (CTF) y Bug Bounty**  
+Pon a prueba tus habilidades con estos eventos y plataformas de recompensas por errores (bug bounty).  
+
 | **Plataforma**               | **Enlace**                                |
 |------------------------------|------------------------------------------|
 | **CTFTime**                  | [CTFTime](https://ctftime.org/)           |
@@ -117,17 +144,28 @@ parent: ¿Y dónde practicar?
 ---
 
 ## 🛡️ **Preparación para Certificaciones Clave**  
+Las certificaciones pueden ser un gran impulso en tu carrera. Aquí tienes algunos recursos para prepararte para las más importantes.  
+
 - **Security+ (SY0-701)**: [Enlace](https://lnkd.in/dc7NTdvd)  
 - **CISSP**: [Enlace](https://lnkd.in/dK4YNCM2)  
 - **CEH (v12)**: [Enlace](https://lnkd.in/dVeQUwiw)  
 
-  <hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+## 🎥 **Canales de YouTube recomendados**  
+Si eres fanático de aprender a través de videos y tutoriales, aquí tienes unos canales de YouTube que te serán muy útiles:
 
-  <div style="text-align: center; margin: 50px auto;">
-    <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
-  </div>
-  <div style="text-align: center; margin-top: 40px;">
-    <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
-  </div>
+| **Canal**                        | **Enlace**                                                    |
+|-----------------------------------|--------------------------------------------------------------|
+| **El Pingüino de Mario**          | [El Pingüino de Mario](https://www.youtube.com/channel/UCGLfzfKRUsV6BzkrF1kJGsg) |
+| **Hackavis**                      | [Hackavis](https://www.youtube.com/@Hackavis)                 |
+| **Securiters**                    | [Securiters](https://www.youtube.com/@Securiters)             |
+| **RINKU**                         | [RINKU](https://www.youtube.com/@rinkutech_)                  |
 
 
+<hr style="border: none; border-top: 1px solidrgb(255, 254, 248); margin: 50px 0; box-shadow: 0 1px 2px rgba(255, 215, 0, 0.6);">
+
+<div style="text-align: center; margin: 50px auto;">
+  <img src="/assets/images/cojo.png" alt="Firma" style="max-width: 20%; border-radius: 50%; border: 1px solid #FFD700; box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);">
+</div>
+<div style="text-align: center; margin-top: 40px;">
+  <p style="font-size: 0.9em; color: #888;">© 2024 Nervi0zz0</p>
+</div>
