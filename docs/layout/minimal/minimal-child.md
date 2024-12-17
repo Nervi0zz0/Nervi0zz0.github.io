@@ -85,11 +85,12 @@ El conocimiento es importante, pero las herramientas correctas lo son aún más.
 | **Metasploit Framework**      | Framework para pruebas de penetración.    | [Metasploit](https://metasploit.com/)     |
 
 ### **Nuevas herramientas para mejorar tus habilidades**  
-¡Si quieres profundizar más! Aquí te dejo algunas herramientas avanzadas que no pueden faltar en tu arsenal:  
+¡Si quieres profundizar más! Aquí te dejo algunas herramientas avanzadas que no pueden faltar en tu arsenal:
 
 - **Kali Linux**: Una de las distribuciones más potentes para pruebas de penetración. Contiene más de 600 herramientas preinstaladas para análisis de seguridad y pentesting. [Kali Linux](https://www.kali.org/)
 - **Cuckoo Sandbox**: Si te interesa el análisis de malware, Cuckoo te permitirá estudiar el comportamiento de archivos maliciosos en un entorno seguro. [Cuckoo Sandbox](https://cuckoosandbox.org/)
 - **Hashcat**: Para pruebas de contraseñas, Hashcat es una de las herramientas más rápidas y versátiles. [Hashcat](https://hashcat.net/hashcat/)
+
 
 ---
 
