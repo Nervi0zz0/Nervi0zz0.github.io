@@ -73,28 +73,34 @@ El conocimiento es importante, pero las herramientas correctas lo son aún más.
 
 ### **Análisis y Respuesta**
 
+{: .highlight }
 > **Wireshark**  
 > *Análisis de tráfico de red.*  
 > [Wireshark](https://www.wireshark.org/)
 
+{: .note }
 > **Volatility**  
 > *Análisis forense de memoria RAM.*  
 > [Volatility](https://volatilityfoundation.org/)
 
+{: .important }
 > **Autopsy**  
 > *Herramienta de análisis forense digital.*  
 > [Autopsy](https://www.autopsy.com/)
 
 ### **Pentesting y Seguridad Web**
 
+{: .highlight }
 > **Burp Suite Community**  
 > *Testeo de seguridad de aplicaciones web.*  
 > [Burp Suite](https://portswigger.net/burp)
 
+{: .note }
 > **Nmap**  
 > *Escaneo de redes y detección de vulnerabilidades.*  
 > [Nmap](https://nmap.org/)
 
+{: .important }
 > **Metasploit Framework**  
 > *Framework para pruebas de penetración.*  
 > [Metasploit](https://metasploit.com/)
@@ -103,14 +109,17 @@ El conocimiento es importante, pero las herramientas correctas lo son aún más.
 
 ¡Si quieres profundizar más! Aquí te dejo algunas herramientas avanzadas que no pueden faltar en tu arsenal:
 
+{: .highlight }
 > **Kali Linux**  
 > *Una de las distribuciones más potentes para pruebas de penetración. Contiene más de 600 herramientas preinstaladas para análisis de seguridad y pentesting.*  
 > [Kali Linux](https://www.kali.org/)
 
+{: .note }
 > **Cuckoo Sandbox**  
 > *Si te interesa el análisis de malware, Cuckoo te permitirá estudiar el comportamiento de archivos maliciosos en un entorno seguro.*  
 > [Cuckoo Sandbox](https://cuckoosandbox.org/)
 
+{: .important }
 > **Hashcat**  
 > *Para pruebas de contraseñas, Hashcat es una de las herramientas más rápidas y versátiles.*  
 > [Hashcat](https://hashcat.net/hashcat/)
